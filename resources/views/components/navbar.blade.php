@@ -6,7 +6,7 @@
     ">
       <div class="
         w-full flex justify-center
-        md:justify-end md:w-max md:px-4
+        md:justify-end md:w-max md:px-4 md:mx-4
       ">
         <img class="h-16" src="{{ url('/image/logo-urban-athletes.png') }}" alt="Logo Urban Athletes">
       </div>

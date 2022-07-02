@@ -6,6 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="{{ url('/css/app.css')}}">
   <link rel="stylesheet" href="{{ url('/css/style.css')}}">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="{{ url('/fontawesome/css/all.min.css') }}">
   <title>{{ $title ?? config('app.name') }}</title>
 </head>
 <body class="relative font-serif">
