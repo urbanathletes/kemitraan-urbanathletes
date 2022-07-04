@@ -15,7 +15,7 @@
     @include('components.navbar')
     <div class="py-8 md:py-0"></div>
   @endempty
-  <main>
+  <main class="font-Futura">
     {{$slot}}
   </main>
   @empty($specialPage)
