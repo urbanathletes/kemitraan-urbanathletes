@@ -1,5 +1,5 @@
 <footer>
-  <div class="bg-[url('/image/UA-footer-bg.jpg')] py-6 text-center">
+  <div class="bg-[url('/image/UA-footer-bg.jpg')] py-6 lg:px-24 text-center">
     <div class="md:flex md:justify-around">
       <div class="flex justify-center">
         <img class="h-32" src="{{ url('/image/logo-urban-athletes.png') }}" alt="Logo Urban Athletes">
@@ -37,17 +37,17 @@
         </div>
       </div>
     </div>
-    <div class="text-yellow-500 font-bold my-4 md:flex md:justify-center md:gap-4 md:items-center">
+    <div class="text-yellow-500 font-bold my-2 md:flex md:justify-center md:gap-4 md:items-center">
       <h5 class="text-lg">DOWNLOAD OUR MOBILE APP</h5>
-      <div class="flex justify-around items-center py-4">
+      <div class="flex justify-around items-center">
         <div>
           <a href="#">
-            <img class="h-16 md:h-10 lg:h-16" src="{{ url('image/button-google-play.png') }}" alt="Urban Athletes google play">
+            <img class="h-16 md:h-10 lg:h-12" src="{{ url('image/button-google-play.png') }}" alt="Urban Athletes google play">
           </a>
         </div>
         <div>
           <a href="#">
-            <img class="h-16 md:h-10 lg:h-16" src="{{ url('image/button-app-store.png') }}" alt="Urban Athletes App Store">
+            <img class="h-16 md:h-10 lg:h-12" src="{{ url('image/button-app-store.png') }}" alt="Urban Athletes App Store">
           </a>
         </div>
       </div>

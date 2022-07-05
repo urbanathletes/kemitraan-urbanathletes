@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="{{ url('/css/style.css')}}">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="{{ url('/fontawesome/css/all.min.css') }}">
+  @stack('style')
   <title>{{ $title ?? config('app.name') }}</title>
 </head>
 <body class="relative font-serif">
@@ -22,7 +23,7 @@
   <footer>
     @include('components.footer')
   </footer>
-  <script src="{{ url('/js/script_navbar.js') }}"></script>
   @endempty
+  @stack('script')
 </body>
 </html>

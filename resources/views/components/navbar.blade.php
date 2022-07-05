@@ -1,4 +1,4 @@
-<nav class="absolute w-full" id="navbar">
+<nav class="absolute w-full z-50" id="navbar">
   <div class="relative bg-[#12111B] w-full md:bg-transparent">
     <div class="
       flex justify-end
@@ -68,4 +68,7 @@
       </div>
     </div>
   </div>
+  @push('script')
+    <script src="{{ url('/js/script_navbar.js') }}"></script>
+  @endpush
 </nav>

@@ -86,7 +86,7 @@
 
     <div class="flex justify-center items-center text-center font-extrabold">
       <i class="fa-brands fa-whatsapp text-3xl mx-2"></i>
-      <a class="py-2 px-6 bg-[#282828] text-white" href="#">CONTACT US</a>
+      <a class="py-2 px-6 bg-[#282828] text-white hover:underline" href="https://api.whatsapp.com/send?phone=628179188880" target="_blank">CONTACT US</a>
     </div>
 
   </div>
@@ -97,7 +97,7 @@
     lg:bg-[url('/image/home/proses-join-bg.jpg')] lg:bg-cover lg:bg-center
   ">
     <h3 class="text-xl text-center py-4">PROSES JOIN FRANCHISE</h3>
-    <div class="lg:flex lg:justify-center">
+    <div class="lg:flex lg:justify-center lg:my-6">
       <div class="flex justify-center lg:block pt-8">
         <div class="relative hidden lg:block py-4 border border-b-0 border-white">
           <p class="absolute -top-10 right-0 left-0 text-center whitespace-nowrap">1 - 2 MONTH</p>
@@ -243,7 +243,10 @@
       <P class="font-FuturaBold mb-8">
         LEADING WITH 17 YEARS EXPERIENCE IN PROFESSIONAL FITNESS INDUSTRY
       </P>
-      <a class="py-2 px-6 bg-neutral-900 font-sans-serif text-white hover:underline" href="#">MORE DETAILS</a>
+      <a class="py-2 px-6 bg-neutral-900 font-sans-serif text-white hover:underline" 
+      href="{{ url('/about-us') }}">
+        MORE DETAILS
+      </a>
     </div>
   </div>
 
