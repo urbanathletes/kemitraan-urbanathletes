@@ -41,12 +41,12 @@
       <h5 class="text-lg">DOWNLOAD OUR MOBILE APP</h5>
       <div class="flex justify-around items-center">
         <div>
-          <a href="#">
+          <a href="https://play.google.com/store/apps/details?id=id.co.urbanathletes" target="_blank">
             <img class="h-16 md:h-10 lg:h-12" src="{{ url('image/button-google-play.png') }}" alt="Urban Athletes google play">
           </a>
         </div>
         <div>
-          <a href="#">
+          <a href="https://apps.apple.com/id/app/urban-athletes/id1557162190" target="_blank">
             <img class="h-16 md:h-10 lg:h-12" src="{{ url('image/button-app-store.png') }}" alt="Urban Athletes App Store">
           </a>
         </div>

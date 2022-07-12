@@ -24,6 +24,7 @@
     @include('components.footer')
   </footer>
   @endempty
+  <script src="{{ url('/js/app.js') }}"></script>
   @stack('script')
 </body>
 </html>
