@@ -4,9 +4,10 @@ window.onscroll = function () {
 
   if (window.pageYOffset > fixedNav) {
     navbar.classList.add('navbar-fixed');
-    navbar.classList.remove('menu-hidden');
+    navbar.classList.remove('overflow-hidden');
   } else {
     navbar.classList.remove('navbar-fixed');
+    navbar.classList.add('overflow-hidden');
   }
 }
 
@@ -16,7 +17,7 @@ const bgMenu = document.querySelector('#bg-menu');
 
 hamburger.addEventListener('click', function () {
   hamburger.classList.toggle('hamburger-active');
-  navbar.classList.remove('menu-hidden');
+  navbar.classList.remove('overflow-hidden');
   navMenu.classList.toggle('menu-open');
   navMenu.classList.toggle('menu-close');
   // navMenu.classList.toggle('menu-bg-opacity');
@@ -25,7 +26,7 @@ hamburger.addEventListener('click', function () {
     // console.log(menulist);
     if (menulist == 'menu-close') {
       setTimeout(() => {
-        navbar.classList.add('menu-hidden');
+        navbar.classList.add('overflow-hidden');
       }, 400);
     }
   });

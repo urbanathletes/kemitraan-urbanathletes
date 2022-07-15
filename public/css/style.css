@@ -2,3 +2,11 @@
   font-family: RobotoMono;
   src: url('/fonts/RobotoMonoRegular.otf');
 }
+@font-face{
+  font-family: FuturaBold;
+  src: url('/fonts/FuturaBold.otf');
+}
+@font-face{
+  font-family: Futura;
+  src: url('/fonts/futuraMedium-bt.otf');
+}
