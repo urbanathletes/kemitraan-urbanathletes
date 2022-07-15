@@ -12,6 +12,7 @@ module.exports = {
     },
     extend: {
       colors: {
+        'black-ua': '#191919',
         'content-bg': '#222222',
         'green-ua': '#75923d',
         'gray-footer': '#322C31',
@@ -21,7 +22,10 @@ module.exports = {
       },
     },
     fontFamily: {
+      'Futura': ['Futura', 'AmpleSoft', 'sans-serif'],
+      'FuturaBold': ['FuturaBold', 'AmpleSoft', 'sans-serif'],
       'RobotoMono': ['RobotoMono', 'sans-serif'],
+      'sans-serif': ['sans-serif'],
     }
   },
   plugins: [],
