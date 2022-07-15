@@ -150,7 +150,7 @@
         <div class="my-6">
           <h2 class="font-FuturaBold text-base mb-2">BEST OF ALL, OUR CORPORATE <br>
             CREATIVE DEPARTMENT</h2>
-          <p class="text-sm md:text-base">is your creative department – free of charge. Franchisees have access to a wide range of creative services, including:</p>
+          <p class="text-sm md:text-base">is your creative department - free of charge. Franchisees have access to a wide range of creative services, including:</p>
           <ul class="list-disc text-sm ml-6 my-2">
             <li>Facility branding recommendations, including before & after renderings</li>
             <li>Custom design and copywriting for print and web applications such as posters, mailers, brochures, Social Media graphics, and more</li>

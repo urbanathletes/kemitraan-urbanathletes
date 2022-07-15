@@ -1,4 +1,6 @@
 <?php
+
+use App\Http\Controllers\ContactUsController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/home', function () { return view("public/kemitraan/index");});
@@ -7,3 +9,5 @@ Route::get('/our-philosophy', function () { return view("public/kemitraan/our-ph
 Route::get('/our-team', function () { return view("public/kemitraan/our-team");});
 Route::get('/support-structure', function () { return view("public/kemitraan/support-structure");});
 Route::get('/contact-us', function () { return view("public/kemitraan/contact-us");});
+Route::post('/contact-us', [ContactUsController::class, 'save'])->name('contact_save');
+Route::get('//tnc-contest', function () { return view("public/kemitraan/tnc-contest");});
