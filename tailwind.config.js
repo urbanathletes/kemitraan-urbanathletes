@@ -22,6 +22,7 @@ module.exports = {
       },
     },
     fontFamily: {
+      'AmpleSoft': ['AmpleSoft', 'sans-serif'],
       'Futura': ['Futura', 'AmpleSoft', 'sans-serif'],
       'FuturaBold': ['FuturaBold', 'AmpleSoft', 'sans-serif'],
       'RobotoMono': ['RobotoMono', 'sans-serif'],

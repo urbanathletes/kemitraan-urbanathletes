@@ -1,7 +1,7 @@
 <x-main specialPage=true>
   <div class="bg-black text-white pb-8">
     <div class="flex justify-center py-8">
-      <img src="{{ url('/image/logo-urban-athletes.png') }}" alt="Support Structure Urban Athletes">
+      <img class="h-32" src="{{ url('/image/logo-urban-athletes.png') }}" alt="Support Structure Urban Athletes">
     </div>
     <div class="text-center mb-12">
       <h1 class="text-4xl lg:text-6xl font-sans-serif font-extrabold">Term and Condition Contest</h1>

@@ -42,7 +42,7 @@
 } */
 
 .menu-active {
-  @apply text-orange-500 md:border-b-4 md:border-orange-500;
+  @apply text-orange-500 md:border-b-2 md:border-orange-500;
 }
 
 .error-input {

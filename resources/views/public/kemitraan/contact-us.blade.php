@@ -82,7 +82,7 @@
     </div>
     <div class="px-4 mb-4" id="formContact"> {{-- ========Fomr========= --}}
 
-      <form action="{{ url('/contact-us') }}" method="post">
+      <form action="{{ url('/franchise/contact-us') }}" method="post">
         @csrf
         <label class="block mx-4 my-4 border-b">
           <span class="">Full Name*</span>

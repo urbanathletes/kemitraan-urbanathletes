@@ -2,7 +2,7 @@
   <div class="bg-[url('/image/UA-footer-bg.jpg')] py-6 lg:px-24 text-center">
     <div class="md:flex md:justify-around">
       <div class="flex justify-center">
-        <img class="h-32" src="{{ url('/image/logo-urban-athletes.png') }}" alt="Logo Urban Athletes">
+        <img class="h-28" src="{{ url('/image/logo-urban-athletes.png') }}" alt="Logo Urban Athletes">
       </div>
       <div class="text-white font-bold my-4 md:text-left">
         <h5 class="text-lg">WHY URBAN ATHLETES</h5>

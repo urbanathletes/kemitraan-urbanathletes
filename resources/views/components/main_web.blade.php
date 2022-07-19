@@ -11,12 +11,13 @@
   @stack('style')
   <title>{{ $title ?? config('app.name') }}</title>
 </head>
-<body class="relative font-serif">
+<body class="relative font-AmpleSoft">
   @empty($specialPage)
-    @include('components.navbar_franchise')
+    @include('components.navbar_web')
     <div class="py-8 md:py-0"></div>
   @endempty
-  <main class="font-Futura">
+  <main>
+    <div class="py-7"></div>
     {{$slot}}
   </main>
   @empty($specialPage)
