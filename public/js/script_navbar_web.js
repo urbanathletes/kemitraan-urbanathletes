@@ -56,7 +56,15 @@ let item = document.querySelectorAll('#menu');
 function subMenuOpen(even) {
   // 1 = untuk tengah, 2 = utuk text / +
   subMenuClose()
-  if (even.path[2].nextElementSibling.id == "list-subMenu") {
+  // console.log('list2', even.path[2].nextElementSibling);
+  if (even.path[2].nextElementSibling === null) {
+    var subMenuUl1 = even.path[1].nextElementSibling
+    // console.log('list1', even.path[1].nextElementSibling);
+    subMenuUl1.classList.toggle('absolute')
+    subMenuUl1.classList.toggle('-top-15')
+    subMenuUl1.classList.toggle('-top-44')
+    subMenuUl1.classList.toggle('-z-10')
+  } else if (even.path[2].nextElementSibling.id == "list-subMenu") {
     var subMenuUl2 = even.path[2].nextElementSibling
     // console.log('list2', subMenuUl2.classList);
     subMenuUl2.classList.toggle('absolute')
