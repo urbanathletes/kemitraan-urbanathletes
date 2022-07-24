@@ -29,8 +29,8 @@
         <div class="lg:tracking-widest lg:w-full">
           <ul class="lg:py-3 lg:flex lg:w-max lg:uppercase">
             {{-- <li class="
-              border-b-[1px] border-gray-600 hover:text-orange-500
-              xl:px-4 lg:border-y-0 lg:hover:border-b-2 lg:hover:border-orange-500
+              border-b-[1px] border-gray-600 hover:text-yellow-primary
+              xl:px-4 lg:border-y-0 lg:hover:border-b-2 lg:hover:border-white
               group
             " id="menu" data-menu="{{$menu ?? ''}}">
               <button class="
@@ -48,26 +48,26 @@
                 absolute 
                 -top-44 -z-10 
               " id="list-subMenu">
-                <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-orange-500 hover:bg-black" menu-sub="{{ $subMenu ?? '' }}"><a href="{{ url('/workout/weight-loss') }}">Weight Loss</a></li>
-                <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-orange-500 hover:bg-black" menu-sub="{{ $subMenu ?? '' }}"><a href="{{ url('/franchise/our-philosophy') }}">Flexibility</a></li>
-                <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-orange-500 hover:bg-black" menu-sub="{{ $subMenu ?? '' }}"><a href="{{ url('/franchise/our-team') }}">Tone Muscle</a></li>
-                <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-orange-500 hover:bg-black" menu-sub="{{ $subMenu ?? '' }}"><a href="{{ url('/franchise/support-structure') }}">Endurance</a></li>
-                <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-orange-500 hover:bg-black" menu-sub="{{ $subMenu ?? '' }}"><a href="#">Strength</a></li>
-                <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-orange-500 hover:bg-black" menu-sub="{{ $subMenu ?? '' }}"><a href="#">Kids Gym</a></li>
+                <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-yellow-primary hover:bg-black" menu-sub="{{ $subMenu ?? '' }}"><a href="{{ url('/workout/weight-loss') }}">Weight Loss</a></li>
+                <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-yellow-primary hover:bg-black" menu-sub="{{ $subMenu ?? '' }}"><a href="{{ url('/franchise/our-philosophy') }}">Flexibility</a></li>
+                <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-yellow-primary hover:bg-black" menu-sub="{{ $subMenu ?? '' }}"><a href="{{ url('/franchise/our-team') }}">Tone Muscle</a></li>
+                <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-yellow-primary hover:bg-black" menu-sub="{{ $subMenu ?? '' }}"><a href="{{ url('/franchise/support-structure') }}">Endurance</a></li>
+                <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-yellow-primary hover:bg-black" menu-sub="{{ $subMenu ?? '' }}"><a href="#">Strength</a></li>
+                <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-yellow-primary hover:bg-black" menu-sub="{{ $subMenu ?? '' }}"><a href="#">Kids Gym</a></li>
               </ul>
             </li> --}}
             <li class="
-              py-3 px-4 border-b-[1px] border-gray-600 hover:text-orange-500 
-              xl:px-4 lg:border-y-0 lg:border-t-0 lg:hover:border-b-2 lg:hover:border-orange-500
+              py-3 px-4 border-b-[1px] border-gray-600 hover:text-yellow-primary 
+              xl:px-4 lg:border-y-0 lg:border-t-0 lg:hover:border-b-2 lg:hover:border-white
             " id="menu" data-menu="{{$menu ?? ''}}"><a href="{{ url('/workout') }}"><span>WORKOUTS</span></a></li>
             <li class="
-              py-3 px-4 border-b-[1px] border-gray-600 hover:text-orange-500 
-              xl:px-4 lg:border-y-0 lg:border-t-0 lg:hover:border-b-2 lg:hover:border-orange-500
+              py-3 px-4 border-b-[1px] border-gray-600 hover:text-yellow-primary 
+              xl:px-4 lg:border-y-0 lg:border-t-0 lg:hover:border-b-2 lg:hover:border-white
             " id="menu" data-menu="{{$menu ?? ''}}"><a href="#"><span>TRAINER</span></a></li>
           
             <li class="
-              border-b-[1px] border-gray-600 hover:text-orange-500
-              xl:px-4 lg:border-y-0 lg:hover:border-b-2 lg:hover:border-orange-500
+              border-b-[1px] border-gray-600 hover:text-yellow-primary
+              xl:px-4 lg:border-y-0 lg:hover:border-b-2 lg:hover:border-white
               group
             " id="menu" data-menu="{{$menu ?? ''}}">
               <button class="
@@ -85,16 +85,16 @@
                 absolute
                 -top-44 -z-10 
               " id="list-subMenu">
-                <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-orange-500 hover:bg-black" menu-sub="{{ $subMenu ?? '' }}"><a href="{{ url('/franchise/about-us') }}">Gunawangsa Merr</a></li>
-                <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-orange-500 hover:bg-black" menu-sub="{{ $subMenu ?? '' }}"><a href="{{ url('/franchise/our-philosophy') }}">Gunawangsa Tidar</a></li>
-                <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-orange-500 hover:bg-black" menu-sub="{{ $subMenu ?? '' }}"><a href="{{ url('/franchise/our-team') }}">Marvell City</a></li>
-                <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-orange-500 hover:bg-black" menu-sub="{{ $subMenu ?? '' }}"><a href="{{ url('/franchise/support-structure') }}">Lenmarc Mall</a></li>
+                <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-yellow-primary hover:bg-black" menu-sub="{{ $subMenu ?? '' }}"><a href="{{ url('/franchise/about-us') }}">Gunawangsa Merr</a></li>
+                <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-yellow-primary hover:bg-black" menu-sub="{{ $subMenu ?? '' }}"><a href="{{ url('/franchise/our-philosophy') }}">Gunawangsa Tidar</a></li>
+                <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-yellow-primary hover:bg-black" menu-sub="{{ $subMenu ?? '' }}"><a href="{{ url('/franchise/our-team') }}">Marvell City</a></li>
+                <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-yellow-primary hover:bg-black" menu-sub="{{ $subMenu ?? '' }}"><a href="{{ url('/franchise/support-structure') }}">Lenmarc Mall</a></li>
               </ul>
             </li>
             
             <li class="
-              border-b-[1px] border-gray-600 hover:text-orange-500
-              xl:px-4 lg:border-y-0 lg:hover:border-b-2 lg:hover:border-orange-500
+              border-b-[1px] border-gray-600 hover:text-yellow-primary
+              xl:px-4 lg:border-y-0 lg:hover:border-b-2 lg:hover:border-white
               group
             " id="menu" data-menu="{{$menu ?? ''}}">
               <button class="
@@ -112,22 +112,22 @@
                 absolute
                 -top-44 -z-10 
               " id="list-subMenu">
-              <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-orange-500 hover:bg-black" menu-sub="{{ $subMenu ?? '' }}"><a href="{{ url('/franchise/about-us') }}">Profile</a></li>
-                <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-orange-500 hover:bg-black" menu-sub="{{ $subMenu ?? '' }}"><a href="{{ url('/about/about-us') }}">About Us</a></li>
-                <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-orange-500 hover:bg-black" menu-sub="{{ $subMenu ?? '' }}"><a href="{{ url('/franchise/our-philosophy') }}">Club</a></li>
-                <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-orange-500 hover:bg-black" menu-sub="{{ $subMenu ?? '' }}"><a href="{{ url('/franchise/our-team') }}">Faqs</a></li>
-                <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-orange-500 hover:bg-black" menu-sub="{{ $subMenu ?? '' }}"><a href="{{ url('/about/terms-conditions') }}">TERMS & CONDITIONS</a></li>
-                <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-orange-500 hover:bg-black" menu-sub="{{ $subMenu ?? '' }}"><a href="{{ url('/about/succes-story') }}">Succes Story</a></li>
+              <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-yellow-primary hover:bg-black" menu-sub="{{ $subMenu ?? '' }}"><a href="{{ url('/franchise/about-us') }}">Profile</a></li>
+                <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-yellow-primary hover:bg-black" menu-sub="{{ $subMenu ?? '' }}"><a href="{{ url('/about/about-us') }}">About Us</a></li>
+                <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-yellow-primary hover:bg-black" menu-sub="{{ $subMenu ?? '' }}"><a href="{{ url('/franchise/our-philosophy') }}">Club</a></li>
+                <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-yellow-primary hover:bg-black" menu-sub="{{ $subMenu ?? '' }}"><a href="{{ url('/franchise/our-team') }}">Faqs</a></li>
+                <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-yellow-primary hover:bg-black" menu-sub="{{ $subMenu ?? '' }}"><a href="{{ url('/about/terms-conditions') }}">TERMS & CONDITIONS</a></li>
+                <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-yellow-primary hover:bg-black" menu-sub="{{ $subMenu ?? '' }}"><a href="{{ url('/about/succes-story') }}">Succes Story</a></li>
               </ul>
             </li>
             <li class="
-              py-3 px-4 border-b-[1px] border-gray-600 hover:text-orange-500
-              xl:px-4 lg:border-y-0 lg:border-t-0 lg:hover:border-b-2 lg:hover:border-orange-500
+              py-3 px-4 border-b-[1px] border-gray-600 hover:text-yellow-primary
+              xl:px-4 lg:border-y-0 lg:border-t-0 lg:hover:border-b-2 lg:hover:border-white
             " id="menu" data-menu="{{$menu ?? ''}}"><a href="#"><span>NEWS</span></a></li>
           
             <li class="
-              border-b-[1px] border-gray-600 hover:text-orange-500
-              xl:px-4 lg:border-y-0 lg:hover:border-b-2 lg:hover:border-orange-500
+              border-b-[1px] border-gray-600 hover:text-yellow-primary
+              xl:px-4 lg:border-y-0 lg:hover:border-b-2 lg:hover:border-white
               group
             " id="menu" data-menu="{{$menu ?? ''}}">
               <button class="
@@ -145,9 +145,9 @@
                 absolute
                 -top-44 -z-10 
               " id="list-subMenu">
-                <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-orange-500 hover:bg-black" menu-sub="{{ $subMenu ?? '' }}"><a href="{{ url('/franchise/about-us') }}">Membership</a></li>
-                <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-orange-500 hover:bg-black" menu-sub="{{ $subMenu ?? '' }}"><a href="{{ url('/franchise/our-philosophy') }}">Digital Product</a></li>
-                <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-orange-500 hover:bg-black" menu-sub="{{ $subMenu ?? '' }}"><a href="{{ url('/franchise/our-team') }}">Marchandise</a></li>
+                <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-yellow-primary hover:bg-black" menu-sub="{{ $subMenu ?? '' }}"><a href="{{ url('/franchise/about-us') }}">Membership</a></li>
+                <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-yellow-primary hover:bg-black" menu-sub="{{ $subMenu ?? '' }}"><a href="{{ url('/franchise/our-philosophy') }}">Digital Product</a></li>
+                <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-yellow-primary hover:bg-black" menu-sub="{{ $subMenu ?? '' }}"><a href="{{ url('/franchise/our-team') }}">Marchandise</a></li>
               </ul>
             </li>
           </ul>

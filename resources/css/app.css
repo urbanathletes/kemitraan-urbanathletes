@@ -7,6 +7,10 @@
     display: none;
 }
 
+.scroll-html {
+  @apply scroll-smooth;
+}
+
 /* Hide scrollbar for IE, Edge and Firefox */
 .no-scrollbar {
     -ms-overflow-style: none;  /* IE and Edge */
@@ -56,7 +60,7 @@
   @apply text-orange-500 md:border-b-2 md:border-orange-500;
 }
 .menu-active-web {
-  @apply text-orange-500 lg:border-b-2 lg:border-orange-500;
+  @apply text-yellow-primary lg:border-b-2 lg:border-white;
 }
 
 .error-input {
