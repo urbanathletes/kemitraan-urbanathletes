@@ -14,15 +14,16 @@
 <body class="relative font-AmpleSoft">
   @empty($specialPage)
     @include('components.navbar_web')
-    <div class="py-8 md:py-0"></div>
+    <div class="py-8 md:py-9 lg:py-10"></div>
   @endempty
   <main>
-    <div class="py-7"></div>
-    {{$slot}}
+    <div class="font-AmpleSoft">
+      {{$slot}}
+    </div>
   </main>
   @empty($specialPage)
   <footer>
-    @include('components.footer')
+    @include('components.footer_web')
   </footer>
   @endempty
   <script src="{{ url('/js/app.js') }}"></script>
