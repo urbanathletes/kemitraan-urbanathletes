@@ -33,7 +33,6 @@ hamburger.addEventListener('click', function () {
 })
 
 let subMenuS = document.querySelectorAll('#sub-menu');
-let item = document.querySelectorAll('#menu');
 // subMenuS.forEach(subMenu => {
 //   subMenu.addEventListener("click", (even) => {
 //     let subMenuUl = subMenu.nextElementSibling;
@@ -58,57 +57,41 @@ function subMenuOpen(even) {
   subMenuClose()
   // console.log('list2', even.path[2].nextElementSibling);
   if (even.path[2].nextElementSibling === null) {
-    var subMenuUl1 = even.path[1].nextElementSibling
-    // console.log('list1', even.path[1].nextElementSibling);
-    subMenuUl1.classList.toggle('absolute')
-    subMenuUl1.classList.toggle('-top-15')
-    subMenuUl1.classList.toggle('-top-44')
-    subMenuUl1.classList.toggle('-z-10')
+    var subMenuUl1 = even.path[1].nextElementSibling;
+    if (even.target.querySelector('#sub-menu-icon').innerHTML === '+') {
+      even.target.querySelector('#sub-menu-icon').innerHTML = '-'
+    }
+    subMenuToggle(subMenuUl1);
   } else if (even.path[2].nextElementSibling.id == "list-subMenu") {
-    var subMenuUl2 = even.path[2].nextElementSibling
-    // console.log('list2', subMenuUl2.classList);
-    subMenuUl2.classList.toggle('absolute')
-    subMenuUl2.classList.toggle('-top-15')
-    subMenuUl2.classList.toggle('-top-44')
-    subMenuUl2.classList.toggle('-z-10')
+    var subMenuUl2 = even.path[2].nextElementSibling;
+    if (even.target.nextElementSibling == null) {
+      if (even.target.innerHTML === '+') {
+        even.target.innerHTML = '-'
+      }
+    } else {
+      if (even.target.nextElementSibling.innerHTML === '+') {
+        even.target.nextElementSibling.innerHTML = '-'
+      }
+    }
+    subMenuToggle(subMenuUl2);
   } else if (even.path[1].nextElementSibling.id == "list-subMenu") {
-    var subMenuUl1 = even.path[1].nextElementSibling
-    // console.log('list1', even.path[1].nextElementSibling);
-    subMenuUl1.classList.toggle('absolute')
-    subMenuUl1.classList.toggle('-top-15')
-    subMenuUl1.classList.toggle('-top-44')
-    subMenuUl1.classList.toggle('-z-10')
+    var subMenuUl1 = even.path[1].nextElementSibling;
+    if (even.target.querySelector('#sub-menu-icon').innerHTML === '+') {
+      even.target.querySelector('#sub-menu-icon').innerHTML = '-'
+    }
+    subMenuToggle(subMenuUl1);
   } else {
     console.log('else');
   }
-  // let subMenuS = document.querySelectorAll('#sub-menu');
-  // subMenuS.forEach(subMenu => {
-  //   // console.log(subMenu.nextElementSibling);
-  //   let subMenuUl = subMenu.nextElementSibling;
-  //   let icon = subMenuUl.parentElement.querySelector('#sub-menu-icon')
-  //   // if (icon.innerHTML === '+') {
-  //   //   icon.innerHTML = '-'
-  //   // } else {
-  //   //   icon.innerHTML = '+'
-  //   // }
-  //   subMenuUl.classList.toggle('absolute')
-  //   subMenuUl.classList.toggle('-top-15')
-  //   subMenuUl.classList.toggle('-top-44')
-  //   subMenuUl.classList.toggle('-z-10')
-  // });
 }
 
 function subMenuClose() {
-  // let subMenuS = document.querySelectorAll('#sub-menu');
   subMenuS.forEach(subMenu => {
-    // console.log(subMenu.nextElementSibling);
     let subMenuUl = subMenu.nextElementSibling;
     let icon = subMenuUl.parentElement.querySelector('#sub-menu-icon')
-    // if (icon.innerHTML === '+') {
-    //   icon.innerHTML = '-'
-    // } else {
-    //   icon.innerHTML = '+'
-    // }
+    if (icon.innerHTML === '-') {
+      icon.innerHTML = '+'
+    }
     subMenuUl.classList.add('absolute')
     subMenuUl.classList.remove('-top-15')
     subMenuUl.classList.add('-top-44')
@@ -116,48 +99,43 @@ function subMenuClose() {
   });
 }
 
+function subMenuToggle(sub) {
+  sub.classList.toggle('absolute')
+  sub.classList.toggle('-top-15')
+  sub.classList.toggle('-top-44')
+  sub.classList.toggle('-z-10')
+}
+
 let kliks = document.querySelectorAll('#klik');
 window.addEventListener("click", function(event) {
   if (event.target.id == "klik") {
-    // console.log('open1', event.target);
     subMenuOpen(event)
   } else if (event.target.innerHTML == '-' || event.target.innerHTML == '+'){
-    // console.log('open2', event.target);
     subMenuOpen(event)
   } else {
-    // console.log('close');
     subMenuClose()
   }
-  // kliks.forEach(klik => {
-  //   if (event.target == klik) {
-  //     console.log('open1', event.target);
-  //   } 
-  //   // else if (event.target.innerHTML == '-' || event.target.innerHTML == '+'){
-      
-  //   //   console.log('open2', event.target);
-  //   // }
-      
-  //   // else {
-  //   //   console.log('else',kliks);
-  //   // }
-  // });
 });
 
 // <<======= Link Active ==========>>
+let item = document.querySelectorAll('#menu');
 item.forEach(link => {
   // console.log(link.querySelector('span').innerHTML.toUpperCase());
   if (link.querySelector('span').innerHTML.toUpperCase() === link.getAttribute('data-menu')) {
-    
-    let subMenuList = subMenu.nextElementSibling.querySelectorAll('li');
-    subMenuList.forEach(sub => {
-      if (sub.querySelector('a').innerHTML.toUpperCase() === sub.getAttribute('menu-sub')) {
-        sub.querySelector('a').classList.remove('text-white');
-      }
+    subMenuS.forEach(subMenu => {
+      let subMenuList = subMenu.nextElementSibling.querySelectorAll('li');
+      subMenuList.forEach(sub => {
+        // console.log(sub.querySelector('a').innerHTML.toUpperCase());
+        // console.log(sub.getAttribute('menu-sub'));
+        if (sub.querySelector('a').innerHTML.toUpperCase() === sub.getAttribute('menu-sub')) {
+          sub.classList.remove('text-white');
+          sub.classList.remove('lg:text-black');
+          sub.classList.add('bg-black');
+        }
+      });
     });
-    // if (subMenu) {
-    // }
-    link.classList.toggle('menu-active');
-    link.classList.toggle('md:border-y-0');
+    link.classList.toggle('menu-active-web');
+    link.classList.toggle('lg:border-y-0');
   }
 });
 // <<======= Link Active Akhir ==========>>

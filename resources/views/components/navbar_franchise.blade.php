@@ -1,14 +1,14 @@
-<nav class="absolute w-full z-50" id="navbar">
+<nav class="absolute w-full z-50 md:overflow-visible" id="navbar">
   <div class="relative bg-[#12111B] w-full md:bg-transparent">
     <div class="
       flex justify-end
       md:justify-center
     ">
       <div class="
-        w-full flex justify-center md:pt-2
+        w-full flex justify-center md:py-2
         md:justify-end md:w-max md:px-4 md:mx-4
       ">
-        <img class="h-16 py-2 md:py-0" src="{{ url('/image/logo-urban-athletes.png') }}" alt="Logo Urban Athletes">
+        <img class="h-16 md:h-14 py-2 md:py-0" src="{{ url('/image/logo-urban-athletes.png') }}" alt="Logo Urban Athletes">
       </div>
       <div class="
         px-4 relative 
@@ -30,11 +30,11 @@
           <ul class="md:py-3 md:flex md:w-max md:uppercase">
             <li class="
               py-3 px-4 border-y-[1px] border-gray-600 hover:text-orange-500
-              md:px-4 md:border-y-0 md:border-t-0 md:hover:border-b-4 md:hover:border-orange-500
+              md:px-4 md:border-y-0 md:border-t-0 md:hover:border-b-2 md:hover:border-orange-500
             " id="menu" data-menu="{{$menu ?? ''}}"><a href="{{ url('/franchise/home') }}"><span>Home</span></a></li>
             <li class="
               border-b-[1px] border-gray-600 hover:text-orange-500
-              md:px-4 md:border-y-0 md:hover:border-b-4 md:hover:border-orange-500
+              md:px-4 md:border-y-0 md:hover:border-b-2 md:hover:border-orange-500
             " id="menu" data-menu="{{$menu ?? ''}}">
               <button class="
                 group w-full relative overflow-hidden
@@ -61,7 +61,7 @@
             </li>
             <li class="
               py-3 px-4 border-b-[1px] border-gray-600 hover:text-orange-500
-              md:px-4 md:border-y-0 md:hover:border-b-4 md:hover:border-orange-500
+              md:px-4 md:border-y-0 md:hover:border-b-2 md:hover:border-orange-500
             " id="menu" data-menu="{{$menu ?? ''}}"><a href="{{ url('/franchise/contact-us') }}"><span>Contact Us</span></a></li>
           </ul>
         </div>
