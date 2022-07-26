@@ -30,7 +30,7 @@
               </div>
             </div>
           </div>
-          <div class="grid content-center md:w-max px-4 md:pr-0 md:pl-16" id="description-view"> {{-- =========== id ===========--}}
+          <div class="grid content-center md:w-max mt-4 px-4 md:pr-0 md:pl-16" id="description-view"> {{-- =========== id ===========--}}
             
           </div>
         </div>
@@ -49,7 +49,7 @@
             <p class="text-white">Surabaya</p>
             <div class="border-b border-yellow-primary w-32 h-2 py-2"></div>
             <div class="mt-16">
-              <button id="card-btn">View Detail <span class="font-sans-serif">&raquo;</span></button>
+              <button id="card-btn">View Detail <span class="font-sans-serif">&#8811;</span></button>
             </div>
           </div>
         </div>
@@ -74,7 +74,7 @@
             <p class="text-white">Surabaya</p>
             <div class="border-b border-yellow-primary w-32 h-2 py-2"></div>
             <div class="mt-16">
-              <button id="card-btn">View Detail <span class="font-sans-serif">&raquo;</span></button>
+              <button id="card-btn">View Detail <span class="font-sans-serif">&#8811;</span></button>
             </div>
           </div>
         </div>
@@ -99,7 +99,7 @@
             <p class="text-white">Surabaya</p>
             <div class="border-b border-yellow-primary w-32 h-2 py-2"></div>
             <div class="mt-16">
-              <button id="card-btn">View Detail <span class="font-sans-serif">&raquo;</span></button>
+              <button id="card-btn">View Detail <span class="font-sans-serif">&#8811;</span></button>
             </div>
           </div>
         </div>
@@ -124,7 +124,7 @@
             <p class="text-white">Surabaya</p>
             <div class="border-b border-yellow-primary w-32 h-2 py-2"></div>
             <div class="mt-16">
-              <button id="card-btn">View Detail <span class="font-sans-serif">&raquo;</span></button>
+              <button id="card-btn">View Detail <span class="font-sans-serif">&#8811;</span></button>
             </div>
           </div>
         </div>
@@ -149,7 +149,7 @@
             <p class="text-white">Surabaya</p>
             <div class="border-b border-yellow-primary w-32 h-2 py-2"></div>
             <div class="mt-16">
-              <button id="card-btn">View Detail <span class="font-sans-serif">&raquo;</span></button>
+              <button id="card-btn">View Detail <span class="font-sans-serif">&#8811;</span></button>
             </div>
           </div>
         </div>
@@ -174,7 +174,7 @@
             <p class="text-white">Surabaya</p>
             <div class="border-b border-yellow-primary w-32 h-2 py-2"></div>
             <div class="mt-16">
-              <button id="card-btn">View Detail <span class="font-sans-serif">&raquo;</span></button>
+              <button id="card-btn">View Detail <span class="font-sans-serif">&#8811;</span></button>
             </div>
           </div>
         </div>

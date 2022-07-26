@@ -1,4 +1,4 @@
-<x-main_web menu='ABOUT' subMenu="ABOUT US">
+<x-main_web menu='ABOUT US' subMenu="PROFILE">
   <div class="bg-black-ua text-white">
     <div class="flex justify-center max-h-[30vh] lg:max-h-[40vh] relative">
       <img class="object-cover object-center w-full mx-auto" src="{{ url('image/web/about/about_us/d.jpg') }}" alt="About Us Urban Athletes">

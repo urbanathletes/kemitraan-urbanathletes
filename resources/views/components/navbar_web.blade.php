@@ -64,8 +64,12 @@
               py-3 px-4 border-b-[1px] border-gray-600 hover:text-yellow-primary 
               xl:px-4 lg:border-y-0 lg:border-t-0 lg:hover:border-b-2 lg:hover:border-white
             " id="menu" data-menu="{{$menu ?? ''}}"><a href="#"><span>TRAINER</span></a></li>
-          
             <li class="
+              py-3 px-4 border-b-[1px] border-gray-600 hover:text-yellow-primary 
+              xl:px-4 lg:border-y-0 lg:border-t-0 lg:hover:border-b-2 lg:hover:border-white
+            " id="menu" data-menu="{{$menu ?? ''}}"><a href="{{ url('/timetable') }}"><span>TIMETABLE</span></a></li>
+          
+            {{-- <li class="
               border-b-[1px] border-gray-600 hover:text-yellow-primary
               xl:px-4 lg:border-y-0 lg:hover:border-b-2 lg:hover:border-white
               group
@@ -90,7 +94,7 @@
                 <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-yellow-primary hover:bg-black" menu-sub="{{ $subMenu ?? '' }}"><a href="{{ url('/franchise/our-team') }}">Marvell City</a></li>
                 <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-yellow-primary hover:bg-black" menu-sub="{{ $subMenu ?? '' }}"><a href="{{ url('/franchise/support-structure') }}">Lenmarc Mall</a></li>
               </ul>
-            </li>
+            </li> --}}
             
             <li class="
               border-b-[1px] border-gray-600 hover:text-yellow-primary
@@ -102,7 +106,7 @@
                 lg:overflow-visible lg:uppercase
               " id="sub-menu">
                 <div class="flex justify-between items-center" id="klik">
-                  <span class="py-3 px-4 justify-between" id="klik">ABOUT</span>
+                  <span class="py-3 px-4 justify-between" id="klik">ABOUT US</span>
                   <p class="lg:hidden px-4" id="sub-menu-icon">+</p>
                 </div>
               </button>
@@ -112,10 +116,10 @@
                 absolute
                 -top-44 -z-10 
               " id="list-subMenu">
-              <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-yellow-primary hover:bg-black" menu-sub="{{ $subMenu ?? '' }}"><a href="{{ url('/franchise/about-us') }}">Profile</a></li>
-                <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-yellow-primary hover:bg-black" menu-sub="{{ $subMenu ?? '' }}"><a href="{{ url('/about/about-us') }}">About Us</a></li>
+              {{-- <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-yellow-primary hover:bg-black" menu-sub="{{ $subMenu ?? '' }}"><a href="{{ url('/franchise/about-us') }}">Profile</a></li> --}}
+                <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-yellow-primary hover:bg-black" menu-sub="{{ $subMenu ?? '' }}"><a href="{{ url('/about/about-us') }}">Profile</a></li>
                 <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-yellow-primary hover:bg-black" menu-sub="{{ $subMenu ?? '' }}"><a href="{{ url('/franchise/our-philosophy') }}">Club</a></li>
-                <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-yellow-primary hover:bg-black" menu-sub="{{ $subMenu ?? '' }}"><a href="{{ url('/franchise/our-team') }}">Faqs</a></li>
+                <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-yellow-primary hover:bg-black" menu-sub="{{ $subMenu ?? '' }}"><a href="{{ url('/about/faqs') }}">Faqs</a></li>
                 <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-yellow-primary hover:bg-black" menu-sub="{{ $subMenu ?? '' }}"><a href="{{ url('/about/terms-conditions') }}">TERMS & CONDITIONS</a></li>
                 <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-yellow-primary hover:bg-black" menu-sub="{{ $subMenu ?? '' }}"><a href="{{ url('/about/succes-story') }}">Succes Story</a></li>
               </ul>
