@@ -10,3 +10,11 @@
   font-family: Futura;
   src: url('/fonts/futuraMedium-bt.otf');
 }
+@font-face {
+  font-family: AmpleSoft;
+  src: url('/fonts/AmpleSoft.OTF');
+}
+@font-face {
+  font-family: PoppinsSemiBold;
+  src: url('/fonts/Poppins-SemiBold.otf');
+}
