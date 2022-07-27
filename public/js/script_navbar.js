@@ -32,29 +32,41 @@ hamburger.addEventListener('click', function () {
   });
 })
 
-let subMenu = document.querySelector('#sub-menu');
+let subMenuS = document.querySelectorAll('#sub-menu');
 let item = document.querySelectorAll('#menu');
-subMenu.addEventListener("click", () => {
-  let subMenuUl = subMenu.nextElementSibling;
-  // console.log(subMenu.querySelector("p"));
-  // subMenu.querySelector("p").innerHTML = '-'
-  subMenuUl.classList.toggle('absolute')
-  subMenuUl.classList.toggle('-top-15')
-  subMenuUl.classList.toggle('-top-44')
-  subMenuUl.classList.toggle('-z-10')
-  // subMenuUl.classList.toggle('top-8')
-  // subMenuUl.classList.toggle('-z-0')
-  // subMenuUl.classList.toggle('md:-left-5')
+subMenuS.forEach(subMenu => {
+  subMenu.addEventListener("click", (even) => {
+    let subMenuUl = subMenu.nextElementSibling;
+    let icon = subMenuUl.parentElement.querySelector('#sub-menu-icon')
+    if (icon.innerHTML === '+') {
+      icon.innerHTML = '-'
+    } else {
+      icon.innerHTML = '+'
+    }
+    subMenuUl.classList.toggle('absolute')
+    subMenuUl.classList.toggle('-top-15')
+    subMenuUl.classList.toggle('-top-44')
+    subMenuUl.classList.toggle('-z-10')
+    // subMenuUl.classList.toggle('top-8')
+    // subMenuUl.classList.toggle('-z-0')
+    // subMenuUl.classList.toggle('md:-left-5')
+  });
 });
+// window.addEventListener("click", function(event) {
+//   console.log(event.target);
+// });
+
+// <<======= Link Active ==========>>
 item.forEach(link => {
   // console.log(link.querySelector('span').innerHTML.toUpperCase());
   if (link.querySelector('span').innerHTML.toUpperCase() === link.getAttribute('data-menu')) {
-    
-    let subMenuList = subMenu.nextElementSibling.querySelectorAll('li');
-    subMenuList.forEach(sub => {
-      if (sub.querySelector('a').innerHTML.toUpperCase() === sub.getAttribute('menu-sub')) {
-        sub.querySelector('a').classList.remove('text-white');
-      }
+    subMenuS.forEach(subMenu => {
+      let subMenuList = subMenu.nextElementSibling.querySelectorAll('li');
+      subMenuList.forEach(sub => {
+        if (sub.querySelector('a').innerHTML.toUpperCase() === sub.getAttribute('menu-sub')) {
+          sub.querySelector('a').classList.remove('text-white');
+        }
+      });
     });
     // if (subMenu) {
     // }
@@ -62,3 +74,4 @@ item.forEach(link => {
     link.classList.toggle('md:border-y-0');
   }
 });
+// <<======= Link Active Akhir ==========>>

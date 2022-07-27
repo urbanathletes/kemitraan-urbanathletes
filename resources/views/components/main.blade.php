@@ -13,7 +13,7 @@
 </head>
 <body class="relative font-serif">
   @empty($specialPage)
-    @include('components.navbar')
+    @include('components.navbar_franchise')
     <div class="py-8 md:py-0"></div>
   @endempty
   <main class="font-Futura">
