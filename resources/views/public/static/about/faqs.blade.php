@@ -1,5 +1,16 @@
 <x-main_web menu='ABOUT' subMenu="FAQS">
-  <div class="container lg:px-12 min-h-screen">
+  <div class="flex justify-center max-h-[30vh] lg:max-h-[40vh] relative">
+    <img class="object-cover object-top w-full mx-auto lg:-mt-20" src="{{ url('image/web/about/UA-Banner_Global.jpg') }}" alt="About Us Urban Athletes">
+    <div class="absolute top-0 bottom-0 left-0 right-0 flex flex-col justify-center items-center text-white bg-gradient-to-t from-black">
+      <div class="absolute bottom-0 max-w-max text-center pb-8">
+        <h2 class="text-2xl font-FuturaBold pb-2 lg:pb-4">FAQS</h2>
+        <P>
+          HOME <span class="text-yellow-primary">|</span> FAQS
+        </P>
+      </div>
+    </div>
+  </div>
+  <div class="container lg:px-12 min-h-screen pt-4">
     <form action="">
       <div class="flex justify-center items-center my-4">
         <table class="border-collapse border border-slate-500">

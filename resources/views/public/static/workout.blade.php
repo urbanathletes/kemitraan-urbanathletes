@@ -30,7 +30,7 @@
         <div class="flex justify-center pb-12 lg:pb-16">
           <img class="object-cover object-top mx-auto" src="{{ url('image/web/home/About-Us-l.jpg') }}" alt="Tume Muscle Urban Athletes">
         </div>
-        <div class="flex justify-centerpt-12 lg:pt-16 ">
+        <div class="flex justify-centerpt-12 pt-12 lg:pt-16 ">
           <img class="object-cover object-top mx-auto" src="{{ url('image/web/home/About-Us-r.jpg') }}" alt="About us Urban Athletes">
         </div>
       </div>
@@ -53,7 +53,7 @@
         <div class="flex justify-center pb-12 lg:pb-16">
           <img class="object-cover object-top mx-auto" src="{{ url('image/web/home/Exclusive_Yoga-wheel.jpg') }}" alt="Tume Muscle Urban Athletes">
         </div>
-        <div class="flex justify-centerpt-12 lg:pt-16 ">
+        <div class="flex justify-centerpt-12 pt-12 lg:pt-16 ">
           <img class="object-cover object-top mx-auto" src="{{ url('image/web/home/About-Us-l.jpg') }}" alt="About us Urban Athletes">
         </div>
       </div>
@@ -77,7 +77,7 @@
         <div class="flex justify-center pb-12 lg:pb-16">
           <img class="object-cover object-top mx-auto" src="{{ url('image/web/home/Exclusive_Falcon.jpg') }}" alt="Tume Muscle Urban Athletes">
         </div>
-        <div class="flex justify-centerpt-12 lg:pt-16 ">
+        <div class="flex justify-centerpt-12 pt-12 lg:pt-16 ">
           <img class="object-cover object-top mx-auto" src="{{ url('image/web/home/About-Us-r.jpg') }}" alt="About us Urban Athletes">
         </div>
       </div>
@@ -100,7 +100,7 @@
         <div class="flex justify-center pb-12 lg:pb-16">
           <img class="object-cover object-top mx-auto" src="{{ url('image/web/home/Exclusive_Yoga-wheel.jpg') }}" alt="Tume Muscle Urban Athletes">
         </div>
-        <div class="flex justify-centerpt-12 lg:pt-16 ">
+        <div class="flex justify-centerpt-12 pt-12 lg:pt-16 ">
           <img class="object-cover object-top mx-auto" src="{{ url('image/web/home/About-Us-l.jpg') }}" alt="About us Urban Athletes">
         </div>
       </div>
@@ -124,7 +124,7 @@
         <div class="flex justify-center pb-12 lg:pb-16">
           <img class="object-cover object-top mx-auto" src="{{ url('image/web/footer/img_1.jpg') }}" alt="Tume Muscle Urban Athletes">
         </div>
-        <div class="flex justify-centerpt-12 lg:pt-16 ">
+        <div class="flex justify-centerpt-12 pt-12 lg:pt-16 ">
           <img class="object-cover object-top mx-auto" src="{{ url('image/web/home/About-Us-r.jpg') }}" alt="About us Urban Athletes">
         </div>
       </div>
@@ -147,7 +147,7 @@
         <div class="flex justify-center pb-12 lg:pb-16">
           <img class="object-cover object-top mx-auto" src="{{ url('image/web/home/About-Us-l.jpg') }}" alt="Tume Muscle Urban Athletes">
         </div>
-        <div class="flex justify-centerpt-12 lg:pt-16 ">
+        <div class="flex justify-centerpt-12 pt-12 lg:pt-16 ">
           <img class="object-cover object-top mx-auto" src="{{ url('image/web/home/About-Us-r.jpg') }}" alt="About us Urban Athletes">
         </div>
       </div>

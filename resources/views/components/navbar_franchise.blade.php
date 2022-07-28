@@ -31,7 +31,7 @@
             <li class="
               py-3 px-4 border-y-[1px] border-gray-600 hover:text-orange-500
               md:px-4 md:border-y-0 md:border-t-0 md:hover:border-b-2 md:hover:border-orange-500
-            " id="menu" data-menu="{{$menu ?? ''}}"><a href="{{ url('/franchise/home') }}"><span>Home</span></a></li>
+            " id="menu" data-menu="{{$menu ?? ''}}"><a href="{{ url('/franchise-old/home') }}"><span>Home</span></a></li>
             <li class="
               border-b-[1px] border-gray-600 hover:text-orange-500
               md:px-4 md:border-y-0 md:hover:border-b-2 md:hover:border-orange-500
@@ -53,16 +53,16 @@
                 {{-- absolute text-left -right-full opacity-0 group-focus:top-0 group-focus:opacity-100 group-focus:static transition-all duration-300
                 md:rounded-lg md:p-2 md:-top-44 md:-left-5 md:group-focus:absolute md:group-focus:top-7 md:bg-neutral-700 md:group-focus:opacity-80 md:shadow-md md:shadow-black  md:px-4 md:group-focus:block --}}
               ">
-                <li class="py-2 pl-8 md:pl-4 border-t border-gray-600" menu-sub="{{ $subMenu ?? '' }}"><a href="{{ url('/franchise/about-us') }}" class="text-white hover:text-orange-500">About US</a></li>
-                <li class="py-2 pl-8 md:pl-4 border-t border-gray-600" menu-sub="{{ $subMenu ?? '' }}"><a href="{{ url('/franchise/our-philosophy') }}" class="text-white hover:text-orange-500">Our Philosophy</a></li>
-                <li class="py-2 pl-8 md:pl-4 border-t border-gray-600" menu-sub="{{ $subMenu ?? '' }}"><a href="{{ url('/franchise/our-team') }}" class="text-white hover:text-orange-500">Out Team</a></li>
-                <li class="py-2 pl-8 md:pl-4 border-t border-gray-600" menu-sub="{{ $subMenu ?? '' }}"><a href="{{ url('/franchise/support-structure') }}" class="text-white hover:text-orange-500">Support Structure</a></li>
+                <li class="py-2 pl-8 md:pl-4 border-t border-gray-600" menu-sub="{{ $subMenu ?? '' }}"><a href="{{ url('/franchise-old/about-us') }}" class="text-white hover:text-orange-500">About US</a></li>
+                <li class="py-2 pl-8 md:pl-4 border-t border-gray-600" menu-sub="{{ $subMenu ?? '' }}"><a href="{{ url('/franchise-old/our-philosophy') }}" class="text-white hover:text-orange-500">Our Philosophy</a></li>
+                <li class="py-2 pl-8 md:pl-4 border-t border-gray-600" menu-sub="{{ $subMenu ?? '' }}"><a href="{{ url('/franchise-old/our-team') }}" class="text-white hover:text-orange-500">Out Team</a></li>
+                <li class="py-2 pl-8 md:pl-4 border-t border-gray-600" menu-sub="{{ $subMenu ?? '' }}"><a href="{{ url('/franchise-old/support-structure') }}" class="text-white hover:text-orange-500">Support Structure</a></li>
               </ul>
             </li>
             <li class="
               py-3 px-4 border-b-[1px] border-gray-600 hover:text-orange-500
               md:px-4 md:border-y-0 md:hover:border-b-2 md:hover:border-orange-500
-            " id="menu" data-menu="{{$menu ?? ''}}"><a href="{{ url('/franchise/contact-us') }}"><span>Contact Us</span></a></li>
+            " id="menu" data-menu="{{$menu ?? ''}}"><a href="{{ url('/franchise-old/contact-us') }}"><span>Contact Us</span></a></li>
           </ul>
         </div>
       </div>
