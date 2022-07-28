@@ -1,257 +1,269 @@
-<x-main menu='HOME'>
+<x-main_kemitraan menu='HOMEfranchise'>
   <div>
-    <img src="{{ url('/image/home/Urban-Athletes-Banner-Home.jpg') }}" alt="Urban Athletes">
-  </div>
-  <div class="bg-[url('/image/home/Support-Structure-UA-bg.jpg')] bg-repeat-y bg-center py-6 lg:py-10">
-    <h1 class="text-3xl font-bold text-stone-900 text-center">FRANCHISE CATEGORIES</h1>
-
-    <div class="sm:grid md:grid-cols-2 lg:grid-cols-4 lg:px-4">
-      {{-- BOX --}}
-      <div class="mx-4 lg:mx-0 my-8 text-white overflow-hidden">
-        <div class="bg-black-ua rounded-[44px] mx-4 pt-6">
-          <h3 class="text-center font-bold text-lg">URBAN ATHLETES</h3>
-          <div class="flex justify-center">
-            <img src="{{ url('/image/home/box.png') }}" alt="Urban Athletes">
-          </div>
-          <div class="bg-[url('/image/home/ua-bg-profit.jpg')] bg-cover bg-no-repeat bg-center scale-x-[1.1] text-black text-center font-FuturaBold py-4 mt-8 sm:mx-2">
-            <h4>PROFIT</h4>
-            <h1 class="text-3xl my-4">50-100 JUTA</h1>
-            <h4>RUPIAH/BULAN</h4>
-          </div>
-          <ul class=" mt-4 px-8 py-4 text-sm font-light list-disc bg-[#282828] rounded-b-[44px] pb-6 leading-loose">
-            <li>Modal < 2.5 Miliar Rupiah</li>
-            <li>Balik modal dalam waktu 12-24 bulan</li>
-            <li class="relative">Luas bangunan < 1000 m<span class="align-text-top ordinal text-[8px] absolute top-0">2</span></li>
-          </ul>
-        </div>
+    <div class="flex flex-col md:grid md:grid-cols-2 min-h-max">
+      <div class="flex justify-center md:justify-end md:min-w-max relative h-72 md:h-[430px]">
+        <img class="object-cover object-center w-full" src="{{ url('image/franchise/home_franchise_benner.jpg') }}" alt="Franchise Urban Athletes">
+        <div class="absolute top-0 right-0 left-0 bottom-0 bg-gradient-to-t md:bg-gradient-to-l from-black"></div>
       </div>
-      {{-- BOUTIQUE --}}
-      <div class="mx-4 lg:mx-0 my-8 text-white overflow-hidden">
-        <div class="bg-black-ua rounded-[44px] mx-4 pt-6">
-          <h3 class="text-center font-bold text-lg">URBAN ATHLETES</h3>
-          <div class="flex justify-center">
-            <img src="{{ url('/image/home/boutique.png') }}" alt="Urban Athletes">
+      <div class="grid content-center bg-black text-white px-4 py-4 z-10 font-Futura">
+        <h2 class="mx-2 text-3xl font-FuturaBold">INVESTMENT TODAY.</h2>
+        <form action="">
+          @csrf
+          <div class="flex">
+            <label class="block mx-2 my-2 border-b w-full">
+              <span class="">FIRST NAME</span>
+              <input name="first_name" type="text"
+              value="{{ old('first_name') }}"
+              placeholder="FIRST NAME"
+              class="mt-2 block w-full px-0.5 border-0 border-b-2 border-gray-200 outline-none focus:ring-0 focus:border-black
+              @error('first_name') error-input @enderror" required>
+              @error('first_name')
+                <div id="first_name" class="text-sm text-red-500">
+                    {{ $message }}
+                </div>
+              @enderror
+            </label>
+            <label class="block mx-2 my-2 border-b w-full">
+              <span class="">LAST NAME</span>
+              <input name="last_name" type="text"
+              value="{{ old('last_name') }}"
+              placeholder="LAST NAME"
+              class="mt-2 block w-full px-0.5 border-0 border-b-2 border-gray-200 outline-none focus:ring-0 focus:border-black
+              @error('last_name') error-input @enderror" required>
+              @error('last_name')
+                <div id="last_name" class="text-sm text-red-500">
+                    {{ $message }}
+                </div>
+              @enderror
+            </label>
           </div>
-          <div class="bg-[url('/image/home/ua-bg-profit.jpg')] bg-cover bg-no-repeat bg-center scale-x-[1.1] text-black text-center font-FuturaBold py-4 mt-8 sm:mx-2">
-            <h4>PROFIT</h4>
-            <h1 class="text-3xl my-4">100-200 JUTA</h1>
-            <h4>RUPIAH/BULAN</h4>
+          <div class="flex">
+            <label class="block mx-2 my-2 border-b w-full">
+              <span class="">EMAIL</span>
+              <input name="email" type="text"
+              value="{{ old('email') }}"
+              placeholder="EMAIL"
+              class="mt-2 block w-full px-0.5 border-0 border-b-2 border-gray-200 outline-none focus:ring-0 focus:border-black
+              @error('email') error-input @enderror" required>
+              @error('email')
+                <div id="email" class="text-sm text-red-500">
+                    {{ $message }}
+                </div>
+              @enderror
+            </label>
+            <label class="block mx-2 my-2 border-b w-full">
+              <span class="">MOBILE PHONE NUMBER</span>
+              <input name="phone" type="text"
+              value="{{ old('phone') }}"
+              placeholder="MOBILE PHONE NUMBER"
+              class="mt-2 block w-full px-0.5 border-0 border-b-2 border-gray-200 outline-none focus:ring-0 focus:border-black
+              @error('phone') error-input @enderror" required>
+              @error('phone')
+                <div id="phone" class="text-sm text-red-500">
+                    {{ $message }}
+                </div>
+              @enderror
+            </label>
           </div>
-          <ul class=" mt-4 px-8 py-4 text-sm font-light list-disc bg-[#282828] rounded-b-[44px] pb-6 leading-loose">
-            <li>Modal mulai dari 3.5 Miliar Rupiah</li>
-            <li>Balik modal sebelum 24 bulan</li>
-            <li class="relative">Luas bangunan < 1.000 m<span class="align-text-top ordinal text-[8px] absolute top-0">2</span></li>
-          </ul>
-        </div>
-      </div>
-      {{-- REGULAR --}}
-      <div class="mx-4 lg:mx-0 my-8 text-white overflow-hidden">
-        <div class="bg-black-ua rounded-[44px] mx-4 pt-6">
-          <h3 class="text-center font-bold text-lg">URBAN ATHLETES</h3>
-          <div class="flex justify-center">
-            <img src="{{ url('/image/home/regular.png') }}" alt="Urban Athletes">
+          <div class="flex">
+            <label class="block mx-2 my-2 border-b w-full">
+              <span class="">COUNTRY/REGION</span>
+              <input name="country" type="text"
+              value="{{ old('country') }}"
+              placeholder="COUNTRY/REGION"
+              class="mt-2 block w-full px-0.5 border-0 border-b-2 border-gray-200 outline-none focus:ring-0 focus:border-black
+              @error('country') error-input @enderror" required>
+              @error('country')
+                <div id="country" class="text-sm text-red-500">
+                    {{ $message }}
+                </div>
+              @enderror
+            </label>
+            <label class="block mx-2 my-2 border-b w-full">
+              <span class="">CITY</span>
+              <input name="city" type="text"
+              value="{{ old('city') }}"
+              placeholder="CITY"
+              class="mt-2 block w-full px-0.5 border-0 border-b-2 border-gray-200 outline-none focus:ring-0 focus:border-black
+              @error('city') error-input @enderror" required>
+              @error('city')
+                <div id="city" class="text-sm text-red-500">
+                    {{ $message }}
+                </div>
+              @enderror
+            </label>
           </div>
-          <div class="bg-[url('/image/home/ua-bg-profit.jpg')] bg-cover bg-no-repeat bg-center scale-x-[1.1] text-black text-center font-FuturaBold py-4 mt-8 sm:mx-2">
-            <h4>PROFIT UP TO</h4>
-            <h1 class="text-3xl my-4">100-200 JUTA</h1>
-            <h4>RUPIAH/BULAN</h4>
+          <div class="flex">
+            <label class="block mx-2 my-2 border-b w-full">
+              <span class="">COUMPANY NAME</span>
+              <input name="company" type="text"
+              value="{{ old('company') }}"
+              placeholder="COUMPANY NAME"
+              class="mt-2 block w-full px-0.5 border-0 border-b-2 border-gray-200 outline-none focus:ring-0 focus:border-black
+              @error('company') error-input @enderror" required>
+              @error('company')
+                <div id="company" class="text-sm text-red-500">
+                    {{ $message }}
+                </div>
+              @enderror
+            </label>
+            <label class="block mx-2 my-2 border-b w-full">
+              <span class="">COUNTRY/REGION</span>
+              <input name="country" type="text"
+              value="{{ old('country') }}"
+              placeholder="COUNTRY/REGION"
+              class="mt-2 block w-full px-0.5 border-0 border-b-2 border-gray-200 outline-none focus:ring-0 focus:border-black
+              @error('country') error-input @enderror" required>
+              @error('country')
+                <div id="country" class="text-sm text-red-500">
+                    {{ $message }}
+                </div>
+              @enderror
+            </label>
+            <label class="block mx-2 my-2 border-b w-full">
+              <span class="">CITY</span>
+              <input name="city" type="text"
+              value="{{ old('city') }}"
+              placeholder="CITY"
+              class="mt-2 block w-full px-0.5 border-0 border-b-2 border-gray-200 outline-none focus:ring-0 focus:border-black
+              @error('city') error-input @enderror" required>
+              @error('city')
+                <div id="city" class="text-sm text-red-500">
+                    {{ $message }}
+                </div>
+              @enderror
+            </label>
           </div>
-          <ul class=" mt-4 px-8 py-4 text-sm font-light list-disc bg-[#282828] rounded-b-[44px] pb-6 leading-loose">
-            <li>Modal 4-5 Miliar Rupiah</li>
-            <li>Balik modal dalam waktu 36-48 bulan</li>
-            <li class="relative">Luas bangunan > 1.000 m<span class="align-text-top ordinal text-[8px] absolute top-0">2</span></li>
-          </ul>
-        </div>
-      </div>
-      {{-- PREMIUM --}}
-      <div class="mx-4 lg:mx-0 my-8 text-white overflow-hidden">
-        <div class="bg-black-ua rounded-[44px] mx-4 pt-6">
-          <h3 class="text-center font-bold text-lg">URBAN ATHLETES</h3>
-          <div class="flex justify-center">
-            <img src="{{ url('/image/home/premium.png') }}" alt="Urban Athletes">
+          <div class="mx-2 my-2">
+            <button class="py-2 px-4 bg-yellow-primary text-black hover:bg-yellow-600 font-FuturaBold transition-all duration-300" type="submit">SUBMIT</button>
           </div>
-          <div class="bg-[url('/image/home/ua-bg-profit.jpg')] bg-cover bg-no-repeat bg-center scale-x-[1.1] text-black text-center font-FuturaBold py-4 mt-8 sm:mx-2">
-            <h4>PROFIT UP TO</h4>
-            <h1 class="text-3xl my-4">100-200 JUTA</h1>
-            <h4>RUPIAH/BULAN</h4>
-          </div>
-          <ul class=" mt-4 px-8 py-4 text-sm font-light list-disc bg-[#282828] rounded-b-[44px] pb-6 leading-loose">
-            <li>Modal 5-6 Miliar Rupiah</li>
-            <li>Balik modal dalam waktu 36-48 bulan</li>
-            <li class="relative">Luas bangunan > 1.000 m<span class="align-text-top ordinal text-[8px] absolute top-0">2</span></li>
-          </ul>
-        </div>
+        </form>
       </div>
     </div>
 
-    <div class="flex justify-center items-center text-center font-extrabold">
-      <i class="fa-brands fa-whatsapp text-3xl mx-2"></i>
-      <a class="py-2 px-6 bg-[#282828] text-white hover:underline" href="https://api.whatsapp.com/send?phone=628179188880" target="_blank">CONTACT US</a>
-    </div>
-
-  </div>
-
-  {{-- Proses Join Franchise --}}
-  <div class="
-    py-8 text-white bg-[url('/image/home/bg-franchise-mobile-scaled.jpg')] bg-cover bg-center
-    lg:bg-[url('/image/home/proses-join-bg.jpg')] lg:bg-cover lg:bg-center
-  ">
-    <h3 class="text-xl text-center py-4">PROSES JOIN FRANCHISE</h3>
-    <div class="lg:flex lg:justify-center lg:my-6">
-      <div class="flex justify-center lg:block pt-8">
-        <div class="relative hidden lg:block py-4 border border-b-0 border-white">
-          <p class="absolute -top-10 right-0 left-0 text-center whitespace-nowrap">1 - 2 MONTH</p>
-        </div>
-        <div class="grid grid-cols-1 text-center
-          lg:flex lg:justify-center
+    <div class="bg-[url('/image/franchise/Background_About_Us.jpg')] bg-cover bg-center text-white py-8">
+      <div class="container">
+        <h2 class="font-FuturaBold text-2xl border-l-4 border-yellow-primary px-4">
+          LEADING WITH 17 YEARS EXPERIENCE <br>
+          IN PROFESSIONAL FITNESS INDUSTRY
+        </h2>
+        <div class="
+          text-black font-Futura font-bold py-8
+          flex flex-wrap justify-center
         ">
-          <div>
-            <div class="flex justify-center">
-              <img class="w-32 z-10" src="{{ url('/image/home/Asset-2-8.png') }}" alt="Urban Athletes">
+
+          <div class="relative max-w-max my-4">
+            <div class="w-44 min-h-[176px] pt-6 pl-10 pr-6 bg-gradient-to-tr from-yellow-700 to-yellow-200 overflow-visible" style="clip-path: polygon(25% 0, 100% 0, 75% 100%, 0% 100%);">
+              <p>4 Gym Concept (Based on SWOT Analysis)</p>
             </div>
-            <div class="py-4">
-              <p class="text-xl font-semibold">Proses <br>Administrasi</p>
-              <p class="py-4">Presentasi lanjutan <br>proses Q&A.</p>
-            </div>
-          </div>
-          <div>
-            <div class="lg:flex lg:justify-center lg:items-center">
-              <div class="flex justify-center">
-                <img class="rotate-90 py-6 w-16
-                  lg:rotate-0 lg:py-0 lg:h-4 lg:scale-x-[1.5]" src="{{ url('/image/home/white-line.png') }}" alt="Urban Athletes">
-              </div>
-              <div class="flex justify-center">
-                <img class="w-32 z-10" src="{{ url('/image/home/Asset-5-8.png') }}" alt="Urban Athletes">
-              </div>
-            </div>
-            <div class="py-4 lg:py-0 lg:text-sm 2xl:text-base lg:ml-4 lg:pl-8">
-              <p class="text-xl lg:text-base 2xl:text-lx font-semibold">
-                Pembayaran <br>Commitment fee
-              </p>
-              <p class="py-4">
-                Pembayaran <br>
-                commitment fee <br>
-                sebesar 100 juta.
-              </p>
-              {{-- <p>proses Q&A.</p> --}}
+            <div class="absolute -top-3 -right-3 p-1.5 text-lg text-center font-FuturaBold bg-yellow-primary rounded-full border-2 border-white">
+              <p>01</p>
             </div>
           </div>
-          <div>
-            <div class="lg:flex lg:justify-center lg:items-center">
-              <div class="flex justify-center">
-                <img class="rotate-90 py-6 w-16
-                lg:rotate-0 lg:py-0 lg:h-4 lg:scale-x-[1.5]" src="{{ url('/image/home/white-line.png') }}" alt="Urban Athletes">
-              </div>
-              <div class="flex justify-center">
-                <img class="w-32 z-10" src="{{ url('/image/home/Asset-4-8.png') }}" alt="Urban Athletes">
-              </div>
+          <div class="relative max-w-max my-4">
+            <div class="w-44 min-h-[176px] pt-6 pl-10 pr-6 bg-gradient-to-tr from-yellow-700 to-yellow-200 overflow-visible" style="clip-path: polygon(25% 0, 100% 0, 75% 100%, 0% 100%);">
+              <p>Urban Athletes Academy Integrated Coaching, Training & Certification</p>
             </div>
-            <div class="py-4 lg:py-0 lg:text-sm 2xl:text-base lg:ml-4 lg:pl-8">
-              <p class="text-xl lg:text-base 2xl:text-lx font-semibold">
-                Survey dan <br>
-                Pemilihan Lokasi <br>
-                Design Lokasi
-              </p>
-              <p class="py-4">
-                Lokasi adalah segalanya. <br>
-                Kami membantu Anda <br>
-                untuk menentukan lokasi <br>
-                yang tepat melalui survey <br>
-                dan analisa.
-              </p>
-              <p>
-                Dilanjudkan dengan proses <br>
-                design sesuai dengan <br>
-                kebutuhan pasar.
-              </p>
+            <div class="absolute -top-3 -right-3 p-1.5 text-lg text-center font-FuturaBold bg-yellow-primary rounded-full border-2 border-white">
+              <p>02</p>
             </div>
           </div>
-          <div>
-            <div class="lg:flex lg:justify-center lg:items-center">
-              <div class="flex justify-center">
-                <img class="rotate-90 py-6 w-16
-                lg:rotate-0 lg:py-0 lg:h-4 lg:scale-x-[1.5]" src="{{ url('/image/home/white-line.png') }}" alt="Urban Athletes">
-              </div>
-              <div class="flex justify-center">
-                <img class="w-32 z-10" src="{{ url('/image/home/Asset-5-8.png') }}" alt="Urban Athletes">
-              </div>
+          <div class="relative max-w-max my-4">
+            <div class="w-44 min-h-[176px] pt-6 pl-10 pr-6 bg-gradient-to-tr from-yellow-700 to-yellow-200 overflow-visible" style="clip-path: polygon(25% 0, 100% 0, 75% 100%, 0% 100%);">
+              <p>Customized Integrated Operational Gym Software and mobile apps</p>
             </div>
-            <div class="py-4 lg:py-0 lg:text-sm 2xl:text-base lg:ml-4 lg:pl-8">
-              <p class="text-xl lg:text-base 2xl:text-lx font-semibold">
-                Pelunasan <br>
-                frinchise fee
-              </p>
-              <p class="py-4">
-                Pembayaran sisa <br>
-                franchise fee sesuai <br>
-                dengan pihak konsep <br>
-                bisnis dan tanda tangan <br>
-                kontrak. Dilanjutkan <br>
-                dengan proses <br>
-                pembangunan gym
-              </p>
+            <div class="absolute -top-3 -right-3 p-1.5 text-lg text-center font-FuturaBold bg-yellow-primary rounded-full border-2 border-white">
+              <p>03</p>
             </div>
           </div>
-        </div>
-        <div class="lg:hidden relative pl-4 ml-4 mb-8 border-y-2 border-r-2 border-white w-4 min-h-max flex justify-center items-center">
-          <p class="absolute -left-5 rotate-90 whitespace-nowrap">1 - 2 MONTH</p>
+          <div class="relative max-w-max my-4">
+            <div class="w-44 min-h-[176px] pt-6 pl-10 pr-6 bg-gradient-to-tr from-yellow-700 to-yellow-200 overflow-visible" style="clip-path: polygon(25% 0, 100% 0, 75% 100%, 0% 100%);">
+              <p>All Club Access Membership</p>
+            </div>
+            <div class="absolute -top-3 -right-3 p-1.5 text-lg text-center font-FuturaBold bg-yellow-primary rounded-full border-2 border-white">
+              <p>04</p>
+            </div>
+          </div>
+          <div class="relative max-w-max my-4">
+            <div class="w-44 min-h-[176px] pt-6 pl-10 pr-6 bg-gradient-to-tr from-yellow-700 to-yellow-200 overflow-visible" style="clip-path: polygon(25% 0, 100% 0, 75% 100%, 0% 100%);">
+              <p>Hustle Free Investment, Realtime Online Revenue Report</p>
+            </div>
+            <div class="absolute -top-3 -right-3 p-1.5 text-lg text-center font-FuturaBold bg-yellow-primary rounded-full border-2 border-white">
+              <p>05</p>
+            </div>
+          </div>
+
         </div>
       </div>
-      
-      <div class="flex justify-center lg:block pt-8">
-        <div class="relative hidden lg:block py-4 ml-16 border border-b-0 border-white">
-          <p class="absolute -top-10 right-0 left-0 text-center whitespace-nowrap">2 - 3 MONTH</p>
-        </div>
-        <div class="grid grid-cols-1 text-center">
-          <div class="mx-1">
-            <div class="lg:flex lg:justify-center lg:items-center">
-              <div class="flex justify-center">
-                <img class="rotate-90 py-6 w-16
-                lg:rotate-0 lg:py-0 lg:h-4 lg:scale-x-[1.5]" src="{{ url('/image/home/white-line.png') }}" alt="Urban Athletes">
-              </div>
-              <div class="flex justify-center">
-                <img class="w-32 z-10" src="{{ url('/image/home/Asset-6-8.png') }}" alt="Urban Athletes">
-              </div>
-            </div>
-            <div class="py-4 lg:py-0 lg:text-sm 2xl:text-base lg:ml-4 lg:pl-8">
-              <p class="text-xl lg:text-base 2xl:text-lx font-semibold">
-                Pre-Sales dan <br>
-                Grand Openign
-              </p>
-              <p class="py-4">
-                Recruit dan pelatihan staff <br>
-                serta pelaksanaan <br>
-                Pre-Sale untuk <br>
-                membership <br>
-              </p>
-              <p>
-                Grand Opening concept
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="lg:hidden relative pl-4 ml-4 my-6 border-y-2 border-r-2 border-white w-4 min-h-max flex justify-center items-center">
-          <p class="absolute -left-5 rotate-90 whitespace-nowrap">2 - 3 MONTH</p>
+      <div class="lg:container">
+        <div class="flex justify-center lg:max-h-screen overflow-hidden">
+          <video class="object-cover object-right min-w-min lg:min-w-full" autoplay muted loop>
+            <source src="{{ url('video/Fithub-Vid-Banner-dex-small.mp4') }}" type="video/mp4">
+          </video>
         </div>
       </div>
     </div>
-  </div>
 
-  <div class="container ">
-    <div class="text-center px-8">
-      <h2 class="text-2xl font-bold font-FuturaBold py-4">WHY URBAN ATHLETES?</h2>
-      <P class="font-FuturaBold mb-8">
-        LEADING WITH 17 YEARS EXPERIENCE IN PROFESSIONAL FITNESS INDUSTRY
-      </P>
-      <a class="py-2 px-6 bg-neutral-900 font-sans-serif text-white hover:underline" 
-      href="{{ url('/about-us') }}">
-        MORE DETAILS
-      </a>
+    <div class="flex justify-center overflow-hidden">
+      <div class="flex justify-center min-w-max md:w-full">
+        <img class="object-cover object-center mx-auto w-[768px] md:w-screen" src="{{ url('image/web/home/mobile-apps-urban-athletes.jpg') }}" alt="Mobile Apps Urban Athletes">
+      </div>
     </div>
-  </div>
 
-  <div class="pt-8">
-    <img class="" src="{{ url('/image/home/mobile-apps-urban-athletes.jpg') }}" alt="Urban Athletes Mobile">
-  </div>
+    <div class="container my-8">
 
-</x-main>
+      <h2 class="font-FuturaBold text-2xl border-l-4 border-yellow-primary px-4 my-4">
+        OUR GEOGRAPHIES
+      </h2>
+      <iframe src="https://www.google.com/maps/d/u/1/embed?mid=1BLfrcfUk0H2FggTjFXoI0RILoBbTR-o&ehbc=2E312F" width="100%" height="480"></iframe>
+      <h2 class="font-FuturaBold text-2xl border-l-4 border-yellow-primary px-4 my-4">
+        OUR BRAND
+      </h2>
+      {{-- <div class="flex justify-center flex-wrap"> --}}
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 place-items-center pb-8">
+        <div class="px-4 pt-6 bg-neutral-100 shadow-xl">
+          <div class="min-h-[64px] flex items-center">
+            <img class="w-16" src="{{ url('image/web/logo/LOGO_UA_HITAM_TM.png') }}" alt="Mitra Urban Athletes">
+          </div>
+          <h3 class="font-FuturaBold my-2">URBAN ATHLETES</h3>
+          <p class="text-sm">Urban Athletes adalah tempat bagi mereka yang berinspirasi untuk hidup sehat dengan metode yang tepat dan fun. Kita percaya olahraga bukan hanya sekedar gaya hidup. Tapi adalah sarana untuk menjadi pribadi yang lebih baik. Membawa Dampak dan membangun manusia menjadi versi terbaiknya.</p>
+          <div class="text-center my-6 font-PoppinsSemiBold">
+            <a class="py-2 px-6 border border-neutral-800 hover:bg-yellow-primary transition-all duration-300" href="#">MORE</a>
+          </div>
+        </div>
+        <div class="px-4 pt-6 bg-neutral-100 shadow-xl">
+          <div class="min-h-[64px] flex items-center">
+            <img class="w-16" src="{{ url('image/web/logo/urbanfit.png') }}" alt="Mitra Urban Athletes">
+          </div>
+          <h3 class="font-FuturaBold my-2">URBANFIT</h3>
+          <p class="text-sm">Urban Athletes adalah tempat bagi mereka yang berinspirasi untuk hidup sehat dengan metode yang tepat dan fun. Kita percaya olahraga bukan hanya sekedar gaya hidup. Tapi adalah sarana untuk menjadi pribadi yang lebih baik. Membawa Dampak dan membangun manusia menjadi versi terbaiknya.</p>
+          <div class="text-center my-6 font-PoppinsSemiBold">
+            <a class="py-2 px-6 border border-neutral-800 hover:bg-yellow-primary transition-all duration-300" href="#">MORE</a>
+          </div>
+        </div>
+        <div class="px-4 pt-6 bg-neutral-100 shadow-xl">
+          <div class="min-h-[64px] flex items-center">
+            <img class="h-16" src="{{ url('image/web/logo/fitness_work-02.png') }}" alt="Mitra Urban Athletes">
+          </div>
+          <h3 class="font-FuturaBold my-2">FITNESS WORKS</h3>
+          <p class="text-sm">Urban Athletes adalah tempat bagi mereka yang berinspirasi untuk hidup sehat dengan metode yang tepat dan fun. Kita percaya olahraga bukan hanya sekedar gaya hidup. Tapi adalah sarana untuk menjadi pribadi yang lebih baik. Membawa Dampak dan membangun manusia menjadi versi terbaiknya.</p>
+          <div class="text-center my-6 font-PoppinsSemiBold">
+            <a class="py-2 px-6 border border-neutral-800 hover:bg-yellow-primary transition-all duration-300" href="#">MORE</a>
+          </div>
+        </div>
+        <div class="px-4 pt-6 bg-neutral-100 shadow-xl">
+          <div class="min-h-[64px] flex items-center">
+            {{-- <img class="w-16" src="{{ url('image/web/logo/fitness_work-02.png') }}" alt="Mitra Urban Athletes"> --}}
+            <img class="w-16" src="{{ url('image/web/logo/Valor_TM.png') }}" alt="Mitra Urban Athletes">
+          </div>
+          <h3 class="font-FuturaBold my-2">VALOR</h3>
+          <p class="text-sm">Urban Athletes adalah tempat bagi mereka yang berinspirasi untuk hidup sehat dengan metode yang tepat dan fun. Kita percaya olahraga bukan hanya sekedar gaya hidup. Tapi adalah sarana untuk menjadi pribadi yang lebih baik. Membawa Dampak dan membangun manusia menjadi versi terbaiknya.</p>
+          <div class="text-center my-6 font-PoppinsSemiBold">
+            <a class="py-2 px-6 border border-neutral-800 hover:bg-yellow-primary transition-all duration-300" href="#">MORE</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</x-main_kemitraan>

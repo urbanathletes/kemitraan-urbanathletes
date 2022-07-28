@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
+include __DIR__.'/web/franchise_old.php';
 include __DIR__.'/web/franchise.php';
 include __DIR__.'/web/static.php';
 
