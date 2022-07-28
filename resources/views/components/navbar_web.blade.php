@@ -161,11 +161,11 @@
           </ul>
         </div>
         <div class="flex md:hidden justify-center my-4 py-2">
-          <a class="py-2 px-4 border border-yellow-primary hover:bg-yellow-primary hover:text-black transition-all duration-300" href="#">BUILD YOU OWN GYM</a>
+          <a class="py-2 px-4 border border-yellow-primary hover:bg-yellow-primary hover:text-black transition-all duration-300" href="{{ url('/franchise/home') }}">BUILD YOU OWN GYM</a>
         </div>
       </div>
       <div class="hidden md:flex justify-center items-center py-2 px-4 lg:pr-8 text-white min-w-max absolute right-16 top-2 lg:static">
-        <a class="py-2 px-4 border border-yellow-primary hover:bg-yellow-primary hover:text-black transition-all duration-300 block" href="#">BUILD YOU OWN GYM</a>
+        <a class="py-2 px-4 border border-yellow-primary hover:bg-yellow-primary hover:text-black transition-all duration-300 block" href="{{ url('/franchise/home') }}">BUILD YOU OWN GYM</a>
       </div>
     </div>
   </div>
