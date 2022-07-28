@@ -54,9 +54,9 @@
                 -top-44 -z-10 
               " id="list-subMenu">
               {{-- <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-yellow-primary hover:bg-black" menu-sub="{{ $subMenu ?? '' }}"><a href="{{ url('/franchise/about-us') }}">Profile</a></li> --}}
-                <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-yellow-primary hover:bg-black" menu-sub="{{ $subMenu ?? '' }}"><a href="#">ABOUT US</a></li>
-                <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-yellow-primary hover:bg-black" menu-sub="{{ $subMenu ?? '' }}"><a href="#">OUR PHILOSOPHY</a></li>
-                <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-yellow-primary hover:bg-black" menu-sub="{{ $subMenu ?? '' }}"><a href="#">OUR TEAM</a></li>
+                {{-- <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-yellow-primary hover:bg-black" menu-sub="{{ $subMenu ?? '' }}"><a href="#">ABOUT US</a></li> --}}
+                <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-yellow-primary hover:bg-black" menu-sub="{{ $subMenu ?? '' }}"><a href="{{ url('franchise/our-philosophy') }}">OUR PHILOSOPHY</a></li>
+                <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-yellow-primary hover:bg-black" menu-sub="{{ $subMenu ?? '' }}"><a href="{{ url('franchise/our-team') }}">OUR TEAM</a></li>
               </ul>
             </li>
             <li class="
@@ -86,10 +86,9 @@
             <li class="
               border-b-[1px] border-gray-600 hover:text-yellow-primary
               xl:px-4 lg:border-y-0 lg:hover:border-b-2 lg:hover:border-white
-              group
             " id="menu" data-menu="{{$menu ?? ''}}">
               <button class="
-                group w-full relative overflow-hidden
+                 w-full relative overflow-hidden
                 lg:overflow-visible lg:uppercase
               " id="sub-menu">
                 <div class="flex justify-between items-center" id="klik">
@@ -103,10 +102,22 @@
                 absolute
                 -top-44 -z-10 
               " id="list-subMenu">
-                <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-yellow-primary hover:bg-black" menu-sub="{{ $subMenu ?? '' }}"><a href="#">URBAN ATHLETES</a></li>
-                <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-yellow-primary hover:bg-black" menu-sub="{{ $subMenu ?? '' }}"><a href="#">URBAN FIT</a></li>
-                <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-yellow-primary hover:bg-black" menu-sub="{{ $subMenu ?? '' }}"><a href="#">VALOR</a></li>
-                <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-yellow-primary hover:bg-black" menu-sub="{{ $subMenu ?? '' }}"><a href="#">FITNESS WORKS</a></li>
+                <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-yellow-primary hover:bg-black group" 
+                menu-sub="{{ $subMenu ?? '' }}">
+                  <a class="flex" href="#"><img class="w-8 mr-2 invert-0 group-hover:invert" src="{{ url('image/web/logo/LOGO_UA_HITAM_TM.png') }}" alt="Logo Urban Athletes"> URBAN ATHLETES</a>
+                </li>
+                <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-yellow-primary hover:bg-black group" 
+                menu-sub="{{ $subMenu ?? '' }}">
+                  <a class="flex" href="#"><img class="w-8 mr-2 invert-0 group-hover:invert" src="{{ url('image/web/logo/urbanfit.png') }}" alt="Logo Urban Athletes"> URBAN FIT</a>
+                </li>
+                <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-yellow-primary hover:bg-black group" 
+                menu-sub="{{ $subMenu ?? '' }}">
+                  <a class="flex" href="#"><img class="w-8 mr-2 invert-0 group-hover:invert" src="{{ url('image/web/logo/Valor_TM.png') }}" alt="Logo Urban Athletes"> VALOR</a>
+                </li>
+                <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-yellow-primary hover:bg-black group" 
+                menu-sub="{{ $subMenu ?? '' }}">
+                  <a class="flex" href="#"><img class="w-8 mr-2 invert-0 group-hover:invert" src="{{ url('image/web/logo/fitness_work-02.png') }}" alt="Logo Urban Athletes"> FITNESS WORKS</a>
+                </li>
               </ul>
             </li>
 
