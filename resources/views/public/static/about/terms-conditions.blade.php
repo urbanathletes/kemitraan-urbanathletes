@@ -1,4 +1,4 @@
-<x-main_web menu='ABOUT' subMenu="TERMS &AMP; CONDITIONS">
+<x-main_web menu='ABOUT US' subMenu="TERMS & CONDITIONS">
   <div class="flex justify-center max-h-[30vh] lg:max-h-[40vh] relative">
     <img class="object-cover object-top w-full mx-auto lg:-mt-20" src="{{ url('image/web/about/UA-Banner_Global.jpg') }}" alt="About Us Urban Athletes">
     <div class="absolute top-0 bottom-0 left-0 right-0 flex flex-col justify-center items-center text-white bg-gradient-to-t from-black">

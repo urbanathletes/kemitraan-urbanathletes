@@ -1,10 +1,12 @@
 <div class="bg-neutral-150 text-sm">
   <div class="container py-8 overflow-hidden">
-    <h2 class="font-FuturaBold text-3xl mb-4">BUILD YOU OWN GYM</h2>
-    <p class="text-neutral-700 mb-4">
-      URBAN ATHLETES memiliki pertumbuhan yang cepat dan berbasis digital. Dengan model bisnis yang tepat dan konsep yang kuat, URBAN ATHLETES dan mitra dapat bergerak bersama untuk memberikan akses kesehatan dan kebugaran bagi semua orang. Mari lakukan bersama!
-    </p>
-    <div class="flex flex-nowrap lg:grid lg:grid-cols-3 overflow-auto no-scrollbar">
+    <div class="px-14">
+      <h2 class="font-FuturaBold text-3xl mb-4">BUILD YOU OWN GYM</h2>
+      <p class="text-neutral-700 mb-4">
+        URBAN ATHLETES memiliki pertumbuhan yang cepat dan berbasis digital. Dengan model bisnis yang tepat dan konsep yang kuat, URBAN ATHLETES dan mitra dapat bergerak bersama untuk memberikan akses kesehatan dan kebugaran bagi semua orang. Mari lakukan bersama!
+      </p>
+    </div>
+    <div class="flex flex-nowrap xl:grid xl:grid-cols-3 overflow-auto no-scrollbar">
       <img class="h-52 mx-4 lg:mx-auto" src="{{ url('image/web/footer/img_1.jpg') }}" alt="Footer Urban Athletes">
       <img class="h-52 mx-4 lg:mx-auto" src="{{ url('image/web/footer/img_1.jpg') }}" alt="Footer Urban Athletes">
       <img class="h-52 mx-4 lg:mx-auto" src="{{ url('image/web/footer/img_1.jpg') }}" alt="Footer Urban Athletes">
@@ -47,7 +49,7 @@
           </div>
         </div>
       </div>
-      <div class="md:flex md:justify-around md:w-full">
+      <div class="md:flex md:justify-around md:w-full md:pb-6">
         <div class="text-center space-y-2 py-2
           md:text-left lg:min-w-max lg:px-4
         ">
@@ -59,8 +61,8 @@
           <p>NEWS</p>
           <p>STORE</p>
         </div>
-        <div class="space-y-2 px-4 py-2 lg:pr-6">
-          <h3 class="font-FuturaBold text-xl mb-4 text-center">NEWS UPDATE</h3>
+        <div class="space-y-2 px-4 py-2 lg:pl-8">
+          <h3 class="font-FuturaBold text-xl mb-4">NEWS UPDATE</h3>
           <p>Sign Up For Our Mailing List To Get Latest Updates And Offers</p>
           <form class="py-2" action="" method="get">
             <div class="bg-yellow-primary p-1 w-max">
@@ -74,7 +76,7 @@
   </div>
   <div class="relative">
     <div class="flex justify-center gap-8 md:gap-2 md:grid md:grid-cols-3 text-black py-4 bg-black
-      lg:absolute lg:right-0 lg:bottom-0 lg:block lg:px-4 lg:space-y-4 lg:h-[344px]
+      lg:absolute lg:right-0 lg:bottom-0 lg:block lg:px-4 lg:space-y-12 lg:h-[344px]
     ">
       <a class="flex justify-center place-items-center transition-all duration-300 bg-white w-10 h-10 mx-auto"
       href="#" target="_blank" rel="instagram">

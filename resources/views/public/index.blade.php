@@ -3,15 +3,15 @@
     {{-- <video autoplay loop src="{{ url('video/Fithub-Vid-Banner-dex-small.mp4') }}"></video> --}}
     <div class="flex justify-center lg:max-h-screen overflow-hidden">
       <video class="object-cover object-right min-w-min lg:min-w-full" autoplay muted loop>
-        <source src="{{ url('video/Fithub-Vid-Banner-dex-small.mp4') }}" type="video/mp4">
+        <source src="{{ url('video/VideoBannerUA.mp4') }}" type="video/mp4">
       </video>
     </div>
   </div>
   <div class="py-4">
-    <div class="flex flex-nowrap overflow-visible overflow-x-auto no-scrollbar xl:justify-between lg:space-x-36 lg:px-36">
+    <div class="flex flex-nowrap overflow-visible overflow-x-auto no-scrollbar xl:justify-between lg:space-x-36 lg:px-16">
 
-      <div class="flex justify-center min-w-full md:min-w-full xl:min-w-max xl:px-36">
-        <div class="flex flex-col md:justify-center md:flex-row md:max-w-xl">
+      <div class="flex justify-center min-w-full md:min-w-full xl:min-w-max xl:px-0 xl:ml-16">
+        <div class="flex flex-col md:justify-center md:flex-row md:max-w-[100%]">
           <div class="flex justify-center md:justify-end md:min-w-max">
             <img class="h-72" src="{{ url('image/web/home/Image-Poster-1.png') }}" alt="Poster Urban Athletes">
           </div>
@@ -24,8 +24,8 @@
           </div>
         </div>
       </div>
-      <div class="flex justify-center min-w-full xl:min-w-max xl:px-36">
-        <div class="flex flex-col md:grid md:grid-cols-2 lg:max-w-xl">
+      <div class="flex justify-center min-w-full xl:min-w-max xl:px-0">
+        <div class="flex flex-col md:grid md:grid-cols-2 lg:max-w-screen-xl">
           <div class="grid content-center bg-black text-white px-4 py-4">
             <h2 class="font-FuturaBold text-xl">YOUR TRANSFORMATION IS ONE CLICK AWAY</h2>
             <span class="my-2">
@@ -33,8 +33,8 @@
             </span>
             <P>3-day trial, get rid of all your excuses, change now or never! Make a better version of you with Urban Athletes. #buildingabetteryou</P>
           </div>
-          <div class="flex justify-center md:justify-end md:min-w-max relative h-72">
-            <img class="object-cover object-top" src="{{ url('image/web/home/Challange.jpg') }}" alt="Poster Urban Athletes">
+          <div class="flex justify-center md:justify-start md:min-w-max relative h-72">
+            <img class="object-cover object-top w-full" src="{{ url('image/web/home/Challange.jpg') }}" alt="Poster Urban Athletes">
             <div class="absolute top-0 right-0 left-0 bottom-0 bg-gradient-to-b md:bg-gradient-to-r from-black"></div>
           </div>
         </div>
@@ -43,10 +43,10 @@
     </div>
   </div>
 
-  <div class="bg-black bg-gradient-to-tr from-neutral-300 via-neutral-700 py-8
+  <div class="bg-black bg-gradient-to-tr from-neutral-300 via-neutral-700 py-8 relative overflow-hidden
     lg:flex lg:justify-center lg:items-center
   ">
-    <div class="container lg:mx-0 text-yellow-primary lg:max-w-xl">
+    <div class="container lg:mx-0 text-yellow-primary lg:max-w-xl z-10">
       <h2 class="text-4xl font-FuturaBold">ABOUT US</h2>
       <p class="text-white font-extralight mt-2 mb-4">
         Urban Athletes adalah tempat bagi mereka yang berinspirasi untuk hidup sehat dengan metode yang tepat dan fun. Kita percaya olahraga bukan hanya sekedar gaya hidup. Tapi adalah sarana untuk menjadi pribadi yang lebih baik. Membawa Dampak dan membangun manusia menjadi versi terbaiknya.
@@ -56,8 +56,14 @@
       </div>
     </div>
     <div class="grid grid-cols-2 gap-4 container lg:mx-0 py-6 lg:max-w-xl">
-      <img class="pb-12 lg:pb-16 object-cover object-top mx-auto" src="{{ url('image/web/home/About-Us-l.jpg') }}" alt="About us Urban Athletes">
-      <img class="pt-12 lg:pt-16 object-cover object-top mx-auto" src="{{ url('image/web/home/About-Us-r.jpg') }}" alt="About us Urban Athletes">
+      <img class="pb-12 lg:pb-16 object-cover object-top mx-auto z-10" src="{{ url('image/web/home/About-Us-l.jpg') }}" alt="About us Urban Athletes">
+      <img class="pt-12 lg:pt-16 object-cover object-top mx-auto z-10" src="{{ url('image/web/home/About-Us-r.jpg') }}" alt="About us Urban Athletes">
+    </div>
+    <div class="absolute bottom-20 left-20 text-8xl text-neutral-800 font-black opacity-30">
+      <h2>
+        URBAN <br>
+        ATHLETES
+      </h2>
     </div>
   </div>
 
@@ -72,68 +78,68 @@
           <div class="pb-8 pt-24 flex flex-nowrap space-x-6">
 
             <a class="min-w-max group" href="#">
-              <div class="w-48 h-48 flex justify-center overflow-hidden">
+              <div class="w-72 h-72 flex justify-center overflow-hidden">
                 <img class="object-cover object-center mx-auto group-hover:scale-110 transition-all duration-300" src="{{ url('image/web/home/Exclusive_Bodycombat.jpg') }}" alt="Exclusive Urban Athletes">
               </div>
-              <div class="font-FuturaBold p-2 text-xl
+              <div class="font-FuturaBold p-2 text-2xl
                 group-hover:bg-yellow-primary group-hover:text-black transition-all duration-300
               ">
-                <span class="text-4xl">01</span>
+                <span class="text-5xl">01</span>
                 <p>BODY COMBAT</p>
               </div>
             </a>
             <a class="min-w-max group" href="#">
-              <div class="font-FuturaBold p-2 text-xl
+              <div class="font-FuturaBold p-2 text-2xl
                 group-hover:bg-yellow-primary group-hover:text-black transition-all duration-300
               ">
-                <span class="text-4xl">02</span>
+                <span class="text-5xl">02</span>
                 <p>MUAY THAI</p>
               </div>
-              <div class="w-48 h-48 flex justify-center overflow-hidden">
+              <div class="w-72 h-72 flex justify-center overflow-hidden">
                 <img class="object-cover object-center mx-auto group-hover:scale-110 transition-all duration-300" src="{{ url('image/web/home/Exclusive_Muaythai.jpg') }}" alt="Exclusive Urban Athletes">
               </div>
             </a>
             <a class="min-w-max group" href="#">
-              <div class="w-48 h-48 flex justify-center overflow-hidden">
+              <div class="w-72 h-72 flex justify-center overflow-hidden">
                 <img class="object-cover object-center mx-auto group-hover:scale-110 transition-all duration-300" src="{{ url('image/web/home/Challange.jpg') }}" alt="Exclusive Urban Athletes">
               </div>
-              <div class="font-FuturaBold p-2 text-xl
+              <div class="font-FuturaBold p-2 text-2xl
                 group-hover:bg-yellow-primary group-hover:text-black transition-all duration-300
               ">
-                <span class="text-4xl">03</span>
+                <span class="text-5xl">03</span>
                 <p>TRX CLASESS</p>
               </div>
             </a>
             <a class="min-w-max group" href="#">
-              <div class="font-FuturaBold p-2 text-xl
+              <div class="font-FuturaBold p-2 text-2xl
                 group-hover:bg-yellow-primary group-hover:text-black transition-all duration-300
               ">
-                <span class="text-4xl">04</span>
+                <span class="text-5xl">04</span>
                 <p>YOGA & PILATES</p>
               </div>
-              <div class="w-48 h-48 flex justify-center overflow-hidden">
+              <div class="w-72 h-72 flex justify-center overflow-hidden">
                 <img class="object-cover object-center mx-auto group-hover:scale-110 transition-all duration-300" src="{{ url('image/web/home/Exclusive_Yoga-n-pilates.jpg') }}" alt="Exclusive Urban Athletes">
               </div>
             </a>
             <a class="min-w-max group" href="#">
-              <div class="w-48 h-48 flex justify-center overflow-hidden">
+              <div class="w-72 h-72 flex justify-center overflow-hidden">
                 <img class="object-cover object-bottom w-full mx-auto group-hover:scale-110 transition-all duration-300" src="{{ url('image/web/home/Exclusive_Yoga-wheel.jpg') }}" alt="Exclusive Urban Athletes">
               </div>
-              <div class="font-FuturaBold p-2 text-xl
+              <div class="font-FuturaBold p-2 text-2xl
                 group-hover:bg-yellow-primary group-hover:text-black transition-all duration-300
               ">
-                <span class="text-4xl">05</span>
+                <span class="text-5xl">05</span>
                 <p>YOGA WHEEL</p>
               </div>
             </a>
             <a class="min-w-max group" href="#">
-              <div class="font-FuturaBold p-2 text-xl
+              <div class="font-FuturaBold p-2 text-2xl
                 group-hover:bg-yellow-primary group-hover:text-black transition-all duration-300
               ">
-                <span class="text-4xl">06</span>
+                <span class="text-5xl">06</span>
                 <p>FALCON</p>
               </div>
-              <div class="w-48 h-48 flex justify-center overflow-hidden">
+              <div class="w-72 h-72 flex justify-center overflow-hidden">
                 <img class="object-cover object-center mx-auto group-hover:scale-110 transition-all duration-300" src="{{ url('image/web/home/Exclusive_Falcon.jpg') }}" alt="Exclusive Urban Athletes">
               </div>
             </a>
@@ -213,7 +219,7 @@
   </div>
 
   <div class="container text-center py-8">
-    <h2 class="font-FuturaBold text-2xl">ARTICLE UPDATE</h2>
+    <h2 class="font-FuturaBold text-4xl">ARTICLE UPDATE</h2>
     <p>Eksplor hal-hal baru mengenai kesehatan dan kebugaran.</p>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4 overflow-hidden py-4">
       <div class="flex justify-center items-center relative">
@@ -292,7 +298,7 @@
       <img class="h-20 m-4" src="{{ url('image/web/logo/LOGO_UA_HITAM_TM.png') }}" alt="Mitra Urban Athletes">
       <img class="h-20 m-4" src="{{ url('image/web/logo/URBAN-FALCON FINAL-TM.png') }}" alt="Mitra Urban Athletes">
       <img class="h-20 m-4" src="{{ url('image/web/logo/Valor_TM.png') }}" alt="Mitra Urban Athletes">
-      <img class="h-20 m-4" src="{{ url('image/web/logo/urbanfit.png') }}" alt="Mitra Urban Athletes">
+      {{-- <img class="h-20 m-4" src="{{ url('image/web/logo/urbanfit.png') }}" alt="Mitra Urban Athletes"> --}}
       <img class="h-20 m-4" src="{{ url('image/web/logo/fitness_work-02.png') }}" alt="Mitra Urban Athletes">
       <img class="h-20 m-4" src="{{ url('image/web/logo/URBAN-LOGOCIRCUIT.png') }}" alt="Mitra Urban Athletes">
     </div>

@@ -198,7 +198,7 @@
       <div class="lg:container">
         <div class="flex justify-center lg:max-h-screen overflow-hidden">
           <video class="object-cover object-right min-w-min lg:min-w-full" autoplay muted loop>
-            <source src="{{ url('video/Fithub-Vid-Banner-dex-small.mp4') }}" type="video/mp4">
+            <source src="{{ url('video/VideoBannerUA.mp4') }}" type="video/mp4">
           </video>
         </div>
       </div>
