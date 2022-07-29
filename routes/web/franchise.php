@@ -11,4 +11,7 @@ Route::prefix('franchise')->group(function() {
   // Route::get('/support-structure', function () { return view("public/kemitraan/support-structure");});
   // Route::get('/contact-us', function () { return view("public/kemitraan/contact-us");});
   // Route::post('/contact-us', [ContactUsController::class, 'save'])->name('contact_save');
+  Route::get('/urban-athletes', function () { return view("public/kemitraan/urban-athletes");});
+  Route::get('/valor', function () { return view("public/kemitraan/valor");});
+  Route::get('/fitness-works', function () { return view("public/kemitraan/fitness-works");});
 });

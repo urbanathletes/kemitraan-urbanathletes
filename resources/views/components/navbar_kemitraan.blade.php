@@ -104,24 +104,28 @@
               " id="list-subMenu">
                 <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-yellow-primary hover:bg-black group" 
                 menu-sub="{{ $subMenu ?? '' }}">
-                  <a class="flex" href="#"><img class="w-8 mr-2 invert-0 group-hover:invert" src="{{ url('image/web/logo/LOGO_UA_HITAM_TM.png') }}" alt="Logo Urban Athletes"> URBAN ATHLETES</a>
+                  <a class="flex items-center" href="{{ url('franchise/urban-athletes') }}">
+                    <img class="w-8 mr-2 invert-0 group-hover:invert" src="{{ url('image/web/logo/LOGO_UA_HITAM_TM.png') }}" alt="Logo Urban Athletes"> 
+                    <span id="text">URBAN ATHLETES</span>
+                  </a>
                 </li>
                 <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-yellow-primary hover:bg-black group" 
                 menu-sub="{{ $subMenu ?? '' }}">
-                  <a class="flex" href="#"><img class="w-8 mr-2 invert-0 group-hover:invert" src="{{ url('image/web/logo/urbanfit.png') }}" alt="Logo Urban Athletes"> URBAN FIT</a>
+                  <a class="flex items-center" href="{{ url('franchise/valor') }}">
+                    <img class="w-8 mr-2 invert-0 group-hover:invert" src="{{ url('image/web/logo/Valor_TM.png') }}" alt="Logo Urban Athletes"> 
+                    VALOR
+                  </a>
                 </li>
                 <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-yellow-primary hover:bg-black group" 
                 menu-sub="{{ $subMenu ?? '' }}">
-                  <a class="flex" href="#"><img class="w-8 mr-2 invert-0 group-hover:invert" src="{{ url('image/web/logo/Valor_TM.png') }}" alt="Logo Urban Athletes"> VALOR</a>
-                </li>
-                <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-yellow-primary hover:bg-black group" 
-                menu-sub="{{ $subMenu ?? '' }}">
-                  <a class="flex" href="#"><img class="w-8 mr-2 invert-0 group-hover:invert" src="{{ url('image/web/logo/fitness_work-02.png') }}" alt="Logo Urban Athletes"> FITNESS WORKS</a>
+                  <a class="flex items-center" href="{{ url('franchise/fitness-works') }}">
+                    <img class="w-8 mr-2 invert-0 group-hover:invert" src="{{ url('image/web/logo/fitness_work-02.png') }}" alt="Logo Urban Athletes"> 
+                    FITNESS WORKS
+                  </a>
                 </li>
               </ul>
             </li>
 
-            
           </ul>
         </div>
         <div class="flex md:hidden justify-center my-4 py-2">
