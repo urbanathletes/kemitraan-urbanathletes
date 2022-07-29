@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,7 +17,7 @@
     <div class="py-8 md:py-9 lg:py-10"></div>
   @endempty
   <main>
-    <div class="font-AmpleSoft">
+    <div class="font-Futura">
       {{$slot}}
     </div>
   </main>

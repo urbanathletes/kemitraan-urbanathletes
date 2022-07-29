@@ -125,12 +125,15 @@ item.forEach(link => {
     subMenuS.forEach(subMenu => {
       let subMenuList = subMenu.nextElementSibling.querySelectorAll('li');
       subMenuList.forEach(sub => {
-        // console.log(sub.querySelector('a').innerHTML.toUpperCase());
+        // console.log(sub.querySelector('a').firstElementChild);
         // console.log(sub.getAttribute('menu-sub'));
-        if (sub.querySelector('a').innerHTML.toUpperCase() === sub.getAttribute('menu-sub')) {
+        if (sub.querySelector('a').innerText.toUpperCase() === sub.getAttribute('menu-sub')) {
           sub.classList.remove('text-white');
           sub.classList.remove('lg:text-black');
           sub.classList.add('bg-black');
+          if (sub.querySelector('a').firstElementChild) {
+            sub.querySelector('a').firstElementChild.classList.add('menu-warna-img');
+          }
         }
       });
     });
