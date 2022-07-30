@@ -240,9 +240,455 @@
       </div>
     </div>
 
-    <div class="container py-8">
-      <div class="min-h[230px] font-FuturaBold text-center text-5xl text-black">
-        <h1>Coming Soon</h1>
+    <div class="my-8 flex flex-col sm:flex-row sm:justify-start sm:h-[360]">
+      <div class="bg-black text-white sm:ml-8 p-8 mx-4 sm:mx-0 sm:max-w-[260px] sm:min-h-full sm:min-w-max">
+        <h2 class="bg-yellow-primary max-w-max text-2xl text-black font-FuturaBold px-2">GYM BAG</h2>
+        <h2 class="max-w-max text-2xl font-FuturaBold">PRODUCT</h2>
+        <p class="my-6 max-w-[150px]">
+          Deskripsi singkat keunggulan Product
+        </p>
+        <div class="mt-6 pt-8">
+          <a class="border border-white py-2 px-6" href="#">VIEW MORE</a>
+        </div>
+      </div>
+      <div class="my-4 flex flex-nowrap overflow-visible overflow-x-auto no-scrollbar">
+        <div class="min-w-[200px] h-full mx-4 overflow-hidden shadow-lg">
+          <img class="-mt-12 aspect-[4/5] w-full object-cover" src="{{ url('image/web/merchandise/GYMBAG_KIDS_UKURAN.jpg') }}" alt="Gym Bag Urban Athletes">
+          <div class="mx-2 text-black font-black">
+            <div class="text-yellow-primary my-2" id="reting">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <p class="uppercase text-sm">Gym Bag KIDS THEME</p>
+            <div class="my-2 border-t border-neutral-400 py-2">
+              <p>RP. 250.000</p>
+            </div>
+          </div>
+        </div>
+        <div class="min-w-[200px] h-full mx-4 overflow-hidden shadow-lg">
+          <img class="-mt-12 aspect-[4/5] w-full object-cover" src="{{ url('image/web/merchandise/GYMBAG_VALOR.JPG') }}" alt="Gym Bag Urban Athletes">
+          <div class="mx-2 text-black font-black">
+            <div class="text-yellow-primary my-2" id="reting">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <p class="uppercase text-sm">Gym Bag Valor</p>
+            <div class="my-2 border-t border-neutral-400 py-2">
+              <p>RP. 250.000</p>
+            </div>
+          </div>
+        </div>
+        <div class="min-w-[200px] h-full mx-4 overflow-hidden shadow-lg">
+          <img class="-mt-12 aspect-[4/5] w-full object-cover" src="{{ url('image/web/merchandise/GYMBAG_FALCON.jpg') }}" alt="Gym Bag Urban Athletes">
+          <div class="mx-2 text-black font-black">
+            <div class="text-yellow-primary my-2" id="reting">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <p class="uppercase text-sm">Gym Bag Valcon</p>
+            <div class="my-2 border-t border-neutral-400 py-2">
+              <p>RP. 250.000</p>
+            </div>
+          </div>
+        </div>
+        <div class="min-w-[200px] h-full mx-4 overflow-hidden shadow-lg">
+          <img class="-mt-12 aspect-[4/5] w-full object-cover" src="{{ url('image/web/merchandise/GYMBAG_PINK.jpeg') }}" alt="Gym Bag Urban Athletes">
+          <div class="mx-2 text-black font-black">
+            <div class="text-yellow-primary my-2" id="reting">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <p class="uppercase text-sm">Gym Bag Urban Athletes</p>
+            <div class="my-2 border-t border-neutral-400 py-2">
+              <p>RP. 250.000</p>
+            </div>
+          </div>
+        </div>
+        <div class="min-w-[200px] h-full mx-4 overflow-hidden shadow-lg">
+          <img class="-mt-12 aspect-[4/5] w-full object-cover" src="{{ url('image/web/merchandise/GYMBAG_KIDS_UKURAN.jpg') }}" alt="Gym Bag Urban Athletes">
+          <div class="mx-2 text-black font-black">
+            <div class="text-yellow-primary my-2" id="reting">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <p class="uppercase text-sm">Gym Bag KIDS THEME</p>
+            <div class="my-2 border-t border-neutral-400 py-2">
+              <p>RP. 250.000</p>
+            </div>
+          </div>
+        </div>
+        <div class="min-w-[200px] h-full mx-4 overflow-hidden shadow-lg">
+          <img class="-mt-12 aspect-[4/5] w-full object-cover" src="{{ url('image/web/merchandise/GYMBAG_VALOR.JPG') }}" alt="Gym Bag Urban Athletes">
+          <div class="mx-2 text-black font-black">
+            <div class="text-yellow-primary my-2" id="reting">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <p class="uppercase text-sm">Gym Bag Valor</p>
+            <div class="my-2 border-t border-neutral-400 py-2">
+              <p>RP. 250.000</p>
+            </div>
+          </div>
+        </div>
+        <div class="min-w-[200px] h-full mx-4 overflow-hidden shadow-lg">
+          <img class="-mt-12 aspect-[4/5] w-full object-cover" src="{{ url('image/web/merchandise/GYMBAG_FALCON.jpg') }}" alt="Gym Bag Urban Athletes">
+          <div class="mx-2 text-black font-black">
+            <div class="text-yellow-primary my-2" id="reting">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <p class="uppercase text-sm">Gym Bag Valcon</p>
+            <div class="my-2 border-t border-neutral-400 py-2">
+              <p>RP. 250.000</p>
+            </div>
+          </div>
+        </div>
+        <div class="min-w-[200px] h-full mx-4 overflow-hidden shadow-lg">
+          <img class="-mt-12 aspect-[4/5] w-full object-cover" src="{{ url('image/web/merchandise/GYMBAG_PINK.jpeg') }}" alt="Gym Bag Urban Athletes">
+          <div class="mx-2 text-black font-black">
+            <div class="text-yellow-primary my-2" id="reting">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <p class="uppercase text-sm">Gym Bag Urban Athletes</p>
+            <div class="my-2 border-t border-neutral-400 py-2">
+              <p>RP. 250.000</p>
+            </div>
+          </div>
+        </div>
+
+        {{-- <div class="bg-black text-white sm:ml-8 p-8 mx-4 sm:mx-0">
+          <h2 class="bg-yellow-primary max-w-max text-2xl text-black font-FuturaBold px-2">GYM BAG</h2>
+          <h2 class="max-w-max text-2xl font-FuturaBold">PRODUCT</h2>
+          <p class="my-6">
+            Deskripsi singkat keunggulan Product
+          </p>
+          <div class="mt-6 pt-8">
+            <a class="border border-white py-2 px-6" href="#">VIEW MORE</a>
+          </div>
+        </div> --}}
+      </div>
+    </div>
+
+    <div class="my-8 flex flex-col sm:flex-row sm:justify-start sm:h-[360]">
+      <div class="bg-black text-white sm:ml-8 p-8 mx-4 sm:mx-0 sm:max-w-[260px] sm:min-h-full sm:min-w-max">
+        <h2 class="bg-yellow-primary max-w-max text-2xl text-black font-FuturaBold px-2">T-SHIRT</h2>
+        <h2 class="max-w-max text-2xl font-FuturaBold">PRODUCT</h2>
+        <p class="my-6 max-w-[150px]">
+          Deskripsi singkat keunggulan Product
+        </p>
+        <div class="mt-6 pt-8">
+          <a class="border border-white py-2 px-6" href="#">VIEW MORE</a>
+        </div>
+      </div>
+      <div class="my-4 flex flex-nowrap overflow-visible overflow-x-auto no-scrollbar">
+        <div class="min-w-[200px] h-full mx-4 overflow-hidden shadow-lg">
+          <img class="-mt-0 aspect-[4/5] w-full object-cover" src="{{ url('image/web/merchandise/kaos1.jpeg') }}" alt="Kaos Urban Athletes">
+          <div class="mx-2 text-black font-black">
+            <div class="text-yellow-primary my-2" id="reting">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <p class="uppercase text-sm">T-Strit Valor Edition</p>
+            <div class="my-2 border-t border-neutral-400 py-2">
+              <p>RP. 250.000</p>
+            </div>
+          </div>
+        </div>
+        <div class="min-w-[200px] h-full mx-4 overflow-hidden shadow-lg">
+          <img class="-mt-0 aspect-[4/5] w-full object-cover" src="{{ url('image/web/merchandise/Kaos2.png') }}" alt="Kaos Urban Athletes">
+          <div class="mx-2 text-black font-black">
+            <div class="text-yellow-primary my-2" id="reting">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <p class="uppercase text-sm">T-Strit Valcon Edition</p>
+            <div class="my-2 border-t border-neutral-400 py-2">
+              <p>RP. 250.000</p>
+            </div>
+          </div>
+        </div>
+        <div class="min-w-[200px] h-full mx-4 overflow-hidden shadow-lg">
+          <img class="-mt-0 aspect-[4/5] w-full object-cover" src="{{ url('image/web/merchandise/kaos3.png') }}" alt="Kaos Urban Athletes">
+          <div class="mx-2 text-black font-black">
+            <div class="text-yellow-primary my-2" id="reting">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <p class="uppercase text-sm">T-Strit Valcon Edition</p>
+            <div class="my-2 border-t border-neutral-400 py-2">
+              <p>RP. 250.000</p>
+            </div>
+          </div>
+        </div>
+        <div class="min-w-[200px] h-full mx-4 overflow-hidden shadow-lg">
+          <img class="-mt-0 aspect-[4/5] w-full object-cover" src="{{ url('image/web/merchandise/kaos4.jpeg') }}" alt="Kaos Urban Athletes">
+          <div class="mx-2 text-black font-black">
+            <div class="text-yellow-primary my-2" id="reting">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <p class="uppercase text-sm">T-Strit UA Garuda</p>
+            <div class="my-2 border-t border-neutral-400 py-2">
+              <p>RP. 250.000</p>
+            </div>
+          </div>
+        </div>
+        <div class="min-w-[200px] h-full mx-4 overflow-hidden shadow-lg">
+          <img class="-mt-0 aspect-[4/5] w-full object-cover" src="{{ url('image/web/merchandise/kaos1.jpeg') }}" alt="Kaos Urban Athletes">
+          <div class="mx-2 text-black font-black">
+            <div class="text-yellow-primary my-2" id="reting">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <p class="uppercase text-sm">T-Strit Valor Edition</p>
+            <div class="my-2 border-t border-neutral-400 py-2">
+              <p>RP. 250.000</p>
+            </div>
+          </div>
+        </div>
+        <div class="min-w-[200px] h-full mx-4 overflow-hidden shadow-lg">
+          <img class="-mt-0 aspect-[4/5] w-full object-cover" src="{{ url('image/web/merchandise/Kaos2.png') }}" alt="Kaos Urban Athletes">
+          <div class="mx-2 text-black font-black">
+            <div class="text-yellow-primary my-2" id="reting">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <p class="uppercase text-sm">T-Strit Valor Edition</p>
+            <div class="my-2 border-t border-neutral-400 py-2">
+              <p>RP. 250.000</p>
+            </div>
+          </div>
+        </div>
+        <div class="min-w-[200px] h-full mx-4 overflow-hidden shadow-lg">
+          <img class="-mt-0 aspect-[4/5] w-full object-cover" src="{{ url('image/web/merchandise/kaos3.png') }}" alt="Kaos Urban Athletes">
+          <div class="mx-2 text-black font-black">
+            <div class="text-yellow-primary my-2" id="reting">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <p class="uppercase text-sm">T-Strit Valor Edition</p>
+            <div class="my-2 border-t border-neutral-400 py-2">
+              <p>RP. 250.000</p>
+            </div>
+          </div>
+        </div>
+        <div class="min-w-[200px] h-full mx-4 overflow-hidden shadow-lg">
+          <img class="-mt-0 aspect-[4/5] w-full object-cover" src="{{ url('image/web/merchandise/kaos4.jpeg') }}" alt="Kaos Urban Athletes">
+          <div class="mx-2 text-black font-black">
+            <div class="text-yellow-primary my-2" id="reting">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <p class="uppercase text-sm">T-Strit Valor Edition</p>
+            <div class="my-2 border-t border-neutral-400 py-2">
+              <p>RP. 250.000</p>
+            </div>
+          </div>
+        </div>
+
+        {{-- <div class="bg-black text-white sm:ml-8 p-8 mx-4 sm:mx-0">
+          <h2 class="bg-yellow-primary max-w-max text-2xl text-black font-FuturaBold px-2">GYM BAG</h2>
+          <h2 class="max-w-max text-2xl font-FuturaBold">PRODUCT</h2>
+          <p class="my-6">
+            Deskripsi singkat keunggulan Product
+          </p>
+          <div class="mt-6 pt-8">
+            <a class="border border-white py-2 px-6" href="#">VIEW MORE</a>
+          </div>
+        </div> --}}
+      </div>
+    </div>
+
+    <div class="my-8 flex flex-col sm:flex-row sm:justify-start sm:h-[360]">
+      <div class="bg-black text-white sm:ml-8 p-8 mx-4 sm:mx-0 sm:max-w-[260px] sm:min-h-full sm:min-w-max">
+        <h2 class="bg-yellow-primary max-w-max text-2xl text-black font-FuturaBold px-2">OTHER</h2>
+        <h2 class="max-w-max text-2xl font-FuturaBold">PRODUCT</h2>
+        <p class="my-6 max-w-[150px]">
+          Deskripsi singkat keunggulan Product
+        </p>
+        <div class="mt-6 pt-8">
+          <a class="border border-white py-2 px-6" href="#">VIEW MORE</a>
+        </div>
+      </div>
+      <div class="my-4 flex flex-nowrap overflow-visible overflow-x-auto no-scrollbar">
+        <div class="min-w-[200px] h-full mx-4 overflow-hidden shadow-lg">
+          <img class="-mt-0 aspect-[4/5] w-full object-cover" src="{{ url('image/web/merchandise/Gloves_Yellow.png') }}" alt="Other Urban Athletes">
+          <div class="mx-2 text-black font-black">
+            <div class="text-yellow-primary my-2" id="reting">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <p class="uppercase text-sm">Gloves</p>
+            <div class="my-2 border-t border-neutral-400 py-2">
+              <p>RP. 250.000</p>
+            </div>
+          </div>
+        </div>
+        <div class="min-w-[200px] h-full mx-4 overflow-hidden shadow-lg">
+          <img class="-mt-0 aspect-[4/5] w-full object-cover" src="{{ url('image/web/merchandise/Gloves_Gold.png') }}" alt="Other Urban Athletes">
+          <div class="mx-2 text-black font-black">
+            <div class="text-yellow-primary my-2" id="reting">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <p class="uppercase text-sm">Gloves Gold</p>
+            <div class="my-2 border-t border-neutral-400 py-2">
+              <p>RP. 250.000</p>
+            </div>
+          </div>
+        </div>
+        <div class="min-w-[200px] h-full mx-4 overflow-hidden shadow-lg">
+          <img class="-mt-0 aspect-[4/5] w-full object-cover" src="{{ url('image/web/merchandise/Matras1.png') }}" alt="Other Urban Athletes">
+          <div class="mx-2 text-black font-black">
+            <div class="text-yellow-primary my-2" id="reting">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <p class="uppercase text-sm">Matras</p>
+            <div class="my-2 border-t border-neutral-400 py-2">
+              <p>RP. 250.000</p>
+            </div>
+          </div>
+        </div>
+        <div class="min-w-[200px] h-full mx-4 overflow-hidden shadow-lg">
+          <img class="-mt-0 aspect-[4/5] w-full object-cover" src="{{ url('image/web/merchandise/Matras_YOGA_EVE_swede.png') }}" alt="Other Urban Athletes">
+          <div class="mx-2 text-black font-black">
+            <div class="text-yellow-primary my-2" id="reting">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <p class="uppercase text-sm">Matras</p>
+            <div class="my-2 border-t border-neutral-400 py-2">
+              <p>RP. 250.000</p>
+            </div>
+          </div>
+        </div>
+        <div class="min-w-[200px] h-full mx-4 overflow-hidden shadow-lg">
+          <img class="-mt-0 aspect-[4/5] w-full object-cover" src="{{ url('image/web/merchandise/Mini_Towel.png') }}" alt="Other Urban Athletes">
+          <div class="mx-2 text-black font-black">
+            <div class="text-yellow-primary my-2" id="reting">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <p class="uppercase text-sm">Handuk</p>
+            <div class="my-2 border-t border-neutral-400 py-2">
+              <p>RP. 250.000</p>
+            </div>
+          </div>
+        </div>
+        <div class="min-w-[200px] h-full mx-4 overflow-hidden shadow-lg">
+          <img class="-mt-0 aspect-[4/5] w-full object-cover" src="{{ url('image/web/merchandise/Gloves_Gold.png') }}" alt="Other Urban Athletes">
+          <div class="mx-2 text-black font-black">
+            <div class="text-yellow-primary my-2" id="reting">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <p class="uppercase text-sm">Gloves Gold</p>
+            <div class="my-2 border-t border-neutral-400 py-2">
+              <p>RP. 250.000</p>
+            </div>
+          </div>
+        </div>
+        <div class="min-w-[200px] h-full mx-4 overflow-hidden shadow-lg">
+          <img class="-mt-0 aspect-[4/5] w-full object-cover" src="{{ url('image/web/merchandise/Matras1.png') }}" alt="Other Urban Athletes">
+          <div class="mx-2 text-black font-black">
+            <div class="text-yellow-primary my-2" id="reting">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <p class="uppercase text-sm">Matras</p>
+            <div class="my-2 border-t border-neutral-400 py-2">
+              <p>RP. 250.000</p>
+            </div>
+          </div>
+        </div>
+        <div class="min-w-[200px] h-full mx-4 overflow-hidden shadow-lg">
+          <img class="-mt-0 aspect-[4/5] w-full object-cover" src="{{ url('image/web/merchandise/Matras_YOGA_EVE_swede.png') }}" alt="Other Urban Athletes">
+          <div class="mx-2 text-black font-black">
+            <div class="text-yellow-primary my-2" id="reting">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <p class="uppercase text-sm">Matras</p>
+            <div class="my-2 border-t border-neutral-400 py-2">
+              <p>RP. 250.000</p>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
 

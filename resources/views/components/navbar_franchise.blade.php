@@ -8,7 +8,7 @@
         w-full flex justify-center md:py-2
         md:justify-end md:w-max md:px-4 md:mx-4
       ">
-        <img class="h-16 md:h-14 py-2 md:py-0" src="{{ url('/image/logo-urban-athletes.png') }}" alt="Logo Urban Athletes">
+        <img class="h-16 md:h-14 py-2 md:py-0" src="{{ url('/image/logo-UA.png') }}" alt="Logo Urban Athletes">
       </div>
       <div class="
         px-4 relative 

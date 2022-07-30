@@ -15,13 +15,13 @@
     <div class="py-4 lg:flex lg:justify-center lg:items-center">
       <div class="container lg:mx-0 lg:max-w-xl">
         <div class="mb-8 max-w-max relative">
-          <h2 class="text-4xl font-FuturaBold">WEIGHT LOSS</h2>
+          <h2 class="text-xl sm:text-3xl font-FuturaBold">WEIGHT LOSS</h2>
           <span class="absolute left-0 -bottom-2 w-36 pb-1.5 bg-yellow-primary"></span>
         </div>
         <p class="font-extralight mt-2 mb-4">
           Urban Athletes adalah tempat bagi mereka yang berinspirasi untuk hidup sehat dengan metode yang tepat dan fun. Kita percaya olahraga bukan hanya sekedar gaya hidup. Tapi adalah sarana untuk menjadi pribadi yang lebih baik. Membawa Dampak dan membangun manusia menjadi versi terbaiknya.
         </p>
-        <div class="py-2 space-x-2">
+        <div class="py-2 space-x-2 text-sm sm:text-base">
           <a class="py-2 px-4 font-PoppinsSemiBold border border-black hover:bg-yellow-primary hover:border-yellow-primary transition-all duration-300" href="#">BOOK NOW</a>
           <a class="py-2 px-4 font-PoppinsSemiBold border border-black hover:bg-yellow-primary hover:border-yellow-primary transition-all duration-300" href="#">LEARN MORE</a>
         </div>
@@ -38,23 +38,23 @@
     <div class="py-4 lg:flex lg:justify-center lg:items-center lg:flex-row-reverse">
       <div class="container lg:mx-0 lg:max-w-xl">
         <div class="mb-8 max-w-max relative">
-          <h2 class="text-4xl font-FuturaBold">FLEXIBILITY & MUSCLE KNOT RELEASE</h2>
+          <h2 class="text-xl sm:text-3xl font-FuturaBold">FLEXIBILITY & MUSCLE KNOT RELEASE</h2>
           <span class="absolute left-0 -bottom-2 w-36 pb-1.5 bg-yellow-primary"></span>
         </div>
         <p class="font-extralight mt-2 mb-4">
           Urban Athletes adalah tempat bagi mereka yang berinspirasi untuk hidup sehat dengan metode yang tepat dan fun. Kita percaya olahraga bukan hanya sekedar gaya hidup. Tapi adalah sarana untuk menjadi pribadi yang lebih baik. Membawa Dampak dan membangun manusia menjadi versi terbaiknya.
         </p>
-        <div class="py-2 space-x-2">
+        <div class="py-2 space-x-2 text-sm sm:text-base">
           <a class="py-2 px-4 font-PoppinsSemiBold border border-black hover:bg-yellow-primary hover:border-yellow-primary transition-all duration-300" href="#">BOOK NOW</a>
           <a class="py-2 px-4 font-PoppinsSemiBold border border-black hover:bg-yellow-primary hover:border-yellow-primary transition-all duration-300" href="#">LEARN MORE</a>
         </div>
       </div>
       <div class="grid grid-cols-2 gap-4 container lg:mx-0 py-6 lg:max-w-xl">
         <div class="flex justify-center pb-12 lg:pb-16">
-          <img class="object-cover object-top mx-auto" src="{{ url('image/web/home/Exclusive_Yoga-wheel.jpg') }}" alt="Tume Muscle Urban Athletes">
+          <img class="object-cover object-top mx-auto h-full" src="{{ url('image/web/home/Exclusive_Yoga-wheel.jpg') }}" alt="Tume Muscle Urban Athletes">
         </div>
         <div class="flex justify-centerpt-12 pt-12 lg:pt-16 ">
-          <img class="object-cover object-top mx-auto" src="{{ url('image/web/home/About-Us-l.jpg') }}" alt="About us Urban Athletes">
+          <img class="object-cover object-top mx-auto h-full" src="{{ url('image/web/Rejuve_n_Pilates.jpg') }}" alt="About us Urban Athletes">
         </div>
       </div>
     </div>
@@ -62,13 +62,13 @@
     <div class="py-4 lg:flex lg:justify-center lg:items-center">
       <div class="container lg:mx-0 lg:max-w-xl">
         <div class="mb-8 max-w-max relative">
-          <h2 class="text-4xl font-FuturaBold">TUNE MUSCLE</h2>
+          <h2 class="text-xl sm:text-3xl font-FuturaBold">TUNE MUSCLE</h2>
           <span class="absolute left-0 -bottom-2 w-36 pb-1.5 bg-yellow-primary"></span>
         </div>
         <p class="font-extralight mt-2 mb-4">
           Urban Athletes adalah tempat bagi mereka yang berinspirasi untuk hidup sehat dengan metode yang tepat dan fun. Kita percaya olahraga bukan hanya sekedar gaya hidup. Tapi adalah sarana untuk menjadi pribadi yang lebih baik. Membawa Dampak dan membangun manusia menjadi versi terbaiknya.
         </p>
-        <div class="py-2 space-x-2">
+        <div class="py-2 space-x-2 text-sm sm:text-base">
           <a class="py-2 px-4 font-PoppinsSemiBold border border-black hover:bg-yellow-primary hover:border-yellow-primary transition-all duration-300" href="#">BOOK NOW</a>
           <a class="py-2 px-4 font-PoppinsSemiBold border border-black hover:bg-yellow-primary hover:border-yellow-primary transition-all duration-300" href="#">LEARN MORE</a>
         </div>
@@ -78,30 +78,30 @@
           <img class="object-cover object-top mx-auto" src="{{ url('image/web/home/Exclusive_Falcon.jpg') }}" alt="Tume Muscle Urban Athletes">
         </div>
         <div class="flex justify-centerpt-12 pt-12 lg:pt-16 ">
-          <img class="object-cover object-top mx-auto" src="{{ url('image/web/home/About-Us-r.jpg') }}" alt="About us Urban Athletes">
+          <img class="object-cover object-top mx-auto h-full" src="{{ url('image/web/ToneMuscle2.jpg') }}" alt="About us Urban Athletes">
         </div>
       </div>
     </div>
     <div class="py-4 lg:flex lg:justify-center lg:items-center lg:flex-row-reverse">
       <div class="container lg:mx-0 lg:max-w-xl">
         <div class="mb-8 max-w-max relative">
-          <h2 class="text-4xl font-FuturaBold">ENDURANCE</h2>
+          <h2 class="text-xl sm:text-3xl font-FuturaBold">ENDURANCE</h2>
           <span class="absolute left-0 -bottom-2 w-36 pb-1.5 bg-yellow-primary"></span>
         </div>
         <p class="font-extralight mt-2 mb-4">
           Urban Athletes adalah tempat bagi mereka yang berinspirasi untuk hidup sehat dengan metode yang tepat dan fun. Kita percaya olahraga bukan hanya sekedar gaya hidup. Tapi adalah sarana untuk menjadi pribadi yang lebih baik. Membawa Dampak dan membangun manusia menjadi versi terbaiknya.
         </p>
-        <div class="py-2 space-x-2">
+        <div class="py-2 space-x-2 text-sm sm:text-base">
           <a class="py-2 px-4 font-PoppinsSemiBold border border-black hover:bg-yellow-primary hover:border-yellow-primary transition-all duration-300" href="#">BOOK NOW</a>
           <a class="py-2 px-4 font-PoppinsSemiBold border border-black hover:bg-yellow-primary hover:border-yellow-primary transition-all duration-300" href="#">LEARN MORE</a>
         </div>
       </div>
       <div class="grid grid-cols-2 gap-4 container lg:mx-0 py-6 lg:max-w-xl">
         <div class="flex justify-center pb-12 lg:pb-16">
-          <img class="object-cover object-top mx-auto" src="{{ url('image/web/home/Exclusive_Yoga-wheel.jpg') }}" alt="Tume Muscle Urban Athletes">
+          <img class="object-cover object-top mx-auto h-full" src="{{ url('image/web/Endurance1.jpg') }}" alt="Tume Muscle Urban Athletes">
         </div>
         <div class="flex justify-centerpt-12 pt-12 lg:pt-16 ">
-          <img class="object-cover object-top mx-auto" src="{{ url('image/web/home/About-Us-l.jpg') }}" alt="About us Urban Athletes">
+          <img class="object-cover object-top mx-auto h-full" src="{{ url('image/web/Endurance2.jpg') }}" alt="About us Urban Athletes">
         </div>
       </div>
     </div>
@@ -109,46 +109,46 @@
     <div class="py-4 lg:flex lg:justify-center lg:items-center">
       <div class="container lg:mx-0 lg:max-w-xl">
         <div class="mb-8 max-w-max relative">
-          <h2 class="text-4xl font-FuturaBold">STRENGTH</h2>
+          <h2 class="text-xl sm:text-3xl font-FuturaBold">STRENGTH</h2>
           <span class="absolute left-0 -bottom-2 w-36 pb-1.5 bg-yellow-primary"></span>
         </div>
         <p class="font-extralight mt-2 mb-4">
           Urban Athletes adalah tempat bagi mereka yang berinspirasi untuk hidup sehat dengan metode yang tepat dan fun. Kita percaya olahraga bukan hanya sekedar gaya hidup. Tapi adalah sarana untuk menjadi pribadi yang lebih baik. Membawa Dampak dan membangun manusia menjadi versi terbaiknya.
         </p>
-        <div class="py-2 space-x-2">
+        <div class="py-2 space-x-2 text-sm sm:text-base">
           <a class="py-2 px-4 font-PoppinsSemiBold border border-black hover:bg-yellow-primary hover:border-yellow-primary transition-all duration-300" href="#">BOOK NOW</a>
           <a class="py-2 px-4 font-PoppinsSemiBold border border-black hover:bg-yellow-primary hover:border-yellow-primary transition-all duration-300" href="#">LEARN MORE</a>
         </div>
       </div>
       <div class="grid grid-cols-2 gap-4 container lg:mx-0 py-6 lg:max-w-xl">
         <div class="flex justify-center pb-12 lg:pb-16">
-          <img class="object-cover object-top mx-auto" src="{{ url('image/web/footer/img_1.jpg') }}" alt="Tume Muscle Urban Athletes">
+          <img class="object-cover object-top mx-auto h-full" src="{{ url('image/web/footer/img_1.jpg') }}" alt="Tume Muscle Urban Athletes">
         </div>
         <div class="flex justify-centerpt-12 pt-12 lg:pt-16 ">
-          <img class="object-cover object-top mx-auto" src="{{ url('image/web/home/About-Us-r.jpg') }}" alt="About us Urban Athletes">
+          <img class="object-cover object-top mx-auto h-full" src="{{ url('image/web/Strength2.jpg') }}" alt="About us Urban Athletes">
         </div>
       </div>
     </div>
     <div class="py-4 lg:flex lg:justify-center lg:items-center lg:flex-row-reverse">
       <div class="container lg:mx-0 lg:max-w-xl">
         <div class="mb-8 max-w-max relative">
-          <h2 class="text-4xl font-FuturaBold">KIDS GYM</h2>
+          <h2 class="text-xl sm:text-3xl font-FuturaBold">KIDS GYM</h2>
           <span class="absolute left-0 -bottom-2 w-36 pb-1.5 bg-yellow-primary"></span>
         </div>
         <p class="font-extralight mt-2 mb-4">
           Urban Athletes adalah tempat bagi mereka yang berinspirasi untuk hidup sehat dengan metode yang tepat dan fun. Kita percaya olahraga bukan hanya sekedar gaya hidup. Tapi adalah sarana untuk menjadi pribadi yang lebih baik. Membawa Dampak dan membangun manusia menjadi versi terbaiknya.
         </p>
-        <div class="py-2 space-x-2">
+        <div class="py-2 space-x-2 text-sm sm:text-base">
           <a class="py-2 px-4 font-PoppinsSemiBold border border-black hover:bg-yellow-primary hover:border-yellow-primary transition-all duration-300" href="#">BOOK NOW</a>
           <a class="py-2 px-4 font-PoppinsSemiBold border border-black hover:bg-yellow-primary hover:border-yellow-primary transition-all duration-300" href="#">LEARN MORE</a>
         </div>
       </div>
       <div class="grid grid-cols-2 gap-4 container lg:mx-0 py-6 lg:max-w-xl">
         <div class="flex justify-center pb-12 lg:pb-16">
-          <img class="object-cover object-top mx-auto" src="{{ url('image/web/home/About-Us-l.jpg') }}" alt="Tume Muscle Urban Athletes">
+          <img class="object-cover object-top mx-auto h-full" src="{{ url('image/web/KidsGym1.jpg') }}" alt="Tume Muscle Urban Athletes">
         </div>
         <div class="flex justify-centerpt-12 pt-12 lg:pt-16 ">
-          <img class="object-cover object-top mx-auto" src="{{ url('image/web/home/About-Us-r.jpg') }}" alt="About us Urban Athletes">
+          <img class="object-cover object-top mx-auto h-full" src="{{ url('image/web/KidsGym2.jpg') }}" alt="About us Urban Athletes">
         </div>
       </div>
     </div>
