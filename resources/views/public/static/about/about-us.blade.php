@@ -48,7 +48,7 @@
       </div>
     </div>
 
-    <div class="container">
+    <div class="container pt-8">
       <div class="uppercase grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
         <div class="text-center my-4">
           <h2 class="text-6xl text-yellow-primary font-FuturaBold pb-2">10</h2>
@@ -114,7 +114,7 @@
         </div>
       </div>
       <div class="w-64 h-96 my-4 overflow-hidden cursor-pointer relative group">
-        <img class="group-hover:scale-110 object-cover object-center h-full mx-auto transition-all duration-300" src="{{ url('image/web/home/Exclusive_Yoga-wheel.jpg') }}" alt="TRX Classes Urban Athletes">
+        <img class="group-hover:scale-110 object-cover object-center h-full mx-auto transition-all duration-300" src="{{ url('image/web/TRX.jpg') }}" alt="TRX Classes Urban Athletes">
         <div class="absolute top-0 bottom-0 left-0 right-0 px-4 bg-black opacity-0 group-hover:bg-opacity-50 group-hover:opacity-100 flex justify-center items-center transition-all duration-300">
           <div>
             <h2 class="text-xl font-FuturaBold pb-4 text-center">TRX CLASSES</h2>
@@ -123,7 +123,7 @@
         </div>
       </div>
       <div class="w-64 h-96 my-4 overflow-hidden cursor-pointer relative group">
-        <img class="group-hover:scale-110 object-cover object-center h-full mx-auto transition-all duration-300" src="{{ url('image/web/home/Exclusive_Bodycombat.jpg') }}" alt="Lesmills Body Combat Urban Athletes">
+        <img class="group-hover:scale-110 object-cover object-center h-full mx-auto transition-all duration-300" src="{{ url('image/web/Endurance1.jpg') }}" alt="Lesmills Body Combat Urban Athletes">
         <div class="absolute top-0 bottom-0 left-0 right-0 px-4 bg-black opacity-0 group-hover:bg-opacity-50 group-hover:opacity-100 flex justify-center items-center transition-all duration-300">
           <div>
             <h2 class="text-xl font-FuturaBold pb-4 text-center">LESMILLS BODY COMBAT</h2>

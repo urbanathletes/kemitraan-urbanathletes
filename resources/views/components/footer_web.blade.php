@@ -1,15 +1,15 @@
 <div class="bg-neutral-150 text-sm">
   <div class="container py-8 overflow-hidden">
-    <div class="px-14">
+    <div class="px-6">
       <h2 class="font-FuturaBold text-3xl mb-4">BUILD YOU OWN GYM</h2>
       <p class="text-neutral-700 mb-4">
         URBAN ATHLETES memiliki pertumbuhan yang cepat dan berbasis digital. Dengan model bisnis yang tepat dan konsep yang kuat, URBAN ATHLETES dan mitra dapat bergerak bersama untuk memberikan akses kesehatan dan kebugaran bagi semua orang. Mari lakukan bersama!
       </p>
     </div>
-    <div class="flex flex-nowrap xl:grid xl:grid-cols-3 overflow-auto no-scrollbar">
-      <img class="h-52 mx-4 lg:mx-auto" src="{{ url('image/web/footer/img_1.jpg') }}" alt="Footer Urban Athletes">
-      <img class="h-52 mx-4 lg:mx-auto" src="{{ url('image/web/footer/img_1.jpg') }}" alt="Footer Urban Athletes">
-      <img class="h-52 mx-4 lg:mx-auto" src="{{ url('image/web/footer/img_1.jpg') }}" alt="Footer Urban Athletes">
+    <div class="flex flex-nowrap lg:grid lg:grid-cols-3 overflow-auto no-scrollbar">
+      <img class="px-4 max-h-44 aspect-video w-full object-cover object-center" src="{{ url('image/web/footer/img_1.jpg') }}" alt="Footer Urban Athletes">
+      <img class="px-4 max-h-44 aspect-video w-full object-cover object-center" src="{{ url('image/web/footer/TRX.jpg') }}" alt="Footer Urban Athletes">
+      <img class="px-4 max-h-44 aspect-video w-full object-cover object-center" src="{{ url('image/web/footer/KIDS_GYM.jpg') }}" alt="Footer Urban Athletes">
     </div>
   </div>
   <div class="container">
@@ -20,8 +20,8 @@
   <div class="container pt-6">
     <div class="lg:flex lg:mr-8">
       <div class="lg:px-8">
-        <div class="lg:h-16 lg:overflow-hidden">
-          <img class="h-16 my-4 lg:my-2 mx-auto lg:mx-0" src="{{ url('image/logo-urban-athletes-hitam.png') }}" alt="Footer Urban Athletes">
+        <div class="mb-2 lg:h-16 overflow-hidden">
+          <img class="h-16 my-4 -mb-3 lg:my-2 mx-auto lg:mx-0" src="{{ url('image/logo-urban-athletes-hitam.png') }}" alt="Footer Urban Athletes">
         </div>
         <div class="px-6 lg:px-0">
           <p>
