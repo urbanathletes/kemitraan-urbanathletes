@@ -9,7 +9,7 @@
         lg:justify-end lg:w-max lg:px-4 lg:mx-4 lg:py-2 lg:mb-2 lg:min-w-max
       ">
         <a href="{{ url('/') }}">
-          <img class="h-16 md:h-14 py-2 lg:py-0" src="{{ url('/image/logo-urban-athletes.png') }}" alt="Logo Urban Athletes">
+          <img class="h-16 md:h-14 py-2 lg:py-0" src="{{ url('/image/logo-UA.png') }}" alt="Logo Urban Athletes">
         </a>
       </div>
       <div class="
@@ -118,7 +118,7 @@
               " id="list-subMenu">
               {{-- <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-yellow-primary hover:bg-black" menu-sub="{{ $subMenu ?? '' }}"><a href="{{ url('/franchise/about-us') }}">Profile</a></li> --}}
                 <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-yellow-primary hover:bg-black" menu-sub="{{ $subMenu ?? '' }}"><a href="{{ url('/about/about-us') }}">Profile</a></li>
-                <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-yellow-primary hover:bg-black" menu-sub="{{ $subMenu ?? '' }}"><a href="{{ url('/franchise/our-philosophy') }}">Club</a></li>
+                <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-yellow-primary hover:bg-black" menu-sub="{{ $subMenu ?? '' }}"><a href="#">Club</a></li>
                 <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-yellow-primary hover:bg-black" menu-sub="{{ $subMenu ?? '' }}"><a href="{{ url('/about/faqs') }}">Faqs</a></li>
                 <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-yellow-primary hover:bg-black" menu-sub="{{ $subMenu ?? '' }}"><a href="{{ url('/about/terms-conditions') }}">TERMS & CONDITIONS</a></li>
                 <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-yellow-primary hover:bg-black" menu-sub="{{ $subMenu ?? '' }}"><a href="{{ url('/about/succes-story') }}">Succes Story</a></li>
@@ -161,11 +161,11 @@
           </ul>
         </div>
         <div class="flex md:hidden justify-center my-4 py-2">
-          <a class="py-2 px-4 border border-yellow-primary hover:bg-yellow-primary hover:text-black transition-all duration-300" href="{{ url('/franchise/home') }}">BUILD YOU OWN GYM</a>
+          <a class="py-2 px-4 border border-yellow-primary hover:bg-yellow-primary hover:text-black transition-all duration-300" href="{{ url('/franchise/home') }}">START YOU OWN GYM</a>
         </div>
       </div>
       <div class="hidden md:flex justify-center items-center py-2 px-4 lg:pr-8 text-white min-w-max absolute right-16 top-2 lg:static">
-        <a class="py-2 px-4 border border-yellow-primary hover:bg-yellow-primary hover:text-black transition-all duration-300 block" href="{{ url('/franchise/home') }}">BUILD YOU OWN GYM</a>
+        <a class="py-2 px-4 border border-yellow-primary hover:bg-yellow-primary hover:text-black transition-all duration-300 block" href="{{ url('/franchise/home') }}">START YOU OWN GYM</a>
       </div>
     </div>
   </div>

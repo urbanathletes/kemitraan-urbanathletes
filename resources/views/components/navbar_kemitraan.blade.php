@@ -9,7 +9,7 @@
         lg:justify-end lg:w-max lg:px-4 lg:mx-4 lg:py-2 lg:mb-2 lg:min-w-max
       ">
         <a href="{{ url('/') }}">
-          <img class="h-16 md:h-14 py-2 lg:py-0" src="{{ url('/image/logo-urban-athletes.png') }}" alt="Logo Urban Athletes">
+          <img class="h-16 md:h-14 py-2 lg:py-0" src="{{ url('/image/logo-UA.png') }}" alt="Logo Urban Athletes">
         </a>
       </div>
       <div class="

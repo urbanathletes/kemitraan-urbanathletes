@@ -37,10 +37,60 @@
       </div>
     </div>
     
-    <div class="py-8 flex flex-wrap justify-around text-center text-xs font-Futura text-yellow-primary">
+    <div class="py-8 flex flex-wrap justify-around text-center font-Futura text-yellow-primary">
       <div class="w-64 h-96 my-4 overflow-hidden relative group" id="card">
         <span id="img-ori">
-          <img class="group-hover:scale-110 object-cover object-center h-full w-full mx-auto transition-all duration-300" src="{{ url('image/web/example/example-2x3.jpg') }}" alt="fly high yoga Urban Athletes">
+          <img class="group-hover:scale-110 object-cover object-center h-full w-full mx-auto transition-all duration-300" src="{{ url('image/web/Strength2.jpg') }}" alt="fly high yoga Urban Athletes">
+        </span>
+        <div class="absolute top-0 bottom-0 left-0 right-0 px-4 bg-black opacity-0 group-hover:bg-opacity-50 group-hover:opacity-100 flex justify-center items-center transition-all duration-300">
+          <div>
+            <p class="pb-2">Robertus Prayoga</p>
+            <p class="pb-2">Male, 34 Th</p>
+            <p class="text-white">Surabaya</p>
+            <div class="border-b border-yellow-primary w-32 h-2 py-2"></div>
+            <div class="mt-16">
+              <button id="card-btn">View Detail <span class="font-sans-serif">&#8811;</span></button>
+            </div>
+          </div>
+        </div>
+        <div class="hidden" id="detail">
+          <div id="description-ori">
+            <p class="text-yellow-primary">SUCCESS STORY</p>
+            <h2 class="font-FuturaBold text-xl mb-8">WHAT OUR CLIENT SAY</h2>
+            <h2 class="font-FuturaBold text-xl mb-8">OKE GANTI</h2>
+            <P class="text-center">“Awalnya saya berkeinginan untuk fitness adalah dari perasaan saya yang merasa mudah lelah. Padahal dari segi usia, seharusnya saya masih muda. Di sisi lain, pekerjaan saya lagi banyak-banyaknya. Jadi, saya membutuhkan solusi yang hemat waktu dan tenaga. Di saat itulah saya menemukan Urban Athletes dan saya merasa cukup beruntung saya menemukan Urban Athletes”</P>
+            <p class="text-center py-4"><span class="text-yellow-primary">Maulana</span> - Surabaya</p>
+          </div>
+        </div>
+      </div>
+      <div class="w-64 h-96 my-4 overflow-hidden relative group" id="card">
+        <span id="img-ori">
+          <img class="group-hover:scale-110 object-cover object-center h-full w-full mx-auto transition-all duration-300" src="{{ url('image/web/example/example-3x2.jpg') }}" alt="fly high yoga Urban Athletes">
+        </span>
+        <div class="absolute top-0 bottom-0 left-0 right-0 px-4 bg-black opacity-0 group-hover:bg-opacity-50 group-hover:opacity-100 flex justify-center items-center transition-all duration-300">
+          <div>
+            <p class="pb-2">Maulana Achmat</p>
+            <p class="pb-2">Male, 36 Th</p>
+            <p class="text-white">Surabaya</p>
+            <div class="border-b border-yellow-primary w-32 h-2 py-2"></div>
+            <div class="mt-16">
+              <button id="card-btn">View Detail <span class="font-sans-serif">&#8811;</span></button>
+            </div>
+          </div>
+        </div>
+        <div class="hidden" id="detail">
+          <div id="description-ori">
+            <p class="text-yellow-primary">SUCCESS STORY</p>
+            <h2 class="font-FuturaBold text-xl mb-8">WHAT OUR CLIENT SAY</h2>
+            <h2 class="font-FuturaBold text-xl mb-8">OKE GANTI</h2>
+            <P class="text-center">“Awalnya saya berkeinginan untuk fitness adalah dari perasaan saya yang merasa mudah lelah. Padahal dari segi usia, seharusnya saya masih muda. Di sisi lain, pekerjaan saya lagi banyak-banyaknya. Jadi, saya membutuhkan solusi yang hemat waktu dan tenaga. Di saat itulah saya menemukan Urban Athletes dan saya merasa cukup beruntung saya menemukan Urban Athletes”</P>
+            <p class="text-center py-4"><span class="text-yellow-primary">Maulana</span> - Surabaya</p>
+          </div>
+        </div>
+      </div>
+      <div class="w-64 h-96 my-4 overflow-hidden relative group" id="card">
+        <span id="img-ori">
+          <img class="group-hover:scale-110 object-cover object-center h-full w-full mx-auto transition-all duration-300" src="{{ url('image/web/TRX.jpg') }}" alt="fly high yoga Urban Athletes">
         </span>
         <div class="absolute top-0 bottom-0 left-0 right-0 px-4 bg-black opacity-0 group-hover:bg-opacity-50 group-hover:opacity-100 flex justify-center items-center transition-all duration-300">
           <div>
