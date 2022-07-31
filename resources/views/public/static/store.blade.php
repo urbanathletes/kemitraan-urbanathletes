@@ -186,37 +186,37 @@
 
     <div class="container grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 font-FuturaBold text-xl text-center">
       <div class="relative group overflow-hidden">
-        <img class="object-cover object-center h-full w-full aspect-auto group-hover:scale-110 transition-all duration-300" src="{{ url('image/web/Online_class/Strech_Felxibility.jpg') }}" alt="Online Class Urban Athletes">
+        <img class="object-cover object-center h-full w-full aspect-auto group-hover:scale-110 transition-all duration-300" src="{{ url('image/web/Online_Class/Strech_Felxibility.jpg') }}" alt="Online Class Urban Athletes">
         <div class="absolute top-0 bottom-0 left-0 right-0 px-4 flex justify-center items-center group-hover:text-black transition-all duration-300">
           <p>STRETCH & FLEXIBILITY</p>
         </div>
       </div>
       <div class="relative group overflow-hidden">
-        <img class="object-cover object-center h-full w-full aspect-auto group-hover:scale-110 transition-all duration-300" src="{{ url('image/web/Online_class/HathaYoga.jpg') }}" alt="Online Class Urban Athletes">
+        <img class="object-cover object-center h-full w-full aspect-auto group-hover:scale-110 transition-all duration-300" src="{{ url('image/web/Online_Class/HathaYoga.jpg') }}" alt="Online Class Urban Athletes">
         <div class="absolute top-0 bottom-0 left-0 right-0 px-4 flex justify-center items-center group-hover:text-black transition-all duration-300">
           <p>HATHA YOGA</p>
         </div>
       </div>
       <div class="relative group overflow-hidden">
-        <img class="object-cover object-center h-full w-full aspect-auto group-hover:scale-110 transition-all duration-300" src="{{ url('image/web/Online_class/YogaWheel.jpg') }}" alt="Online Class Urban Athletes">
+        <img class="object-cover object-center h-full w-full aspect-auto group-hover:scale-110 transition-all duration-300" src="{{ url('image/web/Online_Class/YogaWheel.jpg') }}" alt="Online Class Urban Athletes">
         <div class="absolute top-0 bottom-0 left-0 right-0 px-4 flex justify-center items-center group-hover:text-black transition-all duration-300">
           <p>YOGA WHELL</p>
         </div>
       </div>
       <div class="relative group overflow-hidden">
-        <img class="object-cover object-center h-full w-full aspect-auto group-hover:scale-110 transition-all duration-300" src="{{ url('image/web/Online_class/YinyasaYoga.jpg') }}" alt="Online Class Urban Athletes">
+        <img class="object-cover object-center h-full w-full aspect-auto group-hover:scale-110 transition-all duration-300" src="{{ url('image/web/Online_Class/YinyasaYoga.jpg') }}" alt="Online Class Urban Athletes">
         <div class="absolute top-0 bottom-0 left-0 right-0 px-4 flex justify-center items-center group-hover:text-black transition-all duration-300">
           <p>YINYASA YOGA</p>
         </div>
       </div>
       <div class="relative group overflow-hidden">
-        <img class="object-cover object-center h-full w-full aspect-auto group-hover:scale-110 transition-all duration-300" src="{{ url('image/web/Online_class/MobilityFlow.jpg') }}" alt="Online Class Urban Athletes">
+        <img class="object-cover object-center h-full w-full aspect-auto group-hover:scale-110 transition-all duration-300" src="{{ url('image/web/Online_Class/MobilityFlow.jpg') }}" alt="Online Class Urban Athletes">
         <div class="absolute top-0 bottom-0 left-0 right-0 px-4 flex justify-center items-center group-hover:text-black transition-all duration-300">
           <p>MOBILITY FLOW</p>
         </div>
       </div>
       <div class="relative group overflow-hidden">
-        <img class="object-cover object-center h-full w-full aspect-auto group-hover:scale-110 transition-all duration-300" src="{{ url('image/web/Online_class/TrigerPointTheraphy.jpg') }}" alt="Online Class Urban Athletes">
+        <img class="object-cover object-center h-full w-full aspect-auto group-hover:scale-110 transition-all duration-300" src="{{ url('image/web/Online_Class/TrigerPointTheraphy.jpg') }}" alt="Online Class Urban Athletes">
         <div class="absolute top-0 bottom-0 left-0 right-0 px-4 flex justify-center items-center group-hover:text-black transition-all duration-300">
           <p>TRIGGER POINT THERAPHY</p>
         </div>
