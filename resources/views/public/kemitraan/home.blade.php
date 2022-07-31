@@ -144,7 +144,7 @@
     <div class="bg-[url('/image/franchise/Background_About_Us.jpg')] bg-cover bg-center text-white py-8">
       <div class="container">
         <h2 class="font-FuturaBold text-2xl border-l-4 border-yellow-primary px-4">
-          LEADING WITH 17 YEARS EXPERIENCE <br>
+          LEADING WITH 18 YEARS EXPERIENCE <br>
           IN PROFESSIONAL FITNESS INDUSTRY
         </h2>
         <div class="

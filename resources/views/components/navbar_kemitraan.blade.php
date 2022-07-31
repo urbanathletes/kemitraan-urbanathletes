@@ -92,7 +92,7 @@
                 lg:overflow-visible lg:uppercase
               " id="sub-menu">
                 <div class="flex justify-between items-center" id="klik">
-                  <span class="py-3 px-4 justify-between" id="klik">FRANCHISE</span>
+                  <span class="py-3 px-4 justify-between" id="klik">KEMITRAAN</span>
                   <p class="lg:hidden px-4" id="sub-menu-icon">+</p>
                 </div>
               </button>
@@ -109,13 +109,13 @@
                     <span id="text">URBAN ATHLETES</span>
                   </a>
                 </li>
-                <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-yellow-primary hover:bg-black group" 
+                {{-- <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-yellow-primary hover:bg-black group" 
                 menu-sub="{{ $subMenu ?? '' }}">
                   <a class="flex items-center" href="{{ url('franchise/valor') }}">
                     <img class="w-8 mr-2 invert-0 group-hover:invert" src="{{ url('image/web/logo/Valor_TM.png') }}" alt="Logo Urban Athletes"> 
                     VALOR
                   </a>
-                </li>
+                </li> --}}
                 <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-yellow-primary hover:bg-black group" 
                 menu-sub="{{ $subMenu ?? '' }}">
                   <a class="flex items-center" href="{{ url('franchise/fitness-works') }}">
