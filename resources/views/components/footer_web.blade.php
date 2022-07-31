@@ -51,7 +51,7 @@
               <div class="text-yellow-primary bg-black px-2 py-1 w-max rounded-full mr-8">
                 <i class="fa-solid fa-envelope"></i>
               </div>
-              <p>urbanathletes@gmail.com</p>
+              <p>Info@Urbanathletes.co.id</p>
             </div>
             <div class="flex items-center justify-start my-4">
               <div class="text-yellow-primary bg-black px-2 py-1 w-max rounded-full mr-8">
