@@ -127,7 +127,7 @@
             <li class="
               py-3 px-4 border-b-[1px] border-gray-600 hover:text-yellow-primary
               xl:px-4 lg:border-y-0 lg:border-t-0 lg:hover:border-b-2 lg:hover:border-white
-            " id="menu" data-menu="{{$menu ?? ''}}"><a href="#"><span>NEWS</span></a></li>
+            " id="menu" data-menu="{{$menu ?? ''}}"><a href="{{ url('news') }}"><span>NEWS</span></a></li>
             <li class="
               py-3 px-4 border-b-[1px] border-gray-600 hover:text-yellow-primary
               xl:px-4 lg:border-y-0 lg:border-t-0 lg:hover:border-b-2 lg:hover:border-white
