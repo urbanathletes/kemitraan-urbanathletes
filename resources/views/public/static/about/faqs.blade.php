@@ -4,9 +4,9 @@
     <div class="absolute top-0 bottom-0 left-0 right-0 flex flex-col justify-center items-center text-white bg-gradient-to-t from-black">
       <div class="absolute bottom-0 max-w-max text-center pb-8">
         <h2 class="text-2xl font-FuturaBold pb-2 lg:pb-4">FAQS</h2>
-        <P>
+        {{-- <P>
           HOME <span class="text-yellow-primary">|</span> FAQS
-        </P>
+        </P> --}}
       </div>
     </div>
   </div>

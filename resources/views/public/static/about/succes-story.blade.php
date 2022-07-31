@@ -4,9 +4,9 @@
     <div class="absolute top-0 bottom-0 left-0 right-0 flex flex-col justify-center items-center text-white bg-gradient-to-t from-black">
       <div class="absolute bottom-0 max-w-max text-center pb-8">
         <h2 class="text-2xl font-FuturaBold pb-2 lg:pb-4">SUCCES STORY</h2>
-        <P>
+        {{-- <P>
           HOME <span class="text-yellow-primary">|</span> SUCCES STORY
-        </P>
+        </P> --}}
       </div>
     </div>
   </div>
@@ -57,7 +57,6 @@
           <div id="description-ori">
             <p class="text-yellow-primary">SUCCESS STORY</p>
             <h2 class="font-FuturaBold text-xl mb-8">WHAT OUR CLIENT SAY</h2>
-            <h2 class="font-FuturaBold text-xl mb-8">OKE GANTI</h2>
             <P class="text-center">“Awalnya saya berkeinginan untuk fitness adalah dari perasaan saya yang merasa mudah lelah. Padahal dari segi usia, seharusnya saya masih muda. Di sisi lain, pekerjaan saya lagi banyak-banyaknya. Jadi, saya membutuhkan solusi yang hemat waktu dan tenaga. Di saat itulah saya menemukan Urban Athletes dan saya merasa cukup beruntung saya menemukan Urban Athletes”</P>
             <p class="text-center py-4"><span class="text-yellow-primary">Maulana</span> - Surabaya</p>
           </div>
@@ -82,7 +81,6 @@
           <div id="description-ori">
             <p class="text-yellow-primary">SUCCESS STORY</p>
             <h2 class="font-FuturaBold text-xl mb-8">WHAT OUR CLIENT SAY</h2>
-            <h2 class="font-FuturaBold text-xl mb-8">OKE GANTI</h2>
             <P class="text-center">“Awalnya saya berkeinginan untuk fitness adalah dari perasaan saya yang merasa mudah lelah. Padahal dari segi usia, seharusnya saya masih muda. Di sisi lain, pekerjaan saya lagi banyak-banyaknya. Jadi, saya membutuhkan solusi yang hemat waktu dan tenaga. Di saat itulah saya menemukan Urban Athletes dan saya merasa cukup beruntung saya menemukan Urban Athletes”</P>
             <p class="text-center py-4"><span class="text-yellow-primary">Maulana</span> - Surabaya</p>
           </div>
@@ -107,7 +105,6 @@
           <div id="description-ori">
             <p class="text-yellow-primary">SUCCESS STORY</p>
             <h2 class="font-FuturaBold text-xl mb-8">WHAT OUR CLIENT SAY</h2>
-            <h2 class="font-FuturaBold text-xl mb-8">OKE GANTI</h2>
             <P class="text-center">“Awalnya saya berkeinginan untuk fitness adalah dari perasaan saya yang merasa mudah lelah. Padahal dari segi usia, seharusnya saya masih muda. Di sisi lain, pekerjaan saya lagi banyak-banyaknya. Jadi, saya membutuhkan solusi yang hemat waktu dan tenaga. Di saat itulah saya menemukan Urban Athletes dan saya merasa cukup beruntung saya menemukan Urban Athletes”</P>
             <p class="text-center py-4"><span class="text-yellow-primary">Maulana</span> - Surabaya</p>
           </div>
@@ -132,7 +129,6 @@
           <div id="description-ori">
             <p class="text-yellow-primary">SUCCESS STORY</p>
             <h2 class="font-FuturaBold text-xl mb-8">WHAT OUR CLIENT SAY</h2>
-            <h2 class="font-FuturaBold text-xl mb-8">OKE GANTI</h2>
             <P class="text-center">“Awalnya saya berkeinginan untuk fitness adalah dari perasaan saya yang merasa mudah lelah. Padahal dari segi usia, seharusnya saya masih muda. Di sisi lain, pekerjaan saya lagi banyak-banyaknya. Jadi, saya membutuhkan solusi yang hemat waktu dan tenaga. Di saat itulah saya menemukan Urban Athletes dan saya merasa cukup beruntung saya menemukan Urban Athletes”</P>
             <p class="text-center py-4"><span class="text-yellow-primary">Maulana</span> - Surabaya</p>
           </div>
@@ -157,7 +153,6 @@
           <div id="description-ori">
             <p class="text-yellow-primary">SUCCESS STORY</p>
             <h2 class="font-FuturaBold text-xl mb-8">WHAT OUR CLIENT SAY</h2>
-            <h2 class="font-FuturaBold text-xl mb-8">OKE GANTI</h2>
             <P class="text-center">“Awalnya saya berkeinginan untuk fitness adalah dari perasaan saya yang merasa mudah lelah. Padahal dari segi usia, seharusnya saya masih muda. Di sisi lain, pekerjaan saya lagi banyak-banyaknya. Jadi, saya membutuhkan solusi yang hemat waktu dan tenaga. Di saat itulah saya menemukan Urban Athletes dan saya merasa cukup beruntung saya menemukan Urban Athletes”</P>
             <p class="text-center py-4"><span class="text-yellow-primary">Maulana</span> - Surabaya</p>
           </div>
@@ -182,7 +177,6 @@
           <div id="description-ori">
             <p class="text-yellow-primary">SUCCESS STORY</p>
             <h2 class="font-FuturaBold text-xl mb-8">WHAT OUR CLIENT SAY</h2>
-            <h2 class="font-FuturaBold text-xl mb-8">OKE GANTI</h2>
             <P class="text-center">“Awalnya saya berkeinginan untuk fitness adalah dari perasaan saya yang merasa mudah lelah. Padahal dari segi usia, seharusnya saya masih muda. Di sisi lain, pekerjaan saya lagi banyak-banyaknya. Jadi, saya membutuhkan solusi yang hemat waktu dan tenaga. Di saat itulah saya menemukan Urban Athletes dan saya merasa cukup beruntung saya menemukan Urban Athletes”</P>
             <p class="text-center py-4"><span class="text-yellow-primary">Maulana</span> - Surabaya</p>
           </div>
@@ -207,7 +201,6 @@
           <div id="description-ori">
             <p class="text-yellow-primary">SUCCESS STORY</p>
             <h2 class="font-FuturaBold text-xl mb-8">WHAT OUR CLIENT SAY</h2>
-            <h2 class="font-FuturaBold text-xl mb-8">OKE GANTI</h2>
             <P class="text-center">“Awalnya saya berkeinginan untuk fitness adalah dari perasaan saya yang merasa mudah lelah. Padahal dari segi usia, seharusnya saya masih muda. Di sisi lain, pekerjaan saya lagi banyak-banyaknya. Jadi, saya membutuhkan solusi yang hemat waktu dan tenaga. Di saat itulah saya menemukan Urban Athletes dan saya merasa cukup beruntung saya menemukan Urban Athletes”</P>
             <p class="text-center py-4"><span class="text-yellow-primary">Maulana</span> - Surabaya</p>
           </div>
@@ -232,7 +225,6 @@
           <div id="description-ori">
             <p class="text-yellow-primary">SUCCESS STORY</p>
             <h2 class="font-FuturaBold text-xl mb-8">WHAT OUR CLIENT SAY</h2>
-            <h2 class="font-FuturaBold text-xl mb-8">OKE GANTI</h2>
             <P class="text-center">“Awalnya saya berkeinginan untuk fitness adalah dari perasaan saya yang merasa mudah lelah. Padahal dari segi usia, seharusnya saya masih muda. Di sisi lain, pekerjaan saya lagi banyak-banyaknya. Jadi, saya membutuhkan solusi yang hemat waktu dan tenaga. Di saat itulah saya menemukan Urban Athletes dan saya merasa cukup beruntung saya menemukan Urban Athletes”</P>
             <p class="text-center py-4"><span class="text-yellow-primary">Maulana</span> - Surabaya</p>
           </div>

@@ -233,9 +233,9 @@
         </div>
         <div class="px-4 pt-6 bg-neutral-100 shadow-xl">
           <div class="min-h-[64px] flex items-center">
-            <img class="w-16" src="{{ url('image/web/logo/urbanfit.png') }}" alt="Mitra Urban Athletes">
+            <img class="w-16" src="{{ url('image/web/logo/URBAN-LOGO_JR_HIRES.png') }}" alt="Mitra Urban Athletes">
           </div>
-          <h3 class="font-FuturaBold my-2">URBANFIT</h3>
+          <h3 class="font-FuturaBold my-2">URBAN ATHLETES JUNIOR</h3>
           <p class="text-sm">Urban Athletes adalah tempat bagi mereka yang berinspirasi untuk hidup sehat dengan metode yang tepat dan fun. Kita percaya olahraga bukan hanya sekedar gaya hidup. Tapi adalah sarana untuk menjadi pribadi yang lebih baik. Membawa Dampak dan membangun manusia menjadi versi terbaiknya.</p>
           <div class="text-center my-6 font-PoppinsSemiBold">
             <a class="py-2 px-6 border border-neutral-800 hover:bg-yellow-primary transition-all duration-300" href="#">MORE</a>
