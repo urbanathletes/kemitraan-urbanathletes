@@ -42,7 +42,7 @@
           Dengan wawasan dan jaringan yang luas, membuat Verawaty disegani di dunia fitness Indonesia. Hal ini menjadikannya sebagai penggagas utama dan salah satu pendiri Perkumpulan Pengusaha Kebugaran Indonesia (PPKI) bersama dengan brand fitness besar lainnya di Indonesia.
         </p>
         <h2 class="font-FuturaBold tracking-normal text-2xl border-l-4 border-yellow-primary px-4 my-4">
-          SERTIFICATION
+          CERTIFICATION
         </h2>
         <div class="mx-4 lg:flex lg:justify-around lg:space-x-8 xl:space-x-0">
           <div>
