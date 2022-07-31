@@ -164,8 +164,8 @@
       <div class="flex justify-center min-w-full md:min-w-full xl:min-w-max">
         <div class="flex flex-col md:justify-center md:flex-row md:max-w-3xl lg:max-w-4xl">
           <div class="flex justify-center md:justify-end md:min-w-max">
-            <div class="min-w-max relative bg-blue-800">
-              <img class="h-96" src="{{ url('image/web/home/Image-Poster-1.png') }}" alt="Poster Urban Athletes">
+            <div class="min-w-max relative">
+              <img class="h-96" src="{{ url('image/web/succes-story/foto-1.jpg') }}" alt="Poster Urban Athletes">
               <div class="absolute top-0 -right-8 bottom-0 flex items-center">
                 <img class="bg-neutral-800 p-2 w-16" src="{{ url('image/web/home/Mask-Group_21.svg') }}" alt="Success story Urban Athletes">
               </div>
@@ -182,8 +182,8 @@
       <div class="flex justify-center min-w-full md:min-w-full xl:min-w-max md:pl-56 xl:p-0 ">
         <div class="flex flex-col md:justify-center md:flex-row md:max-w-3xl lg:max-w-4xl">
           <div class="flex justify-center md:justify-end md:min-w-max">
-            <div class="min-w-max relative bg-blue-800">
-              <img class="h-96" src="{{ url('image/web/home/Image-Poster-1.png') }}" alt="Poster Urban Athletes">
+            <div class="min-w-max relative">
+              <img class="h-96" src="{{ url('image/web/succes-story/foto-3.jpg') }}" alt="Poster Urban Athletes">
               <div class="absolute top-0 -right-8 bottom-0 flex items-center">
                 <img class="bg-neutral-800 p-2 w-16" src="{{ url('image/web/home/Mask-Group_21.svg') }}" alt="Success story Urban Athletes">
               </div>
