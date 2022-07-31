@@ -5,9 +5,9 @@
       <div class="absolute top-0 bottom-0 left-0 right-0 flex flex-col justify-center items-center bg-gradient-to-t from-black">
         <div class="absolute bottom-0 max-w-max text-center pb-8">
           <h2 class="text-2xl font-FuturaBold pb-2 lg:pb-4">ABOUT US</h2>
-          <P>
+          {{-- <P>
             HOME <span class="text-yellow-primary">|</span> ABOUT US
-          </P>
+          </P> --}}
         </div>
       </div>
     </div>
@@ -64,7 +64,7 @@
         </div>
         <div class="text-center my-4">
           <h2 class="text-6xl text-yellow-primary font-FuturaBold pb-2">500+</h2>
-          <p>Heppy Clients</p>
+          <p>Happy Clients</p>
         </div>
       </div>
     </div>

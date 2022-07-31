@@ -1,7 +1,7 @@
 <div class="bg-neutral-150 text-sm">
   <div class="container py-8 overflow-hidden">
     <div class="px-6">
-      <h2 class="font-FuturaBold text-3xl mb-4">BUILD YOU OWN GYM</h2>
+      <h2 class="font-FuturaBold text-3xl mb-4">START YOU OWN GYM</h2>
       <p class="text-neutral-700 mb-4">
         URBAN ATHLETES memiliki pertumbuhan yang cepat dan berbasis digital. Dengan model bisnis yang tepat dan konsep yang kuat, URBAN ATHLETES dan mitra dapat bergerak bersama untuk memberikan akses kesehatan dan kebugaran bagi semua orang. Mari lakukan bersama!
       </p>

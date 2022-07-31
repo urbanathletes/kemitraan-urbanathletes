@@ -3,10 +3,10 @@
     <img class="object-cover object-center mx-auto" src="{{ url('image/web/home/Exclusive_Bodycombat.jpg') }}" alt="Body Combat Urban Athletes">
     <div class="absolute top-0 bottom-0 left-0 right-0 flex flex-col justify-center items-center text-center text-white bg-black bg-opacity-60">
       <h2 class="text-4xl font-FuturaBold py-4">WORKOUT</h2>
-      <P>
+      {{-- <P>
         WEIGHT LOSS <span class="text-yellow-primary">|</span> FLEXIBILITY <span class="text-yellow-primary">|</span> TONE MUSCLE <span class="text-yellow-primary">|</span> ENDURANCE <span class="text-yellow-primary">|</span> <BR>
         STRENGTH <span class="text-yellow-primary">|</span> KIDS GYM
-      </P>
+      </P> --}}
     </div>
   </div>
 
@@ -22,7 +22,7 @@
           Urban Athletes adalah tempat bagi mereka yang berinspirasi untuk hidup sehat dengan metode yang tepat dan fun. Kita percaya olahraga bukan hanya sekedar gaya hidup. Tapi adalah sarana untuk menjadi pribadi yang lebih baik. Membawa Dampak dan membangun manusia menjadi versi terbaiknya.
         </p>
         <div class="py-2 space-x-2 text-sm sm:text-base">
-          <a class="py-2 px-4 font-PoppinsSemiBold border border-black hover:bg-yellow-primary hover:border-yellow-primary transition-all duration-300" href="#">BOOK NOW</a>
+          <a class="py-2 px-4 font-PoppinsSemiBold border border-black hover:bg-yellow-primary hover:border-yellow-primary transition-all duration-300" href="{{ url('store') }}">BOOK NOW</a>
           <a class="py-2 px-4 font-PoppinsSemiBold border border-black hover:bg-yellow-primary hover:border-yellow-primary transition-all duration-300" href="#">LEARN MORE</a>
         </div>
       </div>
@@ -45,7 +45,7 @@
           Urban Athletes adalah tempat bagi mereka yang berinspirasi untuk hidup sehat dengan metode yang tepat dan fun. Kita percaya olahraga bukan hanya sekedar gaya hidup. Tapi adalah sarana untuk menjadi pribadi yang lebih baik. Membawa Dampak dan membangun manusia menjadi versi terbaiknya.
         </p>
         <div class="py-2 space-x-2 text-sm sm:text-base">
-          <a class="py-2 px-4 font-PoppinsSemiBold border border-black hover:bg-yellow-primary hover:border-yellow-primary transition-all duration-300" href="#">BOOK NOW</a>
+          <a class="py-2 px-4 font-PoppinsSemiBold border border-black hover:bg-yellow-primary hover:border-yellow-primary transition-all duration-300" href="{{ url('store') }}">BOOK NOW</a>
           <a class="py-2 px-4 font-PoppinsSemiBold border border-black hover:bg-yellow-primary hover:border-yellow-primary transition-all duration-300" href="#">LEARN MORE</a>
         </div>
       </div>
@@ -69,7 +69,7 @@
           Urban Athletes adalah tempat bagi mereka yang berinspirasi untuk hidup sehat dengan metode yang tepat dan fun. Kita percaya olahraga bukan hanya sekedar gaya hidup. Tapi adalah sarana untuk menjadi pribadi yang lebih baik. Membawa Dampak dan membangun manusia menjadi versi terbaiknya.
         </p>
         <div class="py-2 space-x-2 text-sm sm:text-base">
-          <a class="py-2 px-4 font-PoppinsSemiBold border border-black hover:bg-yellow-primary hover:border-yellow-primary transition-all duration-300" href="#">BOOK NOW</a>
+          <a class="py-2 px-4 font-PoppinsSemiBold border border-black hover:bg-yellow-primary hover:border-yellow-primary transition-all duration-300" href="{{ url('store') }}">BOOK NOW</a>
           <a class="py-2 px-4 font-PoppinsSemiBold border border-black hover:bg-yellow-primary hover:border-yellow-primary transition-all duration-300" href="#">LEARN MORE</a>
         </div>
       </div>
@@ -92,7 +92,7 @@
           Urban Athletes adalah tempat bagi mereka yang berinspirasi untuk hidup sehat dengan metode yang tepat dan fun. Kita percaya olahraga bukan hanya sekedar gaya hidup. Tapi adalah sarana untuk menjadi pribadi yang lebih baik. Membawa Dampak dan membangun manusia menjadi versi terbaiknya.
         </p>
         <div class="py-2 space-x-2 text-sm sm:text-base">
-          <a class="py-2 px-4 font-PoppinsSemiBold border border-black hover:bg-yellow-primary hover:border-yellow-primary transition-all duration-300" href="#">BOOK NOW</a>
+          <a class="py-2 px-4 font-PoppinsSemiBold border border-black hover:bg-yellow-primary hover:border-yellow-primary transition-all duration-300" href="{{ url('store') }}">BOOK NOW</a>
           <a class="py-2 px-4 font-PoppinsSemiBold border border-black hover:bg-yellow-primary hover:border-yellow-primary transition-all duration-300" href="#">LEARN MORE</a>
         </div>
       </div>
@@ -116,7 +116,7 @@
           Urban Athletes adalah tempat bagi mereka yang berinspirasi untuk hidup sehat dengan metode yang tepat dan fun. Kita percaya olahraga bukan hanya sekedar gaya hidup. Tapi adalah sarana untuk menjadi pribadi yang lebih baik. Membawa Dampak dan membangun manusia menjadi versi terbaiknya.
         </p>
         <div class="py-2 space-x-2 text-sm sm:text-base">
-          <a class="py-2 px-4 font-PoppinsSemiBold border border-black hover:bg-yellow-primary hover:border-yellow-primary transition-all duration-300" href="#">BOOK NOW</a>
+          <a class="py-2 px-4 font-PoppinsSemiBold border border-black hover:bg-yellow-primary hover:border-yellow-primary transition-all duration-300" href="{{ url('store') }}">BOOK NOW</a>
           <a class="py-2 px-4 font-PoppinsSemiBold border border-black hover:bg-yellow-primary hover:border-yellow-primary transition-all duration-300" href="#">LEARN MORE</a>
         </div>
       </div>
@@ -139,7 +139,7 @@
           Urban Athletes adalah tempat bagi mereka yang berinspirasi untuk hidup sehat dengan metode yang tepat dan fun. Kita percaya olahraga bukan hanya sekedar gaya hidup. Tapi adalah sarana untuk menjadi pribadi yang lebih baik. Membawa Dampak dan membangun manusia menjadi versi terbaiknya.
         </p>
         <div class="py-2 space-x-2 text-sm sm:text-base">
-          <a class="py-2 px-4 font-PoppinsSemiBold border border-black hover:bg-yellow-primary hover:border-yellow-primary transition-all duration-300" href="#">BOOK NOW</a>
+          <a class="py-2 px-4 font-PoppinsSemiBold border border-black hover:bg-yellow-primary hover:border-yellow-primary transition-all duration-300" href="{{ url('store') }}">BOOK NOW</a>
           <a class="py-2 px-4 font-PoppinsSemiBold border border-black hover:bg-yellow-primary hover:border-yellow-primary transition-all duration-300" href="#">LEARN MORE</a>
         </div>
       </div>
