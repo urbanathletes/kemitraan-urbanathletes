@@ -23,7 +23,7 @@
         </p>
         <div class="py-2 space-x-2 text-sm sm:text-base">
           <a class="py-2 px-4 font-PoppinsSemiBold border border-black hover:bg-yellow-primary hover:border-yellow-primary transition-all duration-300" href="{{ url('store') }}">BOOK NOW</a>
-          <a class="py-2 px-4 font-PoppinsSemiBold border border-black hover:bg-yellow-primary hover:border-yellow-primary transition-all duration-300" href="#">LEARN MORE</a>
+          {{-- <a class="py-2 px-4 font-PoppinsSemiBold border border-black hover:bg-yellow-primary hover:border-yellow-primary transition-all duration-300" href="#">LEARN MORE</a> --}}
         </div>
       </div>
       <div class="grid grid-cols-2 gap-4 container lg:mx-0 py-6 lg:max-w-xl">
@@ -46,7 +46,7 @@
         </p>
         <div class="py-2 space-x-2 text-sm sm:text-base">
           <a class="py-2 px-4 font-PoppinsSemiBold border border-black hover:bg-yellow-primary hover:border-yellow-primary transition-all duration-300" href="{{ url('store') }}">BOOK NOW</a>
-          <a class="py-2 px-4 font-PoppinsSemiBold border border-black hover:bg-yellow-primary hover:border-yellow-primary transition-all duration-300" href="#">LEARN MORE</a>
+          {{-- <a class="py-2 px-4 font-PoppinsSemiBold border border-black hover:bg-yellow-primary hover:border-yellow-primary transition-all duration-300" href="#">LEARN MORE</a> --}}
         </div>
       </div>
       <div class="grid grid-cols-2 gap-4 container lg:mx-0 py-6 lg:max-w-xl">
@@ -70,7 +70,7 @@
         </p>
         <div class="py-2 space-x-2 text-sm sm:text-base">
           <a class="py-2 px-4 font-PoppinsSemiBold border border-black hover:bg-yellow-primary hover:border-yellow-primary transition-all duration-300" href="{{ url('store') }}">BOOK NOW</a>
-          <a class="py-2 px-4 font-PoppinsSemiBold border border-black hover:bg-yellow-primary hover:border-yellow-primary transition-all duration-300" href="#">LEARN MORE</a>
+          {{-- <a class="py-2 px-4 font-PoppinsSemiBold border border-black hover:bg-yellow-primary hover:border-yellow-primary transition-all duration-300" href="#">LEARN MORE</a> --}}
         </div>
       </div>
       <div class="grid grid-cols-2 gap-4 container lg:mx-0 py-6 lg:max-w-xl">
@@ -93,7 +93,7 @@
         </p>
         <div class="py-2 space-x-2 text-sm sm:text-base">
           <a class="py-2 px-4 font-PoppinsSemiBold border border-black hover:bg-yellow-primary hover:border-yellow-primary transition-all duration-300" href="{{ url('store') }}">BOOK NOW</a>
-          <a class="py-2 px-4 font-PoppinsSemiBold border border-black hover:bg-yellow-primary hover:border-yellow-primary transition-all duration-300" href="#">LEARN MORE</a>
+          {{-- <a class="py-2 px-4 font-PoppinsSemiBold border border-black hover:bg-yellow-primary hover:border-yellow-primary transition-all duration-300" href="#">LEARN MORE</a> --}}
         </div>
       </div>
       <div class="grid grid-cols-2 gap-4 container lg:mx-0 py-6 lg:max-w-xl">
@@ -117,7 +117,7 @@
         </p>
         <div class="py-2 space-x-2 text-sm sm:text-base">
           <a class="py-2 px-4 font-PoppinsSemiBold border border-black hover:bg-yellow-primary hover:border-yellow-primary transition-all duration-300" href="{{ url('store') }}">BOOK NOW</a>
-          <a class="py-2 px-4 font-PoppinsSemiBold border border-black hover:bg-yellow-primary hover:border-yellow-primary transition-all duration-300" href="#">LEARN MORE</a>
+          {{-- <a class="py-2 px-4 font-PoppinsSemiBold border border-black hover:bg-yellow-primary hover:border-yellow-primary transition-all duration-300" href="#">LEARN MORE</a> --}}
         </div>
       </div>
       <div class="grid grid-cols-2 gap-4 container lg:mx-0 py-6 lg:max-w-xl">
@@ -140,7 +140,7 @@
         </p>
         <div class="py-2 space-x-2 text-sm sm:text-base">
           <a class="py-2 px-4 font-PoppinsSemiBold border border-black hover:bg-yellow-primary hover:border-yellow-primary transition-all duration-300" href="{{ url('store') }}">BOOK NOW</a>
-          <a class="py-2 px-4 font-PoppinsSemiBold border border-black hover:bg-yellow-primary hover:border-yellow-primary transition-all duration-300" href="#">LEARN MORE</a>
+          {{-- <a class="py-2 px-4 font-PoppinsSemiBold border border-black hover:bg-yellow-primary hover:border-yellow-primary transition-all duration-300" href="#">LEARN MORE</a> --}}
         </div>
       </div>
       <div class="grid grid-cols-2 gap-4 container lg:mx-0 py-6 lg:max-w-xl">
