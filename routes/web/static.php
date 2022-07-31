@@ -11,6 +11,15 @@ Route::get('trainer', function () { return view("public/static/trainer");});
 Route::get('timetable', function () { return view("public/static/timetable");});
 Route::get('store', function () { return view("public/static/store");});
 Route::get('merchandise', function () { return view("public/static/merchandise");});
+Route::prefix('news')->group(function () {
+  Route::get('', function () { return view("public/static/news/index");});
+  Route::get('news1', function () { return view("public/static/news/news1");});
+  Route::get('news2', function () { return view("public/static/news/news2");});
+  Route::get('news3', function () { return view("public/static/news/news3");});
+  Route::get('news4', function () { return view("public/static/news/news4");});
+  Route::get('news5', function () { return view("public/static/news/news5");});
+  Route::get('news6', function () { return view("public/static/news/news6");});
+});
 Route::prefix('about')->group(function(){
   Route::get('/about-us', function () { return view("public/static/about/about-us");});
   Route::get('/terms-conditions', function () { return view("public/static/about/terms-conditions");});
