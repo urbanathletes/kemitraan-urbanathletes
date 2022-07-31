@@ -1,4 +1,4 @@
-<nav class="absolute w-full z-50 lg:overflow-visible" id="navbar">
+<nav class="absolute w-full z-50 lg:overflow-visible overflow-hidden" id="navbar">
   <div class="relative bg-black w-full">
     <div class="font-PoppinsSemiBold 
       flex justify-end

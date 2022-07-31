@@ -1,7 +1,7 @@
 <x-main_web menu="STORE">
   <div class="text-white pb-8 overflow-hidden">
     <div class="flex justify-center max-h-[30vh] lg:max-h-[40vh] relative">
-      <img class="object-cover object-center w-full mx-auto" src="{{ url('image/web/Header_Store.jpg') }}" alt="Store Urban Athletes">
+      <img class="object-cover object-center w-full mx-auto" src="{{ url('image/web/bg_page/BGHeaderStore.jpg') }}" alt="Store Urban Athletes">
       <div class="absolute top-0 bottom-0 left-0 right-0 flex flex-col justify-center items-center bg-gradient-to-t from-black">
         <div class="absolute bottom-0 max-w-max text-center pb-6">
           <h2 class="text-2xl font-FuturaBold pb-2 lg:pb-4">STORE</h2>
@@ -248,7 +248,7 @@
           Deskripsi singkat keunggulan Product
         </p>
         <div class="mt-6 pt-8">
-          <a class="border border-white py-2 px-6" href="#">VIEW MORE</a>
+          <a class="border border-white py-2 px-6 font-black hover:bg-yellow-primary hover:text-black transition-all duration-300" href="{{ url('merchandise') }}">VIEW MORE</a>
         </div>
       </div>
       <div class="my-4 flex flex-nowrap overflow-visible overflow-x-auto no-scrollbar">
@@ -380,17 +380,6 @@
             </div>
           </div>
         </div>
-
-        {{-- <div class="bg-black text-white sm:ml-8 p-8 mx-4 sm:mx-0">
-          <h2 class="bg-yellow-primary max-w-max text-2xl text-black font-FuturaBold px-2">GYM BAG</h2>
-          <h2 class="max-w-max text-2xl font-FuturaBold">PRODUCT</h2>
-          <p class="my-6">
-            Deskripsi singkat keunggulan Product
-          </p>
-          <div class="mt-6 pt-8">
-            <a class="border border-white py-2 px-6" href="#">VIEW MORE</a>
-          </div>
-        </div> --}}
       </div>
     </div>
 
@@ -402,7 +391,7 @@
           Deskripsi singkat keunggulan Product
         </p>
         <div class="mt-6 pt-8">
-          <a class="border border-white py-2 px-6" href="#">VIEW MORE</a>
+          <a class="border border-white py-2 px-6 font-black hover:bg-yellow-primary hover:text-black transition-all duration-300" href="{{ url('merchandise') }}">VIEW MORE</a>
         </div>
       </div>
       <div class="my-4 flex flex-nowrap overflow-visible overflow-x-auto no-scrollbar">
@@ -534,17 +523,6 @@
             </div>
           </div>
         </div>
-
-        {{-- <div class="bg-black text-white sm:ml-8 p-8 mx-4 sm:mx-0">
-          <h2 class="bg-yellow-primary max-w-max text-2xl text-black font-FuturaBold px-2">GYM BAG</h2>
-          <h2 class="max-w-max text-2xl font-FuturaBold">PRODUCT</h2>
-          <p class="my-6">
-            Deskripsi singkat keunggulan Product
-          </p>
-          <div class="mt-6 pt-8">
-            <a class="border border-white py-2 px-6" href="#">VIEW MORE</a>
-          </div>
-        </div> --}}
       </div>
     </div>
 
@@ -556,7 +534,7 @@
           Deskripsi singkat keunggulan Product
         </p>
         <div class="mt-6 pt-8">
-          <a class="border border-white py-2 px-6" href="#">VIEW MORE</a>
+          <a class="border border-white py-2 px-6 font-black hover:bg-yellow-primary hover:text-black transition-all duration-300" href="{{ url('merchandise') }}">VIEW MORE</a>
         </div>
       </div>
       <div class="my-4 flex flex-nowrap overflow-visible overflow-x-auto no-scrollbar">

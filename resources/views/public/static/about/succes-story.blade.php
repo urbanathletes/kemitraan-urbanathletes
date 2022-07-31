@@ -1,6 +1,6 @@
 <x-main_web menu='ABOUT US' subMenu="SUCCES STORY">
   <div class="flex justify-center max-h-[30vh] lg:max-h-[40vh] relative">
-    <img class="object-cover object-top w-full mx-auto lg:-mt-20" src="{{ url('image/web/about/UA-Banner_Global.jpg') }}" alt="About Us Urban Athletes">
+    <img class="object-cover object-top w-full mx-auto lg:-mt-20" src="{{ url('image/web/bg_page/BGHeaderSuccesStory.jpg') }}" alt="About Us Urban Athletes">
     <div class="absolute top-0 bottom-0 left-0 right-0 flex flex-col justify-center items-center text-white bg-gradient-to-t from-black">
       <div class="absolute bottom-0 max-w-max text-center pb-8">
         <h2 class="text-2xl font-FuturaBold pb-2 lg:pb-4">SUCCES STORY</h2>
@@ -40,7 +40,7 @@
     <div class="py-8 flex flex-wrap justify-around text-center font-Futura text-yellow-primary">
       <div class="w-64 h-96 my-4 overflow-hidden relative group" id="card">
         <span id="img-ori">
-          <img class="group-hover:scale-110 object-cover object-center h-full w-full mx-auto transition-all duration-300" src="{{ url('image/web/Strength2.jpg') }}" alt="fly high yoga Urban Athletes">
+          <img class="group-hover:scale-110 object-cover object-center h-full w-full mx-auto transition-all duration-300" src="{{ url('image/web/succes-story/foto-1.jpg') }}" alt="fly high yoga Urban Athletes">
         </span>
         <div class="absolute top-0 bottom-0 left-0 right-0 px-4 bg-black opacity-0 group-hover:bg-opacity-50 group-hover:opacity-100 flex justify-center items-center transition-all duration-300">
           <div>
@@ -64,7 +64,7 @@
       </div>
       <div class="w-64 h-96 my-4 overflow-hidden relative group" id="card">
         <span id="img-ori">
-          <img class="group-hover:scale-110 object-cover object-center h-full w-full mx-auto transition-all duration-300" src="{{ url('image/web/example/example-3x2.jpg') }}" alt="fly high yoga Urban Athletes">
+          <img class="group-hover:scale-110 object-cover object-center h-full w-full mx-auto transition-all duration-300" src="{{ url('image/web/succes-story/foto-2.jpg') }}" alt="fly high yoga Urban Athletes">
         </span>
         <div class="absolute top-0 bottom-0 left-0 right-0 px-4 bg-black opacity-0 group-hover:bg-opacity-50 group-hover:opacity-100 flex justify-center items-center transition-all duration-300">
           <div>
@@ -88,7 +88,7 @@
       </div>
       <div class="w-64 h-96 my-4 overflow-hidden relative group" id="card">
         <span id="img-ori">
-          <img class="group-hover:scale-110 object-cover object-center h-full w-full mx-auto transition-all duration-300" src="{{ url('image/web/TRX.jpg') }}" alt="fly high yoga Urban Athletes">
+          <img class="group-hover:scale-110 object-cover object-center h-full w-full mx-auto transition-all duration-300" src="{{ url('image/web/succes-story/foto-3.jpg') }}" alt="fly high yoga Urban Athletes">
         </span>
         <div class="absolute top-0 bottom-0 left-0 right-0 px-4 bg-black opacity-0 group-hover:bg-opacity-50 group-hover:opacity-100 flex justify-center items-center transition-all duration-300">
           <div>
@@ -112,7 +112,7 @@
       </div>
       <div class="w-64 h-96 my-4 overflow-hidden relative group" id="card">
         <span id="img-ori">
-          <img class="group-hover:scale-110 object-cover object-center h-full w-full mx-auto transition-all duration-300" src="{{ url('image/web/example/example-3x2.jpg') }}" alt="fly high yoga Urban Athletes">
+          <img class="group-hover:scale-110 object-cover object-center h-full w-full mx-auto transition-all duration-300" src="{{ url('image/web/succes-story/foto-4.jpg') }}" alt="fly high yoga Urban Athletes">
         </span>
         <div class="absolute top-0 bottom-0 left-0 right-0 px-4 bg-black opacity-0 group-hover:bg-opacity-50 group-hover:opacity-100 flex justify-center items-center transition-all duration-300">
           <div>
@@ -136,7 +136,7 @@
       </div>
       <div class="w-64 h-96 my-4 overflow-hidden relative group" id="card">
         <span id="img-ori">
-          <img class="group-hover:scale-110 object-cover object-center h-full w-full mx-auto transition-all duration-300" src="{{ url('image/web/example/example-2x3.jpg') }}" alt="fly high yoga Urban Athletes">
+          <img class="group-hover:scale-110 object-cover object-center h-full w-full mx-auto transition-all duration-300" src="{{ url('image/web/succes-story/foto-3.jpg') }}" alt="fly high yoga Urban Athletes">
         </span>
         <div class="absolute top-0 bottom-0 left-0 right-0 px-4 bg-black opacity-0 group-hover:bg-opacity-50 group-hover:opacity-100 flex justify-center items-center transition-all duration-300">
           <div>
@@ -160,7 +160,7 @@
       </div>
       <div class="w-64 h-96 my-4 overflow-hidden relative group" id="card">
         <span id="img-ori">
-          <img class="group-hover:scale-110 object-cover object-center h-full w-full mx-auto transition-all duration-300" src="{{ url('image/web/example/example-3x2.jpg') }}" alt="fly high yoga Urban Athletes">
+          <img class="group-hover:scale-110 object-cover object-center h-full w-full mx-auto transition-all duration-300" src="{{ url('image/web/succes-story/foto-4.jpg') }}" alt="fly high yoga Urban Athletes">
         </span>
         <div class="absolute top-0 bottom-0 left-0 right-0 px-4 bg-black opacity-0 group-hover:bg-opacity-50 group-hover:opacity-100 flex justify-center items-center transition-all duration-300">
           <div>
@@ -184,7 +184,7 @@
       </div>
       <div class="w-64 h-96 my-4 overflow-hidden relative group" id="card">
         <span id="img-ori">
-          <img class="group-hover:scale-110 object-cover object-center h-full w-full mx-auto transition-all duration-300" src="{{ url('image/web/example/example-2x3.jpg') }}" alt="fly high yoga Urban Athletes">
+          <img class="group-hover:scale-110 object-cover object-center h-full w-full mx-auto transition-all duration-300" src="{{ url('image/web/succes-story/foto-2.jpg') }}" alt="fly high yoga Urban Athletes">
         </span>
         <div class="absolute top-0 bottom-0 left-0 right-0 px-4 bg-black opacity-0 group-hover:bg-opacity-50 group-hover:opacity-100 flex justify-center items-center transition-all duration-300">
           <div>
@@ -208,7 +208,7 @@
       </div>
       <div class="w-64 h-96 my-4 overflow-hidden relative group" id="card">
         <span id="img-ori">
-          <img class="group-hover:scale-110 object-cover object-center h-full w-full mx-auto transition-all duration-300" src="{{ url('image/web/example/example-3x2.jpg') }}" alt="fly high yoga Urban Athletes">
+          <img class="group-hover:scale-110 object-cover object-center h-full w-full mx-auto transition-all duration-300" src="{{ url('image/web/succes-story/foto-1.jpg') }}" alt="fly high yoga Urban Athletes">
         </span>
         <div class="absolute top-0 bottom-0 left-0 right-0 px-4 bg-black opacity-0 group-hover:bg-opacity-50 group-hover:opacity-100 flex justify-center items-center transition-all duration-300">
           <div>
