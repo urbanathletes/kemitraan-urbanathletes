@@ -131,7 +131,7 @@
                 group-hover:bg-yellow-primary group-hover:text-black transition-all duration-300
               ">
                 <span class="text-5xl">05</span>
-                <p>YOGA WHEEL</p>
+                <p class="uppercase">fly high yoga</p>
               </div>
             </a>
             <a class="min-w-max group" href="#">
@@ -279,10 +279,12 @@
     </div>
     <div class="flex flex-wrap justify-around items-center py-4 lg:px-10">
       <img class="h-20 m-4" src="{{ url('image/web/logo/LOGO_UA_HITAM_TM.png') }}" alt="Mitra Urban Athletes">
+      <img class="h-20 m-4" src="{{ url('image/web/logo/URBAN-LOGO_JR_HIRES.png') }}" alt="Mitra Urban Athletes">
       <img class="h-20 m-4" src="{{ url('image/web/logo/URBAN-FALCON FINAL-TM.png') }}" alt="Mitra Urban Athletes">
       <img class="h-20 m-4" src="{{ url('image/web/logo/Valor_TM.png') }}" alt="Mitra Urban Athletes">
       {{-- <img class="h-20 m-4" src="{{ url('image/web/logo/urbanfit.png') }}" alt="Mitra Urban Athletes"> --}}
-      <img class="h-20 m-4" src="{{ url('image/web/logo/fitness_work-02.png') }}" alt="Mitra Urban Athletes">
+      {{-- <img class="h-20 m-4" src="{{ url('image/web/logo/fitness_work-02.png') }}" alt="Mitra Urban Athletes"> --}}
+      <img class="m-4 max-w-xs" src="{{ url('image/web/logo/LogoFitnessworkPanjang.png') }}" alt="Mitra Urban Athletes">
       <img class="h-20 m-4" src="{{ url('image/web/logo/URBAN-LOGOCIRCUIT.png') }}" alt="Mitra Urban Athletes">
     </div>
   </div>

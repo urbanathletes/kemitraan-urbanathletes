@@ -5,9 +5,9 @@
       <div class="absolute top-0 bottom-0 left-0 right-0 flex flex-col justify-center items-center bg-gradient-to-t from-black">
         <div class="absolute bottom-0 max-w-max text-center pb-6">
           <h2 class="text-2xl font-FuturaBold pb-2 lg:pb-4">STORE</h2>
-          <P>
+          {{-- <P>
             HOME <span class="text-yellow-primary">|</span> STORE
-          </P>
+          </P> --}}
         </div>
       </div>
     </div>
@@ -185,38 +185,38 @@
     </div>
 
     <div class="container grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 font-FuturaBold text-xl text-center">
-      <div class="relative group">
-        <img class="object-cover object-center" src="{{ url('image/web/example/example-3x2.jpg') }}" alt="Online Class Urban Athletes">
+      <div class="relative group overflow-hidden">
+        <img class="object-cover object-center h-full w-full aspect-auto group-hover:scale-110 transition-all duration-300" src="{{ url('image/web/Online_class/Strech_Felxibility.jpg') }}" alt="Online Class Urban Athletes">
         <div class="absolute top-0 bottom-0 left-0 right-0 px-4 flex justify-center items-center group-hover:text-black transition-all duration-300">
           <p>STRETCH & FLEXIBILITY</p>
         </div>
       </div>
-      <div class="relative group">
-        <img class="object-cover object-center" src="{{ url('image/web/example/example-3x2.jpg') }}" alt="Online Class Urban Athletes">
+      <div class="relative group overflow-hidden">
+        <img class="object-cover object-center h-full w-full aspect-auto group-hover:scale-110 transition-all duration-300" src="{{ url('image/web/Online_class/HathaYoga.jpg') }}" alt="Online Class Urban Athletes">
         <div class="absolute top-0 bottom-0 left-0 right-0 px-4 flex justify-center items-center group-hover:text-black transition-all duration-300">
           <p>HATHA YOGA</p>
         </div>
       </div>
-      <div class="relative group">
-        <img class="object-cover object-center" src="{{ url('image/web/example/example-3x2.jpg') }}" alt="Online Class Urban Athletes">
+      <div class="relative group overflow-hidden">
+        <img class="object-cover object-center h-full w-full aspect-auto group-hover:scale-110 transition-all duration-300" src="{{ url('image/web/Online_class/YogaWheel.jpg') }}" alt="Online Class Urban Athletes">
         <div class="absolute top-0 bottom-0 left-0 right-0 px-4 flex justify-center items-center group-hover:text-black transition-all duration-300">
           <p>YOGA WHELL</p>
         </div>
       </div>
-      <div class="relative group">
-        <img class="object-cover object-center" src="{{ url('image/web/example/example-3x2.jpg') }}" alt="Online Class Urban Athletes">
+      <div class="relative group overflow-hidden">
+        <img class="object-cover object-center h-full w-full aspect-auto group-hover:scale-110 transition-all duration-300" src="{{ url('image/web/Online_class/YinyasaYoga.jpg') }}" alt="Online Class Urban Athletes">
         <div class="absolute top-0 bottom-0 left-0 right-0 px-4 flex justify-center items-center group-hover:text-black transition-all duration-300">
-          <p>VINYASA YOGA</p>
+          <p>YINYASA YOGA</p>
         </div>
       </div>
-      <div class="relative group">
-        <img class="object-cover object-center" src="{{ url('image/web/example/example-3x2.jpg') }}" alt="Online Class Urban Athletes">
+      <div class="relative group overflow-hidden">
+        <img class="object-cover object-center h-full w-full aspect-auto group-hover:scale-110 transition-all duration-300" src="{{ url('image/web/Online_class/MobilityFlow.jpg') }}" alt="Online Class Urban Athletes">
         <div class="absolute top-0 bottom-0 left-0 right-0 px-4 flex justify-center items-center group-hover:text-black transition-all duration-300">
           <p>MOBILITY FLOW</p>
         </div>
       </div>
-      <div class="relative group">
-        <img class="object-cover object-center" src="{{ url('image/web/example/example-3x2.jpg') }}" alt="Online Class Urban Athletes">
+      <div class="relative group overflow-hidden">
+        <img class="object-cover object-center h-full w-full aspect-auto group-hover:scale-110 transition-all duration-300" src="{{ url('image/web/Online_class/TrigerPointTheraphy.jpg') }}" alt="Online Class Urban Athletes">
         <div class="absolute top-0 bottom-0 left-0 right-0 px-4 flex justify-center items-center group-hover:text-black transition-all duration-300">
           <p>TRIGGER POINT THERAPHY</p>
         </div>
@@ -423,7 +423,7 @@
           </div>
         </div>
         <div class="min-w-[200px] h-full mx-4 overflow-hidden shadow-lg">
-          <img class="-mt-0 aspect-[4/5] w-full object-cover" src="{{ url('image/web/merchandise/Kaos2.png') }}" alt="Kaos Urban Athletes">
+          <img class="-mt-0 aspect-[4/5] w-full object-cover" src="{{ url('image/web/merchandise/kaos2.png') }}" alt="Kaos Urban Athletes">
           <div class="mx-2 text-black font-black">
             <div class="text-yellow-primary my-2" id="reting">
               <i class="fa-solid fa-star"></i>
@@ -487,7 +487,7 @@
           </div>
         </div>
         <div class="min-w-[200px] h-full mx-4 overflow-hidden shadow-lg">
-          <img class="-mt-0 aspect-[4/5] w-full object-cover" src="{{ url('image/web/merchandise/Kaos2.png') }}" alt="Kaos Urban Athletes">
+          <img class="-mt-0 aspect-[4/5] w-full object-cover" src="{{ url('image/web/merchandise/kaos2.png') }}" alt="Kaos Urban Athletes">
           <div class="mx-2 text-black font-black">
             <div class="text-yellow-primary my-2" id="reting">
               <i class="fa-solid fa-star"></i>

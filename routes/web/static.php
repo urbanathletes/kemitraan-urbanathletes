@@ -7,6 +7,7 @@ Route::get('/index', function () { return view("index");});
 // Route::prefix('workout')->group(function(){
 // });
 Route::get('workout', function () { return view("public/static/workout");});
+Route::get('trainer', function () { return view("public/static/trainer");});
 Route::get('timetable', function () { return view("public/static/timetable");});
 Route::get('store', function () { return view("public/static/store");});
 Route::prefix('about')->group(function(){

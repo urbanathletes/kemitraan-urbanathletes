@@ -123,6 +123,13 @@
                     FITNESS WORKS
                   </a>
                 </li>
+                <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-yellow-primary hover:bg-black group" 
+                menu-sub="{{ $subMenu ?? '' }}">
+                  <a class="flex items-center" href="{{ url('franchise/fitness-works') }}">
+                    <img class="w-8 mr-2 invert-0 group-hover:invert" src="{{ url('image/web/logo/URBAN-LOGO_JR_HIRES.png') }}" alt="Logo Urban Athletes"> 
+                    UA JUNIOR
+                  </a>
+                </li>
               </ul>
             </li>
 
