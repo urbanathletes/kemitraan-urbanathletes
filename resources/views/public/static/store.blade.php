@@ -1,8 +1,8 @@
 <x-main_web menu="STORE">
   <div class="text-white pb-8 overflow-hidden">
-    <div class="flex justify-center max-h-[30vh] lg:max-h-[40vh] relative">
+    <div class="flex justify-center max-h-32 lg:max-h-[40vh] relative">
       <img class="object-cover object-center w-full mx-auto" src="{{ url('image/web/bg_page/BGHeaderStore.jpg') }}" alt="Store Urban Athletes">
-      <div class="absolute top-0 bottom-0 left-0 right-0 flex flex-col justify-center items-center bg-gradient-to-t from-black">
+      <div class="absolute top-0 bottom-0 left-0 right-0 flex flex-col justify-center items-center bg-black bg-opacity-80">
         <div class="absolute bottom-0 max-w-max text-center pb-6">
           <h2 class="text-2xl font-FuturaBold pb-2 lg:pb-4">STORE</h2>
           {{-- <P>
