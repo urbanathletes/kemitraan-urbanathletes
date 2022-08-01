@@ -1,25 +1,31 @@
 <div class="bg-neutral-150 text-sm">
   <div class="container py-8 overflow-hidden">
     <div class="px-6">
-      <h2 class="font-FuturaBold text-3xl mb-4">START YOU OWN GYM</h2>
+      <a href="{{ url('franchise') }}">
+        <h2 class="font-FuturaBold text-3xl mb-4">START YOU OWN GYM</h2>
+      </a>
       <p class="text-neutral-700 mb-4">
         URBAN ATHLETES memiliki pertumbuhan yang cepat dan berbasis digital. Dengan model bisnis yang tepat dan konsep yang kuat, URBAN ATHLETES dan mitra dapat bergerak bersama untuk memberikan akses kesehatan dan kebugaran bagi semua orang. Mari lakukan bersama!
       </p>
     </div>
     <div class="flex flex-nowrap md:grid md:grid-cols-2 overflow-auto no-scrollbar">
       <div class="relative px-4 min-h-[126px] max-h-48 min-w-full overflow-hidden">
-        <img class="min-h-[126px] aspect-video w-full object-cover object-bottom" src="{{ url('image/web/footer/Footer3.png') }}" alt="Footer Urban Athletes">
-        <div class="absolute bottom-0 left-0 right-0 mx-4 pl-4 pb-4 text-yellow-primary bg-gradient-to-t from-black">
-          <h2 class="text-lg md:text-2xl font-FuturaBold">START YOU OWN GYM</h2>
-          <p>Invesment Start From ...</p>
-        </div>
+        <a href="{{ url('franchise/urban-athletes') }}">
+          <img class="min-h-[126px] aspect-video w-full object-cover object-bottom" src="{{ url('image/web/footer/Footer3.png') }}" alt="Footer Urban Athletes">
+          <div class="absolute bottom-0 left-0 right-0 mx-4 pl-4 pb-4 text-yellow-primary bg-gradient-to-t from-black">
+            <h2 class="text-lg md:text-2xl font-FuturaBold">START YOU OWN GYM</h2>
+            <p>Invesment Start From ...</p>
+          </div>
+        </a>
       </div>
       <div class="relative px-4 min-h-[126px] max-h-48 min-w-full overflow-hidden">
-        <img class="min-h-[126px] aspect-video w-full object-cover object-bottom" src="{{ url('image/web/footer/Footer4.png') }}" alt="Footer Urban Athletes">
-        <div class="absolute bottom-0 left-0 right-0 mx-4 pl-4 pb-4 text-yellow-primary bg-gradient-to-t from-black">
-          <h2 class="text-lg md:text-2xl font-FuturaBold">START YOU OWN GYM</h2>
-          <p>Invesment Start From ...</p>
-        </div>
+        <a href="{{ url('franchise/fitness-works') }}">
+          <img class="min-h-[126px] aspect-video w-full object-cover object-bottom" src="{{ url('image/web/footer/Footer4.png') }}" alt="Footer Urban Athletes">
+          <div class="absolute bottom-0 left-0 right-0 mx-4 pl-4 pb-4 text-yellow-primary bg-gradient-to-t from-black">
+            <h2 class="text-lg md:text-2xl font-FuturaBold">START YOU OWN GYM</h2>
+            <p>Invesment Start From ...</p>
+          </div>
+        </a>
       </div>
       {{-- <img class="px-4 max-h-44 aspect-video w-full object-cover object-center" src="{{ url('image/web/footer/Footer4.png') }}" alt="Footer Urban Athletes"> --}}
       {{-- <img class="px-4 max-h-44 aspect-video w-full object-cover object-center" src="{{ url('image/web/footer/KIDS_GYM.jpg') }}" alt="Footer Urban Athletes"> --}}
