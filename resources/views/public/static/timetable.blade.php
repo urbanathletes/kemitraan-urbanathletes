@@ -79,49 +79,49 @@
                 <td>
                   <div class="py-2 bg-white m-1">
                     <p class="bg-yellow-primary mx-1 rounded-sm">08.10 - 09.00 WIB</p>
-                    <img class="h-20 mx-auto" src="{{ url('image/web/logo_kelas/URBAN-FALCONFINAL.png') }}" alt="Class">
+                    <img class="h-20 p-2 mx-auto" src="{{ url('image/web/logo_kelas/URBAN-FALCONFINAL.png') }}" alt="Class">
                     <p>nama | Nama Studio</p>
                   </div>
                 </td>
                 <td>
                   <div class="py-2 bg-white m-1">
                     <p class="bg-yellow-primary mx-1 rounded-sm">08.10 - 09.00 WIB</p>
-                    <img class="h-20 mx-auto" src="{{ url('image/web/logo_kelas/Valor_TM.png') }}" alt="Class">
+                    <img class="h-20 p-2 mx-auto" src="{{ url('image/web/logo_kelas/Valor_TM.png') }}" alt="Class">
                     <p>nama | Nama Studio</p>
                   </div>
                 </td>
                 <td>
                   <div class="py-2 bg-white m-1">
                     <p class="bg-yellow-primary mx-1 rounded-sm">08.10 - 09.00 WIB</p>
-                    <img class="h-20 mx-auto" src="{{ url('image/web/logo_kelas/CIRCUIT.png') }}" alt="Class">
+                    <img class="h-20 p-2 mx-auto" src="{{ url('image/web/logo_kelas/CIRCUIT.png') }}" alt="Class">
                     <p>nama | Nama Studio</p>
                   </div>
                 </td>
                 <td>
                   {{-- <div class="py-2 bg-white m-1">
                     <p class="bg-yellow-primary mx-1 rounded-sm">08.10 - 09.00 WIB</p>
-                    <img class="h-20 mx-auto" src="{{ url('image/web/logo_kelas/Valor_TM.png') }}" alt="Class">
+                    <img class="h-20 p-2 mx-auto" src="{{ url('image/web/logo_kelas/Valor_TM.png') }}" alt="Class">
                     <p>nama | Nama Studio</p>
                   </div> --}}
                 </td>
                 <td>
                   <div class="py-2 bg-white m-1">
                     <p class="bg-yellow-primary mx-1 rounded-sm">08.10 - 09.00 WIB</p>
-                    <img class="h-20 mx-auto" src="{{ url('image/web/logo_kelas/TRX.png') }}" alt="Class">
+                    <img class="h-20 p-2 mx-auto" src="{{ url('image/web/logo_kelas/TRX.png') }}" alt="Class">
                     <p>nama | Nama Studio</p>
                   </div>
                 </td>
                 <td>
                   <div class="py-2 bg-white m-1">
                     <p class="bg-yellow-primary mx-1 rounded-sm">08.10 - 09.00 WIB</p>
-                    <img class="h-20 mx-auto" src="{{ url('image/web/logo_kelas/logoUrbanFight.png') }}" alt="Class">
+                    <img class="h-20 p-2 mx-auto" src="{{ url('image/web/logo_kelas/logoUrbanFight.png') }}" alt="Class">
                     <p>nama | Nama Studio</p>
                   </div>
                 </td>
                 <td>
                   <div class="py-2 bg-white m-1">
                     <p class="bg-yellow-primary mx-1 rounded-sm">08.10 - 09.00 WIB</p>
-                    <img class="h-20 mx-auto" src="{{ url('image/web/logo_kelas/logoUrbanPowerFix.png') }}" alt="Class">
+                    <img class="h-20 p-2 mx-auto" src="{{ url('image/web/logo_kelas/logoUrbanPowerFix.png') }}" alt="Class">
                     <p>nama | Nama Studio</p>
                   </div>
                 </td>
@@ -130,49 +130,49 @@
                 <td>
                   <div class="py-2 bg-white m-1">
                     <p class="bg-yellow-primary mx-1 rounded-sm">09.10 - 10.00 WIB</p>
-                    <img class="h-20 mx-auto" src="{{ url('image/web/logo_kelas/STRONGNation.png') }}" alt="Class">
+                    <img class="h-20 p-2 mx-auto" src="{{ url('image/web/logo_kelas/STRONGNation.png') }}" alt="Class">
                     <p>nama | Nama Studio</p>
                   </div>
                 </td>
                 <td>
                   {{-- <div class="py-2 bg-white m-1">
                     <p class="bg-yellow-primary mx-1 rounded-sm">09.10 - 10.00 WIB</p>
-                    <img class="h-20 mx-auto" src="{{ url('image/web/logo_kelas/Valor_TM.png') }}" alt="Class">
+                    <img class="h-20 p-2 mx-auto" src="{{ url('image/web/logo_kelas/Valor_TM.png') }}" alt="Class">
                     <p>nama | Nama Studio</p>
                   </div> --}}
                 </td>
                 <td>
                   <div class="py-2 bg-white m-1">
                     <p class="bg-yellow-primary mx-1 rounded-sm">09.10 - 10.00 WIB</p>
-                    <img class="h-20 mx-auto" src="{{ url('image/web/logo_kelas/Trigerpoinblack.png') }}" alt="Class">
+                    <img class="h-20 p-2 mx-auto" src="{{ url('image/web/logo_kelas/Trigerpoinblack.png') }}" alt="Class">
                     <p>nama | Nama Studio</p>
                   </div>
                 </td>
                 <td>
                   <div class="py-2 bg-white m-1">
                     <p class="bg-yellow-primary mx-1 rounded-sm">09.10 - 10.00 WIB</p>
-                    <img class="h-20 mx-auto" src="{{ url('image/web/logo_kelas/STRONGNation.png') }}" alt="Class">
+                    <img class="h-20 p-2 mx-auto" src="{{ url('image/web/logo_kelas/STRONGNation.png') }}" alt="Class">
                     <p>nama | Nama Studio</p>
                   </div>
                 </td>
                 <td>
                   <div class="py-2 bg-white m-1">
                     <p class="bg-yellow-primary mx-1 rounded-sm">09.10 - 10.00 WIB</p>
-                    <img class="h-20 mx-auto" src="{{ url('image/web/logo_kelas/BODYCOMBATColour.png') }}" alt="Class">
+                    <img class="h-20 p-2 mx-auto" src="{{ url('image/web/logo_kelas/BODYCOMBATColour.png') }}" alt="Class">
                     <p>nama | Nama Studio</p>
                   </div>
                 </td>
                 <td>
                   <div class="py-2 bg-white m-1">
                     <p class="bg-yellow-primary mx-1 rounded-sm">09.10 - 10.00 WIB</p>
-                    <img class="h-20 mx-auto" src="{{ url('image/web/logo_kelas/MuayThai.png') }}" alt="Class">
+                    <img class="h-20 p-2 mx-auto" src="{{ url('image/web/logo_kelas/MuayThai.png') }}" alt="Class">
                     <p>nama | Nama Studio</p>
                   </div>
                 </td>
                 <td>
                   <div class="py-2 bg-white m-1">
                     <p class="bg-yellow-primary mx-1 rounded-sm">09.10 - 10.00 WIB</p>
-                    <img class="h-20 mx-auto" src="{{ url('image/web/logo_kelas/BODYPUMPColour.png') }}" alt="Class">
+                    <img class="h-20 p-2 mx-auto" src="{{ url('image/web/logo_kelas/BODYPUMPColour.png') }}" alt="Class">
                     <p>nama | Nama Studio</p>
                   </div>
                 </td>
@@ -191,49 +191,49 @@
                 <td>
                   <div class="py-2 bg-white m-1">
                     <p class="bg-yellow-primary mx-1 rounded-sm">18.10 - 19.00 WIB</p>
-                    <img class="h-20 mx-auto" src="{{ url('image/web/logo_kelas/logoUrbanPowerFix.png') }}" alt="Class">
+                    <img class="h-20 p-2 mx-auto" src="{{ url('image/web/logo_kelas/logoUrbanPowerFix.png') }}" alt="Class">
                     <p>nama | Nama Studio</p>
                   </div>
                 </td>
                 <td>
                   <div class="py-2 bg-white m-1">
                     <p class="bg-yellow-primary mx-1 rounded-sm">18.10 - 19.00 WIB</p>
-                    <img class="h-20 mx-auto" src="{{ url('image/web/logo_kelas/logoUrbanFight.png') }}" alt="Class">
+                    <img class="h-20 p-2 mx-auto" src="{{ url('image/web/logo_kelas/logoUrbanFight.png') }}" alt="Class">
                     <p>nama | Nama Studio</p>
                   </div>
                 </td>
                 <td>
                   <div class="py-2 bg-white m-1">
                     <p class="bg-yellow-primary mx-1 rounded-sm">18.10 - 19.00 WIB</p>
-                    <img class="h-20 mx-auto" src="{{ url('image/web/logo_kelas/CIRCUIT.png') }}" alt="Class">
+                    <img class="h-20 p-2 mx-auto" src="{{ url('image/web/logo_kelas/CIRCUIT.png') }}" alt="Class">
                     <p>nama | Nama Studio</p>
                   </div>
                 </td>
                 <td>
                   <div class="py-2 bg-white m-1">
                     <p class="bg-yellow-primary mx-1 rounded-sm">18.10 - 19.00 WIB</p>
-                    <img class="h-20 mx-auto" src="{{ url('image/web/logo_kelas/Trigerpoinblack.png') }}" alt="Class">
+                    <img class="h-20 p-2 mx-auto" src="{{ url('image/web/logo_kelas/Trigerpoinblack.png') }}" alt="Class">
                     <p>nama | Nama Studio</p>
                   </div>
                 </td>
                 <td>
                   <div class="py-2 bg-white m-1">
                     <p class="bg-yellow-primary mx-1 rounded-sm">18.10 - 19.00 WIB</p>
-                    <img class="h-20 mx-auto" src="{{ url('image/web/logo_kelas/BODYCOMBATColour.png') }}" alt="Class">
+                    <img class="h-20 p-2 mx-auto" src="{{ url('image/web/logo_kelas/BODYCOMBATColour.png') }}" alt="Class">
                     <p>nama | Nama Studio</p>
                   </div>
                 </td>
                 <td>
                   {{-- <div class="py-2 bg-white m-1">
                     <p class="bg-yellow-primary mx-1 rounded-sm">18.10 - 19.00 WIB</p>
-                    <img class="h-20 mx-auto" src="{{ url('image/web/logo_kelas/Valor_TM.png') }}" alt="Class">
+                    <img class="h-20 p-2 mx-auto" src="{{ url('image/web/logo_kelas/Valor_TM.png') }}" alt="Class">
                     <p>nama | Nama Studio</p> --}}
                   </div>
                 </td>
                 <td>
                   <div class="py-2 bg-white m-1">
                     <p class="bg-yellow-primary mx-1 rounded-sm">18.10 - 19.00 WIB</p>
-                    <img class="h-20 mx-auto" src="{{ url('image/web/logo_kelas/TRX.png') }}" alt="Class">
+                    <img class="h-20 p-2 mx-auto" src="{{ url('image/web/logo_kelas/TRX.png') }}" alt="Class">
                     <p>nama | Nama Studio</p>
                   </div>
                 </td>
@@ -242,49 +242,49 @@
                 <td>
                   <div class="py-2 bg-white m-1">
                     <p class="bg-yellow-primary mx-1 rounded-sm">19.30 - 21.00 WIB</p>
-                    <img class="h-20 mx-auto" src="{{ url('image/web/logo_kelas/Valor_TM.png') }}" alt="Class">
+                    <img class="h-20 p-2 mx-auto" src="{{ url('image/web/logo_kelas/Valor_TM.png') }}" alt="Class">
                     <p>nama | Nama Studio</p>
                   </div>
                 </td>
                 <td>
                   {{-- <div class="py-2 bg-white m-1">
                     <p class="bg-yellow-primary mx-1 rounded-sm">19.30 - 21.00 WIB</p>
-                    <img class="h-20 mx-auto" src="{{ url('image/web/logo_kelas/Valor_TM.png') }}" alt="Class">
+                    <img class="h-20 p-2 mx-auto" src="{{ url('image/web/logo_kelas/Valor_TM.png') }}" alt="Class">
                     <p>nama | Nama Studio</p> --}}
                   </div>
                 </td>
                 <td>
                   <div class="py-2 bg-white m-1">
                     <p class="bg-yellow-primary mx-1 rounded-sm">19.30 - 21.00 WIB</p>
-                    <img class="h-20 mx-auto" src="{{ url('image/web/logo_kelas/STRONGNation.png') }}" alt="Class">
+                    <img class="h-20 p-2 mx-auto" src="{{ url('image/web/logo_kelas/STRONGNation.png') }}" alt="Class">
                     <p>nama | Nama Studio</p>
                   </div>
                 </td>
                 <td>
                   <div class="py-2 bg-white m-1">
                     <p class="bg-yellow-primary mx-1 rounded-sm">19.30 - 21.00 WIB</p>
-                    <img class="h-20 mx-auto" src="{{ url('image/web/logo_kelas/BODYPUMPColour.png') }}" alt="Class">
+                    <img class="h-20 p-2 mx-auto" src="{{ url('image/web/logo_kelas/BODYPUMPColour.png') }}" alt="Class">
                     <p>nama | Nama Studio</p>
                   </div>
                 </td>
                 <td>
                   <div class="py-2 bg-white m-1">
                     <p class="bg-yellow-primary mx-1 rounded-sm">19.30 - 21.00 WIB</p>
-                    <img class="h-20 mx-auto" src="{{ url('image/web/logo_kelas/URBAN-FALCONFINAL.png') }}" alt="Class">
+                    <img class="h-20 p-2 mx-auto" src="{{ url('image/web/logo_kelas/URBAN-FALCONFINAL.png') }}" alt="Class">
                     <p>nama | Nama Studio</p>
                   </div>
                 </td>
                 <td>
                   <div class="py-2 bg-white m-1">
                     <p class="bg-yellow-primary mx-1 rounded-sm">19.30 - 21.00 WIB</p>
-                    <img class="h-20 mx-auto" src="{{ url('image/web/logo_kelas/logoUrbanPowerFix.png') }}" alt="Class">
+                    <img class="h-20 p-2 mx-auto" src="{{ url('image/web/logo_kelas/logoUrbanPowerFix.png') }}" alt="Class">
                     <p>nama | Nama Studio</p>
                   </div>
                 </td>
                 <td>
                   <div class="py-2 bg-white m-1">
                     <p class="bg-yellow-primary mx-1 rounded-sm">19.30 - 21.00 WIB</p>
-                    <img class="h-20 mx-auto" src="{{ url('image/web/logo_kelas/logoUrbanFight.png') }}" alt="Class">
+                    <img class="h-20 p-2 mx-auto" src="{{ url('image/web/logo_kelas/logoUrbanFight.png') }}" alt="Class">
                     <p>nama | Nama Studio</p>
                   </div>
                 </td>

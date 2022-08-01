@@ -3,7 +3,7 @@
     <img class="object-cover object-center w-full mx-auto" src="{{ url('image/web/Header_Store.jpg') }}" alt="Store Urban Athletes">
     <div class="absolute top-0 bottom-0 left-0 right-0 flex flex-col justify-center items-center bg-gradient-to-t from-black text-white">
       <div class="absolute bottom-0 max-w-max text-center pb-6">
-        <h2 class="text-2xl font-FuturaBold pb-2 lg:pb-4">OUR PHILOSOPHY</h2>
+        <h2 class="text-4xl font-FuturaBold pb-2 lg:pb-4">OUR PHILOSOPHY</h2>
         {{-- <P>
           HOME <span class="text-yellow-primary">|</span> OUR PHILOSOPHY
         </P> --}}
