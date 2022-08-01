@@ -205,6 +205,6 @@
       });
     }
   </script>
-  @stack('script')
+  {{-- @stack('script') --}}
   @endpush
 </x-main_kemitraan>
