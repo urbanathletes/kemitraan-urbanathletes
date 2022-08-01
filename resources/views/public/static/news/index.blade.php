@@ -1,10 +1,10 @@
-<x-main_web menu="NEWS">
+<x-main_web menu="ARTICLE">
   <div class="text-white pb-8 overflow-hidden">
     <div class="flex justify-center max-h-32 lg:max-h-[40vh] relative">
       <img class="object-cover object-center w-full mx-auto" src="{{ url('image/web/bg_page/BGHeaderStore.jpg') }}" alt="News Urban Athletes">
       <div class="absolute top-0 bottom-0 left-0 right-0 flex flex-col justify-center items-center bg-black bg-opacity-80">
         <div class="absolute bottom-0 max-w-max text-center pb-6">
-          <h2 class="text-2xl font-FuturaBold pb-2 lg:pb-4 uppercase">News Update</h2>
+          <h2 class="text-4xl font-FuturaBold pb-2 lg:pb-4 uppercase">Article Update</h2>
           {{-- <P>
             HOME <span class="text-yellow-primary">|</span> STORE
           </P> --}}
@@ -12,7 +12,8 @@
       </div>
     </div>
 
-    <div class="bg-[url('/image/web/news/BGNews.jpg')] bg-cover bg-center object-cover object-center">
+    <div class="bg-[url('/image/web/news/BGNews.jpg')] bg-cover bg-center object-cover object-center relative">
+      <div class="absolute top-0 bottom-0 right-0 left-0 bg-black opacity-70"></div>
       <div class="container grid grid-cols-2 lg:grid-cols-3 py-8">
         <div class="col-span-2 row-span-2 relative group overflow-hidden">
           <a href="{{ url('news/news1') }}">
@@ -33,7 +34,7 @@
           </a>
         </div>
         <div class="relative group overflow-hidden">
-          <a href="{{ url('news/news1') }}">
+          <a href="{{ url('news/news2') }}">
             <img class="object-cover object-center h-full w-full mx-auto group-hover:scale-105 transition-all duration-300" src="{{ url('image/web/news/original2.jpg') }}" alt="News Urban Athletes">
             <div class="absolute top-0 left-0 bg-black bg-opacity-50 p-2 m-4">
               <p class="font-PoppinsSemiBold text-lg text-white">12</p>
@@ -51,7 +52,7 @@
           </a>
         </div>
         <div class="relative group overflow-hidden">
-          <a href="{{ url('news/news1') }}">
+          <a href="{{ url('news/news3') }}">
             <img class="object-cover object-center h-full w-full mx-auto group-hover:scale-105 transition-all duration-300" src="{{ url('image/web/news/virtual-studio-tis-4.jpg') }}" alt="News Urban Athletes">
             <div class="absolute top-0 left-0 bg-black bg-opacity-50 p-2 m-4">
               <p class="font-PoppinsSemiBold text-lg text-white">12</p>
@@ -69,7 +70,7 @@
           </a>
         </div>
         <div class="relative group overflow-hidden">
-          <a href="{{ url('news/news1') }}">
+          <a href="{{ url('news/news4') }}">
             <img class="object-cover object-center h-full w-full mx-auto group-hover:scale-105 transition-all duration-300" src="{{ url('image/web/news/brt247716752.jpg') }}" alt="News Urban Athletes">
             <div class="absolute top-0 left-0 bg-black bg-opacity-50 p-2 m-4">
               <p class="font-PoppinsSemiBold text-lg text-white">12</p>
@@ -87,7 +88,7 @@
           </a>
         </div>
         <div class="relative group overflow-hidden">
-          <a href="{{ url('news/news1') }}">
+          <a href="{{ url('news/news5') }}">
             <img class="object-cover object-center h-full w-full mx-auto group-hover:scale-105 transition-all duration-300" src="{{ url('image/web/news/circuit.jpg') }}" alt="News Urban Athletes">
             <div class="absolute top-0 left-0 bg-black bg-opacity-50 p-2 m-4">
               <p class="font-PoppinsSemiBold text-lg text-white">12</p>
@@ -105,7 +106,7 @@
           </a>
         </div>
         <div class="relative group overflow-hidden">
-          <a href="{{ url('news/news1') }}">
+          <a href="{{ url('news/news6') }}">
             <img class="object-cover object-center h-full w-full mx-auto group-hover:scale-105 transition-all duration-300" src="{{ url('image/web/news/ekonomi3.jpg') }}" alt="News Urban Athletes">
             <div class="absolute top-0 left-0 bg-black bg-opacity-50 p-2 m-4">
               <p class="font-PoppinsSemiBold text-lg text-white">12</p>

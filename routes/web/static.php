@@ -22,6 +22,7 @@ Route::prefix('news')->group(function () {
 });
 Route::prefix('about')->group(function(){
   Route::get('/about-us', function () { return view("public/static/about/about-us");});
+  Route::get('/clubs', function () { return view("public/static/about/clubs");});
   Route::get('/terms-conditions', function () { return view("public/static/about/terms-conditions");});
   Route::get('/succes-story', function () { return view("public/static/about/succes-story");});
   Route::get('/faqs', function () { return view("public/static/about/faqs");});

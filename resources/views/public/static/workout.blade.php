@@ -62,7 +62,7 @@
     <div class="py-4 lg:flex lg:justify-center lg:items-center">
       <div class="container lg:mx-0 lg:max-w-xl">
         <div class="mb-8 max-w-max relative">
-          <h2 class="text-xl sm:text-3xl font-FuturaBold">TUNE MUSCLE</h2>
+          <h2 class="text-xl sm:text-3xl font-FuturaBold">TONE MUSCLE</h2>
           <span class="absolute left-0 -bottom-2 w-36 pb-1.5 bg-yellow-primary"></span>
         </div>
         <p class="font-extralight mt-2 mb-4">

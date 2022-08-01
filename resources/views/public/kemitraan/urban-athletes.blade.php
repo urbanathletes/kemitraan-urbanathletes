@@ -1,5 +1,5 @@
-<x-main_kemitraan menu='FRANCHISE' subMenu="URBAN ATHLETES">
-  <div class="font-Futura">
+<x-main_kemitraan menu='KEMITRAAN' subMenu="URBAN ATHLETES">
+  <div class="font-Futura" id="register">
     <div class="flex flex-col md:grid md:grid-cols-2 min-h-max">
       <div class="flex justify-center md:justify-end md:min-w-max relative h-72 md:h-[430px]">
         <img class="object-cover object-center w-full" src="{{ url('image/franchise/home_franchise_benner.jpg') }}" alt="Franchise Urban Athletes">
