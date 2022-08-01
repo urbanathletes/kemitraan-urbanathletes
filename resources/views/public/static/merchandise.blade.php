@@ -25,16 +25,16 @@
           {{-- <div class="flex flex-row justify-center items-center text-sm w-full"> --}}
           <div class="flex flex-col items-start ml-4 sm:ml-0 sm:my-4 text-sm w-full">
             <ul class="w-full">
-              <li class="py-2 border-b border-neutral-500"><button class="menu-active-web"><i class="fa-solid fa-right-long"></i> ALL PRODUCT</button></li>
-              <li class="py-2 border-b border-neutral-500"><button><i class="fa-solid fa-right-long"></i> GYM BACK</button></li>
-              <li class="py-2 border-b border-neutral-500"><button><i class="fa-solid fa-right-long"></i> T-SHIRT</button></li>
+              <li class="py-2 sm:border-b sm:border-neutral-500"><button class="menu-active-web"><i class="fa-solid fa-right-long"></i> ALL PRODUCT</button></li>
+              <li class="py-2 sm:border-b sm:border-neutral-500"><button><i class="fa-solid fa-right-long"></i> GYM BACK</button></li>
+              <li class="py-2 sm:border-b sm:border-neutral-500"><button><i class="fa-solid fa-right-long"></i> T-SHIRT</button></li>
             </ul>
           </div>
         </div>
       </div>
 
       <div class="my-4 flex flex-wrap justify-center">
-        <div class="w-[200px] mx-4 overflow-hidden shadow-lg">
+        <div class="w-[200px] m-4 overflow-hidden shadow-lg">
           <img class="-mt-8 aspect-[4/5] w-full object-cover" src="{{ url('image/web/merchandise/GYMBAG_PINK.jpeg') }}" alt="Gym Bag Urban Athletes">
           <div class="mx-2 text-black font-black">
             <div class="text-yellow-primary my-2" id="reting">
@@ -50,7 +50,7 @@
             </div>
           </div>
         </div>
-        <div class="w-[200px] mx-4 overflow-hidden shadow-lg">
+        <div class="w-[200px] m-4 overflow-hidden shadow-lg">
           <img class="-mt-8 aspect-[4/5] w-full object-cover" src="{{ url('image/web/merchandise/Matras1.png') }}" alt="Merchandise Urban Athletes">
           <div class="mx-2 text-black font-black">
             <div class="text-yellow-primary my-2" id="reting">
@@ -66,7 +66,7 @@
             </div>
           </div>
         </div>
-        <div class="w-[200px] mx-4 overflow-hidden shadow-lg">
+        <div class="w-[200px] m-4 overflow-hidden shadow-lg">
           <img class="-mt-8 aspect-[4/5] w-full object-cover" src="{{ url('image/web/merchandise/kaos2.png') }}" alt="Merchandise Urban Athletes">
           <div class="mx-2 text-black font-black">
             <div class="text-yellow-primary my-2" id="reting">
@@ -82,7 +82,7 @@
             </div>
           </div>
         </div>
-        <div class="w-[200px] mx-4 overflow-hidden shadow-lg">
+        <div class="w-[200px] m-4 overflow-hidden shadow-lg">
           <img class="-mt-8 aspect-[4/5] w-full object-cover" src="{{ url('image/web/merchandise/Gloves_Gold.png') }}" alt="Merchandise Urban Athletes">
           <div class="mx-2 text-black font-black">
             <div class="text-yellow-primary my-2" id="reting">
@@ -98,7 +98,7 @@
             </div>
           </div>
         </div>
-        <div class="w-[200px] mx-4 overflow-hidden shadow-lg">
+        <div class="w-[200px] m-4 overflow-hidden shadow-lg">
           <img class="-mt-8 aspect-[4/5] w-full object-cover" src="{{ url('image/web/merchandise/GYMBAG_VALOR.JPG') }}" alt="Merchandise Urban Athletes">
           <div class="mx-2 text-black font-black">
             <div class="text-yellow-primary my-2" id="reting">
@@ -114,7 +114,7 @@
             </div>
           </div>
         </div>
-        <div class="w-[200px] mx-4 overflow-hidden shadow-lg">
+        <div class="w-[200px] m-4 overflow-hidden shadow-lg">
           <img class="-mt-8 aspect-[4/5] w-full object-cover" src="{{ url('image/web/merchandise/Mini_Towel.png') }}" alt="Merchandise Urban Athletes">
           <div class="mx-2 text-black font-black">
             <div class="text-yellow-primary my-2" id="reting">
@@ -130,7 +130,7 @@
             </div>
           </div>
         </div>
-        <div class="w-[200px] mx-4 overflow-hidden shadow-lg">
+        <div class="w-[200px] m-4 overflow-hidden shadow-lg">
           <img class="-mt-8 aspect-[4/5] w-full object-cover" src="{{ url('image/web/merchandise/GYMBAG_FALCON.jpg') }}" alt="Merchandise Urban Athletes">
           <div class="mx-2 text-black font-black">
             <div class="text-yellow-primary my-2" id="reting">
@@ -146,7 +146,7 @@
             </div>
           </div>
         </div>
-        <div class="w-[200px] mx-4 overflow-hidden shadow-lg">
+        <div class="w-[200px] m-4 overflow-hidden shadow-lg">
           <img class="-mt-8 aspect-[4/5] w-full object-cover" src="{{ url('image/web/merchandise/Matras_YOGA_EVE_swede.png') }}" alt="Merchandise Urban Athletes">
           <div class="mx-2 text-black font-black">
             <div class="text-yellow-primary my-2" id="reting">
@@ -162,7 +162,7 @@
             </div>
           </div>
         </div>
-        <div class="w-[200px] mx-4 overflow-hidden shadow-lg">
+        <div class="w-[200px] m-4 overflow-hidden shadow-lg">
           <img class="-mt-8 aspect-[4/5] w-full object-cover" src="{{ url('image/web/merchandise/GYMBAG_KIDS_UKURAN.jpg') }}" alt="Gym Bag Urban Athletes">
           <div class="mx-2 text-black font-black">
             <div class="text-yellow-primary my-2" id="reting">
@@ -178,7 +178,7 @@
             </div>
           </div>
         </div>
-        <div class="w-[200px] mx-4 overflow-hidden shadow-lg">
+        <div class="w-[200px] m-4 overflow-hidden shadow-lg">
           <img class="-mt-8 aspect-[4/5] w-full object-cover" src="{{ url('image/web/merchandise/kaos1.jpeg') }}" alt="Merchandise Urban Athletes">
           <div class="mx-2 text-black font-black">
             <div class="text-yellow-primary my-2" id="reting">

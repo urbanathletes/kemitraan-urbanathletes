@@ -1,31 +1,43 @@
 <x-main_web menu="NEWS">
   <div class="overflow-hidden">
     <div class="pb-8 flex justify-center max-h-[30vh] lg:max-h-[80vh] relative">
-      <img class="object-cover object-center w-full mx-auto" src="{{ url('image/web/news/original.jpg') }}" alt="News Urban Athletes">
+      <img class="object-cover object-center w-full mx-auto" src="{{ url('image/web/news/circuit.jpg') }}" alt="News Urban Athletes">
     </div>
     
     <div class="container flex flex-col md:flex-row-reverse justify-center">
       <div class="my-2">
-        <p class="text-yellow-primary text-xs sm:text-sm">CENTROONE.COM</p>
-        <h2 class="my-2 text-xl sm:text-3xl font-black">Resmi Dibuka, Urban Athletes Marvell City Hadirkan The Valor</h2>
+        <p class="text-yellow-primary text-xs sm:text-sm">suarakawan.com</p>
+        <h2 class="my-2 text-xl sm:text-3xl font-black">Berganti Nama, Urban Athletes Targetkan Buka Lima Cabang di Surabaya</h2>
         <div class="space-y-2 pt-2">
           <p class="text-sm sm:text-base">
-            Centroone.com – Setelah sempat menggelar soft opening pada bulan November 2017 kemarin, Urban Athletes akhirnya secara resmi membuka club kedua mereka yang terletak di Marvell City, Surabaya.
+            SURABAYA (suarakawan.com) – Kesadaran masyarakat khususnya di kota-kota besar untuk hidup sehat terus meningkat. Ini dapat dilihat dengan kian maraknya kehadiran pusat kebugaran tubuh, tak terkecuali di Surabaya. Tak sedikit warga Surabaya yang memilih mengunjungi pusat kebugaran tubuh sebagai upaya menciptakan gaya hidup sehat. Fenomena ini pun juga kian memotivasi pusat-pusat kebugaran sebagai upaya untuk terus meningkatkan pelayanannya. Salah satunya adalah Urban Fitness yang kini memilih berganti nama menjadi Urban Athletes.
           </p>
           <p class="text-sm sm:text-base">
-            Bersamaan dengan grand opening Urban Athletes Marvell City, turut dikenalkan The Valor, kelas terbaru yang tidak hanya melatih kebugaran tetapi juga menantang dengan berbagai variasi functional training. 
+            “Setelah satu tahun sejak pertama kali didirikan Oktober 2016 lalu, Urban Fitness telah menjadi salah satu pilihan utama masyarakat Surabaya dalam memilih tempat latihan kebugaran atau fitness center. Di usianya yang menginjak satu tahun ini, Urban Fitness hadir dengan semangat baru melalui logo dan nama barunya, yakni Urban Athletes,” terang Verawati Budianto, owner Urban Athletes, Minggu (22/10).
           </p>
           <p class="text-sm sm:text-base">
-            “The Valor bertujuan meningkatkan kualitas hidup kita, dengan latihan intensitas tinggi. Dengan latihan ala kegiatan sehari- hari tapi dengan alat. Semisal dulu jalan aja ngos-ngosan sekarang bisa lari. Asalkan rutin – seminggu tiga kali – dalam sebulan sudah bagus dan terlihat perubahannya. ” tutur Verawati Budiyanto, owner dari Urban Athletes , Sabtu, (03/03/2018). 
+            Lebih lanjut Vera mengungkapkan, nama Urban Athletes dipilih karena Urban Athletes percaya setiap orang adalah atlet dalam kesehariannya berolahraga. Juga diharapkan nama atau sebutan ‘athletes’ tersebut dapat lebih memotivasi para anggota untuk lebih giat berolahraga, tak hanya untuk memenuhi tren gaya hidup tetapi juga untuk menjaga kesehatan.
           </p>
           <p class="text-sm sm:text-base">
-            Urban Athletes Marvell City yang memiliki luas 600 meter persegi saat ini sudah memiliki 600 member dengan sebagian besar diantaranya adalah kaum hawa. Terdapat 3 studio serta virtual fitness studio. Selain The Valor, Urban Athletes juga memiliki kelas BodyPump, BodyBaIance, BodyCombat, RPM, dan Sprint yang terbagi dalam 500 kelas setiap minggunya. Kesemuanya berada di bawah lisensi resmi LesMills. Urban Athletes juga memiliki kelas hip hop khusus anak-anak yang diadakan seminggu sekali di semua cabang clubnya. 
+            “Urban Athletes percaya bahwa kesehatan yang terlihat luar berasal dari kesehatan yang telah diolah dari dalam. Seiring berkembangnya zaman dan kesibukan yang terus meningkat,” imbuhnya.
           </p>
           <p class="text-sm sm:text-base">
-            Pada saat grand opening Urban Athletes turut menghadirkan Eva Rais, penggiat ketogenic diet serta Kirsten Murphy, praktisi ketogenic asal Australia yang berbagi pengetahuan mengenai diet keto. Selain itu juga ada cooking class makanan-makanan sehat dengan Chef Hangga dan Chef Rinl.
+            Urban Athletes, lanjutnya, melihat semakin banyak orang yang tidak peduli dengan kesehatan. Hal ini menjadikan motivasi bagi Urban Athletes untuk memberikan tempat khusus bagi mereka yang ingin menjadikan hidup sehat sebagai gaya hidup dengan metode yang tepat dan fun.
           </p>
           <p class="text-sm sm:text-base">
-            Centroone.com
+            Ada berbagai layanan yang ditawarkan di Urban Athletes. Diantaranya adalah personal Trainer dengan sertifikasi Lessmills. Trainer profesional Urban Athletes akan membantu member secara tepat dan cepat dengan standarisasi yang telah ditentukan. Konsultasi fitness dan kesehatan juga dapat dilakukan dengan para trainer.
+          </p>
+          <p class="text-sm sm:text-base">
+            “Para member juga mendapatkan akses ke lebih dari 152 kelas. Kelas-kelas ini dapat diikuti oleh para member Urban Athletes, dan dipimpin oleh pelatih-pelatih berpengalaman di bidangnya,” tukasnya.
+          </p>
+          <p class="text-sm sm:text-base">
+            Dalam satu tahun kiprahnya, Urban Athletes telah dibuka di dua lokasi, yaitu di Apartemen Gunawangsa MERR, serta di Marvell City Surabaya, dengan jumlah member aktif sebanyak 1.400 orang. Hingga tahun depan, Urban Athletes menargetkan untuk memiliki lima cabang di Surabaya.
+          </p>
+          <p class="text-sm sm:text-base">
+            “Semakin banyak cabang kami akan kian memudahkan member untuk berolahraga sesuai dengan waktu dan kebutuhan mereka,” simpul Vera. (ris/rur)
+          </p>
+          <p class="text-sm sm:text-base">
+            suarakawan.com
           </p>
         </div>
       </div>

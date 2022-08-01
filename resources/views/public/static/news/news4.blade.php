@@ -1,31 +1,34 @@
 <x-main_web menu="NEWS">
   <div class="overflow-hidden">
     <div class="pb-8 flex justify-center max-h-[30vh] lg:max-h-[80vh] relative">
-      <img class="object-cover object-center w-full mx-auto" src="{{ url('image/web/news/original.jpg') }}" alt="News Urban Athletes">
+      <img class="object-cover object-top -mt-20 w-full mx-auto" src="{{ url('image/web/news/brt247716752.jpg') }}" alt="News Urban Athletes">
     </div>
     
     <div class="container flex flex-col md:flex-row-reverse justify-center">
       <div class="my-2">
-        <p class="text-yellow-primary text-xs sm:text-sm">CENTROONE.COM</p>
-        <h2 class="my-2 text-xl sm:text-3xl font-black">Resmi Dibuka, Urban Athletes Marvell City Hadirkan The Valor</h2>
+        <p class="text-yellow-primary text-xs sm:text-sm">beritajatim.com</p>
+        <h2 class="my-2 text-xl sm:text-3xl font-black">Urban Athletes Akan Buka 5 Cabang Lagi Tahun Depan</h2>
         <div class="space-y-2 pt-2">
           <p class="text-sm sm:text-base">
-            Centroone.com – Setelah sempat menggelar soft opening pada bulan November 2017 kemarin, Urban Athletes akhirnya secara resmi membuka club kedua mereka yang terletak di Marvell City, Surabaya.
+            Surabaya (beritajatim.com) – Rayakan usia baru, Urban fitnes akan buka lima cabang baru di Surabaya untuk para pecinta olah raga fitnes. Sukses dengan tempat fitnes di salah satu apartemen Gunawangsa di kawasan MERR, Surabaya.
           </p>
           <p class="text-sm sm:text-base">
-            Bersamaan dengan grand opening Urban Athletes Marvell City, turut dikenalkan The Valor, kelas terbaru yang tidak hanya melatih kebugaran tetapi juga menantang dengan berbagai variasi functional training. 
+            Urban Fitnes yang kini berganti nama menjadi Urban Athletes akan membuka tempat fitnes di dalam mall yakni Marvel City, Surabaya.
           </p>
           <p class="text-sm sm:text-base">
-            “The Valor bertujuan meningkatkan kualitas hidup kita, dengan latihan intensitas tinggi. Dengan latihan ala kegiatan sehari- hari tapi dengan alat. Semisal dulu jalan aja ngos-ngosan sekarang bisa lari. Asalkan rutin – seminggu tiga kali – dalam sebulan sudah bagus dan terlihat perubahannya. ” tutur Verawati Budiyanto, owner dari Urban Athletes , Sabtu, (03/03/2018). 
+            Bukan hanya itu kawasan perkantoran dan Apartement dikawasan Tidar, dan Perkantoran di wilayah Surabaya Barat akan dibuka awal tahun depan.
           </p>
           <p class="text-sm sm:text-base">
-            Urban Athletes Marvell City yang memiliki luas 600 meter persegi saat ini sudah memiliki 600 member dengan sebagian besar diantaranya adalah kaum hawa. Terdapat 3 studio serta virtual fitness studio. Selain The Valor, Urban Athletes juga memiliki kelas BodyPump, BodyBaIance, BodyCombat, RPM, dan Sprint yang terbagi dalam 500 kelas setiap minggunya. Kesemuanya berada di bawah lisensi resmi LesMills. Urban Athletes juga memiliki kelas hip hop khusus anak-anak yang diadakan seminggu sekali di semua cabang clubnya. 
+            “Kita rencananya akan buka 5 cabang baru di Surabaya, tapi dalam waktu dekat kita akan buka di Marvel City dulu dengan konsep yang menarik dan unik. Sementara bulan depan kita akan buka studio mini dulu dan gratis untuk member. Baru setelah itu kita pikirkan yang lain termasuk di Gresik,” ungkap Verawati, Owner Urbab Athletes, Minggu (22/10/2017).
           </p>
           <p class="text-sm sm:text-base">
-            Pada saat grand opening Urban Athletes turut menghadirkan Eva Rais, penggiat ketogenic diet serta Kirsten Murphy, praktisi ketogenic asal Australia yang berbagi pengetahuan mengenai diet keto. Selain itu juga ada cooking class makanan-makanan sehat dengan Chef Hangga dan Chef Rinl.
+            Ada berbagai layanan yang ditawarkan meliputi personal trainer dengan Sertifikasi Lessmills dimana trainer profesional akan membantu secara tepat dan cepat dengan standarisasi , bahkan konsultasi fitnes dan keseharan pun secara khusus akan diberikan kepada member.
           </p>
           <p class="text-sm sm:text-base">
-            Centroone.com
+            Bahkan para member bisa mendapatkan akses lebh dari 152 kelas yang dapat diikuti oleh para member dari pelatih berpengalaman dibidangnya. [way/ted]
+          </p>
+          <p class="text-sm sm:text-base">
+            Urban Athletes
           </p>
         </div>
       </div>
@@ -115,9 +118,9 @@
           </a>
         </div>
         <div class="max-w-[300px] min-w-[300px] mx-2">
-          <a href="{{ url('news/news4') }}">
+          <a href="{{ url('news/news5') }}">
             <div class="relative overflow-hidden">
-              <img class="aspect-square object-cover object-center mx-auto" src="{{ url('image/web/news/brt247716752.jpg') }}" alt="News Urban Athletes">
+              <img class="aspect-square object-cover object-center mx-auto" src="{{ url('image/web/news/circuit.jpg') }}" alt="News Urban Athletes">
               <div class="absolute top-0 left-0 bg-black bg-opacity-50 p-2 m-4 text-sm">
                 <p class="font-PoppinsSemiBold text-base text-white">12</p>
                 <p class="text-yellow-primary">APR '12</p>
@@ -129,9 +132,9 @@
               </div>
             </div>
             <div class="p-2">
-              <p class="font-black">Urban Athletes Akan Buka 5 Cabang Lagi Tahun Depan</p>
+              <p class="font-black">Berganti Nama, Urban Athletes Targetkan Buka Lima Cabang di Surabaya</p>
               <p class="text-sm text-neutral-700">
-                Kesadaran masyarakat khususnya di kota-kota besar untuk hidup sehat terus meningkat. Ini dapat dilihat dengan kian maraknya kehadiran pusat kebugaran ….
+                Setelah sempat menggelar soft opening pada bulan November 2017 kemarin, Urban Athletes akhirnya secara resmi membuka club kedua mereka yang ….
               </p>
             </div>
           </a>
