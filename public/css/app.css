@@ -545,9 +545,6 @@ video {
     max-width: 1536px;
   }
 }
-.pointer-events-auto {
-  pointer-events: auto;
-}
 .fixed {
   position: fixed;
 }
@@ -753,6 +750,9 @@ video {
 .mb-8 {
   margin-bottom: 2rem;
 }
+.mt-6 {
+  margin-top: 1.5rem;
+}
 .mt-12 {
   margin-top: 3rem;
 }
@@ -773,9 +773,6 @@ video {
 }
 .mr-auto {
   margin-right: auto;
-}
-.mt-6 {
-  margin-top: 1.5rem;
 }
 .mb-6 {
   margin-bottom: 1.5rem;
@@ -809,6 +806,9 @@ video {
 }
 .-mt-20 {
   margin-top: -5rem;
+}
+.ml-8 {
+  margin-left: 2rem;
 }
 .block {
   display: block;
@@ -870,13 +870,13 @@ video {
 .h-96 {
   height: 24rem;
 }
+.h-56 {
+  height: 14rem;
+}
 .h-fit {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-}
-.h-56 {
-  height: 14rem;
 }
 .h-32 {
   height: 8rem;
@@ -892,6 +892,9 @@ video {
 }
 .h-2 {
   height: 0.5rem;
+}
+.h-80 {
+  height: 20rem;
 }
 .max-h-full {
   max-height: 100%;
@@ -942,6 +945,9 @@ video {
 }
 .min-h-\[180px\] {
   min-height: 180px;
+}
+.min-h-full {
+  min-height: 100%;
 }
 .w-1\/2 {
   width: 50%;
@@ -1085,6 +1091,9 @@ video {
 }
 .max-w-\[300px\] {
   max-width: 300px;
+}
+.max-w-full {
+  max-width: 100%;
 }
 .table-fixed {
   table-layout: fixed;
@@ -2253,10 +2262,6 @@ video {
   border-color: rgb(239 68 68 / var(--tw-border-opacity));
 }
 
-.hover\:pointer-events-auto:hover {
-  pointer-events: auto;
-}
-
 .hover\:scale-105:hover {
   --tw-scale-x: 1.05;
   --tw-scale-y: 1.05;
@@ -2819,6 +2824,10 @@ video {
     height: 20rem;
   }
 
+  .md\:h-\[450px\] {
+    height: 450px;
+  }
+
   .md\:max-h-\[50vh\] {
     max-height: 50vh;
   }
@@ -3090,11 +3099,6 @@ video {
   .md\:px-12 {
     padding-left: 3rem;
     padding-right: 3rem;
-  }
-
-  .md\:px-2 {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
   }
 
   .md\:pb-6 {
@@ -3647,9 +3651,9 @@ video {
     padding-right: 2.5rem;
   }
 
-  .lg\:py-10 {
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
+  .lg\:py-9 {
+    padding-top: 2.25rem;
+    padding-bottom: 2.25rem;
   }
 
   .lg\:py-2 {
@@ -3672,6 +3676,11 @@ video {
     padding-bottom: 0.25rem;
   }
 
+  .lg\:px-2 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
   .lg\:px-16 {
     padding-left: 4rem;
     padding-right: 4rem;
@@ -3682,24 +3691,14 @@ video {
     padding-right: 9rem;
   }
 
+  .lg\:py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
   .lg\:px-12 {
     padding-left: 3rem;
     padding-right: 3rem;
-  }
-
-  .lg\:px-2 {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-  }
-
-  .lg\:py-12 {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-  }
-
-  .lg\:py-9 {
-    padding-top: 2.25rem;
-    padding-bottom: 2.25rem;
   }
 
   .lg\:pl-8 {

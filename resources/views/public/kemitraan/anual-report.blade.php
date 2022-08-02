@@ -21,7 +21,7 @@
           focus:outline-none" aria-label="Default select example">
             <option selected value="2022">2022</option>
             <option value="2021">2021</option>
-            <option value="2020">202</option>
+            <option value="2020">2022</option>
         </select>
       </label>
     </div>
