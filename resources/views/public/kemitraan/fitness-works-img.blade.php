@@ -142,7 +142,7 @@
     </div>
   </div>
   
-  <div>
+  <div class="px-5">
     <img class="w-full h-full" src="{{ url('image/franchise/fitness-works/1.jpg') }}" alt="FW Urban Athletes">
     <img class="w-full h-full" src="{{ url('image/franchise/fitness-works/2.jpg') }}" alt="FW Urban Athletes">
     <img class="w-full h-full" src="{{ url('image/franchise/fitness-works/3.jpg') }}" alt="FW Urban Athletes">

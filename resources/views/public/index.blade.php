@@ -15,12 +15,12 @@
           <div class="flex justify-center md:justify-end md:min-w-max">
             <img class="h-72 md:h-96" src="{{ url('image/web/home/Image-Poster-1.png') }}" alt="Poster Urban Athletes">
           </div>
-          <div class="grid content-center px-4">
+          <div class="grid content-center pl-4">
             <h2 class="font-FuturaBold text-xl">YOUR TRANSFORMATION IS ONE CLICK AWAY</h2>
             <span class="my-2">
               <a class="bg-yellow-primary py-1 px-4 font-PoppinsSemiBold" href="#">GET FREE TRIAL</a>
             </span>
-            <P>3-day trial, get rid of all your excuses, change now or never! Make a better version of you with Urban Athletes. #buildingabetteryou</P>
+            <P>3-day trial, get rid of all your excuses, change now or never! <br>Make a better version of you with Urban Athletes. <br>#buildingabetteryou</P>
           </div>
         </div>
       </div>
@@ -45,9 +45,15 @@
     </div>
   </div>
 
-  <div class="bg-black bg-gradient-to-tr from-neutral-300 via-neutral-700 py-8 relative overflow-hidden
+  <div class="bg-[url('/image/web/bg_page/BGAboutUsDeskripsi.jpg')] bg-cover bg-centerpy-8 relative overflow-hidden
     lg:flex lg:justify-center lg:items-center
   ">
+    <div class="absolute top-0 bottom-0 right-0 left-0 bg-black opacity-80">
+      {{-- <h2>
+        URBAN <br>
+        ATHLETES
+      </h2> --}}
+    </div>
     <div class="container lg:mx-0 text-yellow-primary lg:max-w-xl z-10">
       <h2 class="text-4xl font-FuturaBold">ABOUT US</h2>
       <p class="text-white font-extralight mt-2 mb-4">
@@ -60,12 +66,6 @@
     <div class="grid grid-cols-2 gap-4 container lg:mx-0 py-6 lg:max-w-xl">
       <img class="pb-12 lg:pb-16 object-cover object-top mx-auto h-full z-10" src="{{ url('image/web/home/Home_about_us-l.jpg') }}" alt="About us Urban Athletes">
       <img class="pt-12 lg:pt-16 object-cover object-top mx-auto z-10" src="{{ url('image/web/home/About-Us-l.jpg') }}" alt="About us Urban Athletes">
-    </div>
-    <div class="absolute bottom-20 left-20 text-8xl text-neutral-800 font-black opacity-30">
-      <h2>
-        URBAN <br>
-        ATHLETES
-      </h2>
     </div>
   </div>
 
@@ -207,10 +207,10 @@
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4 overflow-hidden py-4">
       <div class="flex justify-center items-center relative">
         <img class="h-full w-full object-cover object-center" src="{{ url('image/web/home/Exclusive_Muaythai.jpg') }}" alt="Urban Athletes">
-        <div class="absolute top-0 left-0 bg-black bg-opacity-50 p-2 m-4">
+        {{-- <div class="absolute top-0 left-0 bg-black bg-opacity-50 p-2 m-4">
           <p class="font-PoppinsSemiBold text-lg text-white">12</p>
           <p class="text-yellow-primary">APR '12</p>
-        </div>
+        </div> --}}
         <div class="absolute top-0 right-0 bg-black bg-opacity-50 py-1 px-4 m-4">
           <p class="text-yellow-primary">TIPS & TRICK</p>
         </div>
@@ -224,10 +224,10 @@
       <div class="grid grid-cols-1 gap-4">
         <div class="flex justify-center items-center relative h-56 lg:h-72">
           <img class="h-full w-full object-cover object-center" src="{{ url('image/web/footer/img_1.jpg') }}" alt="Urban Athletes">
-          <div class="absolute top-0 left-0 bg-black bg-opacity-50 p-2 m-4">
+          {{-- <div class="absolute top-0 left-0 bg-black bg-opacity-50 p-2 m-4">
             <p class="font-PoppinsSemiBold text-lg text-white">12</p>
             <p class="text-yellow-primary">APR '12</p>
-          </div>
+          </div> --}}
           <div class="absolute top-0 right-0 bg-black bg-opacity-50 py-1 px-4 m-4">
             <p class="text-yellow-primary">BUSSINESS</p>
           </div>
@@ -240,10 +240,10 @@
         </div>
         <div class="flex justify-center items-center relative h-56 lg:h-72">
           <img class="h-full w-full object-cover object-center"  src="{{ url('image/web/home/trx_class.jpg') }}" alt="Urban Athletes">
-          <div class="absolute top-0 left-0 bg-black bg-opacity-50 p-2 m-4">
+          {{-- <div class="absolute top-0 left-0 bg-black bg-opacity-50 p-2 m-4">
             <p class="font-PoppinsSemiBold text-lg text-white">12</p>
             <p class="text-yellow-primary">APR '12</p>
-          </div>
+          </div> --}}
           <div class="absolute top-0 right-0 bg-black bg-opacity-50 py-1 px-4 m-4">
             <p class="text-yellow-primary">BUSSINESS</p>
           </div>
@@ -261,7 +261,7 @@
   <div class="container px-8">
     <div class="bg-[url('/image/web/home/BackgroundUAAcademy.png')] bg-cover bg-center grid grid-cols-1 md:grid-cols-3 md:gap-8 place-items-center p-4">
       <div class="pb-8 md:pb-0 h-32 flex justify-center items-center rounded-md overflow-hidden">
-        <img class="w-full object-cover object-center" src="{{ url('image/web/home/Exclusive_Muaythai.jpg') }}" alt="Urban Athletes">
+        <img class="w-full aspect-video object-cover object-top" src="{{ url('image/web/UaAcademy.jpg') }}" alt="Urban Athletes">
       </div>
       <div class="col-span-2 px-4 flex items-center">
         <div class="flex flex-col space-y-4">
@@ -285,7 +285,7 @@
       {{-- <img class="h-20 m-4" src="{{ url('image/web/logo/urbanfit.png') }}" alt="Mitra Urban Athletes"> --}}
       {{-- <img class="h-20 m-4" src="{{ url('image/web/logo/fitness_work-02.png') }}" alt="Mitra Urban Athletes"> --}}
       <img class="m-4 max-w-xs" src="{{ url('image/web/logo/LogoFitnessworkPanjang.png') }}" alt="Mitra Urban Athletes">
-      <img class="h-20 m-4" src="{{ url('image/web/logo/URBAN-LOGOCIRCUIT.png') }}" alt="Mitra Urban Athletes">
+      <img class="h-20 m-4" src="{{ url('image/web/logo_kelas/CIRCUIT.png') }}" alt="Mitra Urban Athletes">
     </div>
   </div>
 {{--   

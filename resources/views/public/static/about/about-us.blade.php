@@ -4,7 +4,7 @@
       <img class="object-cover object-center w-full mx-auto" src="{{ url('image/web/about/about_us/d.jpg') }}" alt="About Us Urban Athletes">
       <div class="absolute top-0 bottom-0 left-0 right-0 flex flex-col justify-center items-center bg-gradient-to-t from-black">
         <div class="absolute bottom-0 max-w-max text-center pb-8">
-          <h2 class="text-2xl font-FuturaBold pb-2 lg:pb-4">ABOUT US</h2>
+          <h2 class="text-4xl font-FuturaBold pb-2 lg:pb-4">ABOUT US</h2>
           {{-- <P>
             HOME <span class="text-yellow-primary">|</span> ABOUT US
           </P> --}}
@@ -28,7 +28,7 @@
       >
         <div class="pl-4 pr-56 sm:pr-64 h-full flex justify-center items-center">
           <div class="">
-            <h2 class="text-xl font-FuturaBold mb-4">ABOUT US</h2>
+            <h2 class="text-2xl font-FuturaBold mb-4">ABOUT US</h2>
             <p class="text-sm">Urban Athletes adalah tempat bagi mereka yang berinspirasi untuk hidup sehat dengan metode yang tepat dan fun. Kita percaya olahraga bukan hanya sekedar gaya hidup. Tapi adalah sarana untuk menjadi pribadi yang lebih baik. Membawa Dampak dan membangun manusia menjadi versi terbaiknya.</p>
           </div>
         </div>
@@ -51,7 +51,7 @@
     <div class="container pt-8">
       <div class="uppercase grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
         <div class="text-center my-4">
-          <h2 class="text-6xl text-yellow-primary font-FuturaBold pb-2">10</h2>
+          <h2 class="text-6xl text-yellow-primary font-FuturaBold pb-2">18</h2>
           <p>Programs</p>
         </div>
         <div class="text-center my-4">
@@ -69,21 +69,21 @@
       </div>
     </div>
     <div class="container">
-      <div class="uppercase py-4 grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
+      <div class="py-4 grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
         <div class="bg-neutral-600 bg-opacity-20 py-6 px-4">
-          <h2 class="text-xl text-yellow-primary font-FuturaBold pb-4">PERSONAL TRAINER</h2>
+          <h2 class="text-xl text-yellow-primary font-FuturaBold pb-4 uppercase">PERSONAL TRAINER</h2>
           <p>Trainer profesional kami akan membantu Anda secara tepat dan cepat dengan standarisasi yang telah ditentukan. konsultasi fitness dan kesehatan juga dapat dilakukan dengan para trainer kami.</p>
         </div>
         <div class="bg-neutral-600 bg-opacity-20 py-6 px-4">
-          <h2 class="text-xl text-yellow-primary font-FuturaBold pb-4">AKSES KE LEBIH DARI 500+ KELAS</h2>
+          <h2 class="text-xl text-yellow-primary font-FuturaBold pb-4 uppercase">AKSES KE LEBIH DARI 500+ KELAS</h2>
           <p>Fasilitas unggulan kami yang lain adalah tersedianya kelas-kelas yang dapat diikuti oleh para member Urban Athletes, dipimpin oleh pelatih-pelatih berpengalaman di bidangnya.</p>
         </div>
         <div class="bg-neutral-600 bg-opacity-20 py-6 px-4">
-          <h2 class="text-xl text-yellow-primary font-FuturaBold pb-4">FASILITAS FITNESS TERSTANDARISASI</h2>
+          <h2 class="text-xl text-yellow-primary font-FuturaBold pb-4 uppercase">FASILITAS FITNESS TERSTANDARISASI</h2>
           <p>Keamanan bagi semua member kami tetap menjadi prioritas utama Urban Athletes. Kesehatan tetap nomor satu, tetapi apa artinya tanpa keselamatan yang terjamin.</p>
         </div>
         <div class="bg-neutral-600 bg-opacity-20 py-6 px-4">
-          <h2 class="text-xl text-yellow-primary font-FuturaBold pb-4">SUASANA RAMAH</h2>
+          <h2 class="text-xl text-yellow-primary font-FuturaBold pb-4 uppercase">SUASANA RAMAH</h2>
           <p>Tidak hanya sebagai tempat berolahraga, kami ingin Urban Athletes menjadi rumah yang nyaman bagi semua member kami. Para staff dan seluruh keluarga Urban Athletes akan menjadi teman terbaik Anda.</p>
         </div>
       </div>

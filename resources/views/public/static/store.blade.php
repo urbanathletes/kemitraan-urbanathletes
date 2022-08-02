@@ -23,7 +23,7 @@
         </div>
       </div>
       <div class="w-full lg:w-3/5 lg:ml-auto relative">
-        <img class="object-cover object-center" src="{{ url('image/web/UA_Membership.jpg') }}" alt="Store Urban Athletes">
+        <img class="object-cover object-top max-h-52 w-full" src="{{ url('image/web/UA-Banner_Global.jpg') }}" alt="Store Urban Athletes">
         <div class="bg-gradient-to-b lg:bg-gradient-to-r from-black absolute top-0 bottom-0 right-0 left-0"></div>
       </div>
     </div>
@@ -92,7 +92,7 @@
         </div>
       </div>
       <div class="w-full lg:w-3/5 lg:ml-auto relative">
-        <img class="object-cover object-center" src="{{ url('image/web/UA_Membership.jpg') }}" alt="Store Urban Athletes">
+        <img class="object-cover object-top max-h-52 w-full" src="{{ url('image/web/UA-Banner_Global.jpg') }}" alt="Store Urban Athletes">
         <div class="bg-gradient-to-b lg:bg-gradient-to-r from-black absolute top-0 bottom-0 right-0 left-0"></div>
       </div>
     </div>
@@ -159,6 +159,93 @@
             <P class="border-b border-neutral-700 py-1 mt-2">Barcode Apps</P>
             <P class="border-b border-neutral-700 py-1 mt-2">PT Session</P>
             <P class="border-b border-neutral-700 py-1 mt-2">Consultation</P>
+          </div>
+          <button class="my-2 py-2 px-4 border border-white text-white
+            hover:bg-yellow-primary hover:border-yellow-primary hover:text-black
+            transition-all duration-300
+          ">BOOK NOW</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-[#30A2BA] my-8 relative">
+      <div class="min-h-52 w-full">
+        <div class="mx-auto flex justify-center items-center py-4 lg:absolute lg:top-0 lg:bottom-0 lg:left-10 lg:ml-16 lg:z-10">
+          <img class="h-16 md:h-20 m-4" src="{{ url('image/web/logo/URBAN-LOGO_JR_HIRES.png') }}" alt="Mitra Urban Athletes">
+          <div class="text-yellow-primary text-xl sm:text-3xl font-FuturaBold md:ml-6">
+            <h2>URBAN ATHLETES KIDS</h2>
+            <h2>MEMBERSHIP</h2>
+          </div>
+        </div>
+      </div>
+      <div class="w-full lg:w-1/2 lg:ml-auto relative overflow-hidden">
+        <img class="object-cover object-center max-h-52 w-full" src="{{ url('image/web/Store_Kids.jpg') }}" alt="Store Urban Athletes">
+        <div class="bg-gradient-to-b lg:bg-gradient-to-r from-[#30A2BA] absolute top-0 bottom-0 right-0 left-0"></div>
+      </div>
+    </div>
+
+    <div class="lg:container overflow-x-auto px-8 no-scrollbar">
+      <div class="flex flex-nowrap space-x-4 justify-start md:justify-center">
+        <div class="bg-[#30A2BA] max-w-max text-center text-yellow-primary font-FuturaBold text-sm px-12 pt-4 pb-8 min-w-[276px]">
+          <div class="flex justify-center text-white">
+            {{-- <img class="w-16 m-4 mx-auto" src="{{ url('image/web/logo/Valor_TM_putih.png') }}" alt="Valor Urban Athletes"> --}}
+            <div class="text-xs">Rp</div>
+            <div><p class="text-6xl">99</p></div>
+            <div class="mt-2">
+              <p>.000.000</p>
+              <p class="text-yellow-primary">3 MONTH</p>
+            </div>
+          </div>
+          <div class="my-4 py-4 text-xs">
+            <P class="border-b border-yellow-primary py-1 mt-2">Free Acces Gym Area</P>
+            <p class="border-b border-yellow-primary py-1 mt-2">2 FT Test Session</p>
+            <P class="border-b border-yellow-primary py-1 mt-2">Barcode Apps</P>
+            <P class="border-b border-yellow-primary py-1 mt-2">PT Session</P>
+            <P class="border-b border-yellow-primary py-1 mt-2">Consultation</P>
+          </div>
+          <button class="my-2 py-2 px-4 border border-white text-white
+            hover:bg-yellow-primary hover:border-yellow-primary hover:text-black
+            transition-all duration-300
+          ">BOOK NOW</button>
+        </div>
+        <div class="bg-[#30A2BA] max-w-max text-center text-yellow-primary font-FuturaBold text-sm px-12 pt-4 pb-8 min-w-[276px]">
+          <div class="flex justify-center text-white">
+            {{-- <img class="w-16 m-4 mx-auto" src="{{ url('image/web/logo/Valor_TM_putih.png') }}" alt="Valor Urban Athletes"> --}}
+            <div class="text-xs">Rp</div>
+            <div><p class="text-6xl">99</p></div>
+            <div class="mt-2">
+              <p>.000.000</p>
+              <p class="text-yellow-primary">6 MONTH</p>
+            </div>
+          </div>
+          <div class="my-4 py-4 text-xs">
+            <P class="border-b border-yellow-primary py-1 mt-2">Free Acces Gym Area</P>
+            <p class="border-b border-yellow-primary py-1 mt-2">2 FT Test Session</p>
+            <P class="border-b border-yellow-primary py-1 mt-2">Barcode Apps</P>
+            <P class="border-b border-yellow-primary py-1 mt-2">PT Session</P>
+            <P class="border-b border-yellow-primary py-1 mt-2">Consultation</P>
+          </div>
+          <button class="my-2 py-2 px-4 border border-white text-white
+            hover:bg-yellow-primary hover:border-yellow-primary hover:text-black
+            transition-all duration-300
+          ">BOOK NOW</button>
+        </div>
+        <div class="bg-[#30A2BA] max-w-max text-center text-yellow-primary font-FuturaBold text-sm px-12 pt-4 pb-8 min-w-[276px]">
+          <div class="flex justify-center text-white">
+            {{-- <img class="w-16 m-4 mx-auto" src="{{ url('image/web/logo/Valor_TM_putih.png') }}" alt="Valor Urban Athletes"> --}}
+            <div class="text-xs">Rp</div>
+            <div><p class="text-6xl">99</p></div>
+            <div class="mt-2">
+              <p>.000.000</p>
+              <p class="text-yellow-primary">12 MONTH</p>
+            </div>
+          </div>
+          <div class="my-4 py-4 text-xs">
+            <P class="border-b border-yellow-primary py-1 mt-2">Free Acces Gym Area</P>
+            <p class="border-b border-yellow-primary py-1 mt-2">2 FT Test Session</p>
+            <P class="border-b border-yellow-primary py-1 mt-2">Barcode Apps</P>
+            <P class="border-b border-yellow-primary py-1 mt-2">PT Session</P>
+            <P class="border-b border-yellow-primary py-1 mt-2">Consultation</P>
           </div>
           <button class="my-2 py-2 px-4 border border-white text-white
             hover:bg-yellow-primary hover:border-yellow-primary hover:text-black

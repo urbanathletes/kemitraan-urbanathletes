@@ -4,14 +4,14 @@
     <div class="absolute top-0 bottom-0 right-0 left-0 bg-black opacity-80"></div>
     <div class="absolute top-0 bottom-0 left-0 right-0 flex flex-col justify-center items-center text-white">
       <div class="absolute bottom-0 max-w-max text-center pb-6">
-        <h2 class="text-4xl font-FuturaBold pb-2 lg:pb-4">ANUAL REPORT</h2>
+        <h2 class="text-4xl font-FuturaBold pb-2 lg:pb-4">PRESENTATION</h2>
       </div>
     </div>
   </div>
 
   <div class="container my-8">
     <div class="my-4 pl-4">
-      <h2 class="font-FuturaBold text-2xl px-4 max-w-max bg-yellow-primary mb-2">ANUAL REPORT</h2>
+      <h2 class="font-FuturaBold text-2xl px-4 max-w-max bg-yellow-primary mb-2">PRESENTATION</h2>
       {{-- <p class="max-w-5xl tracking-widest">At Urban Athletes we have made it simple, affordable and convenient for everyone to achieve their personal health goals. Whether you’re a beginner or a pro, young or old, everybody is welcome.</p> --}}
     </div>
 

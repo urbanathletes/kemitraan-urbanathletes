@@ -3,7 +3,7 @@
     <img class="object-cover object-top w-full mx-auto lg:-mt-20" src="{{ url('image/web/bg_page/BGHeaderSuccesStory.jpg') }}" alt="About Us Urban Athletes">
     <div class="absolute top-0 bottom-0 left-0 right-0 flex flex-col justify-center items-center text-white bg-gradient-to-t from-black">
       <div class="absolute bottom-0 max-w-max text-center pb-8">
-        <h2 class="text-2xl font-FuturaBold pb-2 lg:pb-4">SUCCES STORY</h2>
+        <h2 class="text-4xl font-FuturaBold pb-2 lg:pb-4">SUCCES STORY</h2>
         {{-- <P>
           HOME <span class="text-yellow-primary">|</span> SUCCES STORY
         </P> --}}
@@ -11,7 +11,7 @@
     </div>
   </div>
   <div class="container mt-12" id="click-detail">
-    <div class="mb-8 max-w-max relative">
+    <div class="mb-8 md:mx-20 max-w-max relative">
       <h2 class="text-4xl font-FuturaBold">WHAT OUR CLIENT SAY</h2>
       <span class="absolute left-0 -bottom-2 w-36 pb-1.5 bg-yellow-primary"></span>
     </div>
@@ -37,7 +37,7 @@
       </div>
     </div>
     
-    <div class="py-8 flex flex-wrap justify-around text-center font-Futura text-yellow-primary">
+    <div class="py-8 flex flex-wrap justify-around text-center font-PoppinsSemiBold text-yellow-primary">
       <div class="w-64 h-96 my-4 overflow-hidden relative group" id="card">
         <span id="img-ori">
           <img class="group-hover:scale-110 object-cover object-center h-full w-full mx-auto transition-all duration-300" src="{{ url('image/web/succes-story/foto-1.jpg') }}" alt="fly high yoga Urban Athletes">
