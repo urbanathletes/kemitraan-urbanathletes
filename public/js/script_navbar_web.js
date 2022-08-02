@@ -55,15 +55,25 @@ let subMenuS = document.querySelectorAll('#sub-menu');
 function subMenuOpen(even) {
   // 1 = untuk tengah, 2 = utuk text / +
   subMenuClose()
-  // console.log('list2', even.path[2].nextElementSibling);
-  if (even.path[2].nextElementSibling === null) {
-    var subMenuUl1 = even.path[1].nextElementSibling;
+  // console.log('list2', even.target.firstElementChild);
+  // console.log('list2 chrome', even.path[2].nextElementSibling);
+  if (even.target.parentElement.parentElement.parentElement.querySelector('#list-subMenu') === null) { // 2 = utuk text / +
+    var subMenuUl1 = even.target.parentElement.parentElement.parentElement.querySelector('#list-subMenu'); // 1 = untuk tengah
+    // console.log('if 1');
     if (even.target.querySelector('#sub-menu-icon').innerHTML === '+') {
       even.target.querySelector('#sub-menu-icon').innerHTML = '-'
     }
     subMenuToggle(subMenuUl1);
-  } else if (even.path[2].nextElementSibling.id == "list-subMenu") {
-    var subMenuUl2 = even.path[2].nextElementSibling;
+  } else if (even.target.firstElementChild) { // 1 = untuk tengah
+    var subMenuUl1 = even.target.parentElement.parentElement.querySelector('#list-subMenu'); // 1 = untuk tengah
+    // console.log('if 2');
+    if (even.target.querySelector('#sub-menu-icon').innerHTML === '+') {
+      even.target.querySelector('#sub-menu-icon').innerHTML = '-'
+    }
+    subMenuToggle(subMenuUl1);
+  } else if (even.target.parentElement.parentElement.parentElement.querySelector('#list-subMenu').id == "list-subMenu") { // 2 = utuk text / +
+    var subMenuUl2 = even.target.parentElement.parentElement.parentElement.querySelector('#list-subMenu'); // 2 = utuk text / +
+    // console.log('if 3');
     if (even.target.nextElementSibling == null) {
       if (even.target.innerHTML === '+') {
         even.target.innerHTML = '-'
@@ -74,12 +84,6 @@ function subMenuOpen(even) {
       }
     }
     subMenuToggle(subMenuUl2);
-  } else if (even.path[1].nextElementSibling.id == "list-subMenu") {
-    var subMenuUl1 = even.path[1].nextElementSibling;
-    if (even.target.querySelector('#sub-menu-icon').innerHTML === '+') {
-      even.target.querySelector('#sub-menu-icon').innerHTML = '-'
-    }
-    subMenuToggle(subMenuUl1);
   } else {
     console.log('else');
   }

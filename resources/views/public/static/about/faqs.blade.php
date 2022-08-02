@@ -3,7 +3,7 @@
     <img class="object-cover object-top w-full mx-auto lg:-mt-20" src="{{ url('image/web/about/UA-Banner_Global.jpg') }}" alt="About Us Urban Athletes">
     <div class="absolute top-0 bottom-0 left-0 right-0 flex flex-col justify-center items-center text-white bg-gradient-to-t from-black">
       <div class="absolute bottom-0 max-w-max text-center pb-8">
-        <h2 class="text-2xl font-FuturaBold pb-2 lg:pb-4">FAQS</h2>
+        <h2 class="text-4xl font-FuturaBold pb-2 lg:pb-4">FAQS</h2>
         {{-- <P>
           HOME <span class="text-yellow-primary">|</span> FAQS
         </P> --}}
@@ -28,8 +28,8 @@
       </div>
     </form>
 
-    <div class="flex flex-wrap justify-center items-center space-x-4">
-      <button class="menu-active">MEMBERSHIP</button>
+    <div class="flex flex-wrap justify-center items-center space-x-4 lg:space-x-10 font-PoppinsSemiBold">
+      <button class="menu-active-web">MEMBERSHIP</button>
       <button>CLUB</button>
       <button>PAYMENT</button>
       <button>SERVICE</button>
@@ -38,7 +38,7 @@
 
     <div class="grid grid-cols-1 md:grid-cols-3 text-sm mt-4">
       <div>
-        <div class="border border-black m-1 p-2">
+        <div class="border border-black m-1 px-2 py-4">
           <h2 class="font-FuturaBold">Apa saga tipe keanggotaan / Membership di Urban Athletes ?</h2>
           <div>
             <div class="border-t border-neutral-700 my-2"></div>
@@ -47,7 +47,7 @@
         </div>
       </div>
       <div>
-        <div class="border border-black m-1 p-2 cursor-pointer">
+        <div class="border border-black m-1 px-2 py-4 cursor-pointer">
           <div class="flex justify-between items-center space-x-4" id="card-faq">
             <h2 class="font-FuturaBold">Bagaimana cara mendapatkan Personal Trainer di Urban Athletes ?</h2>
             <span class="font-FuturaBold text-xl rotate-90">&#8711;</span>
@@ -57,7 +57,7 @@
             <p>Untuk mendapatkan bantuan PT, Anda harus menjadi member Urban Athletes terlebih dahulu. Kemudian Anda dapat memilih paket PT mulai dari 4 sampai 48 sesi.</p>
           </div>
         </div>
-        <div class="border border-black m-1 p-2 cursor-pointer">
+        <div class="border border-black m-1 px-2 py-4 cursor-pointer">
           <div class="flex justify-between items-center space-x-4" id="card-faq">
             <h2 class="font-FuturaBold">Apakah keanggotaan saya bisa Diberhentikan sementara ?</h2>
             <span class="font-FuturaBold text-xl rotate-90">&#8711;</span>
@@ -69,7 +69,7 @@
         </div>
       </div>
       <div>
-        <div class="border border-black m-1 p-2 cursor-pointer">
+        <div class="border border-black m-1 px-2 py-4 cursor-pointer">
           <div class="flex justify-between items-center space-x-4" id="card-faq">
             <h2 class="font-FuturaBold">Dapatkah saya dastar keanggotaan Secara online ?</h2>
             <span class="font-FuturaBold text-xl rotate-90">&#8711;</span>
@@ -79,7 +79,7 @@
             <p>Iya, Anda dapat mendaftar sebagai member dan booking personal trainer melalui aplikasi Urban Athletes.</p>
           </div>
         </div>
-        <div class="border border-black m-1 p-2 cursor-pointer">
+        <div class="border border-black m-1 px-2 py-4 cursor-pointer">
           <div class="flex justify-between items-center space-x-4" id="card-faq">
             <h2 class="font-FuturaBold">Apakah keanggotaan saya bisa Diberhentikan sementara ?</h2>
             <span class="font-FuturaBold text-xl rotate-90">&#8711;</span>
