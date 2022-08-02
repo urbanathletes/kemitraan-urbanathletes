@@ -9,7 +9,7 @@
         lg:justify-end lg:w-max lg:px-4 lg:mx-4 lg:py-2 lg:mb-2 lg:min-w-max
       ">
         <a href="{{ url('/') }}">
-          <img class="h-16 md:h-14 py-2 lg:py-0" src="{{ url('/image/logo-UA.png') }}" alt="Logo Urban Athletes">
+          <img class="h-16 md:h-12 py-2 lg:py-0" src="{{ url('/image/logo-UA.png') }}" alt="Logo Urban Athletes">
         </a>
       </div>
       <div class="
@@ -58,15 +58,15 @@
             </li> --}}
             <li class="
               py-3 px-4 border-b-[1px] border-gray-600 hover:text-yellow-primary 
-              xl:px-4 lg:border-y-0 lg:border-t-0 lg:hover:border-b-2 lg:hover:border-white
+              xl:px-4 lg:py-2 lg:px-2 lg:border-y-0 lg:border-t-0 lg:hover:border-b-2 lg:hover:border-white
             " id="menu" data-menu="{{$menu ?? ''}}"><a href="{{ url('/workout') }}"><span>WORKOUTS</span></a></li>
             <li class="
               py-3 px-4 border-b-[1px] border-gray-600 hover:text-yellow-primary 
-              xl:px-4 lg:border-y-0 lg:border-t-0 lg:hover:border-b-2 lg:hover:border-white
+              xl:px-4 lg:py-2 lg:px-2 lg:border-y-0 lg:border-t-0 lg:hover:border-b-2 lg:hover:border-white
             " id="menu" data-menu="{{$menu ?? ''}}"><a href="{{ url('trainer') }}"><span>TRAINER</span></a></li>
             <li class="
               py-3 px-4 border-b-[1px] border-gray-600 hover:text-yellow-primary 
-              xl:px-4 lg:border-y-0 lg:border-t-0 lg:hover:border-b-2 lg:hover:border-white
+              xl:px-4 lg:py-2 lg:px-2 lg:border-y-0 lg:border-t-0 lg:hover:border-b-2 lg:hover:border-white
             " id="menu" data-menu="{{$menu ?? ''}}"><a href="{{ url('/timetable') }}"><span>TIMETABLE</span></a></li>
           
             {{-- <li class="
@@ -106,7 +106,7 @@
                 lg:overflow-visible lg:uppercase
               " id="sub-menu">
                 <div class="flex justify-between items-center" id="klik">
-                  <span class="py-3 px-4 justify-between" id="klik">ABOUT US</span>
+                  <span class="py-3 lg:py-2 lg:px-2 px-4 justify-between" id="klik">ABOUT US</span>
                   <p class="lg:hidden px-4" id="sub-menu-icon">+</p>
                 </div>
               </button>
@@ -126,11 +126,11 @@
             </li>
             <li class="
               py-3 px-4 border-b-[1px] border-gray-600 hover:text-yellow-primary
-              xl:px-4 lg:border-y-0 lg:border-t-0 lg:hover:border-b-2 lg:hover:border-white
+              xl:px-4 lg:py-2 lg:px-2 lg:border-y-0 lg:border-t-0 lg:hover:border-b-2 lg:hover:border-white
             " id="menu" data-menu="{{$menu ?? ''}}"><a href="{{ url('news') }}"><span>ARTICLE</span></a></li>
             <li class="
               py-3 px-4 border-b-[1px] border-gray-600 hover:text-yellow-primary
-              xl:px-4 lg:border-y-0 lg:border-t-0 lg:hover:border-b-2 lg:hover:border-white
+              xl:px-4 lg:py-2 lg:px-2 lg:border-y-0 lg:border-t-0 lg:hover:border-b-2 lg:hover:border-white
             " id="menu" data-menu="{{$menu ?? ''}}"><a href="{{ url('/store') }}"><span>STORE</span></a></li>
           
             {{-- <li class="

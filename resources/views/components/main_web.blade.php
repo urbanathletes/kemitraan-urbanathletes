@@ -14,7 +14,7 @@
 <body class="relative font-AmpleSoft">
   @empty($specialPage)
     @include('components.navbar_web')
-    <div class="py-8 md:py-9 lg:py-10"></div>
+    <div class="py-8 md:py-9 lg:py-9"></div>
   @endempty
   <main>
     <div class="font-AmpleSoft">
