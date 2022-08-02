@@ -41,7 +41,7 @@
               <p class="text-yellow-primary">APR '12</p>
             </div> --}}
             <div class="absolute top-0 right-0 bg-black bg-opacity-50 py-1 px-4 m-4">
-              <p class="text-yellow-primary">Artikel Update</p>
+              <p class="text-yellow-primary">Article Update</p>
             </div>
             <div class="absolute bottom-0 top-0 right-0 left-0 text-left bg-gradient-to-t from-black bg-opacity-90 opacity-0 group-hover:opacity-100 transition-all duration-300">
               <div class="h-fit px-4 pb-6 absolute bottom-0 right-0 left-0">
@@ -59,7 +59,7 @@
               <p class="text-yellow-primary">APR '12</p>
             </div> --}}
             <div class="absolute top-0 right-0 bg-black bg-opacity-50 py-1 px-4 m-4">
-              <p class="text-yellow-primary">Artikel Update</p>
+              <p class="text-yellow-primary">Article Update</p>
             </div>
             <div class="absolute bottom-0 top-0 right-0 left-0 text-left bg-gradient-to-t from-black bg-opacity-90 opacity-0 group-hover:opacity-100 transition-all duration-300">
               <div class="h-fit px-4 pb-6 absolute bottom-0 right-0 left-0">
@@ -77,7 +77,7 @@
               <p class="text-yellow-primary">APR '12</p>
             </div> --}}
             <div class="absolute top-0 right-0 bg-black bg-opacity-50 py-1 px-4 m-4">
-              <p class="text-yellow-primary">Artikel Update</p>
+              <p class="text-yellow-primary">Article Update</p>
             </div>
             <div class="absolute bottom-0 top-0 right-0 left-0 text-left bg-gradient-to-t from-black bg-opacity-90 opacity-0 group-hover:opacity-100 transition-all duration-300">
               <div class="h-fit px-4 pb-6 absolute bottom-0 right-0 left-0">
@@ -95,7 +95,7 @@
               <p class="text-yellow-primary">APR '12</p>
             </div> --}}
             <div class="absolute top-0 right-0 bg-black bg-opacity-50 py-1 px-4 m-4">
-              <p class="text-yellow-primary">Artikel Update</p>
+              <p class="text-yellow-primary">Article Update</p>
             </div>
             <div class="absolute bottom-0 top-0 right-0 left-0 text-left bg-gradient-to-t from-black bg-opacity-90 opacity-0 group-hover:opacity-100 transition-all duration-300">
               <div class="h-fit px-4 pb-6 absolute bottom-0 right-0 left-0">
@@ -113,7 +113,7 @@
               <p class="text-yellow-primary">APR '12</p>
             </div> --}}
             <div class="absolute top-0 right-0 bg-black bg-opacity-50 py-1 px-4 m-4">
-              <p class="text-yellow-primary">Artikel Update</p>
+              <p class="text-yellow-primary">Article Update</p>
             </div>
             <div class="absolute bottom-0 top-0 right-0 left-0 text-left bg-gradient-to-t from-black bg-opacity-90 opacity-0 group-hover:opacity-100 transition-all duration-300">
               <div class="h-fit px-4 pb-6 absolute bottom-0 right-0 left-0">
