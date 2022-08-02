@@ -1,12 +1,15 @@
 <x-main_web menu='WORKOUTS'>
   <div class="flex justify-center max-h-[80vh] relative">
     <img class="object-cover object-center mx-auto" src="{{ url('image/web/home/Exclusive_Bodycombat.jpg') }}" alt="Body Combat Urban Athletes">
+    <div class="absolute top-0 left-0">
+      <img class="w-56" src="{{ url('image/web/logo/LesMillsUK.png') }}" alt="LesMillsUK">
+    </div>
     <div class="absolute top-0 bottom-0 left-0 right-0 flex flex-col justify-center items-center text-center text-white bg-black bg-opacity-60">
       <h2 class="text-4xl font-FuturaBold py-4">WORKOUT</h2>
-      {{-- <P>
-        WEIGHT LOSS <span class="text-yellow-primary">|</span> FLEXIBILITY <span class="text-yellow-primary">|</span> TONE MUSCLE <span class="text-yellow-primary">|</span> ENDURANCE <span class="text-yellow-primary">|</span> <BR>
-        STRENGTH <span class="text-yellow-primary">|</span> KIDS GYM
-      </P> --}}
+      <P>
+        <span class="text-yellow-primary">|</span> WEIGHT LOSS <span class="text-yellow-primary">|</span> FLEXIBILITY <span class="text-yellow-primary">|</span> TONE MUSCLE <span class="text-yellow-primary">|</span> ENDURANCE <span class="text-yellow-primary">|</span> <BR>
+          <span class="text-yellow-primary">|</span> STRENGTH <span class="text-yellow-primary">|</span> KIDS GYM <span class="text-yellow-primary">|</span>
+      </P>
     </div>
   </div>
 

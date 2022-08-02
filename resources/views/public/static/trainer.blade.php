@@ -12,8 +12,9 @@
   </div>
   <div class="container my-12" id="click-detail">
     <div class="mb-8 max-w-max relative">
-      <h2 class="text-4xl font-FuturaBold">WHAT OUR CLIENT SAY</h2>
-      <span class="absolute left-0 -bottom-2 w-36 pb-1.5 bg-yellow-primary"></span>
+      <h2 class="text-3xl text-yellow-primary font-FuturaBold">PERSONAL TRAINER</h2>
+      <h2 class="text-3xl font-FuturaBold">URBAN ATHLETES</h2>
+      {{-- <span class="absolute left-0 -bottom-2 w-36 pb-1.5 bg-yellow-primary"></span> --}}
     </div>
 
     <div id="view-detail">
@@ -36,7 +37,7 @@
       </div>
     </div>
     
-    <div class="py-8 flex flex-wrap justify-around text-center font-Futura text-yellow-primary">
+    <div class="py-8 flex flex-wrap justify-around text-center font-PoppinsSemiBold text-yellow-primary">
       <button class="w-64 h-96 my-4 overflow-hidden relative group" id="card">
         <span id="img-ori">
           <img class="group-hover:scale-110 object-cover object-center h-full w-full mx-auto transition-all duration-300" src="{{ url('image/web/trainer/trainer_1.jpg') }}" alt="Trainer Urban Athletes">
