@@ -7,9 +7,20 @@
       </video>
     </div>
     <div class="grid content-center px-4 py-4 z-10 font-Futura tracking-widest">
-      <h2 class="mx-2 mb-4 text-3xl font-FuturaBold tracking-normal">INVESTMENT TODAY.</h2>
-      <form action="">
+      <form action="{{ url('ua') }}" method="post">
         @csrf
+        <div class="flex justify-between">
+          <h2 class="mx-2 text-3xl font-FuturaBold">INVESTMENT TODAY.</h2>
+          <label for="year" class="border border-black py-2 px-4 font-FuturaBold hidden">
+            <p>SELECT INVESTMENT</p>
+            <select id="kode_inves" name="kode_inves" class="text-black ml-6 form-select inline max-w-max text-right outline-0 outline-none appearance-none w-full px-3 bg-clip-padding bg-no-repeatrounded transition ease-in-out m-0
+              focus:outline-none" aria-label="Default select example" required>
+                <option value="">Select</option>
+                <option value="1">Urban Athletes</option>
+                <option selected value="2">Fitness Works</option>
+            </select>
+          </label>
+        </div>
         <div class="flex">
           <label class="block mx-2 my-2 border-b w-full">
             <span class="">FIRST NAME</span>
@@ -109,27 +120,27 @@
             @enderror
           </label>
           <label class="block mx-2 my-2 border-b w-full">
-            <span class="">COUNTRY/REGION</span>
-            <input name="country" type="text"
-            value="{{ old('country') }}"
-            placeholder="COUNTRY/REGION"
+            <span class="">JOB TITLE</span>
+            <input name="job" type="text"
+            value="{{ old('job') }}"
+            placeholder="JOB TITLE"
             class="mt-1 block w-full px-1 py-2 border border-gray-500 outline-none focus:ring-0 focus:border-black
-            @error('country') error-input @enderror" required>
-            @error('country')
-              <div id="country" class="text-sm text-red-500">
+            @error('job') error-input @enderror" required>
+            @error('job')
+              <div id="job" class="text-sm text-red-500">
                   {{ $message }}
               </div>
             @enderror
           </label>
           <label class="block mx-2 my-2 border-b w-full">
-            <span class="">CITY</span>
-            <input name="city" type="text"
-            value="{{ old('city') }}"
-            placeholder="CITY"
+            <span class="">INDURSTRY</span>
+            <input name="industry" type="text"
+            value="{{ old('industry') }}"
+            placeholder="INDURSTRY"
             class="mt-1 block w-full px-1 py-2 border border-gray-500 outline-none focus:ring-0 focus:border-black
-            @error('city') error-input @enderror" required>
-            @error('city')
-              <div id="city" class="text-sm text-red-500">
+            @error('industry') error-input @enderror" required>
+            @error('industry')
+              <div id="industry" class="text-sm text-red-500">
                   {{ $message }}
               </div>
             @enderror

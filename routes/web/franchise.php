@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ContactUsController;
+use App\Http\Controllers\InvestmentController;
 use Illuminate\Support\Facades\Route;
 
 Route::prefix('franchise')->group(function() {
@@ -12,4 +13,7 @@ Route::prefix('franchise')->group(function() {
   Route::get('/urban-athletes', function () { return view("public/kemitraan/urban-athletes");});
   Route::get('/valor', function () { return view("public/kemitraan/valor");});
   Route::get('/fitness-works', function () { return view("public/kemitraan/fitness-works-img");});
+  Route::post('' , [InvestmentController::class, 'home']);
 });
+Route::post('ua' , [InvestmentController::class, 'ua']);
+Route::post('fw' , [InvestmentController::class, 'fw']);
