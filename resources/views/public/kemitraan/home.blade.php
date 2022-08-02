@@ -1,21 +1,43 @@
 <x-main_kemitraan menu='HOMEfranchise'>
+  @push('script')
+    @if (session('success'))
+    <script>
+      Swal.fire(
+        'Thank you',
+        'Data sent successfully',
+        'success'
+      )
+    </script>
+    @endif
+  @endpush
   <div>
     <div class="flex flex-col md:grid md:grid-cols-2 min-h-max">
-      <div class="flex justify-center md:justify-end md:min-w-max relative h-72 md:h-[430px]">
+      <div class="flex justify-center md:justify-end md:min-w-max relative h-72 md:h-[450px]">
         <img class="object-cover object-center w-full" src="{{ url('image/franchise/home_franchise_benner.jpg') }}" alt="Franchise Urban Athletes">
         <div class="absolute top-0 right-0 left-0 bottom-0 bg-gradient-to-t md:bg-gradient-to-l from-black"></div>
       </div>
-      <div class="grid content-center bg-black text-white px-4 py-4 z-10 font-Futura">
-        <h2 class="mx-2 text-3xl font-FuturaBold">INVESTMENT TODAY.</h2>
-        <form action="">
+      <div class="grid content-center bg-black text-white px-4 py-2 z-10 font-Futura">
+        <form action="{{ url('franchise') }}" method="post">
           @csrf
+          <div class="flex justify-between">
+            <h2 class="mx-2 text-3xl font-FuturaBold">INVESTMENT TODAY.</h2>
+            <label for="year" class="border border-black py-2 px-4 font-FuturaBold">
+              <p>SELECT INVESTMENT</p>
+              <select id="kode_inves" name="kode_inves" class="text-black ml-6 form-select inline max-w-max text-right outline-0 outline-none appearance-none w-full px-3 bg-clip-padding bg-no-repeatrounded transition ease-in-out m-0
+                focus:outline-none" aria-label="Default select example" required>
+                  <option value="">Select</option>
+                  <option value="1">Urban Athletes</option>
+                  <option value="2">Fitness Works</option>
+              </select>
+            </label>
+          </div>
           <div class="flex">
             <label class="block mx-2 my-2 border-b w-full">
               <span class="">FIRST NAME</span>
               <input name="first_name" type="text"
               value="{{ old('first_name') }}"
               placeholder="FIRST NAME"
-              class="mt-2 block w-full px-0.5 border-0 border-b-2 border-gray-200 outline-none focus:ring-0 focus:border-black
+              class="text-black mt-2 block w-full px-0.5 border-0 border-b-2 border-gray-200 outline-none focus:ring-0 focus:border-black
               @error('first_name') error-input @enderror" required>
               @error('first_name')
                 <div id="first_name" class="text-sm text-red-500">
@@ -28,7 +50,7 @@
               <input name="last_name" type="text"
               value="{{ old('last_name') }}"
               placeholder="LAST NAME"
-              class="mt-2 block w-full px-0.5 border-0 border-b-2 border-gray-200 outline-none focus:ring-0 focus:border-black
+              class="text-black mt-2 block w-full px-0.5 border-0 border-b-2 border-gray-200 outline-none focus:ring-0 focus:border-black
               @error('last_name') error-input @enderror" required>
               @error('last_name')
                 <div id="last_name" class="text-sm text-red-500">
@@ -43,7 +65,7 @@
               <input name="email" type="text"
               value="{{ old('email') }}"
               placeholder="EMAIL"
-              class="mt-2 block w-full px-0.5 border-0 border-b-2 border-gray-200 outline-none focus:ring-0 focus:border-black
+              class="text-black mt-2 block w-full px-0.5 border-0 border-b-2 border-gray-200 outline-none focus:ring-0 focus:border-black
               @error('email') error-input @enderror" required>
               @error('email')
                 <div id="email" class="text-sm text-red-500">
@@ -56,7 +78,7 @@
               <input name="phone" type="text"
               value="{{ old('phone') }}"
               placeholder="MOBILE PHONE NUMBER"
-              class="mt-2 block w-full px-0.5 border-0 border-b-2 border-gray-200 outline-none focus:ring-0 focus:border-black
+              class="text-black mt-2 block w-full px-0.5 border-0 border-b-2 border-gray-200 outline-none focus:ring-0 focus:border-black
               @error('phone') error-input @enderror" required>
               @error('phone')
                 <div id="phone" class="text-sm text-red-500">
@@ -71,7 +93,7 @@
               <input name="country" type="text"
               value="{{ old('country') }}"
               placeholder="COUNTRY/REGION"
-              class="mt-2 block w-full px-0.5 border-0 border-b-2 border-gray-200 outline-none focus:ring-0 focus:border-black
+              class="text-black mt-2 block w-full px-0.5 border-0 border-b-2 border-gray-200 outline-none focus:ring-0 focus:border-black
               @error('country') error-input @enderror" required>
               @error('country')
                 <div id="country" class="text-sm text-red-500">
@@ -84,7 +106,7 @@
               <input name="city" type="text"
               value="{{ old('city') }}"
               placeholder="CITY"
-              class="mt-2 block w-full px-0.5 border-0 border-b-2 border-gray-200 outline-none focus:ring-0 focus:border-black
+              class="text-black mt-2 block w-full px-0.5 border-0 border-b-2 border-gray-200 outline-none focus:ring-0 focus:border-black
               @error('city') error-input @enderror" required>
               @error('city')
                 <div id="city" class="text-sm text-red-500">
@@ -99,7 +121,7 @@
               <input name="company" type="text"
               value="{{ old('company') }}"
               placeholder="COUMPANY NAME"
-              class="mt-2 block w-full px-0.5 border-0 border-b-2 border-gray-200 outline-none focus:ring-0 focus:border-black
+              class="text-black mt-2 block w-full px-0.5 border-0 border-b-2 border-gray-200 outline-none focus:ring-0 focus:border-black
               @error('company') error-input @enderror" required>
               @error('company')
                 <div id="company" class="text-sm text-red-500">
@@ -108,27 +130,27 @@
               @enderror
             </label>
             <label class="block mx-2 my-2 border-b w-full">
-              <span class="">COUNTRY/REGION</span>
-              <input name="country" type="text"
-              value="{{ old('country') }}"
-              placeholder="COUNTRY/REGION"
-              class="mt-2 block w-full px-0.5 border-0 border-b-2 border-gray-200 outline-none focus:ring-0 focus:border-black
-              @error('country') error-input @enderror" required>
-              @error('country')
-                <div id="country" class="text-sm text-red-500">
+              <span class="">JOB TITLE</span>
+              <input name="job" type="text"
+              value="{{ old('job') }}"
+              placeholder="JOB TITLE"
+              class="text-black mt-2 block w-full px-0.5 border-0 border-b-2 border-gray-200 outline-none focus:ring-0 focus:border-black
+              @error('job') error-input @enderror" required>
+              @error('job')
+                <div id="job" class="text-sm text-red-500">
                     {{ $message }}
                 </div>
               @enderror
             </label>
             <label class="block mx-2 my-2 border-b w-full">
-              <span class="">CITY</span>
-              <input name="city" type="text"
-              value="{{ old('city') }}"
-              placeholder="CITY"
-              class="mt-2 block w-full px-0.5 border-0 border-b-2 border-gray-200 outline-none focus:ring-0 focus:border-black
-              @error('city') error-input @enderror" required>
-              @error('city')
-                <div id="city" class="text-sm text-red-500">
+              <span class="">INDURSTRY</span>
+              <input name="industry" type="text"
+              value="{{ old('industry') }}"
+              placeholder="INDURSTRY"
+              class="text-black mt-2 block w-full px-0.5 border-0 border-b-2 border-gray-200 outline-none focus:ring-0 focus:border-black
+              @error('industry') error-input @enderror" required>
+              @error('industry')
+                <div id="industry" class="text-sm text-red-500">
                     {{ $message }}
                 </div>
               @enderror
