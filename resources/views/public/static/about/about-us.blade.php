@@ -94,49 +94,85 @@
         <span class="absolute left-0 -bottom-2 w-36 pb-1.5 bg-yellow-primary"></span>
       </div>
     </div>
-    <div class="flex flex-wrap justify-center py-4 text-justify text-xs">
-      <div class="w-64 h-96 my-4 overflow-hidden cursor-pointer relative group">
-        <img class="group-hover:scale-110 object-cover object-center h-full mx-auto transition-all duration-300" src="{{ url('image/web/home/Exclusive_Yoga-wheel.jpg') }}" alt="fly high yoga Urban Athletes">
+    <div class="flex flex-nowrap rflow-visible overflow-x-auto no-scrollbar justify-start py-4 text-justify text-xs">
+      <div class="min-w-[16rem] h-96 my-4 overflow-hidden cursor-pointer relative group">
+        <img class="group-hover:scale-110 object-cover object-center h-full mx-auto transition-all duration-300" src="{{ url('image/web/Endurance1.jpg') }}" alt="fly high yoga Urban Athletes">
+        <div class="absolute top-0 bottom-0 left-0 right-0 px-4 bg-black opacity-0 group-hover:bg-opacity-50 group-hover:opacity-100 flex justify-center items-center transition-all duration-300">
+          <div>
+            <h2 class="text-xl font-FuturaBold pb-4 text-center">BODYPUMP</h2>
+            <p>is a barbell workout for anyone looking to get lean and toned body shape, giving you a total body workout that burns up to 540 Calories*</p>
+          </div>
+        </div>
+      </div>
+      <div class="min-w-[16rem] h-96 my-4 overflow-hidden cursor-pointer relative group">
+        <img class="group-hover:scale-110 object-cover object-center h-full mx-auto transition-all duration-300" src="{{ url('image/web/home/About-Us-r.jpg') }}" alt="The Valor Urban Athletes">
+        <div class="absolute top-0 bottom-0 left-0 right-0 px-4 bg-black opacity-0 group-hover:bg-opacity-50 group-hover:opacity-100 flex justify-center items-center transition-all duration-300">
+          <div>
+            <h2 class="text-xl font-FuturaBold pb-4 text-center">CIRCUIT</h2>
+            <p>Is a Thematic group indoor cycling workout where you can have an absolute fun while burning up to 800 calories a session</p>
+          </div>
+        </div>
+      </div>
+      <div class="min-w-[16rem] h-96 my-4 overflow-hidden cursor-pointer relative group">
+        <img class="group-hover:scale-110 object-cover object-center h-full mx-auto transition-all duration-300 w-full" src="{{ url('image/web/home/10VALOR.JPG') }}" alt="TRX Classes Urban Athletes">
+        <div class="absolute top-0 bottom-0 left-0 right-0 px-4 bg-black opacity-0 group-hover:bg-opacity-50 group-hover:opacity-100 flex justify-center items-center transition-all duration-300">
+          <div>
+            <h2 class="text-xl font-FuturaBold pb-4 text-center">VALOR</h2>
+            <p>The Valor requires you to move according to all functional movement.  Learn and practice them accurately in high-intense workout for dramatic goals</p>
+          </div>
+        </div>
+      </div>
+      <div class="min-w-[16rem] h-96 my-4 overflow-hidden cursor-pointer relative group">
+        <img class="group-hover:scale-110 object-cover object-center h-full mx-auto transition-all duration-300" src="{{ url('image/web/home/6Falcon.jpg') }}" alt="Lesmills Body Combat Urban Athletes">
+        <div class="absolute top-0 bottom-0 left-0 right-0 px-4 bg-black opacity-0 group-hover:bg-opacity-50 group-hover:opacity-100 flex justify-center items-center transition-all duration-300">
+          <div>
+            <h2 class="text-xl font-FuturaBold pb-4 text-center">FALCON</h2>
+            <p>Urban Athletes adalah tempat bagi mereka yang berinspirasi untuk hidup sehat dengan metode yang tepat dan fun. Kita percaya olahraga bukan hanya sekedar gaya hidup. Tapi adalah sarana untuk menjadi pribadi yang lebih baik. Membawa Dampak dan membangun manusia menjadi versi terbaiknya.</p>
+          </div>
+        </div>
+      </div>
+      <div class="min-w-[16rem] h-96 my-4 overflow-hidden cursor-pointer relative group">
+        <img class="group-hover:scale-110 object-cover object-center h-full mx-auto transition-all duration-300" src="{{ url('image/web/home/11Zumba.jpg') }}" alt="Lesmills Body Pump Urban Athletes">
+        <div class="absolute top-0 bottom-0 left-0 right-0 px-4 bg-black opacity-0 group-hover:bg-opacity-50 group-hover:opacity-100 flex justify-center items-center transition-all duration-300">
+          <div>
+            <h2 class="text-xl font-FuturaBold pb-4 text-center">ZUMBA</h2>
+            <p>Zumba dance to a great music while burning a ton of calories with great people</p>
+          </div>
+        </div>
+      </div>
+      <div class="min-w-[16rem] h-96 my-4 overflow-hidden cursor-pointer relative group">
+        <img class="group-hover:scale-110 object-cover object-center h-full mx-auto transition-all duration-300 w-full" src="{{ url('image/web/home/3Trx.jpg') }}" alt="Lesmills Body Pump Urban Athletes">
+        <div class="absolute top-0 bottom-0 left-0 right-0 px-4 bg-black opacity-0 group-hover:bg-opacity-50 group-hover:opacity-100 flex justify-center items-center transition-all duration-300">
+          <div>
+            <h2 class="text-xl font-FuturaBold pb-4 text-center">TRX</h2>
+            <p>TRX (Tataol body Resistance Excercise) provides an incredible boost to your metabolism from workout and helps you to lower your total body-fat percentage using a Equipment called TRX Strap.</p>
+          </div>
+        </div>
+      </div>
+      <div class="min-w-[16rem] h-96 my-4 overflow-hidden cursor-pointer relative group">
+        <img class="group-hover:scale-110 object-cover object-center h-full mx-auto transition-all duration-300" src="{{ url('image/web/home/2MuayThai.jpg') }}" alt="Lesmills Body Pump Urban Athletes">
+        <div class="absolute top-0 bottom-0 left-0 right-0 px-4 bg-black opacity-0 group-hover:bg-opacity-50 group-hover:opacity-100 flex justify-center items-center transition-all duration-300">
+          <div>
+            <h2 class="text-xl font-FuturaBold pb-4 text-center">MUAY THAI</h2>
+            <p>A Combat sport of Thailand, Using stand up striking a long with various clinching techniques</p>
+          </div>
+        </div>
+      </div>
+      <div class="min-w-[16rem] h-96 my-4 overflow-hidden cursor-pointer relative group">
+        <img class="group-hover:scale-110 object-cover object-center h-full mx-auto transition-all duration-300" src="{{ url('image/web/home/Exclusive_Yoga-wheel.jpg') }}" alt="Lesmills Body Pump Urban Athletes">
+        <div class="absolute top-0 bottom-0 left-0 right-0 px-4 bg-black opacity-0 group-hover:bg-opacity-50 group-hover:opacity-100 flex justify-center items-center transition-all duration-300">
+          <div>
+            <h2 class="text-xl font-FuturaBold pb-4 text-center">YOGA WHEEL</h2>
+            <p>Warming up you back and also maintaining support system for your body with our brand new therapeutic yoga wheel. This is one of the best treatment for scoliosis therapy and re-alignment.</p>
+          </div>
+        </div>
+      </div>
+      <div class="min-w-[16rem] h-96 my-4 overflow-hidden cursor-pointer relative group">
+        <img class="group-hover:scale-110 object-cover object-center h-full mx-auto transition-all duration-300" src="{{ url('image/web/home/5Flexibility.jpg') }}" alt="Lesmills Body Pump Urban Athletes">
         <div class="absolute top-0 bottom-0 left-0 right-0 px-4 bg-black opacity-0 group-hover:bg-opacity-50 group-hover:opacity-100 flex justify-center items-center transition-all duration-300">
           <div>
             <h2 class="text-xl font-FuturaBold pb-4 text-center">FLY HIGH YOGA</h2>
-            <p>Urban Athletes adalah tempat bagi mereka yang berinspirasi untuk hidup sehat dengan metode yang tepat dan fun. Kita percaya olahraga bukan hanya sekedar gaya hidup. Tapi adalah sarana untuk menjadi pribadi yang lebih baik. Membawa Dampak dan membangun manusia menjadi versi terbaiknya.</p>
-          </div>
-        </div>
-      </div>
-      <div class="w-64 h-96 my-4 overflow-hidden cursor-pointer relative group">
-        <img class="group-hover:scale-110 object-cover object-center h-full mx-auto transition-all duration-300" src="{{ url('image/web/footer/img_1.jpg') }}" alt="The Valor Urban Athletes">
-        <div class="absolute top-0 bottom-0 left-0 right-0 px-4 bg-black opacity-0 group-hover:bg-opacity-50 group-hover:opacity-100 flex justify-center items-center transition-all duration-300">
-          <div>
-            <h2 class="text-xl font-FuturaBold pb-4 text-center">THE VALOR</h2>
-            <p>Urban Athletes adalah tempat bagi mereka yang berinspirasi untuk hidup sehat dengan metode yang tepat dan fun. Kita percaya olahraga bukan hanya sekedar gaya hidup. Tapi adalah sarana untuk menjadi pribadi yang lebih baik. Membawa Dampak dan membangun manusia menjadi versi terbaiknya.</p>
-          </div>
-        </div>
-      </div>
-      <div class="w-64 h-96 my-4 overflow-hidden cursor-pointer relative group">
-        <img class="group-hover:scale-110 object-cover object-center h-full mx-auto transition-all duration-300" src="{{ url('image/web/TRX.jpg') }}" alt="TRX Classes Urban Athletes">
-        <div class="absolute top-0 bottom-0 left-0 right-0 px-4 bg-black opacity-0 group-hover:bg-opacity-50 group-hover:opacity-100 flex justify-center items-center transition-all duration-300">
-          <div>
-            <h2 class="text-xl font-FuturaBold pb-4 text-center">TRX CLASSES</h2>
-            <p>Urban Athletes adalah tempat bagi mereka yang berinspirasi untuk hidup sehat dengan metode yang tepat dan fun. Kita percaya olahraga bukan hanya sekedar gaya hidup. Tapi adalah sarana untuk menjadi pribadi yang lebih baik. Membawa Dampak dan membangun manusia menjadi versi terbaiknya.</p>
-          </div>
-        </div>
-      </div>
-      <div class="w-64 h-96 my-4 overflow-hidden cursor-pointer relative group">
-        <img class="group-hover:scale-110 object-cover object-center h-full mx-auto transition-all duration-300" src="{{ url('image/web/Endurance1.jpg') }}" alt="Lesmills Body Combat Urban Athletes">
-        <div class="absolute top-0 bottom-0 left-0 right-0 px-4 bg-black opacity-0 group-hover:bg-opacity-50 group-hover:opacity-100 flex justify-center items-center transition-all duration-300">
-          <div>
-            <h2 class="text-xl font-FuturaBold pb-4 text-center">LESMILLS BODY COMBAT</h2>
-            <p>Urban Athletes adalah tempat bagi mereka yang berinspirasi untuk hidup sehat dengan metode yang tepat dan fun. Kita percaya olahraga bukan hanya sekedar gaya hidup. Tapi adalah sarana untuk menjadi pribadi yang lebih baik. Membawa Dampak dan membangun manusia menjadi versi terbaiknya.</p>
-          </div>
-        </div>
-      </div>
-      <div class="w-64 h-96 my-4 overflow-hidden cursor-pointer relative group">
-        <img class="group-hover:scale-110 object-cover object-center h-full mx-auto transition-all duration-300" src="{{ url('image/web/about/about_us/d.jpg') }}" alt="Lesmills Body Pump Urban Athletes">
-        <div class="absolute top-0 bottom-0 left-0 right-0 px-4 bg-black opacity-0 group-hover:bg-opacity-50 group-hover:opacity-100 flex justify-center items-center transition-all duration-300">
-          <div>
-            <h2 class="text-xl font-FuturaBold pb-4 text-center">LESMILLS BODY PUMP</h2>
-            <p>Urban Athletes adalah tempat bagi mereka yang berinspirasi untuk hidup sehat dengan metode yang tepat dan fun. Kita percaya olahraga bukan hanya sekedar gaya hidup. Tapi adalah sarana untuk menjadi pribadi yang lebih baik. Membawa Dampak dan membangun manusia menjadi versi terbaiknya.</p>
+            <p>A new style of yoga appeared at Ubud, Bali in 2002. Is a practice of modern yoga using a hanging belt to make it different</p>
           </div>
         </div>
       </div>
@@ -150,7 +186,7 @@
         <div class="flex flex-col md:justify-center md:flex-row md:max-w-3xl lg:max-w-4xl">
           <div class="flex justify-center md:justify-end md:min-w-max">
             <div class="min-w-max relative">
-              <img class="h-96" src="{{ url('image/web/home/Image-Poster-1.png') }}" alt="Poster Urban Athletes">
+              <img class="h-96" src="{{ url('image/web/succes-story/foto-1.jpg') }}" alt="Poster Urban Athletes">
               <div class="absolute top-0 -right-8 bottom-0 flex items-center">
                 <img class="bg-neutral-800 p-2 w-16" src="{{ url('image/web/home/Mask-Group_21.svg') }}" alt="Success story Urban Athletes">
               </div>
@@ -159,8 +195,8 @@
           <div class="grid content-center md:w-max px-4 md:pr-0 md:pl-16">
             <p class="text-yellow-primary">SUCCESS STORY</p>
             <h2 class="font-FuturaBold text-xl mb-8">WHAT OUR CLIENT SAY</h2>
-            <P class="text-center">“Awalnya saya berkeinginan untuk fitness adalah dari perasaan saya yang merasa mudah lelah. Padahal dari segi usia, seharusnya saya masih muda. Di sisi lain, pekerjaan saya lagi banyak-banyaknya. Jadi, saya membutuhkan solusi yang hemat waktu dan tenaga. Di saat itulah saya menemukan Urban Athletes dan saya merasa cukup beruntung saya menemukan Urban Athletes”</P>
-            <p class="text-center py-4"><span class="text-yellow-primary">Maulana</span> - Surabaya</p>
+            <P class="text-center">“Setelah mengambil program Personal Trainer saya meraskaan perubahan yaitu badan lebih fit, ringan, tidak mudah capek, makan lebih teratur sampai-2 saya harus cek berapa kalori yang saya makan. Berat badan pasti turun karna latihan yang cukup keras dan rutin, karna latihan dengan Personal Trainer kita akan merasakan capek dan hasil 2x lipat.”</P>
+            <p class="text-center py-4"><span class="text-yellow-primary">NATALIA ARISHANDY</span> - Surabaya</p>
           </div>
         </div>
       </div>
@@ -168,7 +204,7 @@
         <div class="flex flex-col md:justify-center md:flex-row md:max-w-3xl lg:max-w-4xl">
           <div class="flex justify-center md:justify-end md:min-w-max">
             <div class="min-w-max relative">
-              <img class="h-96" src="{{ url('image/web/home/Image-Poster-1.png') }}" alt="Poster Urban Athletes">
+              <img class="h-96" src="{{ url('image/web/succes-story/foto-3.jpg') }}" alt="Poster Urban Athletes">
               <div class="absolute top-0 -right-8 bottom-0 flex items-center">
                 <img class="bg-neutral-800 p-2 w-16" src="{{ url('image/web/home/Mask-Group_21.svg') }}" alt="Success story Urban Athletes">
               </div>
@@ -177,8 +213,8 @@
           <div class="grid content-center md:w-max px-4 md:pr-0 md:pl-16">
             <p class="text-yellow-primary">SUCCESS STORY</p>
             <h2 class="font-FuturaBold text-xl mb-8">WHAT OUR CLIENT SAY</h2>
-            <P class="text-center">“Awalnya saya berkeinginan untuk fitness adalah dari perasaan saya yang merasa mudah lelah. Padahal dari segi usia, seharusnya saya masih muda. Di sisi lain, pekerjaan saya lagi banyak-banyaknya. Jadi, saya membutuhkan solusi yang hemat waktu dan tenaga. Di saat itulah saya menemukan Urban Athletes dan saya merasa cukup beruntung saya menemukan Urban Athletes”</P>
-            <p class="text-center py-4"><span class="text-yellow-primary">Maulana</span> - Surabaya</p>
+            <P class="text-center">“Sebelum mengambil program fitness, berbagai macam metode diet telah saya lakukan untuk menurunkan berat badan dan tidak ada yang berhasil mencapai berat badan yang diinginkan. Saat ambil program fitness, saya mendapatkan 2x free dengan Personal Trainer dengan Ma Fuazi. Akhirnya saya memutuskan lanjut mengambil program Personal Trainer karna saya cocok dengan gaya dan metode cara mengajarkanya. Progress yang saya jalani kurang lebih selama 7 bulan dengan hasil yang sangat memuaskan. Selain turun berat badan sebanyak 13kg sya juga mendapatkan body goals badan atletis menjadi kenyataan. Thanks to Urban Athletes dan Coach Fauzi.”</P>
+            <p class="text-center py-4"><span class="text-yellow-primary">BENNY</span> - Surabaya</p>
           </div>
         </div>
       </div>

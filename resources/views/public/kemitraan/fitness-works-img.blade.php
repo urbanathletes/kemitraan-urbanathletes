@@ -64,10 +64,10 @@
             @enderror
           </label>
           <label class="block mx-2 my-2 border-b w-full">
-            <span class="">MOBILE PHONE NUMBER</span>
+            <span class="">MOBILE NUMBER</span>
             <input name="phone" type="text"
             value="{{ old('phone') }}"
-            placeholder="MOBILE PHONE NUMBER"
+            placeholder="MOBILE NUMBER"
             class="mt-1 block w-full px-1 py-2 border border-gray-500 outline-none focus:ring-0 focus:border-black
             @error('phone') error-input @enderror" required>
             @error('phone')
@@ -133,10 +133,10 @@
             @enderror
           </label>
           <label class="block mx-2 my-2 border-b w-full">
-            <span class="">INDURSTRY</span>
+            <span class="">INDUSTRY</span>
             <input name="industry" type="text"
             value="{{ old('industry') }}"
-            placeholder="INDURSTRY"
+            placeholder="INDUSTRY"
             class="mt-1 block w-full px-1 py-2 border border-gray-500 outline-none focus:ring-0 focus:border-black
             @error('industry') error-input @enderror" required>
             @error('industry')

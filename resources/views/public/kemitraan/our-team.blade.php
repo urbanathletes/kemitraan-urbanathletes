@@ -18,6 +18,7 @@
   <div class="">
     {{-- <div class="container py-6 grid grid-cols-1 gap-4 md:grid-cols-2"> --}}
     <div class="container pt-6 grid grid-cols-1">
+
       <div class="md:pb-6 grid md:block">
         <div class="order-last md:order-none py-4 md:float-right md:px-6 md:w-1/2 lg:max-w-lg">
           <img src="{{ url('/image/franchise/Verawaty-Budiyanto.jpg') }}" alt="Verawaty Budiyanto Urban Athletes">
@@ -27,21 +28,19 @@
           <h1 class="font-FuturaBold text-2xl">VERAWATY BUDIYANTO, ST., M. NLP</h1>
         </div>
         <p class="py-2">
-          Berawal dari kecintaan terhadap dunia fitness dan nutrisi, Verawaty Budiyanto adalah seorang Sarjana Arsitektur Universitas Kristen Petra. Ia meninggalkan profesinya sebagai kontraktor dan designer interior di tahun 2004 untuk bergabung dengan Celebrity Fitness di Supermall Pakuwon Indah Surabaya sebagai pionir tim untuk melakukan pre-sale membership Celebrity Fitness yang pertama kali. Dalam kurun waktu 3 tahun bergabung dengan Celebrity Fitness, karier Verawaty berkembang pesat menjadi Top Producer of the Years dan Verawaty berhasil memimpin tim penjualan untuk membuka Celebrity Fitness Tunjungan Plaza di tahun 2006 dan mempersiapkan tim untuk pembukaan Celebrity Fitness Galaxy Mall di tahun 2007.
+          Verawaty is a Bachelor of Architecture at Petra University. She left her profession as a contractor and interior designer in 2004 to join Celebrity Fitness in Surabaya.  Thus, she began to develop a love for the fitness industry. Apart from Celebrity Fitness, she also worked as Branch Director for Clark Hatch International for 6 years and Golds Gym Indonesia as District Business Manager for 2 years.
         </p>
         <p class="py-2">
-          Setelah mengakhiri kariernya di Celebrity Fitness, Verawaty membantu para pengusaha untuk membuat sistem operasi berbagai perusahaan (khususnya Gym dan Spa) sebagai Management Consultant selama 6 tahun, sekaligus bekerja sebagai General Manager Clark Hatch Internusa. Tahun 2015 Verawaty mendapat tawaran untuk berkarier sebagai District Business Manager di Gold’s Gym Indonesia selama 2 tahun. Di sana dirinya bertanggung jawab terhadap seluruh bisnis unit Gold’s Gym di luar Jakarta seperti: Surabaya, Bandung, Medan dan Makassar, baik dari segi Operasional, Sales, PT, Marketing, Human Resources, Recruiting & Training.
+          Realizing her role as a mother, having a job that requires travelling to 5 different cities every month creates communication issues with her kids, Therefore, she decided to quit and start Urban Athletes at the end of 2016, <br>
+          Urban Athletes was founded with the tagline ‘International standard local gym’ to show Verawaty’s love for the motherland. She realized that the quality of the work of the Indonesian people is as good as foreigners. Therefore, she has a dream to make Urban Athletes a gym enterprise founded and managed by the first nation’s children who can compete and even excel compared to gyms managed or founded by foreigners.
         </p>
         <p class="py-2">
-          Menyadari perannya sebagai ibu rumah tangga, adanya pekerjaan yang mengharuskan traveling ke 5 kota yang berbeda setiap bulannya menyebabkan perannya sebagai seorang Ibu tidak maksimal. Oleh sebab itu, ia memutuskan untuk berhenti dan memulai fitness brandnya sendiri di akhir 2016 dengan nama Urban Fitness dan Studio yang kemudian di tahun 2017 dilakukan rebranding menjadi Urban Athletes. Sampai sekarang Urban Athletes telah memiliki 4 cabang di Surabaya dan 1 cabang di Gresik.
+          In 2020 she initiates the first Indonesian Fitness Entrepreneurs Association and gathers all the big fitness brands in Indonesia to unite to voice the interests of the fitness industry to the government. Today PPKI has become partners with the government, helping them better understand the rapid growth of the fitness business in Indonesia.
         </p>
         <p class="py-2">
-          Urban Athletes didirikan dengan tagline ‘Gym lokal berstandar internasional’ untuk menunjukkan kecintaan Verawaty pada bumi pertiwi. Selama 17 tahun kariernya di dunia gym dengan standar layanan internasional, Verawaty memiliki rekan kerja dari berbagai negara dan kebangsaan. Dirinya juga menyadari bahwa kualitas pekerjaan bangsa Indonesia tidak kalah bagus dengan orang luar negeri, asal kita bisa memberikan arahan dan pelatihan yang tepat. Oleh karena itu dirinya sangat tertarik dengan Neuro Linguistic Programming yang sangat membantunya dalam memimpin perusahaan yang stafnya didominasi pria berbadan kekar seorang diri. Mimpinya adalah menjadikan Urban Athletes menjadi gym yang didirikan dan dikelola oleh anak bangsa pertama yang bisa bersaing bahkan unggul dibandingkan dengan gym yang dikelola atau didirikan oleh orang asing.
+          Verawaty invited to be one of the panellists in the World Health, Fitness and Wellness Festival in Singapore 2022. FIT Summit is the business network for health, fitness, wellness and sports brands & execs in Asia-Pacific,  sharing her opinions about Designing future clubs and active spaces - what will they look like physically and digitally. This was international recognition of her whereabouts. In her leadership not only did Urban Athletes survive through the pandemic by not closing any of its club, In 2022 Verawaty and Urban Athletes’ team created “Fitnessworks”, a Fitness brand that provides premium quality budget gym services that focus on the use of digital technology in its operational system. A brilliant Gym concept that with a very minimal investment, Fitnessworks will attracts lots of investors to invest in fitness business, thus it can absorb more human capital with fitness background to increase Indonesia’s Fitness penetration.
         </p>
-        <p class="py-2">
-          Dengan wawasan dan jaringan yang luas, membuat Verawaty disegani di dunia fitness Indonesia. Hal ini menjadikannya sebagai penggagas utama dan salah satu pendiri Perkumpulan Pengusaha Kebugaran Indonesia (PPKI) bersama dengan brand fitness besar lainnya di Indonesia.
-        </p>
-        <h2 class="font-FuturaBold tracking-normal text-2xl border-l-4 border-yellow-primary px-4 my-4">
+        {{-- <h2 class="font-FuturaBold tracking-normal text-2xl border-l-4 border-yellow-primary px-4 my-4">
           CERTIFICATION
         </h2>
         <div class="mx-4 lg:flex lg:justify-around lg:space-x-8 xl:space-x-0">
@@ -62,11 +61,25 @@
             <p class="font-FuturaBold">2020</p>
             <p class="mb-4">Founder dan pengurus Perkumpulan Pengusaha Kebugaran Indonesia</p>
           </div>
-        </div>
+        </div> --}}
       </div>
-      {{-- <div>
-        
-      </div> --}}
+      
+      <div class="md:pb-6 grid md:block">
+        <div class="order-last md:order-none py-4 md:float-right md:px-6 md:w-1/2 lg:max-w-lg">
+          <img src="{{ url('/image/franchise/Pak_Anton.png') }}" alt="Verawaty Budiyanto Urban Athletes">
+        </div>
+        <div>
+          <h1 class="font-FuturaBold text-3xl inline px-4 bg-yellow-primary">CO FOUNDER</h1>
+          <h1 class="font-FuturaBold text-2xl uppercase">Antonius Anggoro</h1>
+        </div>
+        <p class="py-2">
+          Setting up businesses from the ground up, which includes a business plan, forecast, costing, operational, legal, marketing, and IT were Anton’s Expertise. With years of experience in business development for Celebrity Fitness and Fitness First, He is also the founder of the first Indonesian Fitness Entrepreneurs Association (Perkumpulan Pengusaha Kebugaran Indonesia/ PPKI) together with Verawaty Budiyanto.
+        </p>
+        <p class="py-2">
+          Studied at Perth Institute of Business and Technology and Computer Science at Edith Cowan University Australia.  Highly passionate in fitness and tech industry.
+        </p>
+      </div>
+
     </div>
   </div>
   <div class="bg-black bg-gradient-to-tr from-neutral-600">
@@ -76,7 +89,7 @@
         <p class="text-white">Bersama tim yang profesional dan memiliki inovasi dalam bidang fitness, kami yakin bahwa bisnis ini akan menjadi lebih baik bersama tim yang berkompeten. Mari berkenalan dengan mereka!</p>
       </div>
     </div>
-    <div class="container grid grid-cols-1 gap-12 py-16 md:grid-cols-3 md:py-12">
+    <div class="container grid grid-cols-1 gap-12 py-16 sm:grid-cols-2 lg:grid-cols-4 md:py-12">
       <div class="">
         <button onclick="teamImg(this)" data-team="RIVO" class="relative group h-full">
           <img class="h-full" src="{{ url('/image/franchise/NaungPudiRivoBarumalang.png') }}" alt="NAUNG PUDI MEI RIVO BARUMALANG Urban Athletes">
@@ -107,6 +120,16 @@
           </div>
         </button>
       </div>
+      <div class="">
+        <button onclick="teamImg(this)" data-team="HANNA"class="relative group h-full">
+          <img class="h-full" src="{{ url('/image/franchise/Bu_Hana.png') }}" alt="ACHMAD SYAMSUL FARIH Urban Athletes">
+          <div class="absolute top-0 right-0 left-0 opacity-0 h-full flex justify-center items-center transition-all duration-300 font-FuturaBold bg-gradient-to-t from-neutral-900/75 text-white
+          group-hover:opacity-100"
+          >
+            More Info
+          </div>
+        </button>
+      </div>
     </div>
   </div>
 
@@ -120,7 +143,7 @@
           </div>
           {{-- <h3 class="text-2xl font-FuturaBold">District Fitness Manager</h3> --}}
         </div>
-        <p class="mb-6">Syamsul yang memiliki passion terhadap dunia fitness dengan sungguh-sungguh menekuni bidang ini. Ia mengambil banyak pelatihan untuk memperoleh sertifikat agar dapat mendukung kemampuannya sebagai District Fitness Manager. Sebelum bergabung bersama Urban Athletes, ia sempat menjadi bagian dari Celebrity Fitness dan Gold’s Gym. Syamsul berharap dengan kemampuan dan komitmennya tersebut, ia dapat mengelola tim untuk selalu memberikan yang terbaik.</p>
+        <p class="mb-6">Syamsul who has a passion for the fitness world is seriously pursuing this field. He took a lot of training to get certification to support his ability as a Training & Development Manager. Prior to joining Urban Athletes, he was part of Celebrity Fitness and Gold's Gym. Syamsul hopes that with his ability and commitment, he can manage the team to always give the best.</p>
         <h4 class="font-FuturaBold pl-4 inline border-l-4 border-yellow-primary">CERTIFICATION:</h4>
         <ul class="py-4">
           <li><span>FISAF Course In House Celebrity Fitness</span></li>
@@ -135,9 +158,12 @@
           <li><span>TRX Course In House Gold’s Gym</span></li>
           <li><span>Accesories Training (Kettle Bell, VIPR, Bosu Ball Sand Bell) In House Gold’s Gym</span></li>
           <li><span>Personal Trainer Level Silver Gold’s Gym</span></li>
-          <li><span>Applied Nutrition For Sport Performance Course by APKI (Indonesia Personal Trainer Development) Primaft Academy</span></li>
+          <li><span>Indonesia Personal Trainer Development by Primafit Academy</span></li>
           <li><span>The First Healthy Living Seminar By APKI</span></li>
-          <li><span>First Aid certified by PMI</span></li>
+          <li><span>ASM Course</span></li>
+          <li><span>Basic Life Support Certification By PMI</span></li>
+          <li><span>The First Healthy Living Seminar By APKI</span></li>
+          <li><span>NNLP Master Practitioner </span></li>
         </ul>
       </div>
     </div>
@@ -152,13 +178,17 @@
           </div>
           {{-- <h3 class="text-2xl font-FuturaBold">District Sales Manager</h3> --}}
         </div>
-        <p class="mb-6">Dengan penuh komitmen terhadap keahlian dan kegemarannya, Eko konsisten menekuni dunia fitness dan menjadi District Sales Manager di tempat bekerjanya terdahulu. Pengalaman dan kemampuannya yang telah terasah, membuat Eko mampu mengelola dan mengembangkan market baru bagi Urban Athletes.</p>
+        <p class="mb-6">Being in the field of work marketing, both offline and online marketing for more than 13 years, has become Eko’s provision to continue to innovate to open up new market opportunities following the changing times, especially in the Business Fitness Industry. Eko’s skills in building systems and data analysis make it easier for him to develop the marketing team.</p>
         <h4 class="font-FuturaBold pl-4 inline border-l-4 border-yellow-primary">CERTIFICATION:</h4>
         <ul class="py-4">
-          <li><span>Fitness Consultant Golds Gym Braga</span></li>
-          <li><span>Sales Manager Golds Gym Ciwalk</span></li>
+          <li><span>Fitness Consultant Golds Gym Bandung</span></li>
+          <li><span>Sales Manager Golds Gym Bandung</span></li>
           <li><span>Fitness Business Manager Urban Athletes</span></li>
           <li><span>District Sales Manager Urban Athletes</span></li>
+          <li><span>Digital Marketing Specialist</span></li>
+          <li><span>Certified Basic Life Support by PMI</span></li>
+          <li><span>Sales Fundamental certification  by Gratyo</span></li>
+          <li><span>Advance Brand and Branding Transformation Certification by Gratyo</span></li>
         </ul>
       </div>
     </div>
@@ -173,7 +203,7 @@
           </div>
           {{-- <h3 class="text-2xl font-FuturaBold">District Sales Manager</h3> --}}
         </div>
-        <p class="mb-6">Oleh karena semangat dan kemampuannya, Rivo merupakan salah satu PT yang dapat diandalkan. Ia tak pernah berhenti untuk belajar dan berbagi ilmu untuk mengelola dan melatih tim. Rivo juga memiliki berbagai macam sertifikat untuk mendukung keahlian serta kredibilitasnya. Selain itu jam terbangnya juga tinggi dan ia orang yang sangat profesional dalam bekerja, sehingga mampu mengelola seluruh tim dengan sebaik mungkin.</p>
+        <p class="mb-6">As a result of his passion and ability, Rivo is one of the people that the company can be relied on. He never stops learning and sharing knowledge to manage and train the team. Rivo also has various certificates to support its expertise and credibility. In addition, he is a very professional person in his work, so he can manage the entire team as well as possible.</p>
         <h4 class="font-FuturaBold pl-4 inline border-l-4 border-yellow-primary">CERTIFICATION:</h4>
         <ul class="py-4">
           <li><span>Certified Basic Life Support by PMI</span></li>
@@ -183,6 +213,29 @@
           <li><span>Kettlebell</span></li>
           <li><span>TRX | VIPR | DINAMAX | BLS | AFC | Goifex RumbleRoller</span></li>
         </ul>
+      </div>
+    </div>
+  </div>
+  <div class="hidden" id="detailTeam" data-team="HANNA">
+    <div class="text-left">
+      <img class="lg:float-left md:max-w-md md:mx-auto px-6" src="{{ url('/image/franchise/Bu_Hana.png') }}" alt="Hannah Legawa Urban Athletes">
+      <div class="font-Futura mt-6">
+        <div class="mb-4">
+          <div class="border-l-[8px] border-yellow-primary flex">
+            <h2 class="text-5xl inline font-FuturaBold mb-2 pl-4 uppercase">Hannah Legawa</h2>
+          </div>
+          {{-- <h3 class="text-2xl font-FuturaBold">District Sales Manager</h3> --}}
+        </div>
+        <p class="mb-6">Enjoying the arts and the hustle and bustle of an event for a long time, Hannah who studied at Curtin University of Technology, Perth, Australia as a Bachelor of Art in Multimedia Design, as a student, began to be involved in many activities and social events on campus. She finds that she enjoys building and maintaining a positive public image for an organization by creating media, press releases, and other communication designs. In 2008, he returned to Indonesia and worked as a visual arts teacher at Ciputra School for a certain period. Even thou She owns an Advertising Company, she fell in love with the dynamic of the fitness Industry, she let her husband runs their company and Partner up with her best friend Verawaty Budiyanto. Hannah is focused on Urban Athletes and is ready to take the Urban Athletes Enterprise to become the market leader in Fitness in Indonesia.</p>
+        {{-- <h4 class="font-FuturaBold pl-4 inline border-l-4 border-yellow-primary">CERTIFICATION:</h4>
+        <ul class="py-4">
+          <li><span>Certified Basic Life Support by PMI</span></li>
+          <li><span>Sync by Strong Nation</span></li>
+          <li><span>Bosu Pilates</span></li>
+          <li><span>Peter Twist Functional Training</span></li>
+          <li><span>Kettlebell</span></li>
+          <li><span>TRX | VIPR | DINAMAX | BLS | AFC | Goifex RumbleRoller</span></li>
+        </ul> --}}
       </div>
     </div>
   </div>
