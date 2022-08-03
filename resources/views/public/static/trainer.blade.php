@@ -49,7 +49,7 @@
             <p class="text-white">PT UA Lenmarc</p>
             <div class="border-b border-yellow-primary w-32 h-2 py-2"></div>
             <div class="mt-16">
-              <p id="card-btn">View Detail <span class="font-sans-serif">&#8811;</span></p>
+              {{-- <p id="card-btn">View Detail <span class="font-sans-serif">&#8811;</span></p> --}}
             </div>
           </div>
         </div>
@@ -79,7 +79,7 @@
             <p class="text-white">PT UA Tidar</p>
             <div class="border-b border-yellow-primary w-32 h-2 py-2"></div>
             <div class="mt-16">
-              <p id="card-btn">View Detail <span class="font-sans-serif">&#8811;</span></p>
+              {{-- <p id="card-btn">View Detail <span class="font-sans-serif">&#8811;</span></p> --}}
             </div>
           </div>
         </div>
@@ -109,7 +109,7 @@
             <p class="text-white">PT UA Lenmarc</p>
             <div class="border-b border-yellow-primary w-32 h-2 py-2"></div>
             <div class="mt-16">
-              <p id="card-btn">View Detail <span class="font-sans-serif">&#8811;</span></p>
+              {{-- <p id="card-btn">View Detail <span class="font-sans-serif">&#8811;</span></p> --}}
             </div>
           </div>
         </div>
@@ -139,7 +139,7 @@
             <p class="text-white">PT UA Marvell</p>
             <div class="border-b border-yellow-primary w-32 h-2 py-2"></div>
             <div class="mt-16">
-              <p id="card-btn">View Detail <span class="font-sans-serif">&#8811;</span></p>
+              {{-- <p id="card-btn">View Detail <span class="font-sans-serif">&#8811;</span></p> --}}
             </div>
           </div>
         </div>
@@ -169,7 +169,7 @@
             <p class="text-white">PT UA Merr</p>
             <div class="border-b border-yellow-primary w-32 h-2 py-2"></div>
             <div class="mt-16">
-              <p id="card-btn">View Detail <span class="font-sans-serif">&#8811;</span></p>
+              {{-- <p id="card-btn">View Detail <span class="font-sans-serif">&#8811;</span></p> --}}
             </div>
           </div>
         </div>
@@ -195,26 +195,26 @@
     <script>
       let viewDetail = document.getElementById("view-detail")
       let cardBtn = document.querySelectorAll('#card')
-      cardBtn.forEach(btn => {
-        btn.addEventListener('click', () => {
-          document.querySelector('HTML').classList.add('scroll-html')
-          // let cardThis = btn.parentElement.parentElement.parentElement.parentElement
-          let cardThis = btn
-          let imgOri = cardThis.querySelector('#img-ori')
-          let descriptionOri = cardThis.querySelector('#description-ori')
-          let imgView = viewDetail.querySelector('#img-view')
-          let descriptionView = viewDetail.querySelector('#description-view')
-          imgView.innerHTML = imgOri.innerHTML
-          descriptionView.innerHTML = descriptionOri.innerHTML
-          // console.log(imgView.nextElementSibling);
-          let ziseImgView = imgView.parentElement;
-          imgView.nextElementSibling.classList.remove('hidden')
-          imgView.nextElementSibling.classList.add('flex')
-          ziseImgView.classList.add('w-64');
-          ziseImgView.classList.add('h-96');
-          location.href = "#click-detail";
-        })
-      });
+      // cardBtn.forEach(btn => {
+      //   btn.addEventListener('click', () => {
+      //     document.querySelector('HTML').classList.add('scroll-html')
+      //     // let cardThis = btn.parentElement.parentElement.parentElement.parentElement
+      //     let cardThis = btn
+      //     let imgOri = cardThis.querySelector('#img-ori')
+      //     let descriptionOri = cardThis.querySelector('#description-ori')
+      //     let imgView = viewDetail.querySelector('#img-view')
+      //     let descriptionView = viewDetail.querySelector('#description-view')
+      //     imgView.innerHTML = imgOri.innerHTML
+      //     descriptionView.innerHTML = descriptionOri.innerHTML
+      //     // console.log(imgView.nextElementSibling);
+      //     let ziseImgView = imgView.parentElement;
+      //     imgView.nextElementSibling.classList.remove('hidden')
+      //     imgView.nextElementSibling.classList.add('flex')
+      //     ziseImgView.classList.add('w-64');
+      //     ziseImgView.classList.add('h-96');
+      //     location.href = "#click-detail";
+      //   })
+      // });
     </script>
   @endpush
 </x-main_web>

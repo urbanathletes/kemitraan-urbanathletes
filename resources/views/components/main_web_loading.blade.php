@@ -14,10 +14,10 @@
 <body class="relative font-AmpleSoft" onload="hideLoading()">
   @empty($specialPage)
     @include('components.navbar_web')
-    <div class="py-8 md:py-9 lg:py-9"></div>
+    <div class="py-8 lg:py-9"></div>
   @endempty
   <main>
-    <div class="relative" id="loading-target">
+    <div class="relative opacity-100 transition-all duration-[4000ms]" id="loading-target">
       <div class="fixed top-0 bottom-0 left-0 right-0 min-h-screen min-w-full flex justify-center items-center bg-white bg-opacity-50 z-10">
         <img src="{{ url('image/web/LoadingWeb.gif') }}" alt="Loading Urban Athletes">
       </div>
@@ -40,10 +40,10 @@
     }
 
     function hideLoading() {
+      loadingTarget.classList.add('loading-hidden');
       setInterval(() => {
-        loadingTarget.classList.add('loading-hidden');
         loadingTarget.classList.add('hidden')
-      },500)
+      },4000)
     }
   </script>
   @stack('script')
