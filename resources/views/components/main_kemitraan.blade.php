@@ -14,7 +14,7 @@
 <body class="relative font-AmpleSoft">
   @empty($specialPage)
     @include('components.navbar_kemitraan')
-    <div class="py-8 md:py-9 lg:py-9"></div>
+    <div class="py-8 lg:py-9"></div>
   @endempty
   <main>
     <div class="font-Futura">

@@ -23,7 +23,7 @@
           <div class="grid content-center pl-4">
             <h2 class="font-FuturaBold text-xl">YOUR TRANSFORMATION IS ONE CLICK AWAY</h2>
             <span class="my-2">
-              <a class="bg-yellow-primary py-1 px-4 font-PoppinsSemiBold" href="#">GET FREE TRIAL</a>
+              <a class="bg-yellow-primary py-1 px-4 font-PoppinsSemiBold" href="https://api.whatsapp.com/send?phone=628179188880&text=*3%20DAY%20TRIAL*%0AHi!%0AThank%20you%20for%20your%20interest%20in%20Urban%20Athletes%0APlease%20leave%20your%20contact%20details%20below%20and%20we%20will%20be%20in%20touch%20shortly%3A%0A%0A%E2%96%ABFull%20Name%3A%0A%E2%96%ABE-mail%3A%0A%E2%96%ABLocation%20of%203%20Day%20Trial%3A%20(Gunawangsa%20Merr%2F%20Marvell%20City%2F%20Gunawangsa%20Tidar%2FLenmarc)">GET FREE TRIAL</a>
             </span>
             <P>3-day trial, get rid of all your excuses, change now or never! <br>Make a better version of you with Urban Athletes. <br>#buildingabetteryou</P>
           </div>
@@ -35,7 +35,7 @@
           <div class="grid content-center bg-black text-white px-4 py-4">
             <h2 class="font-FuturaBold text-xl">YOUR TRANSFORMATION IS ONE CLICK AWAY</h2>
             <span class="my-2">
-              <a class="bg-yellow-primary py-1 px-4 font-PoppinsSemiBold" href="#">GET FREE TRIAL</a>
+              <a class="bg-yellow-primary py-1 px-4 font-PoppinsSemiBold" href="https://api.whatsapp.com/send?phone=628179188880&text=*3%20DAY%20TRIAL*%0AHi!%0AThank%20you%20for%20your%20interest%20in%20Urban%20Athletes%0APlease%20leave%20your%20contact%20details%20below%20and%20we%20will%20be%20in%20touch%20shortly%3A%0A%0A%E2%96%ABFull%20Name%3A%0A%E2%96%ABE-mail%3A%0A%E2%96%ABLocation%20of%203%20Day%20Trial%3A%20(Gunawangsa%20Merr%2F%20Marvell%20City%2F%20Gunawangsa%20Tidar%2FLenmarc)">GET FREE TRIAL</a>
             </span>
             <P>3-day trial, get rid of all your excuses, change now or never! Make a better version of you with Urban Athletes. #buildingabetteryou</P>
           </div>
@@ -61,7 +61,7 @@
         Urban Athletes adalah tempat bagi mereka yang berinspirasi untuk hidup sehat dengan metode yang tepat dan fun. Kita percaya olahraga bukan hanya sekedar gaya hidup. Tapi adalah sarana untuk menjadi pribadi yang lebih baik. Membawa Dampak dan membangun manusia menjadi versi terbaiknya.
       </p>
       <div class="py-2">
-        <a class="py-2 px-4 font-PoppinsSemiBold border border-yellow-primary hover:bg-yellow-primary hover:text-black transition-all duration-300" href="#">CARI TAHU LEBIH LANJUT</a>
+        <a class="py-2 px-4 font-PoppinsSemiBold border border-yellow-primary hover:bg-yellow-primary hover:text-black transition-all duration-300" href="{{ url('about/about-us') }}">CARI TAHU LEBIH LANJUT</a>
       </div>
     </div>
     <div class="grid grid-cols-2 gap-4 container lg:mx-0 py-6 lg:max-w-xl z-10">
@@ -187,7 +187,7 @@
                 <p>VALOR</p>
               </div>
               <div class="w-72 h-72 flex justify-center overflow-hidden">
-                <img class="w-full object-cover object-center mx-auto group-hover:scale-110 transition-all duration-300" src="{{ url('image/web/home/10VALOR.jpg') }}" alt="Exclusive Urban Athletes">
+                <img class="w-full object-cover object-center mx-auto group-hover:scale-110 transition-all duration-300" src="{{ url('image/web/home/10VALOR.JPG') }}" alt="Exclusive Urban Athletes">
               </div>
             </div>
             <div class="cursor-pointer min-w-max group">
@@ -341,7 +341,7 @@
         <div class="flex flex-col space-y-4">
           <h2 class="text-white font-FuturaBold">JOIN URBAN ATHLETES ACADEMY,<br> DAPATAKAN BANYAK KEMUDAHAN DAN BENEFIT SEGERA!!</h2>
           <span class="my-2">
-            <a class="bg-yellow-500 py-1 px-4 font-PoppinsSemiBold drop-shadow-md shadow-black" href="#">GET FREE TRIAL</a>
+            <a class="bg-yellow-500 py-1 px-4 font-PoppinsSemiBold drop-shadow-md shadow-black" href="https://api.whatsapp.com/send?phone=628179188880&text=*3%20DAY%20TRIAL*%0AHi!%0AThank%20you%20for%20your%20interest%20in%20Urban%20Athletes%0APlease%20leave%20your%20contact%20details%20below%20and%20we%20will%20be%20in%20touch%20shortly%3A%0A%0A%E2%96%ABFull%20Name%3A%0A%E2%96%ABE-mail%3A%0A%E2%96%ABLocation%20of%203%20Day%20Trial%3A%20(Gunawangsa%20Merr%2F%20Marvell%20City%2F%20Gunawangsa%20Tidar%2FLenmarc)">GET FREE TRIAL</a>
           </span>
         </div>
       </div>

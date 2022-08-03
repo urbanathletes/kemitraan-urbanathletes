@@ -12,8 +12,8 @@
   @endpush
   <div>
     <div class="flex flex-col md:grid md:grid-cols-2 min-h-max">
-      <div class="flex justify-center md:justify-end md:min-w-max relative h-72 md:h-[450px]">
-        <img class="object-cover object-center w-full" src="{{ url('image/franchise/home_franchise_benner.jpg') }}" alt="Franchise Urban Athletes">
+      <div class="flex justify-center md:justify-end md:max-w-[100%] relative h-72 md:h-[470px]">
+        <img class="object-cover object-center h-full w-full" src="{{ url('image/franchise/home_franchise_benner.jpg') }}" alt="Franchise Urban Athletes">
         <div class="absolute top-0 right-0 left-0 bottom-0 bg-gradient-to-t md:bg-gradient-to-l from-black"></div>
       </div>
       <div class="grid content-center bg-black text-white px-4 py-2 z-10 font-Futura">
@@ -242,7 +242,7 @@
         OUR BRAND
       </h2>
       {{-- <div class="flex justify-center flex-wrap"> --}}
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 place-items-center pb-8">
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 place-items-center pb-8">
         <div class="px-4 pt-6 bg-neutral-100 shadow-xl">
           <div class="min-h-[64px] flex items-center">
             <img class="w-16" src="{{ url('image/web/logo/LOGO_UA_HITAM_TM.png') }}" alt="Mitra Urban Athletes">
@@ -250,10 +250,10 @@
           <h3 class="font-FuturaBold my-2">URBAN ATHLETES</h3>
           <p class="text-sm">Urban Athletes adalah tempat bagi mereka yang berinspirasi untuk hidup sehat dengan metode yang tepat dan fun. Kita percaya olahraga bukan hanya sekedar gaya hidup. Tapi adalah sarana untuk menjadi pribadi yang lebih baik. Membawa Dampak dan membangun manusia menjadi versi terbaiknya.</p>
           <div class="text-center my-6 font-PoppinsSemiBold">
-            <a class="py-2 px-6 border border-neutral-800 hover:bg-yellow-primary transition-all duration-300" href="#">MORE</a>
+            <a class="py-2 px-6 border border-neutral-800 hover:bg-yellow-primary transition-all duration-300" href="{{ url('franchise/urban-athletes') }}">MORE</a>
           </div>
         </div>
-        <div class="px-4 pt-6 bg-neutral-100 shadow-xl">
+        {{-- <div class="px-4 pt-6 bg-neutral-100 shadow-xl">
           <div class="min-h-[64px] flex items-center">
             <img class="w-16" src="{{ url('image/web/logo/URBAN-LOGO_JR_HIRES.png') }}" alt="Mitra Urban Athletes">
           </div>
@@ -262,20 +262,19 @@
           <div class="text-center my-6 font-PoppinsSemiBold">
             <a class="py-2 px-6 border border-neutral-800 hover:bg-yellow-primary transition-all duration-300" href="#">MORE</a>
           </div>
-        </div>
+        </div> --}}
         <div class="px-4 pt-6 bg-neutral-100 shadow-xl">
           <div class="min-h-[64px] flex items-center">
-            <img class="h-16" src="{{ url('image/web/logo/fitness_work-02.png') }}" alt="Mitra Urban Athletes">
+            <img class="w-1/2" src="{{ url('image/web/logo/LogoFitnessworkPanjang.png') }}" alt="Mitra Urban Athletes">
           </div>
           <h3 class="font-FuturaBold my-2">FITNESS WORKS</h3>
           <p class="text-sm">Urban Athletes adalah tempat bagi mereka yang berinspirasi untuk hidup sehat dengan metode yang tepat dan fun. Kita percaya olahraga bukan hanya sekedar gaya hidup. Tapi adalah sarana untuk menjadi pribadi yang lebih baik. Membawa Dampak dan membangun manusia menjadi versi terbaiknya.</p>
           <div class="text-center my-6 font-PoppinsSemiBold">
-            <a class="py-2 px-6 border border-neutral-800 hover:bg-yellow-primary transition-all duration-300" href="#">MORE</a>
+            <a class="py-2 px-6 border border-neutral-800 hover:bg-yellow-primary transition-all duration-300" href="{{ url('franchise/fitness-works') }}">MORE</a>
           </div>
         </div>
-        <div class="px-4 pt-6 bg-neutral-100 shadow-xl">
+        {{-- <div class="px-4 pt-6 bg-neutral-100 shadow-xl">
           <div class="min-h-[64px] flex items-center">
-            {{-- <img class="w-16" src="{{ url('image/web/logo/fitness_work-02.png') }}" alt="Mitra Urban Athletes"> --}}
             <img class="w-16" src="{{ url('image/web/logo/Valor_TM.png') }}" alt="Mitra Urban Athletes">
           </div>
           <h3 class="font-FuturaBold my-2">VALOR</h3>
@@ -283,7 +282,7 @@
           <div class="text-center my-6 font-PoppinsSemiBold">
             <a class="py-2 px-6 border border-neutral-800 hover:bg-yellow-primary transition-all duration-300" href="#">MORE</a>
           </div>
-        </div>
+        </div> --}}
       </div>
     </div>
 
