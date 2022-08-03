@@ -27,6 +27,7 @@ Route::prefix('about')->group(function(){
   Route::get('/succes-story', function () { return view("public/static/about/succes-story");});
   Route::get('/faqs', function () { return view("public/static/about/faqs");});
 });
+Route::get('/location', function () { return view("public/static/location");});
 // 
 // 
 // 

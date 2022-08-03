@@ -51,19 +51,23 @@
               <div class="text-yellow-primary bg-black px-2 py-1 w-max rounded-full mr-8">
                 <i class="fa-solid fa-location-dot"></i>
               </div>
-              <p>View Location</p>
+              <a href="{{ url('location') }}">
+                <p>View Location</p>
+              </a>
             </div>
             <div class="flex items-center justify-start my-4">
               <div class="text-yellow-primary bg-black px-2 py-1 w-max rounded-full mr-8">
                 <i class="fa-solid fa-envelope"></i>
               </div>
-              <p>Info@Urbanathletes.co.id</p>
+              <a href="mailto:info@Urbanathletes.co.id?subject=Mau Tanya Tentang Urban Athletes" target="_blank"><p>info@Urbanathletes.co.id</p></a>
             </div>
             <div class="flex items-center justify-start my-4">
               <div class="text-yellow-primary bg-black px-2 py-1 w-max rounded-full mr-8">
                 <i class="fa-brands fa-whatsapp"></i>
               </div>
-              <p>0817 - 9188 - 880</p>
+              <a href="https://wa.me/628179288880">
+                <p>0817 - 9188 - 880</p>
+              </a>
             </div>
           </div>
         </div>
