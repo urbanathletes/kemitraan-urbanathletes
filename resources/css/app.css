@@ -69,3 +69,7 @@
 .error-input {
   @apply border-red-500;
 }
+
+.loading-hidden {
+  @apply opacity-0
+}

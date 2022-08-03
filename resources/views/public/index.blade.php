@@ -1,4 +1,9 @@
-<x-main_web>
+<x-main_web_loading>
+  {{-- <div class="relative" id="loading-target">
+    <div class="fixed top-0 bottom-0 left-0 right-0 min-h-screen min-w-full flex justify-center items-center bg-black bg-opacity-80 z-10">
+      <img src="{{ url('image/web/LoadingWeb.gif') }}" alt="Loading Urban Athletes">
+    </div>
+  </div> --}}
   <div class="relative">
     {{-- <video autoplay loop src="{{ url('video/Fithub-Vid-Banner-dex-small.mp4') }}"></video> --}}
     <div class="flex justify-center lg:max-h-screen overflow-hidden">
@@ -45,16 +50,12 @@
     </div>
   </div>
 
-  <div class="bg-[url('/image/web/bg_page/BGAboutUsDeskripsi.jpg')] bg-cover bg-centerpy-8 relative overflow-hidden
-    lg:flex lg:justify-center lg:items-center
+  <div class="bg-[url('/image/web/bg_page/BGAboutUsDeskripsi.jpg')] object-contain object-center relative overflow-hidden
+    flex flex-col lg:flex-row lg:justify-center lg:items-center
   ">
     <div class="absolute top-0 bottom-0 right-0 left-0 bg-black opacity-80">
-      {{-- <h2>
-        URBAN <br>
-        ATHLETES
-      </h2> --}}
     </div>
-    <div class="container lg:mx-0 text-yellow-primary lg:max-w-xl z-10">
+    <div class="container my-4 lg:mx-0 text-yellow-primary lg:max-w-xl z-10">
       <h2 class="text-4xl font-FuturaBold">ABOUT US</h2>
       <p class="text-white font-extralight mt-2 mb-4">
         Urban Athletes adalah tempat bagi mereka yang berinspirasi untuk hidup sehat dengan metode yang tepat dan fun. Kita percaya olahraga bukan hanya sekedar gaya hidup. Tapi adalah sarana untuk menjadi pribadi yang lebih baik. Membawa Dampak dan membangun manusia menjadi versi terbaiknya.
@@ -63,9 +64,9 @@
         <a class="py-2 px-4 font-PoppinsSemiBold border border-yellow-primary hover:bg-yellow-primary hover:text-black transition-all duration-300" href="#">CARI TAHU LEBIH LANJUT</a>
       </div>
     </div>
-    <div class="grid grid-cols-2 gap-4 container lg:mx-0 py-6 lg:max-w-xl">
-      <img class="pb-12 lg:pb-16 object-cover object-top mx-auto h-full z-10" src="{{ url('image/web/home/Home_about_us-l.jpg') }}" alt="About us Urban Athletes">
-      <img class="pt-12 lg:pt-16 object-cover object-top mx-auto z-10" src="{{ url('image/web/home/About-Us-l.jpg') }}" alt="About us Urban Athletes">
+    <div class="grid grid-cols-2 gap-4 container lg:mx-0 py-6 lg:max-w-xl z-10">
+      <img class="pb-12 lg:pb-16 object-cover object-top mx-auto h-full" src="{{ url('image/web/home/Home_about_us-l.jpg') }}" alt="About us Urban Athletes">
+      <img class="pt-12 lg:pt-16 object-cover object-top mx-auto" src="{{ url('image/web/home/About-Us-l.jpg') }}" alt="About us Urban Athletes">
     </div>
   </div>
 
@@ -213,7 +214,7 @@
     </div>
   </div>
 
-  {{-- <div class="py-4">
+  <div class="py-4">
     <div class="flex flex-nowrap overflow-visible overflow-x-auto no-scrollbar xl:justify-between lg:space-x-20 lg:px-36">
 
       <div class="flex justify-center min-w-full md:min-w-full xl:min-w-max">
@@ -254,34 +255,31 @@
       </div>
 
     </div>
-  </div> --}}
+  </div>
 
-  <div class="container text-center py-8 mt-6">
+  {{-- <div class="container text-center py-8 mt-6">
     <h2 class="font-FuturaBold text-4xl">SUCCESS STORY</h2>
     <p class="text-xl font-FuturaBold">WHAT OUR CLIENT SAY</p>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4 overflow-hidden py-4">
       <div class="flex justify-center items-center relative">
-        {{-- <img class="h-full w-full object-cover object-center" src="{{ url('image/web/news/circuit.jpg') }}" alt="Urban Athletes"> --}}
         <video class="object-cover object-right h-full min-w-min lg:min-w-full" autoplay muted loop>
           <source src="{{ url('video/Testimoni1.mp4') }}" type="video/mp4">
         </video>
       </div>
       <div class="grid grid-cols-1 gap-4">
         <div class="flex justify-center items-center relative h-56 lg:h-72 overflow-hidden">
-          {{-- <img class="w-full object-cover object-center" src="{{ url('image/web/news/ekonomi3.jpg') }}" alt="Urban Athletes"> --}}
           <video class="object-cover object-right min-w-min lg:min-w-full" autoplay muted loop>
             <source src="{{ url('video/Testimoni3.mp4') }}" type="video/mp4">
           </video>
         </div>
         <div class="flex justify-center items-center relative h-56 lg:h-72 overflow-hidden">
-          {{-- <img class="w-full object-cover object-center"  src="{{ url('image/web/news/brt247716752.jpg') }}" alt="Urban Athletes"> --}}
           <video class="object-cover object-right min-w-min lg:min-w-full" autoplay muted loop>
             <source src="{{ url('video/Testimoni4.mp4') }}" type="video/mp4">
           </video>
         </div>
       </div>
     </div>
-  </div>
+  </div> --}}
 
   <div class="container text-center py-8">
     <h2 class="font-FuturaBold text-4xl">ARTICLE UPDATE</h2>
@@ -373,4 +371,7 @@
 
     <h1>ini halaman web</h1>
   </div> --}}
-</x-main_web>
+  @push('script')
+    
+  @endpush
+</x-main_web_loading>
