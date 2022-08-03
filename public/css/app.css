@@ -768,6 +768,9 @@ video {
 .ml-16 {
   margin-left: 4rem;
 }
+.ml-6 {
+  margin-left: 1.5rem;
+}
 .mt-1 {
   margin-top: 0.25rem;
 }
@@ -776,9 +779,6 @@ video {
 }
 .mb-6 {
   margin-bottom: 1.5rem;
-}
-.ml-6 {
-  margin-left: 1.5rem;
 }
 .ml-11 {
   margin-left: 2.75rem;
@@ -806,9 +806,6 @@ video {
 }
 .-mt-20 {
   margin-top: -5rem;
-}
-.ml-8 {
-  margin-left: 2rem;
 }
 .block {
   display: block;
@@ -893,9 +890,6 @@ video {
 .h-2 {
   height: 0.5rem;
 }
-.h-80 {
-  height: 20rem;
-}
 .max-h-full {
   max-height: 100%;
 }
@@ -945,9 +939,6 @@ video {
 }
 .min-h-\[180px\] {
   min-height: 180px;
-}
-.min-h-full {
-  min-height: 100%;
 }
 .w-1\/2 {
   width: 50%;
@@ -1091,9 +1082,6 @@ video {
 }
 .max-w-\[300px\] {
   max-width: 300px;
-}
-.max-w-full {
-  max-width: 100%;
 }
 .table-fixed {
   table-layout: fixed;
@@ -1455,14 +1443,14 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(82 82 82 / var(--tw-bg-opacity));
 }
+.bg-opacity-80 {
+  --tw-bg-opacity: 0.8;
+}
 .bg-opacity-50 {
   --tw-bg-opacity: 0.5;
 }
 .bg-opacity-90 {
   --tw-bg-opacity: 0.9;
-}
-.bg-opacity-80 {
-  --tw-bg-opacity: 0.8;
 }
 .bg-opacity-60 {
   --tw-bg-opacity: 0.6;
@@ -1619,6 +1607,10 @@ video {
 }
 .bg-repeat-y {
   background-repeat: repeat-y;
+}
+.object-contain {
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 .object-cover {
   -o-object-fit: cover;
@@ -2071,6 +2063,9 @@ video {
 .opacity-90 {
   opacity: 0.9;
 }
+.opacity-100 {
+  opacity: 1;
+}
 .shadow {
   --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
@@ -2153,6 +2148,9 @@ video {
 }
 .duration-300 {
   transition-duration: 300ms;
+}
+.duration-500 {
+  transition-duration: 500ms;
 }
 .ease-in-out {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -2260,6 +2258,10 @@ video {
 .error-input {
   --tw-border-opacity: 1;
   border-color: rgb(239 68 68 / var(--tw-border-opacity));
+}
+
+.loading-hidden {
+  opacity: 0;
 }
 
 .hover\:scale-105:hover {
@@ -2808,6 +2810,10 @@ video {
     height: 24rem;
   }
 
+  .md\:h-\[450px\] {
+    height: 450px;
+  }
+
   .md\:h-\[430px\] {
     height: 430px;
   }
@@ -2822,10 +2828,6 @@ video {
 
   .md\:h-80 {
     height: 20rem;
-  }
-
-  .md\:h-\[450px\] {
-    height: 450px;
   }
 
   .md\:max-h-\[50vh\] {
@@ -3523,6 +3525,10 @@ video {
 
   .lg\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .lg\:flex-row {
+    flex-direction: row;
   }
 
   .lg\:flex-row-reverse {
