@@ -111,7 +111,7 @@
       </a>
       <a class="flex justify-center place-items-center transition-all duration-300 bg-white w-10 h-10 mx-auto"
       href="https://www.youtube.com/channel/UCLV--bH8TFFYEf3Nz7Hv2vA" target="_blank" rel="youtube">
-        <i class="fa-brands fa-twitter text-3xl"></i>
+        <i class="fa-brands fa-youtube text-3xl"></i>
       </a>
       {{-- <a class="flex justify-center place-items-center rounded-md shadow-sm shadow-youtube bg-white w-10 h-1w-10 text-youtube hover:text-white hover:bg-youtube transition-all duration-300"
       href="https://www.youtube.com/channel/UCLV--bH8TFFYEf3Nz7Hv2vA" target="_blank" rel="youtube">

@@ -74,10 +74,10 @@
               @enderror
             </label>
             <label class="block mx-2 my-2 border-b w-full">
-              <span class="">MOBILE PHONE NUMBER</span>
+              <span class="">MOBILE NUMBER</span>
               <input name="phone" type="text"
               value="{{ old('phone') }}"
-              placeholder="MOBILE PHONE NUMBER"
+              placeholder="MOBILE NUMBER"
               class="text-black mt-2 block w-full px-0.5 border-0 border-b-2 border-gray-200 outline-none focus:ring-0 focus:border-black
               @error('phone') error-input @enderror" required>
               @error('phone')
@@ -143,10 +143,10 @@
               @enderror
             </label>
             <label class="block mx-2 my-2 border-b w-full">
-              <span class="">INDURSTRY</span>
+              <span class="">INDUSTRY</span>
               <input name="industry" type="text"
               value="{{ old('industry') }}"
-              placeholder="INDURSTRY"
+              placeholder="INDUSTRY"
               class="text-black mt-2 block w-full px-0.5 border-0 border-b-2 border-gray-200 outline-none focus:ring-0 focus:border-black
               @error('industry') error-input @enderror" required>
               @error('industry')
@@ -273,118 +273,89 @@
 
     <div class="container">
       <div class="relative flex justify-center">
-        <h2 class="text-2xl font-FuturaBold">PROSES JOIN FRANCHISE</h2>
+        <h2 class="text-2xl font-FuturaBold">PROSES JOIN KEMITRAAN</h2>
         <div class="w-40 inline border-b-4 border-yellow-primary absolute -bottom-2"></div>
       </div>
       <div class="lg:flex lg:justify-center lg:my-12">
         <div class="flex justify-center lg:block pt-8">
           <div class="relative hidden lg:block py-4 border border-b-0 border-black">
-            <p class="absolute -top-10 right-0 left-0 text-center whitespace-nowrap font-FuturaBold">1 - 2 MONTH</p>
+            <p class="absolute -top-10 right-0 left-0 text-center whitespace-nowrap font-FuturaBold">1 MONTH</p>
           </div>
-          <div class="grid grid-cols-1
+          <div class="grid grid-cols-1 text-center
             lg:flex lg:justify-center
           ">
-            <div class="my-4 lg:my-0 lg:mx-2">
+            <div class="my-4 w-52 bg-black bg-gradient-to-bl from-neutral-700 via-transparent to-neutral-700 text-white lg:my-0 lg:mx-2">
               <div class="shadow-2xl min-h-max">
                 <div class="w-20 h-8 bg-yellow-400 bg-gradient-to-l from-yellow-100 flex items-center"
                 style="clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);"
                 >
-                  <img class="h-6 pl-2 group-hover:invert" src="{{ url('image/franchise/pageIconUa-1.png') }}" alt="Icon Urban Athletes"> 
+                  <img class="h-6 pl-2 group-hover:invert" src="{{ url('image/franchise/iconsKemitraan/1n4.png') }}" alt="Icon Urban Athletes"> 
                 </div>
                 <div class="p-4">
-                  <p class="text-lg font-FuturaBold">Proses <br>Administrasi</p>
-                  <p class="py-3 tracking-wide">Presentasi lanjutan <br>proses Q&A.</p>
+                  <p class="text-xl font-FuturaBold font-thin">Payment Commitment Fee of IDR 10 million</p>
                 </div>
               </div>
             </div>
-            <div class="my-4 lg:my-0 lg:mx-2">
+            <div class="my-4 w-52 bg-black bg-gradient-to-bl from-neutral-700 via-transparent to-neutral-700 text-white lg:my-0 lg:mx-2">
               <div class="shadow-2xl min-h-max">
                 <div class="w-20 h-8 bg-yellow-400 bg-gradient-to-l from-yellow-100 flex items-center"
                 style="clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);"
                 >
-                  <img class="h-6 pl-2 group-hover:invert" src="{{ url('image/franchise/pageIconUa-2.png') }}" alt="Icon Urban Athletes">
+                  <img class="h-6 pl-2 group-hover:invert" src="{{ url('image/franchise/iconsKemitraan/2.png') }}" alt="Icon Urban Athletes">
                 </div>
                 <div class="p-4">
-                  <p class="text-lg font-FuturaBold">
-                    Pembayaran <br>Commitment fee
-                  </p>
-                  <p class="py-3 tracking-wide">
-                    Pembayaran <br>
-                    commitment fee <br>
-                    sebesar 100 juta.
+                  <p class="text-xl font-FuturaBold font-thin">
+                    Survey and Site Selection
                   </p>
                   {{-- <p>proses Q&A.</p> --}}
                 </div>
               </div>
             </div>
-            <div class="my-4 lg:my-0 lg:mx-2">
+            <div class="my-4 w-52 bg-black bg-gradient-to-bl from-neutral-700 via-transparent to-neutral-700 text-white lg:my-0 lg:mx-2">
               <div class="shadow-2xl min-h-max">
                 <div class="w-20 h-8 bg-yellow-400 bg-gradient-to-l from-yellow-100 flex items-center"
                 style="clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);"
                 >
-                  <img class="h-6 pl-2 group-hover:invert" src="{{ url('image/franchise/pageIconUa-3.png') }}" alt="Icon Urban Athletes">
+                  <img class="h-6 pl-2 group-hover:invert" src="{{ url('image/franchise/iconsKemitraan/3.png') }}" alt="Icon Urban Athletes">
                 </div>
                 <div class="p-4">
-                  <p class="text-lg font-FuturaBold">
-                    Survey dan <br>
-                    Pemilihan Lokasi <br>
-                    Design Lokasi
-                  </p>
-                  <p class="py-3 tracking-wide">
-                    Kami membantu Anda <br>
-                    untuk menentukan lokasi <br>
-                    yang tepat melalui survey <br>
-                    dan analisa.
-                  </p>
-                  <p class="py-3 tracking-wide">
-                    Dilanjudkan dengan proses <br>
-                    design sesuai dengan <br>
-                    kebutuhan pasar.
+                  <p class="text-xl font-FuturaBold font-thin">
+                    Business Plan
                   </p>
                 </div>
               </div>
             </div>
-            <div class="my-4 lg:my-0 lg:mx-2">
+            <div class="my-4 w-52 bg-black bg-gradient-to-bl from-neutral-700 via-transparent to-neutral-700 text-white lg:my-0 lg:mx-2">
               <div class="shadow-2xl min-h-max">
                 <div class="w-20 h-8 bg-yellow-400 bg-gradient-to-l from-yellow-100 flex items-center"
                 style="clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);"
                 >
-                  <img class="h-6 pl-2 group-hover:invert" src="{{ url('image/franchise/pageIconUa-4.png') }}" alt="Icon Urban Athletes">
+                  <img class="h-6 pl-2 group-hover:invert" src="{{ url('image/franchise/iconsKemitraan/1n4.png') }}" alt="Icon Urban Athletes">
                 </div>
                 <div class="p-4">
-                  <p class="text-lg font-FuturaBold">
-                    Pelunasan <br>
-                    frinchise fee
-                  </p>
-                  <p class="py-3 tracking-wide">
-                    Pembayaran sisa <br>
-                    franchise fee sesuai <br>
-                    dengan pihak konsep <br>
-                    bisnis dan tanda tangan <br>
-                    kontrak. Dilanjutkan <br>
-                    dengan proses <br>
-                    pembangunan gym
+                  <p class="text-xl font-FuturaBold font-thin">
+                    Payment of Partnership Fee
                   </p>
                 </div>
               </div>
             </div>
           </div>
           <div class="lg:hidden relative pl-4 ml-4 mb-8 border-y-2 border-r-2 border-black w-4 min-h-max flex justify-center items-center">
-            <p class="absolute -left-3 rotate-90 whitespace-nowrap font-FuturaBold">1 - 2 MONTH</p>
+            <p class="absolute -left-3 rotate-90 whitespace-nowrap font-FuturaBold">1 MONTH</p>
           </div>
         </div>
         
-        <div class="flex justify-center lg:block mt-4 lg:mt-8 mb-8 ">
+        {{-- <div class="flex justify-center lg:block mt-4 lg:mt-8 mb-8 ">
           <div class="relative hidden lg:block py-4 ml-11 border border-b-0 border-black">
             <p class="absolute -top-10 right-0 left-0 3ext-center whitespace-nowrap font-FuturaBold">2 - 3 MONTH</p>
           </div>
           <div class="lg:ml-12 min-w-[191px]">
-            <div class="my-4 lg:my-0 lg:mx-2">
+            <div class="my-4 w-52 bg-black bg-gradient-to-bl from-neutral-700 via-transparent to-neutral-700 text-white lg:my-0 lg:mx-2">
               <div class="shadow-2xl min-h-max">
                 <div class="w-20 h-8 bg-yellow-400 bg-gradient-to-l from-yellow-100 flex items-center"
                 style="clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);"
                 >
-                  <img class="h-6 pl-2 group-hover:invert" src="{{ url('image/franchise/pageIconUa-5.png') }}" alt="Icon Urban Athletes">
+                  <img class="h-6 pl-2 group-hover:invert" src="{{ url('image/franchise/iconsKemitraan/5.png') }}" alt="Icon Urban Athletes">
                 </div>
                 <div class="p-4">
                   <p class="text-lg font-FuturaBold">
@@ -407,7 +378,112 @@
           <div class="lg:hidden relative pl-4 ml-4 my-6 border-y-2 border-r-2 border-black w-4 min-h-max flex justify-center items-center">
             <p class="absolute -left-3 rotate-90 whitespace-nowrap font-FuturaBold">2 - 3 MONTH</p>
           </div>
+        </div> --}}
+      </div>
+
+      <div class="lg:flex lg:justify-center lg:my-12">
+        <div class="flex justify-center lg:block pt-8">
+          <div class="relative hidden lg:block py-4 border border-b-0 border-black">
+            <p class="absolute -top-10 right-0 left-0 text-center whitespace-nowrap font-FuturaBold">2 - 3 MONTH</p>
+          </div>
+          <div class="grid grid-cols-1 text-center
+            lg:flex lg:justify-center
+          ">
+            <div class="my-4 w-52 bg-black bg-gradient-to-bl from-neutral-700 via-transparent to-neutral-700 text-white lg:my-0 lg:mx-2">
+              <div class="shadow-2xl min-h-max">
+                <div class="w-20 h-8 bg-yellow-400 bg-gradient-to-l from-yellow-100 flex items-center"
+                style="clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);"
+                >
+                  <img class="h-6 pl-2 group-hover:invert" src="{{ url('image/franchise/iconsKemitraan/5.png') }}" alt="Icon Urban Athletes"> 
+                </div>
+                <div class="p-4">
+                  <p class="text-xl font-FuturaBold font-thin">Interior Design and Fit Out start</p>
+                </div>
+              </div>
+            </div>
+            <div class="my-4 w-52 bg-black bg-gradient-to-bl from-neutral-700 via-transparent to-neutral-700 text-white lg:my-0 lg:mx-2">
+              <div class="shadow-2xl min-h-max">
+                <div class="w-20 h-8 bg-yellow-400 bg-gradient-to-l from-yellow-100 flex items-center"
+                style="clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);"
+                >
+                  <img class="h-6 pl-2 group-hover:invert" src="{{ url('image/franchise/iconsKemitraan/6.png') }}" alt="Icon Urban Athletes">
+                </div>
+                <div class="p-4">
+                  <p class="text-xl font-FuturaBold font-thin">
+                    Purchase of gym equipment
+                  </p>
+                  {{-- <p>proses Q&A.</p> --}}
+                </div>
+              </div>
+            </div>
+            <div class="my-4 w-52 bg-black bg-gradient-to-bl from-neutral-700 via-transparent to-neutral-700 text-white lg:my-0 lg:mx-2">
+              <div class="shadow-2xl min-h-max">
+                <div class="w-20 h-8 bg-yellow-400 bg-gradient-to-l from-yellow-100 flex items-center"
+                style="clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);"
+                >
+                  <img class="h-6 pl-2 group-hover:invert" src="{{ url('image/franchise/iconsKemitraan/7.png') }}" alt="Icon Urban Athletes">
+                </div>
+                <div class="p-4">
+                  <p class="text-xl font-FuturaBold font-thin">
+                    Recruitment and training of staff
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="my-4 w-52 bg-black bg-gradient-to-bl from-neutral-700 via-transparent to-neutral-700 text-white lg:my-0 lg:mx-2">
+              <div class="shadow-2xl min-h-max">
+                <div class="w-20 h-8 bg-yellow-400 bg-gradient-to-l from-yellow-100 flex items-center"
+                style="clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);"
+                >
+                  <img class="h-6 pl-2 group-hover:invert" src="{{ url('image/franchise/iconsKemitraan/8.png') }}" alt="Icon Urban Athletes">
+                </div>
+                <div class="p-4">
+                  <p class="text-xl font-FuturaBold font-thin">
+                    Presales and Grand Opening
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="lg:hidden relative pl-4 ml-4 mb-8 border-y-2 border-r-2 border-black w-4 min-h-max flex justify-center items-center">
+            <p class="absolute -left-3 rotate-90 whitespace-nowrap font-FuturaBold">2 - 3 MONTH</p>
+          </div>
         </div>
+        
+        {{-- <div class="flex justify-center lg:block mt-4 lg:mt-8 mb-8 ">
+          <div class="relative hidden lg:block py-4 ml-11 border border-b-0 border-black">
+            <p class="absolute -top-10 right-0 left-0 3ext-center whitespace-nowrap font-FuturaBold">2 - 3 MONTH</p>
+          </div>
+          <div class="lg:ml-12 min-w-[191px]">
+            <div class="my-4 w-52 bg-black bg-gradient-to-bl from-neutral-700 via-transparent to-neutral-700 text-white lg:my-0 lg:mx-2">
+              <div class="shadow-2xl min-h-max">
+                <div class="w-20 h-8 bg-yellow-400 bg-gradient-to-l from-yellow-100 flex items-center"
+                style="clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);"
+                >
+                  <img class="h-6 pl-2 group-hover:invert" src="{{ url('image/franchise/iconsKemitraan/5.png') }}" alt="Icon Urban Athletes">
+                </div>
+                <div class="p-4">
+                  <p class="text-lg font-FuturaBold">
+                    Pelunasan <br>
+                    frinchise fee
+                  </p>
+                  <p class="py-3 tracking-wide">
+                    Pembayaran sisa <br>
+                    franchise fee sesuai <br>
+                    dengan pihak konsep <br>
+                    bisnis dan tanda tangan <br>
+                    kontrak. Dilanjutkan <br>
+                    dengan proses <br>
+                    pembangunan gym
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="lg:hidden relative pl-4 ml-4 my-6 border-y-2 border-r-2 border-black w-4 min-h-max flex justify-center items-center">
+            <p class="absolute -left-3 rotate-90 whitespace-nowrap font-FuturaBold">2 - 3 MONTH</p>
+          </div>
+        </div> --}}
       </div>
     </div>
     

@@ -11,4 +11,5 @@ include __DIR__.'/web/static.php';
 // });
 
 Route::get('/', function () { return view("public/index");});
+Route::get('/login', function () { return view("public/login");});
 Route::get('/tnc-contest', function () { return view("public/tnc-contest");});

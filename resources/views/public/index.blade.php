@@ -230,8 +230,8 @@
           <div class="grid content-center md:w-max px-4 md:pr-0 md:pl-16">
             <p class="text-yellow-primary">SUCCESS STORY</p>
             <h2 class="font-FuturaBold text-xl mb-8">WHAT OUR CLIENT SAY</h2>
-            <P class="text-center">“Awalnya saya berkeinginan untuk fitness adalah dari perasaan saya yang merasa mudah lelah. Padahal dari segi usia, seharusnya saya masih muda. Di sisi lain, pekerjaan saya lagi banyak-banyaknya. Jadi, saya membutuhkan solusi yang hemat waktu dan tenaga. Di saat itulah saya menemukan Urban Athletes dan saya merasa cukup beruntung saya menemukan Urban Athletes”</P>
-            <p class="text-center py-4"><span class="text-yellow-primary">Maulana</span> - Surabaya</p>
+            <P class="text-center">“Setelah mengambil program Personal Trainer saya meraskaan perubahan yaitu badan lebih fit, ringan, tidak mudah capek, makan lebih teratur sampai-2 saya harus cek berapa kalori yang saya makan. Berat badan pasti turun karna latihan yang cukup keras dan rutin, karna latihan dengan Personal Trainer kita akan merasakan capek dan hasil 2x lipat.”</P>
+            <p class="text-center py-4"><span class="text-yellow-primary">NATALIA ARISHANDY</span> - Surabaya</p>
           </div>
         </div>
       </div>
@@ -248,8 +248,8 @@
           <div class="grid content-center md:w-max px-4 md:pr-0 md:pl-16">
             <p class="text-yellow-primary">SUCCESS STORY</p>
             <h2 class="font-FuturaBold text-xl mb-8">WHAT OUR CLIENT SAY</h2>
-            <P class="text-center">“Awalnya saya berkeinginan untuk fitness adalah dari perasaan saya yang merasa mudah lelah. Padahal dari segi usia, seharusnya saya masih muda. Di sisi lain, pekerjaan saya lagi banyak-banyaknya. Jadi, saya membutuhkan solusi yang hemat waktu dan tenaga. Di saat itulah saya menemukan Urban Athletes dan saya merasa cukup beruntung saya menemukan Urban Athletes”</P>
-            <p class="text-center py-4"><span class="text-yellow-primary">Maulana</span> - Surabaya</p>
+            <P class="text-center">“Sebelum mengambil program fitness, berbagai macam metode diet telah saya lakukan untuk menurunkan berat badan dan tidak ada yang berhasil mencapai berat badan yang diinginkan. Saat ambil program fitness, saya mendapatkan 2x free dengan Personal Trainer dengan Ma Fuazi. Akhirnya saya memutuskan lanjut mengambil program Personal Trainer karna saya cocok dengan gaya dan metode cara mengajarkanya. Progress yang saya jalani kurang lebih selama 7 bulan dengan hasil yang sangat memuaskan. Selain turun berat badan sebanyak 13kg sya juga mendapatkan body goals badan atletis menjadi kenyataan. Thanks to Urban Athletes dan Coach Fauzi.”</P>
+            <p class="text-center py-4"><span class="text-yellow-primary">BENNY</span> - Surabaya</p>
           </div>
         </div>
       </div>
