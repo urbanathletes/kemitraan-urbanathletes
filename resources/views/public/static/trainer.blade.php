@@ -38,7 +38,40 @@
     </div>
     
     <div class="py-8 flex flex-wrap justify-around text-center font-PoppinsSemiBold text-yellow-primary">
-      <button class="w-64 h-96 my-4 overflow-hidden relative group" id="card">
+      <diV class="w-64 h-96 my-4 overflow-hidden group">
+        <img class="group-hover:scale-110 object-cover object-center h-full w-full mx-auto transition-all duration-300" src="{{ url('image/web/trainer/Najib.jpg') }}" alt="Trainer Urban Athletes">
+      </diV>
+      <diV class="w-64 h-96 my-4 overflow-hidden group">
+        <img class="group-hover:scale-110 object-cover object-center h-full w-full mx-auto transition-all duration-300" src="{{ url('image/web/trainer/Candra.jpg') }}" alt="Trainer Urban Athletes">
+      </diV>
+      <diV class="w-64 h-96 my-4 overflow-hidden group">
+        <img class="group-hover:scale-110 object-cover object-center h-full w-full mx-auto transition-all duration-300" src="{{ url('image/web/trainer/Erwin.jpg') }}" alt="Trainer Urban Athletes">
+      </diV>
+      <diV class="w-64 h-96 my-4 overflow-hidden group">
+        <img class="group-hover:scale-110 object-cover object-center h-full w-full mx-auto transition-all duration-300" src="{{ url('image/web/trainer/trainer_4.jpg') }}" alt="Trainer Urban Athletes">
+      </diV>
+      <diV class="w-64 h-96 my-4 overflow-hidden group">
+        <img class="group-hover:scale-110 object-cover object-center h-full w-full mx-auto transition-all duration-300" src="{{ url('image/web/trainer/Amirza.jpg') }}" alt="Trainer Urban Athletes">
+      </diV>
+      <diV class="w-64 h-96 my-4 overflow-hidden group">
+        <img class="group-hover:scale-110 object-cover object-center h-full w-full mx-auto transition-all duration-300" src="{{ url('image/web/trainer/Taufiq.jpg') }}" alt="Trainer Urban Athletes">
+      </diV>
+      <diV class="w-64 h-96 my-4 overflow-hidden group">
+        <img class="group-hover:scale-110 object-cover object-center h-full w-full mx-auto transition-all duration-300" src="{{ url('image/web/trainer/Muslim.jpg') }}" alt="Trainer Urban Athletes">
+      </diV>
+      <diV class="w-64 h-96 my-4 overflow-hidden group">
+        <img class="group-hover:scale-110 object-cover object-center h-full w-full mx-auto transition-all duration-300" src="{{ url('image/web/trainer/Ircham.jpg') }}" alt="Trainer Urban Athletes">
+      </diV>
+      <diV class="w-64 h-96 my-4 overflow-hidden group">
+        <img class="group-hover:scale-110 object-cover object-center h-full w-full mx-auto transition-all duration-300" src="{{ url('image/web/trainer/Dhohir.jpg') }}" alt="Trainer Urban Athletes">
+      </diV>
+      <diV class="w-64 h-96 my-4 overflow-hidden group">
+        <img class="group-hover:scale-110 object-cover object-center h-full w-full mx-auto transition-all duration-300" src="{{ url('image/web/trainer/Ariya.jpg') }}" alt="Trainer Urban Athletes">
+      </diV>
+      <diV class="w-64 h-96 my-4 overflow-hidden group">
+        <img class="group-hover:scale-110 object-cover object-center h-full w-full mx-auto transition-all duration-300" src="{{ url('image/web/trainer/Adining.jpg') }}" alt="Trainer Urban Athletes">
+      </diV>
+      {{-- <button class="w-64 h-96 my-4 overflow-hidden relative group" id="card">
         <span id="img-ori">
           <img class="group-hover:scale-110 object-cover object-center h-full w-full mx-auto transition-all duration-300" src="{{ url('image/web/trainer/trainer_1.jpg') }}" alt="Trainer Urban Athletes">
         </span>
@@ -49,7 +82,7 @@
             <p class="text-white">PT UA Lenmarc</p>
             <div class="border-b border-yellow-primary w-32 h-2 py-2"></div>
             <div class="mt-16">
-              {{-- <p id="card-btn">View Detail <span class="font-sans-serif">&#8811;</span></p> --}}
+              <p id="card-btn">View Detail <span class="font-sans-serif">&#8811;</span></p>
             </div>
           </div>
         </div>
@@ -57,7 +90,6 @@
           <div id="description-ori">
             <div class=" px-4 md:pr-0 md:pl-16">
               <p class="text-yellow-primary uppercase font-FuturaBold text-2xl mb-2">Najib</p>
-              {{-- <h2 class="font-FuturaBold text-xl mb-8">WHAT OUR CLIENT SAY</h2> --}}
               <P class="">“Awalnya saya berkeinginan untuk fitness adalah dari perasaan saya yang merasa mudah lelah. Padahal dari segi usia, seharusnya saya masih muda. Di sisi lain, pekerjaan saya lagi banyak-banyaknya. Jadi, saya membutuhkan solusi yang hemat waktu dan tenaga. Di saat itulah saya menemukan Urban Athletes dan saya merasa cukup beruntung saya menemukan Urban Athletes”</P>
               <p class="text-yellow-primary uppercase font-FuturaBold text-xl mb-2 mt-4">Sertifikasi</p>
               <P>- Best Personal Prainer </P>
@@ -79,7 +111,7 @@
             <p class="text-white">PT UA Tidar</p>
             <div class="border-b border-yellow-primary w-32 h-2 py-2"></div>
             <div class="mt-16">
-              {{-- <p id="card-btn">View Detail <span class="font-sans-serif">&#8811;</span></p> --}}
+              <p id="card-btn">View Detail <span class="font-sans-serif">&#8811;</span></p>
             </div>
           </div>
         </div>
@@ -87,7 +119,6 @@
           <div id="description-ori">
             <div class=" px-4 md:pr-0 md:pl-16">
               <p class="text-yellow-primary uppercase font-FuturaBold text-2xl mb-2">Candra</p>
-              {{-- <h2 class="font-FuturaBold text-xl mb-8">WHAT OUR CLIENT SAY</h2> --}}
               <P class="">“Awalnya saya berkeinginan untuk fitness adalah dari perasaan saya yang merasa mudah lelah. Padahal dari segi usia, seharusnya saya masih muda. Di sisi lain, pekerjaan saya lagi banyak-banyaknya. Jadi, saya membutuhkan solusi yang hemat waktu dan tenaga. Di saat itulah saya menemukan Urban Athletes dan saya merasa cukup beruntung saya menemukan Urban Athletes”</P>
               <p class="text-yellow-primary uppercase font-FuturaBold text-xl mb-2 mt-4">Sertifikasi</p>
               <P>- Best Personal Prainer </P>
@@ -109,7 +140,7 @@
             <p class="text-white">PT UA Lenmarc</p>
             <div class="border-b border-yellow-primary w-32 h-2 py-2"></div>
             <div class="mt-16">
-              {{-- <p id="card-btn">View Detail <span class="font-sans-serif">&#8811;</span></p> --}}
+              <p id="card-btn">View Detail <span class="font-sans-serif">&#8811;</span></p>
             </div>
           </div>
         </div>
@@ -117,7 +148,6 @@
           <div id="description-ori">
             <div class=" px-4 md:pr-0 md:pl-16">
               <p class="text-yellow-primary uppercase font-FuturaBold text-2xl mb-2">Erwin</p>
-              {{-- <h2 class="font-FuturaBold text-xl mb-8">WHAT OUR CLIENT SAY</h2> --}}
               <P class="">“Awalnya saya berkeinginan untuk fitness adalah dari perasaan saya yang merasa mudah lelah. Padahal dari segi usia, seharusnya saya masih muda. Di sisi lain, pekerjaan saya lagi banyak-banyaknya. Jadi, saya membutuhkan solusi yang hemat waktu dan tenaga. Di saat itulah saya menemukan Urban Athletes dan saya merasa cukup beruntung saya menemukan Urban Athletes”</P>
               <p class="text-yellow-primary uppercase font-FuturaBold text-xl mb-2 mt-4">Sertifikasi</p>
               <P>- Best Personal Prainer </P>
@@ -139,7 +169,7 @@
             <p class="text-white">PT UA Marvell</p>
             <div class="border-b border-yellow-primary w-32 h-2 py-2"></div>
             <div class="mt-16">
-              {{-- <p id="card-btn">View Detail <span class="font-sans-serif">&#8811;</span></p> --}}
+              <p id="card-btn">View Detail <span class="font-sans-serif">&#8811;</span></p>
             </div>
           </div>
         </div>
@@ -147,7 +177,6 @@
           <div id="description-ori">
             <div class=" px-4 md:pr-0 md:pl-16">
               <p class="text-yellow-primary uppercase font-FuturaBold text-2xl mb-2">Adi</p>
-              {{-- <h2 class="font-FuturaBold text-xl mb-8">WHAT OUR CLIENT SAY</h2> --}}
               <P class="">“Awalnya saya berkeinginan untuk fitness adalah dari perasaan saya yang merasa mudah lelah. Padahal dari segi usia, seharusnya saya masih muda. Di sisi lain, pekerjaan saya lagi banyak-banyaknya. Jadi, saya membutuhkan solusi yang hemat waktu dan tenaga. Di saat itulah saya menemukan Urban Athletes dan saya merasa cukup beruntung saya menemukan Urban Athletes”</P>
               <p class="text-yellow-primary uppercase font-FuturaBold text-xl mb-2 mt-4">Sertifikasi</p>
               <P>- Best Personal Prainer </P>
@@ -169,7 +198,7 @@
             <p class="text-white">PT UA Merr</p>
             <div class="border-b border-yellow-primary w-32 h-2 py-2"></div>
             <div class="mt-16">
-              {{-- <p id="card-btn">View Detail <span class="font-sans-serif">&#8811;</span></p> --}}
+              <p id="card-btn">View Detail <span class="font-sans-serif">&#8811;</span></p>
             </div>
           </div>
         </div>
@@ -177,7 +206,6 @@
           <div id="description-ori">
             <div class=" px-4 md:pr-0 md:pl-16">
               <p class="text-yellow-primary uppercase font-FuturaBold text-2xl mb-2">Amirza</p>
-              {{-- <h2 class="font-FuturaBold text-xl mb-8">WHAT OUR CLIENT SAY</h2> --}}
               <P class="">“Awalnya saya berkeinginan untuk fitness adalah dari perasaan saya yang merasa mudah lelah. Padahal dari segi usia, seharusnya saya masih muda. Di sisi lain, pekerjaan saya lagi banyak-banyaknya. Jadi, saya membutuhkan solusi yang hemat waktu dan tenaga. Di saat itulah saya menemukan Urban Athletes dan saya merasa cukup beruntung saya menemukan Urban Athletes”</P>
               <p class="text-yellow-primary uppercase font-FuturaBold text-xl mb-2 mt-4">Sertifikasi</p>
               <P>- Best Personal Prainer </P>
@@ -187,7 +215,7 @@
             </div>
           </div>
         </div>
-      </button>
+      </button> --}}
       
     </div>
   </div>

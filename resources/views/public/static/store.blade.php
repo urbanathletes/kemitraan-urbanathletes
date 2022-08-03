@@ -36,11 +36,13 @@
           </div>
           <h2 class="text-xl">MEMBERSHIP 3 MONTH</h2>
           <div class="mx-8">
-            <P class="border-b border-neutral-700 py-1 mt-2">Free Acces All Club</P>
-            <P class="border-b border-neutral-700 py-1 mt-2">Free Acces Valor Class</P>
-            <p class="border-b border-yellow-primary py-1 mt-2 max-w-max mx-auto">2 FT Test Session</p>
+            <P class="border-b border-neutral-700 py-1 mt-2">All Club Membership</P>
+            <P class="border-b border-neutral-700 py-1 mt-2">2 sessi Fit-Test</P>
+            <P class="border-b border-neutral-700 py-1 mt-2">Get Gym Bag</P>
+            <P class="border-b border-neutral-700 py-1 mt-2">Free Access All Class</P>
+            <p class="border-b-4 border-yellow-primary pt-1 pb-2 mt-2">Unlimited Check In</p>
           </div>
-          <p class="py-6 text-2xl">Rp 3.000.000</p>
+          <p class="py-6 text-2xl">Rp 2.736.000</p>
           <button class="my-2 py-2 px-4 border border-white text-white
             hover:bg-yellow-primary hover:border-yellow-primary hover:text-black
             transition-all duration-300
@@ -52,11 +54,13 @@
           </div>
           <h2 class="text-xl">MEMBERSHIP 6 MONTH</h2>
           <div class="mx-8">
-            <P class="border-b border-neutral-700 py-1 mt-2">Free Acces All Club</P>
-            <P class="border-b border-neutral-700 py-1 mt-2">Free Acces Valor Class</P>
-            <p class="border-b border-yellow-primary py-1 mt-2 max-w-max mx-auto">2 FT Test Session</p>
+            <P class="border-b border-neutral-700 py-1 mt-2">All Club Membership</P>
+            <P class="border-b border-neutral-700 py-1 mt-2">2 sessi Fit-Test</P>
+            <P class="border-b border-neutral-700 py-1 mt-2">Get Gym Bag</P>
+            <P class="border-b border-neutral-700 py-1 mt-2">Free Access All Class</P>
+            <p class="border-b-4 border-yellow-primary pt-1 pb-2 mt-2">Unlimited Check In</p>
           </div>
-          <p class="py-6 text-2xl">Rp 6.000.000</p>
+          <p class="py-6 text-2xl">Rp 5.483.000</p>
           <button class="my-2 py-2 px-4 border border-white text-white
             hover:bg-yellow-primary hover:border-yellow-primary hover:text-black
             transition-all duration-300
@@ -68,11 +72,13 @@
           </div>
           <h2 class="text-xl">MEMBERSHIP 12 MONTH</h2>
           <div class="mx-8">
-            <P class="border-b border-neutral-700 py-1 mt-2">Free Acces All Club</P>
-            <P class="border-b border-neutral-700 py-1 mt-2">Free Acces Valor Class</P>
-            <p class="border-b border-yellow-primary py-1 mt-2 max-w-max mx-auto">2 FT Test Session</p>
+            <P class="border-b border-neutral-700 py-1 mt-2">All Club Membership</P>
+            <P class="border-b border-neutral-700 py-1 mt-2">2 sessi Fit-Test</P>
+            <P class="border-b border-neutral-700 py-1 mt-2">Get Gym Bag</P>
+            <P class="border-b border-neutral-700 py-1 mt-2">Free Access All Class</P>
+            <p class="border-b-4 border-yellow-primary pt-1 pb-2 mt-2">Unlimited Check In</p>
           </div>
-          <p class="py-6 text-2xl">Rp 12.000.000</p>
+          <p class="py-6 text-2xl">Rp 9.504.000</p>
           <button class="my-2 py-2 px-4 border border-white text-white
             hover:bg-yellow-primary hover:border-yellow-primary hover:text-black
             transition-all duration-300
@@ -103,18 +109,19 @@
           <div class="flex justify-center text-white">
             {{-- <img class="w-16 m-4 mx-auto" src="{{ url('image/web/logo/Valor_TM_putih.png') }}" alt="Valor Urban Athletes"> --}}
             <div class="text-xs">Rp</div>
-            <div><p class="text-6xl">99</p></div>
+            <div><p class="text-6xl">1</p></div>
             <div class="mt-2">
-              <p>.000.000</p>
+              <p>.633.900</p>
               <p class="text-yellow-primary">3 MONTH</p>
             </div>
           </div>
           <div class="my-4 py-4 text-xs">
-            <P class="border-b border-neutral-700 py-1 mt-2">Free Acces Gym Area</P>
-            <p class="border-b border-neutral-700 py-1 mt-2">2 FT Test Session</p>
-            <P class="border-b border-neutral-700 py-1 mt-2">Barcode Apps</P>
-            <P class="border-b border-neutral-700 py-1 mt-2">PT Session</P>
-            <P class="border-b border-neutral-700 py-1 mt-2">Consultation</P>
+            <P class="border-b border-neutral-700 py-1 mt-2">Single Club Membership</P>
+            <p class="border-b border-neutral-700 py-1 mt-2">2 sessi Fit-Test</p>
+            <P class="border-b border-neutral-700 py-1 mt-2">1 sessi Valor Class</P>
+            <P class="border-b border-neutral-700 py-1 mt-2">Get Gym Bag</P>
+            <P class="border-b border-neutral-700 py-1 mt-2">Free Access All Class</P>
+            <P class="border-b border-neutral-700 py-1 mt-2">Unlimited Check In</P>
           </div>
           <button class="my-2 py-2 px-4 border border-white text-white
             hover:bg-yellow-primary hover:border-yellow-primary hover:text-black
@@ -125,18 +132,19 @@
           <div class="flex justify-center text-white">
             {{-- <img class="w-16 m-4 mx-auto" src="{{ url('image/web/logo/Valor_TM_putih.png') }}" alt="Valor Urban Athletes"> --}}
             <div class="text-xs">Rp</div>
-            <div><p class="text-6xl">99</p></div>
+            <div><p class="text-6xl">2</p></div>
             <div class="mt-2">
-              <p>.000.000</p>
+              <p>.978.000</p>
               <p class="text-yellow-primary">6 MONTH</p>
             </div>
           </div>
           <div class="my-4 py-4 text-xs">
-            <P class="border-b border-neutral-700 py-1 mt-2">Free Acces Gym Area</P>
-            <p class="border-b border-neutral-700 py-1 mt-2">2 FT Test Session</p>
-            <P class="border-b border-neutral-700 py-1 mt-2">Barcode Apps</P>
-            <P class="border-b border-neutral-700 py-1 mt-2">PT Session</P>
-            <P class="border-b border-neutral-700 py-1 mt-2">Consultation</P>
+            <P class="border-b border-neutral-700 py-1 mt-2">Single Club Membership</P>
+            <p class="border-b border-neutral-700 py-1 mt-2">2 sessi Fit-Test</p>
+            <P class="border-b border-neutral-700 py-1 mt-2">1 sessi Valor Class</P>
+            <P class="border-b border-neutral-700 py-1 mt-2">Get Gym Bag</P>
+            <P class="border-b border-neutral-700 py-1 mt-2">Free Access All Class</P>
+            <P class="border-b border-neutral-700 py-1 mt-2">Unlimited Check In</P>
           </div>
           <button class="my-2 py-2 px-4 border border-white text-white
             hover:bg-yellow-primary hover:border-yellow-primary hover:text-black
@@ -147,18 +155,19 @@
           <div class="flex justify-center text-white">
             {{-- <img class="w-16 m-4 mx-auto" src="{{ url('image/web/logo/Valor_TM_putih.png') }}" alt="Valor Urban Athletes"> --}}
             <div class="text-xs">Rp</div>
-            <div><p class="text-6xl">99</p></div>
+            <div><p class="text-6xl">5</p></div>
             <div class="mt-2">
-              <p>.000.000</p>
+              <p>.064.000</p>
               <p class="text-yellow-primary">12 MONTH</p>
             </div>
           </div>
           <div class="my-4 py-4 text-xs">
-            <P class="border-b border-neutral-700 py-1 mt-2">Free Acces Gym Area</P>
-            <p class="border-b border-neutral-700 py-1 mt-2">2 FT Test Session</p>
-            <P class="border-b border-neutral-700 py-1 mt-2">Barcode Apps</P>
-            <P class="border-b border-neutral-700 py-1 mt-2">PT Session</P>
-            <P class="border-b border-neutral-700 py-1 mt-2">Consultation</P>
+            <P class="border-b border-neutral-700 py-1 mt-2">Single Club Membership</P>
+            <p class="border-b border-neutral-700 py-1 mt-2">2 sessi Fit-Test</p>
+            <P class="border-b border-neutral-700 py-1 mt-2">1 sessi Valor Class</P>
+            <P class="border-b border-neutral-700 py-1 mt-2">Get Gym Bag</P>
+            <P class="border-b border-neutral-700 py-1 mt-2">Free Access All Class</P>
+            <P class="border-b border-neutral-700 py-1 mt-2">Unlimited Check In</P>
           </div>
           <button class="my-2 py-2 px-4 border border-white text-white
             hover:bg-yellow-primary hover:border-yellow-primary hover:text-black
@@ -190,18 +199,18 @@
           <div class="flex justify-center text-white">
             {{-- <img class="w-16 m-4 mx-auto" src="{{ url('image/web/logo/Valor_TM_putih.png') }}" alt="Valor Urban Athletes"> --}}
             <div class="text-xs">Rp</div>
-            <div><p class="text-6xl">99</p></div>
+            <div><p class="text-6xl">2</p></div>
             <div class="mt-2">
-              <p>.000.000</p>
+              <p>.832.300</p>
               <p class="text-yellow-primary">3 MONTH</p>
             </div>
           </div>
           <div class="my-4 py-4 text-xs">
-            <P class="border-b border-yellow-primary py-1 mt-2">Free Acces Gym Area</P>
-            <p class="border-b border-yellow-primary py-1 mt-2">2 FT Test Session</p>
-            <P class="border-b border-yellow-primary py-1 mt-2">Barcode Apps</P>
+            <P class="border-b border-yellow-primary py-1 mt-2">Single Club Kids Membership</P>
+            <p class="border-b border-yellow-primary py-1 mt-2">Get Gym Bag</p>
+            <P class="border-b border-yellow-primary py-1 mt-2">Free Access All Class</P>
             <P class="border-b border-yellow-primary py-1 mt-2">PT Session</P>
-            <P class="border-b border-yellow-primary py-1 mt-2">Consultation</P>
+            <P class="border-b border-yellow-primary py-1 mt-2">Unlimited Check In</P>
           </div>
           <button class="my-2 py-2 px-4 border border-white text-white
             hover:bg-yellow-primary hover:border-yellow-primary hover:text-black
@@ -212,18 +221,18 @@
           <div class="flex justify-center text-white">
             {{-- <img class="w-16 m-4 mx-auto" src="{{ url('image/web/logo/Valor_TM_putih.png') }}" alt="Valor Urban Athletes"> --}}
             <div class="text-xs">Rp</div>
-            <div><p class="text-6xl">99</p></div>
+            <div><p class="text-6xl">5</p></div>
             <div class="mt-2">
-              <p>.000.000</p>
+              <p>.677.200</p>
               <p class="text-yellow-primary">6 MONTH</p>
             </div>
           </div>
           <div class="my-4 py-4 text-xs">
-            <P class="border-b border-yellow-primary py-1 mt-2">Free Acces Gym Area</P>
-            <p class="border-b border-yellow-primary py-1 mt-2">2 FT Test Session</p>
-            <P class="border-b border-yellow-primary py-1 mt-2">Barcode Apps</P>
+            <P class="border-b border-yellow-primary py-1 mt-2">Single Club Kids Membership</P>
+            <p class="border-b border-yellow-primary py-1 mt-2">Get Gym Bag</p>
+            <P class="border-b border-yellow-primary py-1 mt-2">Free Access All Class</P>
             <P class="border-b border-yellow-primary py-1 mt-2">PT Session</P>
-            <P class="border-b border-yellow-primary py-1 mt-2">Consultation</P>
+            <P class="border-b border-yellow-primary py-1 mt-2">Unlimited Check In</P>
           </div>
           <button class="my-2 py-2 px-4 border border-white text-white
             hover:bg-yellow-primary hover:border-yellow-primary hover:text-black
@@ -234,18 +243,18 @@
           <div class="flex justify-center text-white">
             {{-- <img class="w-16 m-4 mx-auto" src="{{ url('image/web/logo/Valor_TM_putih.png') }}" alt="Valor Urban Athletes"> --}}
             <div class="text-xs">Rp</div>
-            <div><p class="text-6xl">99</p></div>
+            <div><p class="text-6xl">9</p></div>
             <div class="mt-2">
-              <p>.000.000</p>
+              <p>.868.800</p>
               <p class="text-yellow-primary">12 MONTH</p>
             </div>
           </div>
           <div class="my-4 py-4 text-xs">
-            <P class="border-b border-yellow-primary py-1 mt-2">Free Acces Gym Area</P>
-            <p class="border-b border-yellow-primary py-1 mt-2">2 FT Test Session</p>
-            <P class="border-b border-yellow-primary py-1 mt-2">Barcode Apps</P>
+            <P class="border-b border-yellow-primary py-1 mt-2">Single Club Kids Membership</P>
+            <p class="border-b border-yellow-primary py-1 mt-2">Get Gym Bag</p>
+            <P class="border-b border-yellow-primary py-1 mt-2">Free Access All Class</P>
             <P class="border-b border-yellow-primary py-1 mt-2">PT Session</P>
-            <P class="border-b border-yellow-primary py-1 mt-2">Consultation</P>
+            <P class="border-b border-yellow-primary py-1 mt-2">Unlimited Check In</P>
           </div>
           <button class="my-2 py-2 px-4 border border-white text-white
             hover:bg-yellow-primary hover:border-yellow-primary hover:text-black

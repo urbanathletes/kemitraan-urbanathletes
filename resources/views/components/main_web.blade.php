@@ -23,7 +23,9 @@
   </main>
   @empty($specialPage)
   <footer>
+    @empty($specialPageNoFooter)
     @include('components.footer_web')
+    @endempty
   </footer>
   @endempty
   <script src="{{ url('/js/app.js') }}"></script>
