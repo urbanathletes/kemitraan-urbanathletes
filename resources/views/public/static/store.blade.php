@@ -37,7 +37,7 @@
           <h2 class="text-xl">MEMBERSHIP 3 MONTH</h2>
           <div class="mx-8">
             <P class="border-b border-neutral-700 py-1 mt-2">All Club Membership</P>
-            <P class="border-b border-neutral-700 py-1 mt-2">2 sessi Fit-Test</P>
+            <P class="border-b border-neutral-700 py-1 mt-2">2 Fit-Test sessions</P>
             <P class="border-b border-neutral-700 py-1 mt-2">Get Gym Bag</P>
             <P class="border-b border-neutral-700 py-1 mt-2">Free Access All Class</P>
             <p class="border-b-4 border-yellow-primary pt-1 pb-2 mt-2">Unlimited Check In</p>
@@ -55,7 +55,7 @@
           <h2 class="text-xl">MEMBERSHIP 6 MONTH</h2>
           <div class="mx-8">
             <P class="border-b border-neutral-700 py-1 mt-2">All Club Membership</P>
-            <P class="border-b border-neutral-700 py-1 mt-2">2 sessi Fit-Test</P>
+            <P class="border-b border-neutral-700 py-1 mt-2">2 Fit-Test sessions</P>
             <P class="border-b border-neutral-700 py-1 mt-2">Get Gym Bag</P>
             <P class="border-b border-neutral-700 py-1 mt-2">Free Access All Class</P>
             <p class="border-b-4 border-yellow-primary pt-1 pb-2 mt-2">Unlimited Check In</p>
@@ -73,7 +73,7 @@
           <h2 class="text-xl">MEMBERSHIP 12 MONTH</h2>
           <div class="mx-8">
             <P class="border-b border-neutral-700 py-1 mt-2">All Club Membership</P>
-            <P class="border-b border-neutral-700 py-1 mt-2">2 sessi Fit-Test</P>
+            <P class="border-b border-neutral-700 py-1 mt-2">2 Fit-Test sessions</P>
             <P class="border-b border-neutral-700 py-1 mt-2">Get Gym Bag</P>
             <P class="border-b border-neutral-700 py-1 mt-2">Free Access All Class</P>
             <p class="border-b-4 border-yellow-primary pt-1 pb-2 mt-2">Unlimited Check In</p>
@@ -182,7 +182,7 @@
         <div class="mx-auto flex justify-center items-center py-4 lg:absolute lg:top-0 lg:bottom-0 lg:left-10 lg:ml-16 lg:z-10">
           <img class="h-16 md:h-20 m-4" src="{{ url('image/web/logo/URBAN-LOGO_JR_HIRES.png') }}" alt="Mitra Urban Athletes">
           <div class="text-yellow-primary text-xl sm:text-3xl font-FuturaBold md:ml-6">
-            <h2>URBAN ATHLETES KIDS</h2>
+            <h2>URBAN ATHLETES JUNIOR</h2>
             <h2>MEMBERSHIP</h2>
           </div>
         </div>
@@ -209,7 +209,6 @@
             <P class="border-b border-yellow-primary py-1 mt-2">Single Club Kids Membership</P>
             <p class="border-b border-yellow-primary py-1 mt-2">Get Gym Bag</p>
             <P class="border-b border-yellow-primary py-1 mt-2">Free Access All Class</P>
-            <P class="border-b border-yellow-primary py-1 mt-2">PT Session</P>
             <P class="border-b border-yellow-primary py-1 mt-2">Unlimited Check In</P>
           </div>
           <button class="my-2 py-2 px-4 border border-white text-white
@@ -231,7 +230,6 @@
             <P class="border-b border-yellow-primary py-1 mt-2">Single Club Kids Membership</P>
             <p class="border-b border-yellow-primary py-1 mt-2">Get Gym Bag</p>
             <P class="border-b border-yellow-primary py-1 mt-2">Free Access All Class</P>
-            <P class="border-b border-yellow-primary py-1 mt-2">PT Session</P>
             <P class="border-b border-yellow-primary py-1 mt-2">Unlimited Check In</P>
           </div>
           <button class="my-2 py-2 px-4 border border-white text-white
@@ -253,7 +251,6 @@
             <P class="border-b border-yellow-primary py-1 mt-2">Single Club Kids Membership</P>
             <p class="border-b border-yellow-primary py-1 mt-2">Get Gym Bag</p>
             <P class="border-b border-yellow-primary py-1 mt-2">Free Access All Class</P>
-            <P class="border-b border-yellow-primary py-1 mt-2">PT Session</P>
             <P class="border-b border-yellow-primary py-1 mt-2">Unlimited Check In</P>
           </div>
           <button class="my-2 py-2 px-4 border border-white text-white
@@ -406,7 +403,7 @@
               <i class="fa-solid fa-star"></i>
               <i class="fa-regular fa-star"></i>
             </div>
-            <p class="uppercase text-sm">Gym Bag Urban Athletes</p>
+            <p class="uppercase text-sm">Gym Bag Thematic</p>
             <div class="my-2 border-t border-neutral-400 py-2">
               <p>RP. 250.000</p>
             </div>
@@ -470,7 +467,7 @@
               <i class="fa-solid fa-star"></i>
               <i class="fa-regular fa-star"></i>
             </div>
-            <p class="uppercase text-sm">Gym Bag Urban Athletes</p>
+            <p class="uppercase text-sm">Gym Bag Thematic</p>
             <div class="my-2 border-t border-neutral-400 py-2">
               <p>RP. 250.000</p>
             </div>
@@ -501,7 +498,7 @@
               <i class="fa-solid fa-star"></i>
               <i class="fa-regular fa-star"></i>
             </div>
-            <p class="uppercase text-sm">T-Strit Valor Edition</p>
+            <p class="uppercase text-sm">T-Shirt Valor Edition</p>
             <div class="my-2 border-t border-neutral-400 py-2">
               <p>RP. 250.000</p>
             </div>
@@ -517,7 +514,7 @@
               <i class="fa-solid fa-star"></i>
               <i class="fa-regular fa-star"></i>
             </div>
-            <p class="uppercase text-sm">T-Strit Valcon Edition</p>
+            <p class="uppercase text-sm">T-Shirt Valcon Edition</p>
             <div class="my-2 border-t border-neutral-400 py-2">
               <p>RP. 250.000</p>
             </div>
@@ -533,7 +530,7 @@
               <i class="fa-solid fa-star"></i>
               <i class="fa-regular fa-star"></i>
             </div>
-            <p class="uppercase text-sm">T-Strit Valcon Edition</p>
+            <p class="uppercase text-sm">T-Shirt Valcon Edition</p>
             <div class="my-2 border-t border-neutral-400 py-2">
               <p>RP. 250.000</p>
             </div>
@@ -549,7 +546,7 @@
               <i class="fa-solid fa-star"></i>
               <i class="fa-regular fa-star"></i>
             </div>
-            <p class="uppercase text-sm">T-Strit UA Garuda</p>
+            <p class="uppercase text-sm">T-Shirt UA Garuda</p>
             <div class="my-2 border-t border-neutral-400 py-2">
               <p>RP. 250.000</p>
             </div>
@@ -565,7 +562,7 @@
               <i class="fa-solid fa-star"></i>
               <i class="fa-regular fa-star"></i>
             </div>
-            <p class="uppercase text-sm">T-Strit Valor Edition</p>
+            <p class="uppercase text-sm">T-Shirt Valor Edition</p>
             <div class="my-2 border-t border-neutral-400 py-2">
               <p>RP. 250.000</p>
             </div>
@@ -581,7 +578,7 @@
               <i class="fa-solid fa-star"></i>
               <i class="fa-regular fa-star"></i>
             </div>
-            <p class="uppercase text-sm">T-Strit Valor Edition</p>
+            <p class="uppercase text-sm">T-Shirt Valor Edition</p>
             <div class="my-2 border-t border-neutral-400 py-2">
               <p>RP. 250.000</p>
             </div>
@@ -597,7 +594,7 @@
               <i class="fa-solid fa-star"></i>
               <i class="fa-regular fa-star"></i>
             </div>
-            <p class="uppercase text-sm">T-Strit Valor Edition</p>
+            <p class="uppercase text-sm">T-Shirt Valor Edition</p>
             <div class="my-2 border-t border-neutral-400 py-2">
               <p>RP. 250.000</p>
             </div>
@@ -613,7 +610,7 @@
               <i class="fa-solid fa-star"></i>
               <i class="fa-regular fa-star"></i>
             </div>
-            <p class="uppercase text-sm">T-Strit Valor Edition</p>
+            <p class="uppercase text-sm">T-Shirt Valor Edition</p>
             <div class="my-2 border-t border-neutral-400 py-2">
               <p>RP. 250.000</p>
             </div>
@@ -692,7 +689,7 @@
               <i class="fa-solid fa-star"></i>
               <i class="fa-regular fa-star"></i>
             </div>
-            <p class="uppercase text-sm">Matras</p>
+            <p class="uppercase text-sm">Matras Yoga Rubber PU</p>
             <div class="my-2 border-t border-neutral-400 py-2">
               <p>RP. 250.000</p>
             </div>
@@ -756,7 +753,7 @@
               <i class="fa-solid fa-star"></i>
               <i class="fa-regular fa-star"></i>
             </div>
-            <p class="uppercase text-sm">Matras</p>
+            <p class="uppercase text-sm">Matras Yoga Rubber PU</p>
             <div class="my-2 border-t border-neutral-400 py-2">
               <p>RP. 250.000</p>
             </div>

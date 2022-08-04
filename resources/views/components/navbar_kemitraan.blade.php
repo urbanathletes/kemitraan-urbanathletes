@@ -83,10 +83,10 @@
                 <li class="uppercase py-2 lg:py-1 lg:my-2 pl-8 lg:pl-2 lg:pr-2 lg:mx-2 border-t lg:border-0 border-gray-600 text-white lg:text-black hover:text-yellow-primary hover:bg-black" menu-sub="{{ $subMenu ?? '' }}"><a href="{{ url('franchise/presentation') }}">PRESENTATION</a></li>
               </ul>
             </li> --}}
-            <li class="
+            {{-- <li class="
               py-3 px-4 border-b-[1px] border-gray-600 hover:text-yellow-primary 
               xl:px-4 lg:py-2 lg:border-y-0 lg:border-t-0 lg:hover:border-b-2 lg:hover:border-white
-            " id="menu" data-menu="{{$menu ?? ''}}"><a href="{{ url('franchise/presentation') }}"><span>PRESENTATION</span></a></li>
+            " id="menu" data-menu="{{$menu ?? ''}}"><a href="{{ url('franchise/presentation') }}"><span>PRESENTATION</span></a></li> --}}
 
             <li class="
               border-b-[1px] border-gray-600 hover:text-yellow-primary
