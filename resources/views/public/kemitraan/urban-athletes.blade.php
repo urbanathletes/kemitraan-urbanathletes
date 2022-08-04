@@ -384,7 +384,7 @@
       <div class="lg:flex lg:justify-center lg:my-12">
         <div class="flex justify-center lg:block pt-8">
           <div class="relative hidden lg:block py-4 border border-b-0 border-black">
-            <p class="absolute -top-10 right-0 left-0 text-center whitespace-nowrap font-FuturaBold">2 - 3 MONTH</p>
+            <p class="absolute -top-10 right-0 left-0 text-center whitespace-nowrap font-FuturaBold">2 - 3 MONTHS</p>
           </div>
           <div class="grid grid-cols-1 text-center
             lg:flex lg:justify-center
@@ -446,7 +446,7 @@
             </div>
           </div>
           <div class="lg:hidden relative pl-4 ml-4 mb-8 border-y-2 border-r-2 border-black w-4 min-h-max flex justify-center items-center">
-            <p class="absolute -left-3 rotate-90 whitespace-nowrap font-FuturaBold">2 - 3 MONTH</p>
+            <p class="absolute -left-3 rotate-90 whitespace-nowrap font-FuturaBold">2 - 3 MONTHS</p>
           </div>
         </div>
         
