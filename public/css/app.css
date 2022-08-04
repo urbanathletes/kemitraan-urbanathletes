@@ -1594,6 +1594,9 @@ video {
 .bg-\[url\(\'\/image\/web\/news\/BGNews\.jpg\'\)\] {
   background-image: url('/image/web/news/BGNews.jpg');
 }
+.bg-\[url\(\'\/image\/web\/footer\/Footer2\.png\'\)\] {
+  background-image: url('/image/web/footer/Footer2.png');
+}
 .from-black {
   --tw-gradient-from: #000;
   --tw-gradient-to: rgb(0 0 0 / 0);
@@ -2569,6 +2572,14 @@ video {
     margin-left: 2rem;
   }
 
+  .sm\:mt-2 {
+    margin-top: 0.5rem;
+  }
+
+  .sm\:mt-0 {
+    margin-top: 0px;
+  }
+
   .sm\:block {
     display: block;
   }
@@ -2873,6 +2884,10 @@ video {
 
   .md\:mr-0 {
     margin-right: 0px;
+  }
+
+  .md\:mt-0 {
+    margin-top: 0px;
   }
 
   .md\:block {

@@ -6,10 +6,10 @@
         <h2 class="text-4xl">OF URBAN ATHLETES</h2>
       </div>
       <div class="lg:text-xl font-black space-x-4 my-4">
-        <button id="btnMenu-img" data-id="1" class="hover:text-yellow-primary">Gunawangsa Merr</button>
-        <button id="btnMenu-img" data-id="2" class="hover:text-yellow-primary">Gunawangsa Tidar</button>
-        <button id="btnMenu-img" data-id="3" class="hover:text-yellow-primary">Marvell City</button>
-        <button id="btnMenu-img" data-id="4" class="hover:text-yellow-primary">Lenmarc Mall</button>
+        <button id="btnMenu-img" data-id="1" class="hover:text-yellow-primary">Merr</button>
+        <button id="btnMenu-img" data-id="2" class="hover:text-yellow-primary">Tidar</button>
+        <button id="btnMenu-img" data-id="3" class="hover:text-yellow-primary">Marvell</button>
+        <button id="btnMenu-img" data-id="4" class="hover:text-yellow-primary">Lenmarc</button>
       </div>
     </div>
     
