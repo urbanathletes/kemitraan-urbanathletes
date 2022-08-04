@@ -154,20 +154,13 @@
   </div>
   
   <div class="px-5">
-    <img class="w-full h-full" src="{{ url('image/franchise/fitness-works/1.jpg') }}" alt="FW Urban Athletes">
-    <img class="w-full h-full" src="{{ url('image/franchise/fitness-works/2.jpg') }}" alt="FW Urban Athletes">
-    <img class="w-full h-full" src="{{ url('image/franchise/fitness-works/3.jpg') }}" alt="FW Urban Athletes">
-    <img class="w-full h-full" src="{{ url('image/franchise/fitness-works/4.jpg') }}" alt="FW Urban Athletes">
-    <img class="w-full h-full" src="{{ url('image/franchise/fitness-works/5.jpg') }}" alt="FW Urban Athletes">
-    <img class="w-full h-full" src="{{ url('image/franchise/fitness-works/6.jpg') }}" alt="FW Urban Athletes">
-    <img class="w-full h-full" src="{{ url('image/franchise/fitness-works/7.jpg') }}" alt="FW Urban Athletes">
-    <img class="w-full h-full" src="{{ url('image/franchise/fitness-works/8.jpg') }}" alt="FW Urban Athletes">
-    <img class="w-full h-full" src="{{ url('image/franchise/fitness-works/9.jpg') }}" alt="FW Urban Athletes">
-    <img class="w-full h-full" src="{{ url('image/franchise/fitness-works/10.jpg') }}" alt="FW Urban Athletes">
-    <img class="w-full h-full" src="{{ url('image/franchise/fitness-works/11.jpg') }}" alt="FW Urban Athletes">
-    <img class="w-full h-full" src="{{ url('image/franchise/fitness-works/12.jpg') }}" alt="FW Urban Athletes">
-    <img class="w-full h-full" src="{{ url('image/franchise/fitness-works/13.jpg') }}" alt="FW Urban Athletes">
-    <img class="w-full h-full" src="{{ url('image/franchise/fitness-works/14.jpg') }}" alt="FW Urban Athletes">
+    <img class="w-full h-full" src="{{ url('image/franchise/fitness-works/a.jpg') }}" alt="FW Urban Athletes">
+    <img class="w-full h-full" src="{{ url('image/franchise/fitness-works/b.jpg') }}" alt="FW Urban Athletes">
+    <img class="w-full h-full" src="{{ url('image/franchise/fitness-works/c.jpg') }}" alt="FW Urban Athletes">
+    <img class="w-full h-full" src="{{ url('image/franchise/fitness-works/d.jpg') }}" alt="FW Urban Athletes">
+    <img class="w-full h-full" src="{{ url('image/franchise/fitness-works/e.jpg') }}" alt="FW Urban Athletes">
+    <img class="w-full h-full" src="{{ url('image/franchise/fitness-works/f.jpg') }}" alt="FW Urban Athletes">
+    <img class="w-full h-full" src="{{ url('image/franchise/fitness-works/g.jpg') }}" alt="FW Urban Athletes">
   </div>
 
   <div class="bg-[url('/image/franchise/Valor_bg_img_2-w.jpg')] bg-cover bg-centere text-center py-40">

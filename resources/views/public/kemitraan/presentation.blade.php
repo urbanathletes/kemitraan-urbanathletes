@@ -26,7 +26,7 @@
               <h3 class="font-FuturaBold text-lg">URBAN ATHLETES INVESTOR</h3>
               <h3 class="font-FuturaBold text-lg">PRESENTATION</h3>
               <div class="text-blue-500 tracking-widest space-x-4">
-                <a href=""><i class="fa-solid fa-file-powerpoint"></i> Presentation</a>
+                <button onclick="priview(this)" data-preview="ua"><i class="fa-solid fa-file-powerpoint"></i> Presentation</button>
                 {{-- <a href=""><i class="fa-solid fa-file-pdf"></i> Report</a> --}}
               </div>
             </div>
@@ -41,7 +41,7 @@
               <h3 class="font-FuturaBold text-lg">FITNESS WORKS INVESTOR</h3>
               <h3 class="font-FuturaBold text-lg">PRESENTATION</h3>
               <div class="text-blue-500 tracking-widest space-x-4">
-                <a href=""><i class="fa-solid fa-file-powerpoint"></i> Presentation</a>
+                <button onclick="priview(this)" data-preview="fw"><i class="fa-solid fa-file-powerpoint"></i> Presentation</button>
                 {{-- <a href=""><i class="fa-solid fa-file-pdf"></i> Report</a> --}}
               </div>
             </div>
@@ -109,12 +109,37 @@
       </div>
       <div class="my-6 lg:my-0">
         <h3 class="font-FuturaBold text-xl border-l-8 border-yellow-primary px-4">PREVIEW</h3>
-        <div class="max-w-2xl bg-blue-300 mx-auto my-4">
-          <iframe src="https://drive.google.com/file/d/1XyTWFgn_T2yQqh-NEXUz4fzUG-q0QMXO/preview" width="100%" height="540" allow="autoplay"></iframe>
+        <div class="hidden" data-preview="ua" id="preview">
+          <div class="max-w-2xl bg-blue-300 mx-auto my-4">
+            <iframe src="https://drive.google.com/file/d/1ONu2lQkA2g5pnlz-3JwIGmCyV20CLsZw/preview" width="100%" height="540" allow="autoplay"></iframe>
+          </div>
+        </div>
+        <div class="hidden" data-preview="fw" id="preview">
+          <div class="max-w-2xl bg-blue-300 mx-auto my-4">
+            <iframe src="https://drive.google.com/file/d/1RlsRsmaMo0YEmFHyL0BRdojGTlRKpiFw/preview" width="100%" height="540" allow="autoplay"></iframe>
+          </div>
         </div>
       </div>
     </div>
 
   </div>
+  @push('script')
+    <script>
+      let preview = document.querySelectorAll('#preview');
+      function priview(dt) {
+        previewHidden()
+        preview.forEach(pre => {
+          if (dt.getAttribute('data-preview') == pre.getAttribute('data-preview')) {
+            pre.classList.remove('hidden');
+          }
+        });
+      }
 
+      function previewHidden() {
+        preview.forEach(view => {
+          view.classList.add('hidden');
+        });
+      }
+    </script>
+  @endpush
 </x-main_kemitraan>

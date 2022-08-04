@@ -72,19 +72,19 @@
       <div class="py-4 grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
         <div class="bg-neutral-600 bg-opacity-20 py-6 px-4">
           <h2 class="text-xl text-yellow-primary font-FuturaBold pb-4 uppercase">PERSONAL TRAINER</h2>
-          <p>Trainer profesional kami akan membantu Anda secara tepat dan cepat dengan standarisasi yang telah ditentukan. konsultasi fitness dan kesehatan juga dapat dilakukan dengan para trainer kami.</p>
+          <p>Personal Trainer kami telah melalui berbagai macam pelatihan dan sertifikasi dari Urban Athletes, dan bekerja sama dengan lembaga sertifikasi lain. Sehingga kami memastikan setiap individu yang melatih anda adalah Personal Trainer yang terbaik dan profesional. Dengan latihan bersama Personal Trainer terbaik kami, akan membantu mencapai versi terbaik dan body goals impian anda.</p>
         </div>
         <div class="bg-neutral-600 bg-opacity-20 py-6 px-4">
           <h2 class="text-xl text-yellow-primary font-FuturaBold pb-4 uppercase">AKSES KE LEBIH DARI 500+ KELAS</h2>
-          <p>Fasilitas unggulan kami yang lain adalah tersedianya kelas-kelas yang dapat diikuti oleh para member Urban Athletes, dipimpin oleh pelatih-pelatih berpengalaman di bidangnya.</p>
+          <p>Tidak seperti di tempat lain, di Urban Athletes anda bebas untuk mengikuti semua kelas yang kami sediakan. Ada begitu banyak pilihan kelas di empat club kami, dan tersedia jadwal untuk kelas pagi dan petang. Di Urban Athletes anda tidak akan pernah bosan dengan rutinitas gym yang itu-itu saja.</p>
         </div>
         <div class="bg-neutral-600 bg-opacity-20 py-6 px-4">
           <h2 class="text-xl text-yellow-primary font-FuturaBold pb-4 uppercase">FASILITAS FITNESS TERSTANDARISASI</h2>
-          <p>Keamanan bagi semua member kami tetap menjadi prioritas utama Urban Athletes. Kesehatan tetap nomor satu, tetapi apa artinya tanpa keselamatan yang terjamin.</p>
+          <p>Urban Athletes selalu memberikan yang terbaik bagi member-membernya. Termasuk di dalamnya adalah komitmen kami untuk menyediakan fasilitas terbaik. Sehingga dapat membuat anda merasa nyaman dan aman di setiap aktivitas dalam lingkup Urban Athletes.</p>
         </div>
         <div class="bg-neutral-600 bg-opacity-20 py-6 px-4">
           <h2 class="text-xl text-yellow-primary font-FuturaBold pb-4 uppercase">SUASANA RAMAH</h2>
-          <p>Tidak hanya sebagai tempat berolahraga, kami ingin Urban Athletes menjadi rumah yang nyaman bagi semua member kami. Para staff dan seluruh keluarga Urban Athletes akan menjadi teman terbaik Anda.</p>
+          <p>Urban Athletes selalu berusaha melayani anda dengan sepenuh hati. Kami selalu berusaha menciptakan suasana yang nyaman dan akrab, baik dari seluruh staff ataupun komunitas kami. Sehingga anda dapat merasakan suasana yang mendukung anda untuk menjadi yang lebih baik dari sebelumnya.</p>
         </div>
       </div>
     </div>
