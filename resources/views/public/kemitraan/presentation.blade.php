@@ -27,7 +27,7 @@
               <h3 class="font-FuturaBold text-lg">PRESENTATION</h3>
               <div class="text-blue-500 tracking-widest space-x-4">
                 <a href=""><i class="fa-solid fa-file-powerpoint"></i> Presentation</a>
-                <a href=""><i class="fa-solid fa-file-pdf"></i> Report</a>
+                {{-- <a href=""><i class="fa-solid fa-file-pdf"></i> Report</a> --}}
               </div>
             </div>
           </div>
@@ -42,7 +42,7 @@
               <h3 class="font-FuturaBold text-lg">PRESENTATION</h3>
               <div class="text-blue-500 tracking-widest space-x-4">
                 <a href=""><i class="fa-solid fa-file-powerpoint"></i> Presentation</a>
-                <a href=""><i class="fa-solid fa-file-pdf"></i> Report</a>
+                {{-- <a href=""><i class="fa-solid fa-file-pdf"></i> Report</a> --}}
               </div>
             </div>
           </div>

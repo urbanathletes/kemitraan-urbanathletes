@@ -26,7 +26,7 @@
           <div class="flex flex-col items-start ml-4 sm:ml-0 sm:my-4 text-sm w-full">
             <ul class="w-full">
               <li class="py-2 sm:border-b sm:border-neutral-500"><button class="menu-active-web"><i class="fa-solid fa-right-long"></i> ALL PRODUCT</button></li>
-              <li class="py-2 sm:border-b sm:border-neutral-500"><button><i class="fa-solid fa-right-long"></i> GYM BACK</button></li>
+              <li class="py-2 sm:border-b sm:border-neutral-500"><button><i class="fa-solid fa-right-long"></i> GYM BAG</button></li>
               <li class="py-2 sm:border-b sm:border-neutral-500"><button><i class="fa-solid fa-right-long"></i> T-SHIRT</button></li>
             </ul>
           </div>

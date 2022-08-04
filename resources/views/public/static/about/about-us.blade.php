@@ -127,7 +127,7 @@
         <div class="absolute top-0 bottom-0 left-0 right-0 px-4 bg-black opacity-0 group-hover:bg-opacity-50 group-hover:opacity-100 flex justify-center items-center transition-all duration-300">
           <div>
             <h2 class="text-xl font-FuturaBold pb-4 text-center">FALCON</h2>
-            <p>Urban Athletes adalah tempat bagi mereka yang berinspirasi untuk hidup sehat dengan metode yang tepat dan fun. Kita percaya olahraga bukan hanya sekedar gaya hidup. Tapi adalah sarana untuk menjadi pribadi yang lebih baik. Membawa Dampak dan membangun manusia menjadi versi terbaiknya.</p>
+            <p>Various functional training performed in a fun and exciting way burn more than 600 calories in 45 minutes</p>
           </div>
         </div>
       </div>
