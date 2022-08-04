@@ -100,10 +100,10 @@
         </div>
         <div class="flex">
           <label class="block mx-2 my-2 border-b w-full">
-            <span class="">COUMPANY NAME</span>
+            <span class="">COMPANY NAME</span>
             <input name="company" type="text"
             value="{{ old('company') }}"
-            placeholder="COUMPANY NAME"
+            placeholder="COMPANY NAME"
             class="mt-1 block w-full px-1 py-2 border border-gray-500 outline-none focus:ring-0 focus:border-black
             @error('company') error-input @enderror" required>
             @error('company')

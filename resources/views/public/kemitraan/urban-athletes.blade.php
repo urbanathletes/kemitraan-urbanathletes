@@ -117,10 +117,10 @@
           </div>
           <div class="flex">
             <label class="block mx-2 my-2 border-b w-full">
-              <span class="">COUMPANY NAME</span>
+              <span class="">COMPANY NAME</span>
               <input name="company" type="text"
               value="{{ old('company') }}"
-              placeholder="COUMPANY NAME"
+              placeholder="COMPANY NAME"
               class="text-black mt-2 block w-full px-0.5 border-0 border-b-2 border-gray-200 outline-none focus:ring-0 focus:border-black
               @error('company') error-input @enderror" required>
               @error('company')
@@ -169,7 +169,7 @@
           Why Partner With URBAN ATHLETES ?
         </h2>
         <p class="py-4 tracking-wide">
-          Demand for affordable fitness is a global trend. As a pioneer of, and leading operator in, the UK value sector, PureGym has unrivalled expertise in opening and operating value gyms, and benefits from significant scale.
+          {{-- Demand for affordable fitness is a global trend. As a pioneer of, and leading operator in, the UK value sector, PureGym has unrivalled expertise in opening and operating value gyms, and benefits from significant scale. --}}
         </p>
       </div>
       <div class="lg:container">
@@ -199,7 +199,7 @@
               <div class="text-lg font-FuturaBold absolute top-1 right-4">
                 <p>01</p>
               </div>
-              <p>4 Gym Concept (Based on SWOT Analysis)</p>
+              <p>Excellent product offering delivered across a broad range of site sizes</p>
             </div>
           </div>
           <div class="relative max-w-max my-4 px-2 font-extralight">
@@ -208,7 +208,7 @@
               <div class="text-lg font-FuturaBold absolute top-1 right-4">
                 <p>02</p>
               </div>
-              <p>Urban Athletes Academy Integrated Coaching, Training & Certification</p>
+              <p>Great consumer value proposition : no contract and low price</p>
             </div>
           </div>
           <div class="relative max-w-max my-4 px-2 font-extralight">
@@ -217,7 +217,7 @@
               <div class="text-lg font-FuturaBold absolute top-1 right-4">
                 <p>03</p>
               </div>
-              <p>Customized Integrated Operational Gym Software and mobile apps</p>
+              <p>Operating model combines strong revenue management and low labour costs</p>
             </div>
           </div>
           <div class="relative max-w-max my-4 px-2 font-extralight">
@@ -226,7 +226,7 @@
               <div class="text-lg font-FuturaBold absolute top-1 right-4">
                 <p>04</p>
               </div>
-              <p>All Club Access Membership</p>
+              <p>Superior technology and digital capabilities</p>
             </div>
           </div>
           <div class="relative max-w-max my-4 px-2 font-extralight">
@@ -235,7 +235,7 @@
               <div class="text-lg font-FuturaBold absolute top-1 right-4">
                 <p>05</p>
               </div>
-              <p>Hustle Free Investment, Realtime Online Revenue Report</p>
+              <p>Proven in delivering and deploying successful site selection and development</p>
             </div>
           </div>
           <div class="relative max-w-max my-4 px-2 font-extralight">
@@ -244,7 +244,7 @@
               <div class="text-lg font-FuturaBold absolute top-1 right-4">
                 <p>06</p>
               </div>
-              <p>Hustle Free Investment, Realtime Online Revenue Report</p>
+              <p>Excellent performance management and continuous improvement</p>
             </div>
           </div>
 

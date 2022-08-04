@@ -39,10 +39,10 @@
     <div class="grid grid-cols-1 md:grid-cols-3 text-sm mt-4">
       <div>
         <div class="border border-black m-1 px-2 py-4">
-          <h2 class="font-FuturaBold">Apa saga tipe keanggotaan / Membership di Urban Athletes ?</h2>
+          <h2 class="font-FuturaBold">Apa saja tipe membership di Urban Athletes?</h2>
           <div>
             <div class="border-t border-neutral-700 my-2"></div>
-            <p>Keanggotaan URBAN ATHLETES mulai dari 3 hingga 12 bulan sudah mendapatkan akses gym tanpa batas ke seluruh Cabang club dan dapat mengikuti kelas setiap harinya.</p>
+            <p>Kita ada tipe membership Regular dan Valor. Perbedaannya adalah untuk tipe Regular termasuk semua fasilitas kecuali kelas Valor.</p>
           </div>
         </div>
       </div>
@@ -59,7 +59,7 @@
         </div>
         <div class="border border-black m-1 px-2 py-4 cursor-pointer">
           <div class="flex justify-between items-center space-x-4" id="card-faq">
-            <h2 class="font-FuturaBold">Apakah keanggotaan saya bisa Diberhentikan sementara ?</h2>
+            <h2 class="font-FuturaBold">Apakah keanggotaan saya bisa di berhentikan sementara ?</h2>
             <span class="font-FuturaBold text-xl rotate-90">&#8711;</span>
           </div>
           <div id="card-detail" class="hidden">
@@ -71,22 +71,22 @@
       <div>
         <div class="border border-black m-1 px-2 py-4 cursor-pointer">
           <div class="flex justify-between items-center space-x-4" id="card-faq">
-            <h2 class="font-FuturaBold">Dapatkah saya dastar keanggotaan Secara online ?</h2>
+            <h2 class="font-FuturaBold">Dapatkah saya daftar keanggotaan secara online ?</h2>
             <span class="font-FuturaBold text-xl rotate-90">&#8711;</span>
           </div>
           <div id="card-detail" class="hidden">
             <div class="border-t border-neutral-700 my-2"></div>
-            <p>Iya, Anda dapat mendaftar sebagai member dan booking personal trainer melalui aplikasi Urban Athletes.</p>
+            <p>Iya, Anda dapat mendaftar sebagai member dan melalui aplikasi Urban Athletes.</p>
           </div>
         </div>
         <div class="border border-black m-1 px-2 py-4 cursor-pointer">
           <div class="flex justify-between items-center space-x-4" id="card-faq">
-            <h2 class="font-FuturaBold">Apakah keanggotaan saya bisa Diberhentikan sementara ?</h2>
+            <h2 class="font-FuturaBold">Dapatkah saya berlatih di semua cabang?</h2>
             <span class="font-FuturaBold text-xl rotate-90">&#8711;</span>
           </div>
           <div id="card-detail" class="hidden">
             <div class="border-t border-neutral-700 my-2"></div>
-            <p>Tentu saja, ada 2 syarat untuk bisa melakukan freeze / berhenti sementara yaitu karena alasan medis atau pindah tugas ke luar negeri/luar kota selama lebih dari 2 minggu. Silahkan hubungi CS untuk info lebih lanjut.</p>
+            <p>Bisa, Anda dapat memilih jenis membership All Club. Dimana Anda dapat berlatih di semua cabang Urban Athletes.</p>
           </div>
         </div>
       </div>

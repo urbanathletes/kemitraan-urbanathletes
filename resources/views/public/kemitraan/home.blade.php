@@ -117,10 +117,10 @@
           </div>
           <div class="flex">
             <label class="block mx-2 my-2 border-b w-full">
-              <span class="">COUMPANY NAME</span>
+              <span class="">COMPANY NAME</span>
               <input name="company" type="text"
               value="{{ old('company') }}"
-              placeholder="COUMPANY NAME"
+              placeholder="COMPANY NAME"
               class="text-black mt-2 block w-full px-0.5 border-0 border-b-2 border-gray-200 outline-none focus:ring-0 focus:border-black
               @error('company') error-input @enderror" required>
               @error('company')
@@ -170,48 +170,62 @@
           IN PROFESSIONAL FITNESS INDUSTRY
         </h2>
         <div class="
-          text-black font-Futura font-bold py-8
+          text-white font-Futura font-bold py-8 tracking-widest leading-5
           flex flex-wrap justify-center
         ">
 
-          <div class="relative max-w-max my-4">
-            <div class="w-44 min-h-[176px] pt-6 pl-10 pr-6 bg-gradient-to-tr from-yellow-700 to-yellow-200 overflow-visible" style="clip-path: polygon(25% 0, 100% 0, 75% 100%, 0% 100%);">
-              <p>4 Gym Concept (Based on SWOT Analysis)</p>
-            </div>
-            <div class="absolute -top-3 -right-3 p-1.5 text-lg text-center font-FuturaBold bg-yellow-primary rounded-full border-2 border-white">
-              <p>01</p>
-            </div>
-          </div>
-          <div class="relative max-w-max my-4">
-            <div class="w-44 min-h-[176px] pt-6 pl-10 pr-6 bg-gradient-to-tr from-yellow-700 to-yellow-200 overflow-visible" style="clip-path: polygon(25% 0, 100% 0, 75% 100%, 0% 100%);">
-              <p>Urban Athletes Academy Integrated Coaching, Training & Certification</p>
-            </div>
-            <div class="absolute -top-3 -right-3 p-1.5 text-lg text-center font-FuturaBold bg-yellow-primary rounded-full border-2 border-white">
-              <p>02</p>
+          <div class="relative max-w-max my-4 px-2 font-extralight">
+            <div class="pt-8 w-44 min-h-[180px] pl-10 pr-4 bg-yellow-primary text-black overflow-visible border-2 border-black outline-4 outline-offset-4 outline-blue-500" 
+            style="clip-path: polygon(30% 0, 100% 0, 100% 70%, 70% 100%, 0 100%, 0 30%);">
+              <div class="text-lg font-FuturaBold absolute top-1 right-4">
+                <p>01</p>
+              </div>
+              <p>Excellent product offering delivered across a broad range of site sizes</p>
             </div>
           </div>
-          <div class="relative max-w-max my-4">
-            <div class="w-44 min-h-[176px] pt-6 pl-10 pr-6 bg-gradient-to-tr from-yellow-700 to-yellow-200 overflow-visible" style="clip-path: polygon(25% 0, 100% 0, 75% 100%, 0% 100%);">
-              <p>Customized Integrated Operational Gym Software and mobile apps</p>
-            </div>
-            <div class="absolute -top-3 -right-3 p-1.5 text-lg text-center font-FuturaBold bg-yellow-primary rounded-full border-2 border-white">
-              <p>03</p>
-            </div>
-          </div>
-          <div class="relative max-w-max my-4">
-            <div class="w-44 min-h-[176px] pt-6 pl-10 pr-6 bg-gradient-to-tr from-yellow-700 to-yellow-200 overflow-visible" style="clip-path: polygon(25% 0, 100% 0, 75% 100%, 0% 100%);">
-              <p>All Club Access Membership</p>
-            </div>
-            <div class="absolute -top-3 -right-3 p-1.5 text-lg text-center font-FuturaBold bg-yellow-primary rounded-full border-2 border-white">
-              <p>04</p>
+          <div class="relative max-w-max my-4 px-2 font-extralight">
+            <div class="pt-8 w-44 min-h-[180px] pl-10 pr-4 bg-yellow-primary text-black overflow-visible border-2 border-black outline-4 outline-offset-4 outline-blue-500" 
+            style="clip-path: polygon(30% 0, 100% 0, 100% 70%, 70% 100%, 0 100%, 0 30%);">
+              <div class="text-lg font-FuturaBold absolute top-1 right-4">
+                <p>02</p>
+              </div>
+              <p>Great consumer value proposition : no contract and low price</p>
             </div>
           </div>
-          <div class="relative max-w-max my-4">
-            <div class="w-44 min-h-[176px] pt-6 pl-10 pr-6 bg-gradient-to-tr from-yellow-700 to-yellow-200 overflow-visible" style="clip-path: polygon(25% 0, 100% 0, 75% 100%, 0% 100%);">
-              <p>Hustle Free Investment, Realtime Online Revenue Report</p>
+          <div class="relative max-w-max my-4 px-2 font-extralight">
+            <div class="pt-8 w-44 min-h-[180px] pl-10 pr-4 bg-yellow-primary text-black overflow-visible border-2 border-black outline-4 outline-offset-4 outline-blue-500" 
+            style="clip-path: polygon(30% 0, 100% 0, 100% 70%, 70% 100%, 0 100%, 0 30%);">
+              <div class="text-lg font-FuturaBold absolute top-1 right-4">
+                <p>03</p>
+              </div>
+              <p>Operating model combines strong revenue management and low labour costs</p>
             </div>
-            <div class="absolute -top-3 -right-3 p-1.5 text-lg text-center font-FuturaBold bg-yellow-primary rounded-full border-2 border-white">
-              <p>05</p>
+          </div>
+          <div class="relative max-w-max my-4 px-2 font-extralight">
+            <div class="pt-8 w-44 min-h-[180px] pl-10 pr-4 bg-yellow-primary text-black overflow-visible border-2 border-black outline-4 outline-offset-4 outline-blue-500" 
+            style="clip-path: polygon(30% 0, 100% 0, 100% 70%, 70% 100%, 0 100%, 0 30%);">
+              <div class="text-lg font-FuturaBold absolute top-1 right-4">
+                <p>04</p>
+              </div>
+              <p>Superior technology and digital capabilities</p>
+            </div>
+          </div>
+          <div class="relative max-w-max my-4 px-2 font-extralight">
+            <div class="pt-8 w-44 min-h-[180px] pl-10 pr-4 bg-yellow-primary text-black overflow-visible border-2 border-black outline-4 outline-offset-4 outline-blue-500" 
+            style="clip-path: polygon(30% 0, 100% 0, 100% 70%, 70% 100%, 0 100%, 0 30%);">
+              <div class="text-lg font-FuturaBold absolute top-1 right-4">
+                <p>05</p>
+              </div>
+              <p>Proven in delivering and deploying successful site selection and development</p>
+            </div>
+          </div>
+          <div class="relative max-w-max my-4 px-2 font-extralight">
+            <div class="pt-8 w-44 min-h-[180px] pl-10 pr-4 bg-yellow-primary text-black overflow-visible border-2 border-black outline-4 outline-offset-4 outline-blue-500" 
+            style="clip-path: polygon(30% 0, 100% 0, 100% 70%, 70% 100%, 0 100%, 0 30%);">
+              <div class="text-lg font-FuturaBold absolute top-1 right-4">
+                <p>06</p>
+              </div>
+              <p>Excellent performance management and continuous improvement</p>
             </div>
           </div>
 
@@ -243,12 +257,12 @@
       </h2>
       {{-- <div class="flex justify-center flex-wrap"> --}}
       <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 place-items-center pb-8">
-        <div class="px-4 pt-6 bg-neutral-100 shadow-xl">
+        <div class="px-4 pt-6 min-h-[280px] bg-neutral-100 shadow-xl">
           <div class="min-h-[64px] flex items-center">
             <img class="w-16" src="{{ url('image/web/logo/LOGO_UA_HITAM_TM.png') }}" alt="Mitra Urban Athletes">
           </div>
           <h3 class="font-FuturaBold my-2">URBAN ATHLETES</h3>
-          <p class="text-sm">Urban Athletes adalah tempat bagi mereka yang berinspirasi untuk hidup sehat dengan metode yang tepat dan fun. Kita percaya olahraga bukan hanya sekedar gaya hidup. Tapi adalah sarana untuk menjadi pribadi yang lebih baik. Membawa Dampak dan membangun manusia menjadi versi terbaiknya.</p>
+          <p class="text-sm">Urban Athletes is a place for those who are inspired to live a healthy life with the right and fun methods. We believe sport is not just a lifestyle. But it is a means to become a better person. Bringing Impact and building people into their best versions.</p>
           <div class="text-center my-6 font-PoppinsSemiBold">
             <a class="py-2 px-6 border border-neutral-800 hover:bg-yellow-primary transition-all duration-300" href="{{ url('franchise/urban-athletes') }}">MORE</a>
           </div>
@@ -263,12 +277,12 @@
             <a class="py-2 px-6 border border-neutral-800 hover:bg-yellow-primary transition-all duration-300" href="#">MORE</a>
           </div>
         </div> --}}
-        <div class="px-4 pt-6 bg-neutral-100 shadow-xl">
+        <div class="px-4 pt-6 min-h-[280px] bg-neutral-100 shadow-xl">
           <div class="min-h-[64px] flex items-center">
-            <img class="w-1/2" src="{{ url('image/web/logo/LogoFitnessworkPanjang.png') }}" alt="Mitra Urban Athletes">
+            <img class="h-10" src="{{ url('image/web/logo/LogoFitnessworkPanjang.png') }}" alt="Mitra Urban Athletes">
           </div>
           <h3 class="font-FuturaBold my-2">FITNESS WORKS</h3>
-          <p class="text-sm">Urban Athletes adalah tempat bagi mereka yang berinspirasi untuk hidup sehat dengan metode yang tepat dan fun. Kita percaya olahraga bukan hanya sekedar gaya hidup. Tapi adalah sarana untuk menjadi pribadi yang lebih baik. Membawa Dampak dan membangun manusia menjadi versi terbaiknya.</p>
+          <p class="text-sm">Fitnessworks ia a new concept in smart gym with high value, low investment and faster return of investment. Fitnessworks provides premium club facility with complete weight training, cardio, certified Personal Trainer. various group exercise classes, and technology-driven member management system app.</p>
           <div class="text-center my-6 font-PoppinsSemiBold">
             <a class="py-2 px-6 border border-neutral-800 hover:bg-yellow-primary transition-all duration-300" href="{{ url('franchise/fitness-works') }}">MORE</a>
           </div>

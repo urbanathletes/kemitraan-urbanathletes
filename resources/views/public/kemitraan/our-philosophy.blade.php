@@ -47,7 +47,7 @@
     </div>
     <div class="py-4 lg:flex lg:justify-center lg:items-center lg:flex-row-reverse">
       <div class="lg:mx-0 lg:max-w-xl">
-        <img class="object-cover object-top mx-auto" src="{{ url('image/web/UA-Banner_Global.jpg') }}" alt="Urban Athletes">
+        <img class="object-cover object-top mx-auto" src="{{ url('image/franchise/UA-Banner-Ganti-Logo-01.jpg') }}" alt="Urban Athletes">
       </div>
       <div class="lg:mx-0 lg:max-w-xl lg:pr-8">
         <div class="my-4 max-w-max relative">

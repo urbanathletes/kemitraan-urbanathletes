@@ -170,7 +170,7 @@
         </div>
         <div class="my-4">
           <div class="my-4 border-l-[6px] border-yellow-primary pl-4 font-AmpleSof font-black">
-            <h3>CIRCUIT ? PT Session</h3>
+            <h3>CIRCUIT / PT Session</h3>
             <h4 class="text-sm">3X / Week</h4>
           </div>
           <div class="my-4 border-l-[6px] border-yellow-primary pl-4 font-AmpleSof font-black">
