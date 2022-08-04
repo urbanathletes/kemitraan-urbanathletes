@@ -96,7 +96,7 @@
     </div>
     <div class="flex flex-nowrap rflow-visible overflow-x-auto no-scrollbar justify-start py-4 text-justify text-xs">
       <div class="min-w-[16rem] h-96 my-4 overflow-hidden cursor-pointer relative group">
-        <img class="group-hover:scale-110 object-cover object-center h-full mx-auto transition-all duration-300" src="{{ url('image/web/Endurance1.jpg') }}" alt="fly high yoga Urban Athletes">
+        <img class="group-hover:scale-110 object-cover object-center h-full mx-auto transition-all duration-300" src="{{ url('image/web/fotokelas/BodyPump.jpg') }}" alt="fly high yoga Urban Athletes">
         <div class="absolute top-0 bottom-0 left-0 right-0 px-4 bg-black opacity-0 group-hover:bg-opacity-50 group-hover:opacity-100 flex justify-center items-center transition-all duration-300">
           <div>
             <h2 class="text-xl font-FuturaBold pb-4 text-center">BODYPUMP</h2>
@@ -105,7 +105,7 @@
         </div>
       </div>
       <div class="min-w-[16rem] h-96 my-4 overflow-hidden cursor-pointer relative group">
-        <img class="group-hover:scale-110 object-cover object-center h-full mx-auto transition-all duration-300" src="{{ url('image/web/home/About-Us-r.jpg') }}" alt="The Valor Urban Athletes">
+        <img class="group-hover:scale-110 object-cover object-center h-full mx-auto transition-all duration-300" src="{{ url('image/web/fotokelas/Circuit.jpg') }}" alt="The Valor Urban Athletes">
         <div class="absolute top-0 bottom-0 left-0 right-0 px-4 bg-black opacity-0 group-hover:bg-opacity-50 group-hover:opacity-100 flex justify-center items-center transition-all duration-300">
           <div>
             <h2 class="text-xl font-FuturaBold pb-4 text-center">CIRCUIT</h2>
@@ -114,7 +114,7 @@
         </div>
       </div>
       <div class="min-w-[16rem] h-96 my-4 overflow-hidden cursor-pointer relative group">
-        <img class="group-hover:scale-110 object-cover object-center h-full mx-auto transition-all duration-300 w-full" src="{{ url('image/web/home/10VALOR.JPG') }}" alt="TRX Classes Urban Athletes">
+        <img class="group-hover:scale-110 object-cover object-center h-full mx-auto transition-all duration-300 w-full" src="{{ url('image/web/fotokelas/Valor.jpg') }}" alt="TRX Classes Urban Athletes">
         <div class="absolute top-0 bottom-0 left-0 right-0 px-4 bg-black opacity-0 group-hover:bg-opacity-50 group-hover:opacity-100 flex justify-center items-center transition-all duration-300">
           <div>
             <h2 class="text-xl font-FuturaBold pb-4 text-center">VALOR</h2>
@@ -123,7 +123,7 @@
         </div>
       </div>
       <div class="min-w-[16rem] h-96 my-4 overflow-hidden cursor-pointer relative group">
-        <img class="group-hover:scale-110 object-cover object-center h-full mx-auto transition-all duration-300" src="{{ url('image/web/home/6Falcon.jpg') }}" alt="Lesmills Body Combat Urban Athletes">
+        <img class="group-hover:scale-110 object-cover object-center h-full mx-auto transition-all duration-300" src="{{ url('image/web/fotokelas/Falcon.jpg') }}" alt="Lesmills Body Combat Urban Athletes">
         <div class="absolute top-0 bottom-0 left-0 right-0 px-4 bg-black opacity-0 group-hover:bg-opacity-50 group-hover:opacity-100 flex justify-center items-center transition-all duration-300">
           <div>
             <h2 class="text-xl font-FuturaBold pb-4 text-center">FALCON</h2>
@@ -141,7 +141,7 @@
         </div>
       </div>
       <div class="min-w-[16rem] h-96 my-4 overflow-hidden cursor-pointer relative group">
-        <img class="group-hover:scale-110 object-cover object-center h-full mx-auto transition-all duration-300 w-full" src="{{ url('image/web/home/3Trx.jpg') }}" alt="Lesmills Body Pump Urban Athletes">
+        <img class="group-hover:scale-110 object-cover object-center h-full mx-auto transition-all duration-300 w-full" src="{{ url('image/web/fotokelas/TRX.jpg') }}" alt="Lesmills Body Pump Urban Athletes">
         <div class="absolute top-0 bottom-0 left-0 right-0 px-4 bg-black opacity-0 group-hover:bg-opacity-50 group-hover:opacity-100 flex justify-center items-center transition-all duration-300">
           <div>
             <h2 class="text-xl font-FuturaBold pb-4 text-center">TRX</h2>
@@ -150,7 +150,7 @@
         </div>
       </div>
       <div class="min-w-[16rem] h-96 my-4 overflow-hidden cursor-pointer relative group">
-        <img class="group-hover:scale-110 object-cover object-center h-full mx-auto transition-all duration-300" src="{{ url('image/web/home/2MuayThai.jpg') }}" alt="Lesmills Body Pump Urban Athletes">
+        <img class="group-hover:scale-110 object-cover object-center h-full mx-auto transition-all duration-300" src="{{ url('image/web/fotokelas/Muay_Thai.jpg') }}" alt="Lesmills Body Pump Urban Athletes">
         <div class="absolute top-0 bottom-0 left-0 right-0 px-4 bg-black opacity-0 group-hover:bg-opacity-50 group-hover:opacity-100 flex justify-center items-center transition-all duration-300">
           <div>
             <h2 class="text-xl font-FuturaBold pb-4 text-center">MUAY THAI</h2>
@@ -159,7 +159,16 @@
         </div>
       </div>
       <div class="min-w-[16rem] h-96 my-4 overflow-hidden cursor-pointer relative group">
-        <img class="group-hover:scale-110 object-cover object-center h-full mx-auto transition-all duration-300" src="{{ url('image/web/home/Exclusive_Yoga-wheel.jpg') }}" alt="Lesmills Body Pump Urban Athletes">
+        <img class="group-hover:scale-110 object-cover object-center h-full mx-auto transition-all duration-300" src="{{ url('image/web/fotokelas/Bodycombat.jpg') }}" alt="Lesmills Body Pump Urban Athletes">
+        <div class="absolute top-0 bottom-0 left-0 right-0 px-4 bg-black opacity-0 group-hover:bg-opacity-50 group-hover:opacity-100 flex justify-center items-center transition-all duration-300">
+          <div>
+            <h2 class="text-xl font-FuturaBold pb-4 text-center">BODYCOMBAT </h2>
+            <p>Is high energy martial arts inspired workout, burning up to 740 Calories*</p>
+          </div>
+        </div>
+      </div>
+      <div class="min-w-[16rem] h-96 my-4 overflow-hidden cursor-pointer relative group">
+        <img class="group-hover:scale-110 object-cover object-center h-full mx-auto transition-all duration-300" src="{{ url('image/web/fotokelas/Yoga_Wheel.jpg') }}" alt="Lesmills Body Pump Urban Athletes">
         <div class="absolute top-0 bottom-0 left-0 right-0 px-4 bg-black opacity-0 group-hover:bg-opacity-50 group-hover:opacity-100 flex justify-center items-center transition-all duration-300">
           <div>
             <h2 class="text-xl font-FuturaBold pb-4 text-center">YOGA WHEEL</h2>
@@ -168,11 +177,39 @@
         </div>
       </div>
       <div class="min-w-[16rem] h-96 my-4 overflow-hidden cursor-pointer relative group">
-        <img class="group-hover:scale-110 object-cover object-center h-full mx-auto transition-all duration-300" src="{{ url('image/web/home/5Flexibility.jpg') }}" alt="Lesmills Body Pump Urban Athletes">
+        <img class="group-hover:scale-110 object-cover object-center h-full mx-auto transition-all duration-300" src="{{ url('image/web/fotokelas/Yoga.jpg') }}" alt="Lesmills Body Pump Urban Athletes">
+        <div class="absolute top-0 bottom-0 left-0 right-0 px-4 bg-black opacity-0 group-hover:bg-opacity-50 group-hover:opacity-100 flex justify-center items-center transition-all duration-300">
+          <div>
+            <h2 class="text-xl font-FuturaBold pb-4 text-center">YOGA</h2>
+            <p>Practice of various style of yoga the following sequence until minimalistic-quiet movement that will help to bring peace to your mind and Body</p>
+          </div>
+        </div>
+      </div>
+      <div class="min-w-[16rem] h-96 my-4 overflow-hidden cursor-pointer relative group">
+        <img class="group-hover:scale-110 object-cover object-center h-full mx-auto transition-all duration-300" src="{{ url('image/web/fotokelas/Fly_High_Yoga.jpg') }}" alt="Lesmills Body Pump Urban Athletes">
         <div class="absolute top-0 bottom-0 left-0 right-0 px-4 bg-black opacity-0 group-hover:bg-opacity-50 group-hover:opacity-100 flex justify-center items-center transition-all duration-300">
           <div>
             <h2 class="text-xl font-FuturaBold pb-4 text-center">FLY HIGH YOGA</h2>
             <p>A new style of yoga appeared at Ubud, Bali in 2002. Is a practice of modern yoga using a hanging belt to make it different</p>
+          </div>
+        </div>
+      </div>
+      <div class="min-w-[16rem] h-96 my-4 overflow-hidden cursor-pointer relative group">
+        <img class="group-hover:scale-110 object-cover object-center h-full mx-auto transition-all duration-300" src="{{ url('image/web/fotokelas/Fitball.jpg') }}" alt="Lesmills Body Pump Urban Athletes">
+        <div class="absolute top-0 bottom-0 left-0 right-0 px-4 bg-black opacity-0 group-hover:bg-opacity-50 group-hover:opacity-100 flex justify-center items-center transition-all duration-300">
+          <div>
+            <h2 class="text-xl font-FuturaBold pb-4 text-center">FIT BALL</h2>
+            <p>Is a practice to Train core muscle. Core Muscle support all the entire body Movement. <br>
+              Strong core muscles are useful for maintaining the balance of the propotion of body muscles and stabilize the body so as to prevent injury.</p>
+          </div>
+        </div>
+      </div>
+      <div class="min-w-[16rem] h-96 my-4 overflow-hidden cursor-pointer relative group">
+        <img class="group-hover:scale-110 object-cover object-center h-full mx-auto transition-all duration-300" src="{{ url('image/web/fotokelas/TPT.jpg') }}" alt="Lesmills Body Pump Urban Athletes">
+        <div class="absolute top-0 bottom-0 left-0 right-0 px-4 bg-black opacity-0 group-hover:bg-opacity-50 group-hover:opacity-100 flex justify-center items-center transition-all duration-300">
+          <div>
+            <h2 class="text-xl font-FuturaBold pb-4 text-center">TRIGGER POINT THERAPHY</h2>
+            <p>This is Partof Yoga, To Specific Yin Yoga. To where we put pressure to a certain point to our body using the help of the trigger point balls with the weight of our own body and breath</p>
           </div>
         </div>
       </div>
