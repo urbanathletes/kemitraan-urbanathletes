@@ -211,7 +211,12 @@
           <li><span>Bosu Pilates</span></li>
           <li><span>Peter Twist Functional Training</span></li>
           <li><span>Kettlebell</span></li>
-          <li><span>TRX | VIPR | DINAMAX | BLS | AFC | Goifex RumbleRoller</span></li>
+          <li><span>TRX</span></li>
+          <li><span>VIPR</span></li>
+          <li><span>DINAMAX</span></li>
+          <li><span>BLS</span></li>
+          <li><span>AFC</span></li>
+          <li><span>Goifex RumbleRoller</span></li>
         </ul>
       </div>
     </div>
