@@ -39,6 +39,9 @@
     
     <div class="py-8 flex flex-wrap justify-around text-center font-PoppinsSemiBold text-yellow-primary">
       <diV class="w-64 h-96 my-4 overflow-hidden group">
+        <img class="group-hover:scale-110 object-cover object-center h-full w-full mx-auto transition-all duration-300" src="{{ url('image/web/trainer/Rivo.jpg') }}" alt="Trainer Urban Athletes">
+      </diV>
+      <diV class="w-64 h-96 my-4 overflow-hidden group">
         <img class="group-hover:scale-110 object-cover object-center h-full w-full mx-auto transition-all duration-300" src="{{ url('image/web/trainer/Najib.jpg') }}" alt="Trainer Urban Athletes">
       </diV>
       <diV class="w-64 h-96 my-4 overflow-hidden group">
@@ -48,7 +51,7 @@
         <img class="group-hover:scale-110 object-cover object-center h-full w-full mx-auto transition-all duration-300" src="{{ url('image/web/trainer/Erwin.jpg') }}" alt="Trainer Urban Athletes">
       </diV>
       <diV class="w-64 h-96 my-4 overflow-hidden group">
-        <img class="group-hover:scale-110 object-cover object-center h-full w-full mx-auto transition-all duration-300" src="{{ url('image/web/trainer/trainer_4.jpg') }}" alt="Trainer Urban Athletes">
+        <img class="group-hover:scale-110 object-cover object-center h-full w-full mx-auto transition-all duration-300" src="{{ url('image/web/trainer/Adi.jpg') }}" alt="Trainer Urban Athletes">
       </diV>
       <diV class="w-64 h-96 my-4 overflow-hidden group">
         <img class="group-hover:scale-110 object-cover object-center h-full w-full mx-auto transition-all duration-300" src="{{ url('image/web/trainer/Amirza.jpg') }}" alt="Trainer Urban Athletes">
