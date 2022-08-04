@@ -24,7 +24,7 @@
       </div>
       <div class="
         bg-black text-white font-medium text-xs w-56 min-h-screen absolute top-14 md:top-16 transition-all duration-300 border-t lg:border-t-0 border-gray-600 menu-close
-        lg:text-base lg:static lg:w-full lg:min-h-min lg:bg-transparent lg:flex lg:justify-center mt-2 lg:mt-0
+        lg:text-base lg:static lg:w-full lg:min-h-min lg:bg-transparent lg:flex lg:justify-center mt-2 md:mt-0
       " id="nav-menu">
         <div class="lg:tracking-widest lg:w-full">
           <ul class="lg:py-3 lg:flex lg:w-max lg:uppercase">

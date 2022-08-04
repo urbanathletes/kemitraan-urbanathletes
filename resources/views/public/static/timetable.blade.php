@@ -16,25 +16,18 @@
       {{-- <div class="md:flex justify-center items-center my-4"> --}}
       <div class="md:grid md:grid-cols-2 my-4 pb-8">
 
-        <label class="block mx-4 py-2 md:w-72 md:ml-auto">
+        {{-- <label class="block mx-4 py-2 md:w-72 md:ml-auto">
           <select name="investment" id="investment" 
             class="p-2 block w-full border border-gray-200 bg-neutral-700 outline-none focus:ring-0 focus:border-black
-            {{-- @error('investment') error-input @enderror --}}
           ">
             <option value="">City</option>
             <option value="Surabaya">Surabaya</option>
             <option value="Gresek">Gresik</option>
           </select>
-          {{-- @error('investment')
-            <div id="location" class="text-sm text-red-500">
-                {{ $message }}
-            </div>
-          @enderror --}}
         </label>
         <label class="block mx-4 py-2 md:w-96 md:mr-auto">
           <select name="investment" id="investment" 
             class="p-2 block w-full border border-gray-200 bg-neutral-700 outline-none focus:ring-0 focus:border-black
-            {{-- @error('investment') error-input @enderror --}}
           ">
             <option value="">Select Our Club</option>
             <option value="Merr">UA Merr</option>
@@ -42,12 +35,7 @@
             <option value="Tidar">UA Tidar</option>
             <option value="Lenmarc">UA Lenmarc</option>
           </select>
-          {{-- @error('investment')
-            <div id="location" class="text-sm text-red-500">
-                {{ $message }}
-            </div>
-          @enderror --}}
-        </label>
+        </label> --}}
       </div>
 
       <div class="min-h-screen pb-24">
@@ -79,7 +67,7 @@
                 <td>
                   <div class="py-2 bg-white m-1">
                     <p class="bg-yellow-primary mx-1 rounded-sm">08.10 - 09.00 WIB</p>
-                    <img class="h-20 p-2 mx-auto" src="{{ url('image/web/logo_kelas/URBAN-FALCONFINAL.png') }}" alt="Class">
+                  <img class="h-20 p-2 mx-auto" src="{{ url('image/web/logo_kelas/Falcon.png') }}" alt="Class">
                     <p>nama | Nama Studio</p>
                   </div>
                 </td>
@@ -270,7 +258,7 @@
                 <td>
                   <div class="py-2 bg-white m-1">
                     <p class="bg-yellow-primary mx-1 rounded-sm">19.30 - 21.00 WIB</p>
-                    <img class="h-20 p-2 mx-auto" src="{{ url('image/web/logo_kelas/URBAN-FALCONFINAL.png') }}" alt="Class">
+                  <img class="h-20 p-2 mx-auto" src="{{ url('image/web/logo_kelas/Falcon.png') }}" alt="Class">
                     <p>nama | Nama Studio</p>
                   </div>
                 </td>

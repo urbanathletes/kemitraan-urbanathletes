@@ -34,7 +34,7 @@
           <div>
             <img class="w-16 m-4 mx-auto" src="{{ url('image/web/logo/Valor_TM_putih.png') }}" alt="Valor Urban Athletes">
           </div>
-          <h2 class="text-xl">MEMBERSHIP 3 MONTH</h2>
+          <h2 class="text-xl">MEMBERSHIP 3 MONTHS</h2>
           <div class="mx-8">
             <P class="border-b border-neutral-700 py-1 mt-2">All Club Membership</P>
             <P class="border-b border-neutral-700 py-1 mt-2">2 Fit-Test sessions</P>
@@ -52,7 +52,7 @@
           <div>
             <img class="w-16 m-4 mx-auto" src="{{ url('image/web/logo/Valor_TM_putih.png') }}" alt="Valor Urban Athletes">
           </div>
-          <h2 class="text-xl">MEMBERSHIP 6 MONTH</h2>
+          <h2 class="text-xl">MEMBERSHIP 6 MONTHS</h2>
           <div class="mx-8">
             <P class="border-b border-neutral-700 py-1 mt-2">All Club Membership</P>
             <P class="border-b border-neutral-700 py-1 mt-2">2 Fit-Test sessions</P>
@@ -70,7 +70,7 @@
           <div>
             <img class="w-16 m-4 mx-auto" src="{{ url('image/web/logo/Valor_TM_putih.png') }}" alt="Valor Urban Athletes">
           </div>
-          <h2 class="text-xl">MEMBERSHIP 12 MONTH</h2>
+          <h2 class="text-xl">MEMBERSHIP 12 MONTHS</h2>
           <div class="mx-8">
             <P class="border-b border-neutral-700 py-1 mt-2">All Club Membership</P>
             <P class="border-b border-neutral-700 py-1 mt-2">2 Fit-Test sessions</P>
@@ -112,12 +112,12 @@
             <div><p class="text-6xl">1</p></div>
             <div class="mt-2">
               <p>.633.900</p>
-              <p class="text-yellow-primary">3 MONTH</p>
+              <p class="text-yellow-primary">3 MONTHS</p>
             </div>
           </div>
           <div class="my-4 py-4 text-xs">
             <P class="border-b border-neutral-700 py-1 mt-2">Single Club Membership</P>
-            <p class="border-b border-neutral-700 py-1 mt-2">2 sessi Fit-Test</p>
+            <p class="border-b border-neutral-700 py-1 mt-2">2 Fit-Test sessions</p>
             <P class="border-b border-neutral-700 py-1 mt-2">1 sessi Valor Class</P>
             <P class="border-b border-neutral-700 py-1 mt-2">Get Gym Bag</P>
             <P class="border-b border-neutral-700 py-1 mt-2">Free Access All Class</P>
@@ -135,12 +135,12 @@
             <div><p class="text-6xl">2</p></div>
             <div class="mt-2">
               <p>.978.000</p>
-              <p class="text-yellow-primary">6 MONTH</p>
+              <p class="text-yellow-primary">6 MONTHS</p>
             </div>
           </div>
           <div class="my-4 py-4 text-xs">
             <P class="border-b border-neutral-700 py-1 mt-2">Single Club Membership</P>
-            <p class="border-b border-neutral-700 py-1 mt-2">2 sessi Fit-Test</p>
+            <p class="border-b border-neutral-700 py-1 mt-2">2 Fit-Test sessions</p>
             <P class="border-b border-neutral-700 py-1 mt-2">1 sessi Valor Class</P>
             <P class="border-b border-neutral-700 py-1 mt-2">Get Gym Bag</P>
             <P class="border-b border-neutral-700 py-1 mt-2">Free Access All Class</P>
@@ -158,12 +158,12 @@
             <div><p class="text-6xl">5</p></div>
             <div class="mt-2">
               <p>.064.000</p>
-              <p class="text-yellow-primary">12 MONTH</p>
+              <p class="text-yellow-primary">12 MONTHS</p>
             </div>
           </div>
           <div class="my-4 py-4 text-xs">
             <P class="border-b border-neutral-700 py-1 mt-2">Single Club Membership</P>
-            <p class="border-b border-neutral-700 py-1 mt-2">2 sessi Fit-Test</p>
+            <p class="border-b border-neutral-700 py-1 mt-2">2 Fit-Test sessions</p>
             <P class="border-b border-neutral-700 py-1 mt-2">1 sessi Valor Class</P>
             <P class="border-b border-neutral-700 py-1 mt-2">Get Gym Bag</P>
             <P class="border-b border-neutral-700 py-1 mt-2">Free Access All Class</P>
@@ -202,7 +202,7 @@
             <div><p class="text-6xl">2</p></div>
             <div class="mt-2">
               <p>.832.300</p>
-              <p class="text-yellow-primary">3 MONTH</p>
+              <p class="text-yellow-primary">3 MONTHS</p>
             </div>
           </div>
           <div class="my-4 py-4 text-xs">
@@ -223,7 +223,7 @@
             <div><p class="text-6xl">5</p></div>
             <div class="mt-2">
               <p>.677.200</p>
-              <p class="text-yellow-primary">6 MONTH</p>
+              <p class="text-yellow-primary">6 MONTHS</p>
             </div>
           </div>
           <div class="my-4 py-4 text-xs">
@@ -244,7 +244,7 @@
             <div><p class="text-6xl">9</p></div>
             <div class="mt-2">
               <p>.868.800</p>
-              <p class="text-yellow-primary">12 MONTH</p>
+              <p class="text-yellow-primary">12 MONTHS</p>
             </div>
           </div>
           <div class="my-4 py-4 text-xs">
@@ -338,7 +338,7 @@
         <h2 class="bg-yellow-primary max-w-max text-2xl text-black font-FuturaBold px-2">GYM BAG</h2>
         <h2 class="max-w-max text-2xl font-FuturaBold">PRODUCT</h2>
         <p class="my-6 max-w-[150px]">
-          Deskripsi singkat keunggulan Product
+          {{-- Deskripsi singkat keunggulan Product --}}
         </p>
         <div class="mt-6 pt-8">
           <a class="border border-white py-2 px-6 font-black hover:bg-yellow-primary hover:text-black transition-all duration-300" href="{{ url('merchandise') }}">VIEW MORE</a>
@@ -387,7 +387,7 @@
               <i class="fa-solid fa-star"></i>
               <i class="fa-regular fa-star"></i>
             </div>
-            <p class="uppercase text-sm">Gym Bag Valcon</p>
+            <p class="uppercase text-sm">Gym Bag Falcon</p>
             <div class="my-2 border-t border-neutral-400 py-2">
               <p>RP. 250.000</p>
             </div>
@@ -451,7 +451,7 @@
               <i class="fa-solid fa-star"></i>
               <i class="fa-regular fa-star"></i>
             </div>
-            <p class="uppercase text-sm">Gym Bag Valcon</p>
+            <p class="uppercase text-sm">Gym Bag Falcon</p>
             <div class="my-2 border-t border-neutral-400 py-2">
               <p>RP. 250.000</p>
             </div>
@@ -481,7 +481,7 @@
         <h2 class="bg-yellow-primary max-w-max text-2xl text-black font-FuturaBold px-2">T-SHIRT</h2>
         <h2 class="max-w-max text-2xl font-FuturaBold">PRODUCT</h2>
         <p class="my-6 max-w-[150px]">
-          Deskripsi singkat keunggulan Product
+          {{-- Deskripsi singkat keunggulan Product --}}
         </p>
         <div class="mt-6 pt-8">
           <a class="border border-white py-2 px-6 font-black hover:bg-yellow-primary hover:text-black transition-all duration-300" href="{{ url('merchandise') }}">VIEW MORE</a>
@@ -514,7 +514,7 @@
               <i class="fa-solid fa-star"></i>
               <i class="fa-regular fa-star"></i>
             </div>
-            <p class="uppercase text-sm">T-Shirt Valcon Edition</p>
+            <p class="uppercase text-sm">T-Shirt Falcon Edition</p>
             <div class="my-2 border-t border-neutral-400 py-2">
               <p>RP. 250.000</p>
             </div>
@@ -530,7 +530,7 @@
               <i class="fa-solid fa-star"></i>
               <i class="fa-regular fa-star"></i>
             </div>
-            <p class="uppercase text-sm">T-Shirt Valcon Edition</p>
+            <p class="uppercase text-sm">T-Shirt Falcon Edition</p>
             <div class="my-2 border-t border-neutral-400 py-2">
               <p>RP. 250.000</p>
             </div>
@@ -624,7 +624,7 @@
         <h2 class="bg-yellow-primary max-w-max text-2xl text-black font-FuturaBold px-2">OTHER</h2>
         <h2 class="max-w-max text-2xl font-FuturaBold">PRODUCT</h2>
         <p class="my-6 max-w-[150px]">
-          Deskripsi singkat keunggulan Product
+          {{-- Deskripsi singkat keunggulan Product --}}
         </p>
         <div class="mt-6 pt-8">
           <a class="border border-white py-2 px-6 font-black hover:bg-yellow-primary hover:text-black transition-all duration-300" href="{{ url('merchandise') }}">VIEW MORE</a>
