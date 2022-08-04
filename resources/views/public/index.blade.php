@@ -126,7 +126,7 @@
             </div>
             <div class="cursor-pointer min-w-max group">
               <div class="w-72 h-72 flex justify-center overflow-hidden">
-                <img class="w-full object-cover object-bottom mx-auto group-hover:scale-110 transition-all duration-300" src="{{ url('image/web/home/5Flexibility.jpg') }}" alt="Exclusive Urban Athletes">
+                <img class="w-full object-cover object-center mx-auto group-hover:scale-110 transition-all duration-300" src="{{ url('image/web/fotokelas/Fly_High_Yoga.jpg') }}" alt="Exclusive Urban Athletes">
               </div>
               <div class="font-FuturaBold p-2 text-2xl
                 group-hover:bg-yellow-primary group-hover:text-black transition-all duration-300
