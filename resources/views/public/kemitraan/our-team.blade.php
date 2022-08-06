@@ -64,7 +64,7 @@
         </div> --}}
       </div>
       
-      <div class="md:pb-6 grid md:block">
+      {{-- <div class="md:pb-6 grid md:block">
         <div class="order-last md:order-none py-4 md:float-right md:px-6 md:w-1/2 lg:max-w-lg">
           <img src="{{ url('/image/franchise/Pak_Anton.png') }}" alt="Verawaty Budiyanto Urban Athletes">
         </div>
@@ -78,7 +78,7 @@
         <p class="py-2">
           Studied at Perth Institute of Business and Technology and Computer Science at Edith Cowan University Australia.  Highly passionate in fitness and tech industry.
         </p>
-      </div>
+      </div> --}}
 
     </div>
   </div>
