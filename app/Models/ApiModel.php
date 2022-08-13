@@ -20,8 +20,7 @@ class ApiModel extends Model
     public function cekMember($rfid)
     {
         $data = ['rfid_card_code' => $rfid];
-        $schedule = Http::get( config('app.url_api') . 'fitness/v1/classes_schedule/all?branch=&date=' . date(now()))->json('data');
-//         $memberCek = Http::post( config('app.url_api') . 'fitness/v1/scanning/gym_attendance', $data)->json();
-        return $schedule;
+        $memberCek = Http::post( config('app.url_api') . 'fitness/v1/scanning/gym_attendance', $data)->json();
+        return $memberCek;
     }
 }
