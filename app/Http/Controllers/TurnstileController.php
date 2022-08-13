@@ -16,6 +16,7 @@ class TurnstileController extends Controller
         $hasilCek = false;
         $open = false;
         $cekDataMember = [];
+        $cekMemberApi = [];
         $saveData = '';
         if (!$cekMember1) {
             $apiModel = new ApiModel();
