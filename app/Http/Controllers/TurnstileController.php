@@ -21,7 +21,7 @@ class TurnstileController extends Controller
         if (!$cekMember1) {
             $apiModel = new ApiModel();
             $cekMemberApi = $apiModel->cekMember($request->rfid);
-            return $cekMemberApi;
+            return $apiModel;
 //             if (array_key_exists('member', $cekMemberApi)) {
 //                 try {
 //                     $saveData = DataMember::create([
