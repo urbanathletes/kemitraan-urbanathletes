@@ -20,26 +20,26 @@ class TurnstileController extends Controller
         $saveData = '';
         if (!$cekMember1) {
             $apiModel = new ApiModel();
-            $cekMemberApi = $apiModel->cekMember($request->rfid); exit();
+            $cekMemberApi = $apiModel->cekMember($request->rfid);
 //             return $cekMemberApi;
-//             if (array_key_exists('member', $cekMemberApi)) {
-//                 try {
-//                     $saveData = DataMember::create([
-//                         'member_id' => $cekMemberApi['member']['id'],
-//                         'rfid_card_code' => $cekMemberApi['member']['rfid_card_code'],
-//                         'rfid_card_code' => $cekMemberApi['member']['rfid_card_code'],
-//                         'email' => $cekMemberApi['member']['email'],
-//                         'branch_id' => $cekMemberApi['member']['branch_id'],
-//                         'id_card' => $cekMemberApi['member']['id_card'],
-//                         'membership_status_id' => $cekMemberApi['member']['membership_status_id'],
-//                     ]);
-//                     $cekDataMember = $cekMemberApi['member'];
-//                     $hasilCek = true;
-//                 } catch (\Throwable $th) {
-//                     $saveData = throw $th;
-//                 }
+            if (array_key_exists('member', $cekMemberApi)) {
+                try {
+                    $saveData = DataMember::create([
+                        'member_id' => $cekMemberApi['member']['id'],
+                        'rfid_card_code' => $cekMemberApi['member']['rfid_card_code'],
+                        'rfid_card_code' => $cekMemberApi['member']['rfid_card_code'],
+                        'email' => $cekMemberApi['member']['email'],
+                        'branch_id' => $cekMemberApi['member']['branch_id'],
+                        'id_card' => $cekMemberApi['member']['id_card'],
+                        'membership_status_id' => $cekMemberApi['member']['membership_status_id'],
+                    ]);
+                    $cekDataMember = $cekMemberApi['member'];
+                    $hasilCek = true;
+                } catch (\Throwable $th) {
+                    $saveData = throw $th;
+                }
 
-//             }
+            }
         } else {
             $hasilCek = true;
             $cekDataMember = $cekMember1;
