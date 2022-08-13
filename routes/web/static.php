@@ -30,12 +30,3 @@ Route::prefix('about')->group(function(){
   Route::get('/faqs', function () { return view("public/static/about/faqs");});
 });
 Route::get('/location', function () { return view("public/static/location");});
-// 
-// 
-// 
-// 
-// 
-// 
-// 
-// 
-// 
