@@ -19,7 +19,7 @@ return new class extends Migration
             $table->string('rfid_card_code');
             $table->string('email');
             $table->integer('branch_id');
-            $table->string('id_card');
+            $table->string('id_card')->nullable();
             $table->integer('membership_status_id')->nullable();
             $table->timestamps();
         });
