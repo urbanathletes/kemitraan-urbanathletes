@@ -57,7 +57,7 @@ class TurnstileController extends Controller
                                     ->latest('id')
                                     ->first();
                                     
-            if (strtotime(date(now())) <= strtotime($cekMemberLast->updated_at) + 40 ) {
+            if (!$cekMemberLast && strtotime(date(now())) <= strtotime($cekMemberLast->updated_at) + 40 ) {
                 // Posisi Sudah scan OUT
                 $open = false; // <-- IKI
             } else if (empty($cekMember)) {
