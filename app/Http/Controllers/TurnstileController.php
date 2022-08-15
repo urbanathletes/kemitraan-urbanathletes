@@ -51,18 +51,33 @@ class TurnstileController extends Controller
             $cekMember = CekMember::where('rfid_card_code', $request->rfid)
                                     ->where('cek_out', '=', 0)
                                     ->first();
-            
-            if (empty($cekMember)) {
+                                    
+            $cekMemberLast = CekMember::where('rfid_card_code', $request->rfid)
+                                    ->where('cek_out', '=', 1)
+                                    ->latest('id')
+                                    ->first();
+                                    
+            if (strtotime(date(now())) <= strtotime($cekMemberLast->updated_at) + 40 ) {
+                // Posisi Sudah scan OUT
+                $open = false; // <-- IKI
+            } else if (empty($cekMember)) {
                 CekMember::create([
                     'rfid_card_code' => $request->rfid,
                     'cek_in' => 1,
                     'cek_out' => 0
                 ]); 
-                $open = 'IN'; 
+                $open = 'IN'; // <-- IKI
+            } else if ($cekMember->cek_in == 1 && strtotime(date(now())) <= strtotime($cekMember->created_at) + 13 ) {
+                // Posisi Sudah scan IN
+                // dump(strtotime(date(now())) + 60);
+                // dump(strtotime("+60 Second"));
+                // dump(strtotime("+60 Second") - strtotime(date(now())));
+                // dd(strtotime($cekMember->created_at) + 60);
+                $open = false; // <-- IKI
             } else if ($cekMember->cek_in == 1) {
                 CekMember::where('rfid_card_code', $request->rfid)
                             ->update(['cek_out' => 1]);
-                $open = 'OUT';
+                $open = 'OUT'; // <-- IKI
             }
             
         }
