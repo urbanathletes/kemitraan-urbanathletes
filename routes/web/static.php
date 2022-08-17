@@ -9,8 +9,9 @@ Route::get('/index', function () { return view("index");});
 // });
 Route::get('workout', function () { return view("public/static/workout");});
 Route::get('trainer', function () { return view("public/static/trainer");});
-Route::get('timetable', function () { return view("public/static/timetable");});
-// Route::get('timetable', [ScheduleClassController::class, 'timetable']);
+// Route::get('timetable', function () { return view("public/static/timetable");});
+Route::get('timetable', [ScheduleClassController::class, 'timetable']);
+Route::get('timetable-select/{id}', [ScheduleClassController::class, 'timetableSelect']);
 Route::get('store', function () { return view("public/static/store");});
 Route::get('merchandise', function () { return view("public/static/merchandise");});
 Route::prefix('news')->group(function () {

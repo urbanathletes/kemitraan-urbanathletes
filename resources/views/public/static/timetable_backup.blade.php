@@ -63,20 +63,109 @@
                   <div class="m-2 h-10"></div>
                 </td>
               </tr>
-              <tr class="flex-nowrap ">
-                @foreach ($classes as $class)
-                  <td>
-                    <div class="py-2 bg-white m-1">
-                      <p class="bg-yellow-primary mx-1 rounded-sm">08.10 - 09.00 WIB</p>
-                    <img class="h-20 p-2 mx-auto" src="{{ $class['class']['thumbnail'] }}" alt="Class">
-                      <p>David | UAX Studio</p>
-                    </div>
-                  </td>
-                @endforeach
+              <tr>
+                <td>
+                  <div class="py-2 bg-white m-1">
+                    <p class="bg-yellow-primary mx-1 rounded-sm">08.10 - 09.00 WIB</p>
+                  <img class="h-20 p-2 mx-auto" src="{{ url('image/web/logo_kelas/BODYPUMPColour.png') }}" alt="Class">
+                    <p>David | UAX Studio</p>
+                  </div>
+                </td>
+                <td>
+                  <div class="py-2 bg-white m-1">
+                    <p class="bg-yellow-primary mx-1 rounded-sm">09.10 - 10.00 WIB</p>
+                    <img class="h-20 p-2 mx-auto" src="{{ url('image/web/logo_kelas/BODYCOMBATColour.png') }}" alt="Class">
+                    <p>Yudha | UAX Studio</p>
+                  </div>
+                </td>
+                <td>
+                  {{-- <div class="py-2 bg-white m-1">
+                    <p class="bg-yellow-primary mx-1 rounded-sm">08.10 - 09.00 WIB</p>
+                    <img class="h-20 p-2 mx-auto" src="{{ url('image/web/logo_kelas/Valor_TM.png') }}" alt="Class">
+                    <p>nama | Nama Studio</p>
+                  </div> --}}
+                </td>
+                <td>
+                  <div class="py-2 bg-white m-1">
+                    <p class="bg-yellow-primary mx-1 rounded-sm">09.10 - 10.00 WIB</p>
+                    <img class="h-20 p-2 mx-auto" src="{{ url('image/web/logo_kelas/BODYPUMPColour.png') }}" alt="Class">
+                    <p>Grace | UAX Studio</p>
+                  </div>
+                </td>
+                <td>
+                  <div class="py-2 bg-white m-1">
+                    <p class="bg-yellow-primary mx-1 rounded-sm">08.10 - 09.00 WIB</p>
+                    <img class="h-20 p-2 mx-auto" src="{{ url('image/web/logo_kelas/Trigerpoinblackt.png') }}" alt="Class">
+                    <p>Rory | SOUL Studio</p>
+                  </div>
+                </td>
+                <td>
+                  <div class="py-2 bg-white m-1">
+                    <p class="bg-yellow-primary mx-1 rounded-sm">08.10 - 09.00 WIB</p>
+                    <img class="h-20 p-2 mx-auto" src="{{ url('image/web/logo_kelas/TRX.png') }}" alt="Class">
+                    <p>Garry | SOUL Studio</p>
+                  </div>
+                </td>
+                <td>
+                  <div class="py-2 bg-white m-1">
+                    <p class="bg-yellow-primary mx-1 rounded-sm">08.10 - 09.00 WIB</p>
+                    <img class="h-20 p-2 mx-auto" src="{{ url('image/web/logo_kelas/VinyasaYoga.png') }}" alt="Class">
+                    <p>Sherly | SOUL Studio</p>
+                  </div>
+                </td>
               </tr>
-
-              
-              {{-- <tr class="py-5 mb-10 h-10">
+              <tr>
+                <td>
+                  <div class="py-2 bg-white m-1">
+                    <p class="bg-yellow-primary mx-1 rounded-sm">09.10 - 10.00 WIB</p>
+                    <img class="h-20 p-2 mx-auto" src="{{ url('image/web/logo_kelas/Valor_TM.png') }}" alt="Class">
+                    <p>Bagja | Valor Studio</p>
+                  </div>
+                </td>
+                <td>
+                  {{-- <div class="py-2 bg-white m-1">
+                    <p class="bg-yellow-primary mx-1 rounded-sm">09.10 - 10.00 WIB</p>
+                    <img class="h-20 p-2 mx-auto" src="{{ url('image/web/logo_kelas/Valor_TM.png') }}" alt="Class">
+                    <p>nama | Nama Studio</p>
+                  </div> --}}
+                </td>
+                <td>
+                  <div class="py-2 bg-white m-1">
+                    <p class="bg-yellow-primary mx-1 rounded-sm">09.10 - 10.00 WIB</p>
+                    <img class="h-20 p-2 mx-auto" src="{{ url('image/web/logo_kelas/MuayThai.png') }}" alt="Class">
+                    <p>Adi | UAX Studio</p>
+                  </div>
+                </td>
+                <td>
+                  <div class="py-2 bg-white m-1">
+                    <p class="bg-yellow-primary mx-1 rounded-sm">09.10 - 10.00 WIB</p>
+                    <img class="h-20 p-2 mx-auto" src="{{ url('image/web/logo_kelas/CIRCUIT.png') }}" alt="Class">
+                    <p>David | Circuit Studio</p>
+                  </div>
+                </td>
+                <td>
+                  <div class="py-2 bg-white m-1">
+                    <p class="bg-yellow-primary mx-1 rounded-sm">09.10 - 10.00 WIB</p>
+                    <img class="h-20 p-2 mx-auto" src="{{ url('image/web/logo_kelas/VinyasaYoga.png') }}" alt="Class">
+                    <p>Sherly | SOUL Studio</p>
+                  </div>
+                </td>>
+                <td>
+                  <div class="py-2 bg-white m-1">
+                    <p class="bg-yellow-primary mx-1 rounded-sm">08.10 - 09.00 WIB</p>
+                    <img class="h-20 p-2 mx-auto" src="{{ url('image/web/logo_kelas/CIRCUIT.png') }}" alt="Class">
+                    <p>Jonathan | Circuit Studio</p>
+                  </div>
+                </td>
+                <td>
+                  <div class="py-2 bg-white m-1">
+                    <p class="bg-yellow-primary mx-1 rounded-sm">09.10 - 10.00 WIB</p>
+                    <img class="h-20 p-2 mx-auto" src="{{ url('image/web/logo_kelas/logoUrbanPowerFix.png') }}" alt="Class">
+                    <p>Adri | UAX Studio</p>
+                  </div>
+                </td>
+              </tr>
+              <tr class="py-5 mb-10 h-10">
                 <td colspan="7" class="mx-1 border-b-2 border-yellow-primary relative">
                   <div class="m-1 absolute -bottom-6 right-0 left-0 flex justify-center"><p class="py-1 w-36 text-center text-white bg-black">EVENING</p></div>
                 </td>
@@ -123,11 +212,11 @@
                   </div>
                 </td>
                 <td>
-                  <div class="py-2 bg-white m-1">
+                  {{-- <div class="py-2 bg-white m-1">
                     <p class="bg-yellow-primary mx-1 rounded-sm">18.10 - 19.00 WIB</p>
                     <img class="h-20 p-2 mx-auto" src="{{ url('image/web/logo_kelas/Valor_TM.png') }}" alt="Class">
                     <p>nama | Nama Studio</p>
-                  </div>
+                  </div> --}}
                 </td>
                 <td>
                   <div class="py-2 bg-white m-1">
@@ -160,11 +249,11 @@
                   </div>
                 </td>
                 <td>
-                  <div class="py-2 bg-white m-1">
+                  {{-- <div class="py-2 bg-white m-1">
                     <p class="bg-yellow-primary mx-1 rounded-sm">19.30 - 21.00 WIB</p>
                     <img class="h-20 p-2 mx-auto" src="{{ url('image/web/logo_kelas/Valor_TM.png') }}" alt="Class">
                     <p>nama | Nama Studio</p>
-                  </div>
+                  </div> --}}
                 </td>
                 <td>
                   <div class="py-2 bg-white m-1">
@@ -187,7 +276,7 @@
                     <p>Anton | Valor Studio</p>
                   </div>
                 </td>
-              </tr> --}}
+              </tr>
             </tbody>
           </table>
         </div>

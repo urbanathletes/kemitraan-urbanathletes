@@ -698,9 +698,17 @@ video {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
 }
+.my-10 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
 .my-12 {
   margin-top: 3rem;
   margin-bottom: 3rem;
+}
+.my-5 {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
 }
 .ml-1 {
   margin-left: 0.25rem;
@@ -886,6 +894,9 @@ video {
 }
 .h-2 {
   height: 0.5rem;
+}
+.h-1 {
+  height: 0.25rem;
 }
 .max-h-full {
   max-height: 100%;
@@ -1091,6 +1102,27 @@ video {
 .max-w-\[300px\] {
   max-width: 300px;
 }
+.max-w-\[124px\] {
+  max-width: 124px;
+}
+.max-w-\[223px\] {
+  max-width: 223px;
+}
+.max-w-\[185px\] {
+  max-width: 185px;
+}
+.max-w-\[190px\] {
+  max-width: 190px;
+}
+.max-w-\[90px\] {
+  max-width: 90px;
+}
+.max-w-\[110px\] {
+  max-width: 110px;
+}
+.max-w-\[168px\] {
+  max-width: 168px;
+}
 .table-fixed {
   table-layout: fixed;
 }
@@ -1139,6 +1171,9 @@ video {
 }
 .grid-cols-4 {
   grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+.grid-cols-7 {
+  grid-template-columns: repeat(7, minmax(0, 1fr));
 }
 .grid-cols-5 {
   grid-template-columns: repeat(5, minmax(0, 1fr));
@@ -2094,6 +2129,10 @@ video {
 .text-stone-900 {
   --tw-text-opacity: 1;
   color: rgb(28 25 23 / var(--tw-text-opacity));
+}
+.text-red-700 {
+  --tw-text-opacity: 1;
+  color: rgb(185 28 28 / var(--tw-text-opacity));
 }
 .underline {
   -webkit-text-decoration-line: underline;
