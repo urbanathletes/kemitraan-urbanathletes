@@ -6,6 +6,7 @@ use App\Models\ApiModel;
 use App\Models\CekMember;
 use App\Models\DataMember;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 use Symfony\Component\HttpFoundation\Response;
 
 class TurnstileController extends Controller
@@ -17,7 +18,7 @@ class TurnstileController extends Controller
         $hasilCek = false;
         $open = false;
         $cekDataMember = [];
-        $cekMemberApi = [];
+        // $cekMemberApi = [];
         $saveData = '';
         // dd($cekMember1);
         $cekMemberApi = $apiModel->cekMember($request->rfid);
@@ -45,19 +46,18 @@ class TurnstileController extends Controller
 
             }
         } else {
-            // dd($cekMember1->membership_status_id);
-            if (date('Y-m-d', strtotime($cekMember1->updated_at)) != date('Y-m-d', strtotime(now()))) {
-                if (array_key_exists('member', $cekMemberApi)) {
-                    DataMember::where('rfid_card_code', $request->rfid)
-                        ->update([
-                            'email' => $cekMemberApi['member']['email'],
-                            'branch_id' => $cekMemberApi['member']['branch_id'],
-                            'id_card' => $cekMemberApi['member']['id_card'],
-                            'membership_status_id' => $cekMemberApi['member']['membership_status_id'],
-                        ]);
-                }
+            // if (date('Y-m-d', strtotime($cekMember1->updated_at)) != date('Y-m-d', strtotime(now()))) {
+            // }
+            if ($cekMemberApi['member']['membership_status_id'] != $cekMember1->membership_status_id) {
+                DataMember::where('rfid_card_code', $request->rfid)
+                    ->update([
+                        'email' => $cekMemberApi['member']['email'],
+                        'branch_id' => $cekMemberApi['member']['branch_id'],
+                        'id_card' => $cekMemberApi['member']['id_card'],
+                        'membership_status_id' => $cekMemberApi['member']['membership_status_id'],
+                    ]);
             }
-
+            $cekMember1 = DataMember::where('rfid_card_code', $request->rfid)->first();
             if ($cekMember1->membership_status_id == 1) {
                 $hasilCek = true;
             } else {
@@ -91,10 +91,6 @@ class TurnstileController extends Controller
                 $open = 'IN'; // <-- IKI
             } else if ($cekMember->cek_in == 1 && strtotime(date(now())) <= strtotime($cekMember->created_at) + 13 ) {
                 // Posisi Sudah scan IN
-                // dump(strtotime(date(now())) + 60);
-                // dump(strtotime("+60 Second"));
-                // dump(strtotime("+60 Second") - strtotime(date(now())));
-                // dd(strtotime($cekMember->created_at) + 60);
                 $open = false; // <-- IKI
             } else if ($cekMember->cek_in == 1) {
                 CekMember::where('rfid_card_code', $request->rfid)
@@ -113,4 +109,9 @@ class TurnstileController extends Controller
 
         return response()->json($resTurntile, Response::HTTP_OK);
     }
+
+    // public function getTurnstileDelete()
+    // {
+    //     DB::table('cek_members')->truncate();
+    // }
 }
