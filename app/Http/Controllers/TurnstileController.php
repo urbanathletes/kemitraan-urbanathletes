@@ -12,38 +12,60 @@ class TurnstileController extends Controller
 {
     public function getTurnstile(Request $request)
     {
+        $apiModel = new ApiModel();
         $cekMember1 = DataMember::where('rfid_card_code', $request->rfid)->first();
         $hasilCek = false;
         $open = false;
         $cekDataMember = [];
         $cekMemberApi = [];
         $saveData = '';
+        // dd($cekMember1);
+        $cekMemberApi = $apiModel->cekMember($request->rfid);
         if (!$cekMember1) {
-            $apiModel = new ApiModel();
-            $cekMemberApi = $apiModel->cekMember($request->rfid);
-//             return $cekMemberApi;
-            if (array_key_exists('member', $cekMemberApi)) {
+            // return $cekMemberApi;
+            // if (array_key_exists('member', $cekMemberApi)) {
+            if ($cekMemberApi) {
                 try {
                     $saveData = DataMember::create([
                         'member_id' => $cekMemberApi['member']['id'],
-                        'rfid_card_code' => $cekMemberApi['member']['rfid_card_code'],
                         'rfid_card_code' => $cekMemberApi['member']['rfid_card_code'],
                         'email' => $cekMemberApi['member']['email'],
                         'branch_id' => $cekMemberApi['member']['branch_id'],
                         'id_card' => $cekMemberApi['member']['id_card'],
                         'membership_status_id' => $cekMemberApi['member']['membership_status_id'],
                     ]);
-                    $cekDataMember = $cekMemberApi['member'];
-                    $hasilCek = true;
+                    if ($saveData->membership_status_id == 1) {
+                        $hasilCek = true;
+                    } else {
+                        $hasilCek = false;
+                    }
                 } catch (\Throwable $th) {
                     $saveData = throw $th;
                 }
 
             }
         } else {
-            $hasilCek = true;
-            $cekDataMember = $cekMember1;
-            $saveData = 'Data Allready Local';
+            // dd($cekMember1->membership_status_id);
+            if (date('Y-m-d', strtotime($cekMember1->updated_at)) != date('Y-m-d', strtotime(now()))) {
+                if (array_key_exists('member', $cekMemberApi)) {
+                    DataMember::where('rfid_card_code', $request->rfid)
+                        ->update([
+                            'email' => $cekMemberApi['member']['email'],
+                            'branch_id' => $cekMemberApi['member']['branch_id'],
+                            'id_card' => $cekMemberApi['member']['id_card'],
+                            'membership_status_id' => $cekMemberApi['member']['membership_status_id'],
+                        ]);
+                }
+            }
+
+            if ($cekMember1->membership_status_id == 1) {
+                $hasilCek = true;
+            } else {
+                $hasilCek = false;
+            }
+            // $hasilCek = true;
+            // $cekDataMember = $cekMember1;
+            // $saveData = 'Data Allready Local';
             
         }
 
