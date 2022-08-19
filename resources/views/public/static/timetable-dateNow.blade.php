@@ -41,9 +41,9 @@
       <div class="grid grid-cols-7">
         @foreach ($classes as $class)
           @if($class['studio_id'] != 3 && $class['classes_time']['time_start'] > '13:00:00')
-            <div class="py-2 bg-white m-1">
+            <div class="py-2 bg-white m-1 max-w-[168px]">
               <p class="bg-yellow-primary mx-1 rounded-sm">{{ $class['classes_time']['time_start'] . ' - ' . $class['classes_time']['time_end'] }} WIB</p>
-            <img class="h-20 p-2 mx-auto" src="{{ $class['class']['thumbnail'] }}" alt="Class">
+              <img class="h-20 p-2 mx-auto" src="{{ $class['class']['thumbnail'] }}" alt="Class">
               <p>{{ $class['coach']['name'] }} | {{ $class['studio']['name'] }}</p>
               <p>{{ $class['branch']['name'] }}</p>
             </div>

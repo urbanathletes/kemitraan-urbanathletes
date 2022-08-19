@@ -42,7 +42,7 @@
       
       <div class="relative min-h-screen pb-24">
         <div class="px-4 md:px-0 flex flex-nowrap overflow-visible overflow-x-auto no-scrollbar text-black font-AmpleSoft font-bold">
-          <table class="table-fixed text-center" id="table-body">
+          <table class="table-fixed min-w-max mx-auto text-center" id="table-body">
             <div class="absolute top-0 bottom-0 left-0 right-0 text-white bg-neutral-900 bg-opacity-80
               flex justify-center items-start py-8
             " id='loadingDiv'>
