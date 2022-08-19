@@ -6,7 +6,7 @@ clubsSelect.addEventListener('change', () => {
   loadingDiv.classList.remove('hidden');
   xhr.onload = function() {
     loadingDiv.classList.add('hidden');
-    console.log('ready');
+    // console.log('ready');
     tableBody.innerHTML = xhr.responseText;
   }
   xhr.open("GET", clubsSelect.getAttribute('data-url') + '/' + clubsSelect.value, true);
@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
   loadingDiv.classList.remove('hidden');
   xhr.onload = function() {
     loadingDiv.classList.add('hidden');
-    console.log('ready');
+    // console.log('ready');
     tableBody.innerHTML = xhr.responseText;
   }
   xhr.open("GET", clubsSelect.getAttribute('data-url') + '/' + clubsSelect.value, true);
