@@ -27,12 +27,20 @@ class ApiModel extends Model
         return $schedule;
     }
 
-    public function cekMember($rfid)
+    public function cekMember($req, $metot = 'get')
     {
-        // $data = ['rfid_card_code' => $rfid];
-        // $memberCek = Http::post( config('app.url_api') . 'fitness/v1/scanning/gym_attendance', $data)->json();
+        // dd($req);
+        if ($metot == 'post') {
+            $data = [
+                'rfid_card_code' => $req->rfid,
+                'branch_id' => $req->branch_id
+            ];
+            $memberCek = Http::post( config('app.url_api') . 'fitness/v1/scanning/gym_attendance', $data)->json();
+        } else {
+            $memberCek = Http::get( config('app.url_api') . 'fitness/v1/scanning/member_schedule/' . $req->rfid)->json();
+        }
+        // dump($memberCek);
         
-        $memberCek = Http::get( config('app.url_api') . 'fitness/v1/scanning/member_schedule/' . $rfid)->json();
         return $memberCek;
     }
 
