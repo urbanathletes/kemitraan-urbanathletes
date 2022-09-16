@@ -21,3 +21,5 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('turnstile', [TurnstileController::class, 'getTurnstile']);
 Route::post('turnstile', [TurnstileController::class, 'getTurnstile']);
+Route::get('v1/turnstile', [TurnstileController::class, 'turnstile']);
+Route::post('v1/turnstile', [TurnstileController::class, 'turnstile']);

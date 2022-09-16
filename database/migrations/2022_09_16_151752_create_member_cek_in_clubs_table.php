@@ -13,11 +13,10 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('cek_members', function (Blueprint $table) {
+        Schema::create('member_cek_in_clubs', function (Blueprint $table) {
             $table->id();
             $table->string('rfid_card_code');
-            $table->integer('cek_in');
-            $table->integer('cek_out');
+            $table->integer('cek_in_club');
             $table->timestamps();
         });
     }
@@ -29,6 +28,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('cek_members');
+        Schema::dropIfExists('member_cek_in_clubs');
     }
 };
