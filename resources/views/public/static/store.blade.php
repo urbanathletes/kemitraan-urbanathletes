@@ -45,7 +45,7 @@
           <p class="py-6 text-2xl">Rp 2.736.000</p>
           <button class="my-2 py-2 px-4 border border-white text-white
             hover:bg-yellow-primary hover:border-yellow-primary hover:text-black
-            transition-all duration-300
+            transition-all duration-300 hidden
           ">BOOK NOW</button>
         </div>
         <div class="bg-black-ua max-w-max text-center text-yellow-primary font-FuturaBold text-sm px-6 pt-4 pb-8 min-w-max">
@@ -63,7 +63,7 @@
           <p class="py-6 text-2xl">Rp 5.483.000</p>
           <button class="my-2 py-2 px-4 border border-white text-white
             hover:bg-yellow-primary hover:border-yellow-primary hover:text-black
-            transition-all duration-300
+            transition-all duration-300 hidden
           ">BOOK NOW</button>
         </div>
         <div class="bg-black-ua max-w-max text-center text-yellow-primary font-FuturaBold text-sm px-6 pt-4 pb-8 min-w-max">
@@ -81,7 +81,7 @@
           <p class="py-6 text-2xl">Rp 9.504.000</p>
           <button class="my-2 py-2 px-4 border border-white text-white
             hover:bg-yellow-primary hover:border-yellow-primary hover:text-black
-            transition-all duration-300
+            transition-all duration-300 hidden
           ">BOOK NOW</button>
         </div>
       </div>
@@ -125,7 +125,7 @@
           </div>
           <button class="my-2 py-2 px-4 border border-white text-white
             hover:bg-yellow-primary hover:border-yellow-primary hover:text-black
-            transition-all duration-300
+            transition-all duration-300 hidden
           ">BOOK NOW</button>
         </div>
         <div class="bg-black max-w-max text-center text-yellow-primary font-FuturaBold text-sm px-12 pt-4 pb-8 min-w-[276px]">
@@ -148,7 +148,7 @@
           </div>
           <button class="my-2 py-2 px-4 border border-white text-white
             hover:bg-yellow-primary hover:border-yellow-primary hover:text-black
-            transition-all duration-300
+            transition-all duration-300 hidden
           ">BOOK NOW</button>
         </div>
         <div class="bg-black max-w-max text-center text-yellow-primary font-FuturaBold text-sm px-12 pt-4 pb-8 min-w-[276px]">
@@ -171,7 +171,7 @@
           </div>
           <button class="my-2 py-2 px-4 border border-white text-white
             hover:bg-yellow-primary hover:border-yellow-primary hover:text-black
-            transition-all duration-300
+            transition-all duration-300 hidden
           ">BOOK NOW</button>
         </div>
       </div>
@@ -213,7 +213,7 @@
           </div>
           <button class="my-2 py-2 px-4 border border-white text-white
             hover:bg-yellow-primary hover:border-yellow-primary hover:text-black
-            transition-all duration-300
+            transition-all duration-300 hidden
           ">BOOK NOW</button>
         </div>
         <div class="bg-[#30A2BA] max-w-max text-center text-yellow-primary font-FuturaBold text-sm px-12 pt-4 pb-8 min-w-[276px]">
@@ -234,7 +234,7 @@
           </div>
           <button class="my-2 py-2 px-4 border border-white text-white
             hover:bg-yellow-primary hover:border-yellow-primary hover:text-black
-            transition-all duration-300
+            transition-all duration-300 hidden
           ">BOOK NOW</button>
         </div>
         <div class="bg-[#30A2BA] max-w-max text-center text-yellow-primary font-FuturaBold text-sm px-12 pt-4 pb-8 min-w-[276px]">
@@ -255,7 +255,7 @@
           </div>
           <button class="my-2 py-2 px-4 border border-white text-white
             hover:bg-yellow-primary hover:border-yellow-primary hover:text-black
-            transition-all duration-300
+            transition-all duration-300 hidden
           ">BOOK NOW</button>
         </div>
       </div>
