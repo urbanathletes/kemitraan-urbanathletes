@@ -86,7 +86,7 @@
         </div>
         <div class="space-y-2 px-4 py-2 lg:pl-8">
           <h3 class="font-FuturaBold text-xl mb-4">NEWS UPDATE</h3>
-          <p>Sign Up For Our Mailing List To Get Latest Updates And Offers</p>
+          <p>Sign Up For Our Mailing List To Get <br>Latest Updates And Offers</p>
           <form class="py-2" action="" method="get">
             <div class="bg-yellow-primary p-1 w-max">
               <input type="email" name="email" id="email" placeholder="Your Email" class="w-60 py-1 px-2">

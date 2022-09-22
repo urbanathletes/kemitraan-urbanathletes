@@ -16,13 +16,12 @@
     </div>
 
     <div class="grid grid-cols-1 sm:flex sm:justify-start my-4">
-      <div class="my-4 grid grid-cols-2 items-center font-FuturaBold sm:block sm:items-start sm:min-w-max">
+      {{-- <div class="my-4 grid grid-cols-2 items-center font-FuturaBold sm:block sm:items-start sm:min-w-max">
         <div class="text-2xl font-FuturaBold">
           <h2>SHOP BY</h2>
           <h2>CATEGORIES</h2>
         </div>
         <div class="">
-          {{-- <div class="flex flex-row justify-center items-center text-sm w-full"> --}}
           <div class="flex flex-col items-start ml-4 sm:ml-0 sm:my-4 text-sm w-full">
             <ul class="w-full">
               <li class="py-2 sm:border-b sm:border-neutral-500"><button class="menu-active-web"><i class="fa-solid fa-right-long"></i> ALL PRODUCT</button></li>
@@ -31,7 +30,7 @@
             </ul>
           </div>
         </div>
-      </div>
+      </div> --}}
 
       <div class="my-4 flex flex-wrap justify-center">
         <div class="w-[200px] m-4 overflow-hidden shadow-lg">

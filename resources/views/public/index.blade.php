@@ -162,7 +162,7 @@
                 group-hover:bg-yellow-primary group-hover:text-black transition-all duration-300
               ">
                 <span class="text-5xl">08</span>
-                <p>Circuit</p>
+                <p>CIRCUIT</p>
               </div>
               <div class="w-72 h-72 flex justify-center overflow-hidden">
                 <img class="w-full object-cover object-center mx-auto group-hover:scale-110 transition-all duration-300" src="{{ url('image/web/home/8Circuit.jpg') }}" alt="Exclusive Urban Athletes">
@@ -170,13 +170,13 @@
             </div>
             <div class="cursor-pointer min-w-max group">
               <div class="w-72 h-72 flex justify-center overflow-hidden">
-                <img class="w-full object-cover object-bottom mx-auto group-hover:scale-110 transition-all duration-300" src="{{ url('image/web/home/9KidsGym.jpg') }}" alt="Exclusive Urban Athletes">
+                <img class="w-full object-cover object-bottom mx-auto group-hover:scale-110 transition-all duration-300" src="{{ url('image/web/home/11Zumba.jpg') }}" alt="Exclusive Urban Athletes">
               </div>
               <div class="font-FuturaBold p-2 text-2xl
                 group-hover:bg-yellow-primary group-hover:text-black transition-all duration-300
               ">
                 <span class="text-5xl">09</span>
-                <p class="uppercase">Kids Gym</p>
+                <p class="uppercase">ZUMBA</p>
               </div>
             </div>
             <div class="cursor-pointer min-w-max group">
@@ -192,13 +192,13 @@
             </div>
             <div class="cursor-pointer min-w-max group">
               <div class="w-72 h-72 flex justify-center overflow-hidden">
-                <img class="w-full object-cover object-bottom mx-auto group-hover:scale-110 transition-all duration-300" src="{{ url('image/web/home/11Zumba.jpg') }}" alt="Exclusive Urban Athletes">
+                <img class="w-full object-cover object-bottom mx-auto group-hover:scale-110 transition-all duration-300" src="{{ url('image/web/home/9KidsGym.jpg') }}" alt="Exclusive Urban Athletes">
               </div>
               <div class="font-FuturaBold p-2 text-2xl
                 group-hover:bg-yellow-primary group-hover:text-black transition-all duration-300
               ">
                 <span class="text-5xl">11</span>
-                <p class="uppercase">ZUMBA</p>
+                <p class="uppercase">Kids Gym</p>
               </div>
             </div>
             <div class="px-4 md:px-8"></div>
@@ -214,7 +214,7 @@
     </div>
   </div>
 
-  <div class="py-4">
+  <div class="py-8">
     <div class="flex flex-nowrap overflow-visible overflow-x-auto no-scrollbar xl:justify-between lg:space-x-20 lg:px-36">
 
       <div class="flex justify-center min-w-full md:min-w-full xl:min-w-max">
@@ -227,11 +227,11 @@
               </div>
             </div>
           </div>
-          <div class="grid content-center md:w-max px-4 md:pr-0 md:pl-16">
-            <p class="text-yellow-primary">SUCCESS STORY</p>
+          <div class="grid content-center md:w-max px-4 my-4 md:pr-0 md:pl-16">
+            <p class="font-black">SUCCESS STORY</p>
             <h2 class="font-FuturaBold text-xl mb-8">WHAT OUR CLIENT SAY</h2>
             <P class="text-center">“Setelah mengambil program Personal Trainer saya meraskaan perubahan yaitu badan lebih fit, ringan, tidak mudah capek, makan lebih teratur sampai-2 saya harus cek berapa kalori yang saya makan. Berat badan pasti turun karna latihan yang cukup keras dan rutin, karna latihan dengan Personal Trainer kita akan merasakan capek dan hasil 2x lipat.”</P>
-            <p class="text-center py-4"><span class="text-yellow-primary">NATALIA ARISHANDY</span> - Surabaya</p>
+            <p class="text-center py-4 font-black"><span>Natalia Arishandi</span> - Surabaya</p>
           </div>
         </div>
       </div>
@@ -245,11 +245,11 @@
               </div>
             </div>
           </div>
-          <div class="grid content-center md:w-max px-4 md:pr-0 md:pl-16">
-            <p class="text-yellow-primary">SUCCESS STORY</p>
+          <div class="grid content-center md:w-max px-4 my-4 md:pr-0 md:pl-16">
+            <p class="font-black">SUCCESS STORY</p>
             <h2 class="font-FuturaBold text-xl mb-8">WHAT OUR CLIENT SAY</h2>
-            <P class="text-center">“Sebelum mengambil program fitness, berbagai macam metode diet telah saya lakukan untuk menurunkan berat badan dan tidak ada yang berhasil mencapai berat badan yang diinginkan. Saat ambil program fitness, saya mendapatkan 2x free dengan Personal Trainer dengan Ma Fuazi. Akhirnya saya memutuskan lanjut mengambil program Personal Trainer karna saya cocok dengan gaya dan metode cara mengajarkanya. Progress yang saya jalani kurang lebih selama 7 bulan dengan hasil yang sangat memuaskan. Selain turun berat badan sebanyak 13kg sya juga mendapatkan body goals badan atletis menjadi kenyataan. Thanks to Urban Athletes dan Coach Fauzi.”</P>
-            <p class="text-center py-4"><span class="text-yellow-primary">BENNY</span> - Surabaya</p>
+            <P class="text-center">“Sebelum mengambil program fitness, berbagai macam metode diet telah saya lakukan untuk menurunkan berat badan dan tidak ada yang berhasil mencapai berat badan yang diinginkan. Saat ambil program fitness, saya mendapatkan 2x free dengan Personal Trainer dengan Ma Fuazi. Akhirnya saya memutuskan lanjut mengambil program Personal Trainer karna saya cocok dengan gaya dan ....”</P>
+            <p class="text-center py-4 font-black"><span>Benny</span> - Surabaya</p>
           </div>
         </div>
       </div>
@@ -281,7 +281,7 @@
     </div>
   </div> --}}
 
-  <div class="container text-center py-8">
+  <div class="container text-center pb-8">
     <h2 class="font-FuturaBold text-4xl">ARTICLE UPDATE</h2>
     <p>Eksplor hal-hal baru mengenai kesehatan dan kebugaran.</p>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4 overflow-hidden py-4">
@@ -292,8 +292,8 @@
             <p class="text-yellow-primary">Article</p>
           </div>
           <div class="absolute bottom-0 top-0 right-0 left-0 text-left bg-gradient-to-t from-black bg-opacity-90">
-            <div class="h-fit px-4 pb-6 absolute bottom-0 right-0 left-0">
-              <p class="font-PoppinsSemiBold text-lg text-white">Berganti Nama, Urban Athletes Targetkan Buka Lima Cabang di Surabaya</p>
+            <div class="h-fit px-4 pb-6 absolute bottom-0 right-0 left-0 max-w-lg">
+              <p class="font-PoppinsSemiBold text-xl text-white">Berganti Nama, Urban Athletes Targetkan Buka Lima Cabang di Surabaya</p>
               <p class="text-yellow-primary text-sm">suarakawan.com</p>
             </div>
           </div>
@@ -307,8 +307,8 @@
               <p class="text-yellow-primary">Article</p>
             </div>
             <div class="absolute bottom-0 top-0 right-0 left-0 text-left bg-gradient-to-t from-black bg-opacity-90">
-              <div class="h-fit px-4 pb-6 absolute bottom-0 right-0 left-0">
-                <p class="font-PoppinsSemiBold text-lg text-white">Verawaty Budiyanto, Pendiri Urban Athletes: Membuat Orang Ketagihan Hidup Sehat</p>
+              <div class="h-fit px-4 pb-6 absolute bottom-0 right-0 left-0 max-w-lg">
+                <p class="font-PoppinsSemiBold text-xl text-white">Verawaty Budiyanto, Pendiri Urban Athletes: Membuat Orang Ketagihan Hidup Sehat</p>
                 <p class="text-yellow-primary text-sm">Menorandum.id</p>
               </div>
             </div>
@@ -321,8 +321,8 @@
               <p class="text-yellow-primary">Article</p>
             </div>
             <div class="absolute bottom-0 top-0 right-0 left-0 text-left bg-gradient-to-t from-black bg-opacity-90">
-              <div class="h-fit px-4 pb-6 absolute bottom-0 right-0 left-0">
-                <p class="font-PoppinsSemiBold text-lg text-white">Urban Athletes Akan Buka 5 Cabang Lagi Tahun Depan</p>
+              <div class="h-fit px-4 pb-6 absolute bottom-0 right-0 left-0 max-w-lg">
+                <p class="font-PoppinsSemiBold text-xl text-white">Urban Athletes Akan Buka 5 Cabang Lagi Tahun Depan</p>
                 <p class="text-yellow-primary text-sm">beritajatim.com</p>
               </div>
             </div>
@@ -332,16 +332,17 @@
     </div>
   </div>
 
-  <div class="container px-8">
-    <div class="bg-[url('/image/web/home/BackgroundUAAcademy.png')] bg-cover bg-center grid grid-cols-1 md:grid-cols-3 md:gap-8 place-items-center p-4">
-      <div class="pb-8 md:pb-0 h-32 flex justify-center items-center rounded-md overflow-hidden">
-        <img class="w-full aspect-video object-cover object-top" src="{{ url('image/web/UaAcademy.jpg') }}" alt="Urban Athletes">
+  <div class="container px-4">
+    <div class="bg-[url('/image/web/home/BackgroundUAAcademy.png')] bg-cover bg-center grid grid-cols-1 md:grid-cols-3 md:gap-8 place-items-center px-4 py-8 relative">
+      <div class="absolute top-0 bottom-0 left-0 right-0 bg-black/80"></div>
+      <div class="pb-8 md:pb-0 max-h-max xl:h-44 flex justify-center items-center rounded-md overflow-hidden z-10">
+        <img class="w-full h-full aspect-video object-cover object-top" src="{{ url('image/web/UaAcademy.jpg') }}" alt="Urban Athletes">
       </div>
-      <div class="col-span-2 px-4 flex items-center">
+      <div class="col-span-2 px-4 py-4 flex items-center z-10">
         <div class="flex flex-col space-y-4">
           <h2 class="text-white font-FuturaBold">JOIN URBAN ATHLETES ACADEMY,<br> DAPATAKAN BANYAK KEMUDAHAN DAN BENEFIT SEGERA!!</h2>
           <span class="my-2">
-            <a class="bg-yellow-500 py-1 px-4 font-PoppinsSemiBold drop-shadow-md shadow-black" href="https://api.whatsapp.com/send?phone=628179188880&text=*3%20DAY%20TRIAL*%0AHi!%0AThank%20you%20for%20your%20interest%20in%20Urban%20Athletes%0APlease%20leave%20your%20contact%20details%20below%20and%20we%20will%20be%20in%20touch%20shortly%3A%0A%0A%E2%96%ABFull%20Name%3A%0A%E2%96%ABE-mail%3A%0A%E2%96%ABLocation%20of%203%20Day%20Trial%3A%20(Gunawangsa%20Merr%2F%20Marvell%20City%2F%20Gunawangsa%20Tidar%2FLenmarc)">GET FREE TRIAL</a>
+            {{-- <a class="bg-yellow-500 py-1 px-4 font-PoppinsSemiBold drop-shadow-md shadow-black" href="https://api.whatsapp.com/send?phone=628179188880&text=*3%20DAY%20TRIAL*%0AHi!%0AThank%20you%20for%20your%20interest%20in%20Urban%20Athletes%0APlease%20leave%20your%20contact%20details%20below%20and%20we%20will%20be%20in%20touch%20shortly%3A%0A%0A%E2%96%ABFull%20Name%3A%0A%E2%96%ABE-mail%3A%0A%E2%96%ABLocation%20of%203%20Day%20Trial%3A%20(Gunawangsa%20Merr%2F%20Marvell%20City%2F%20Gunawangsa%20Tidar%2FLenmarc)">GET FREE TRIAL</a> --}}
           </span>
         </div>
       </div>

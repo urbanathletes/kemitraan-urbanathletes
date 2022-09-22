@@ -37,6 +37,18 @@
             @endforeach
           </select>
         </label>
+        <label class="block mx-4 py-2 md:w-96 md:mr-auto">
+          <select name="clubs-select" id="clubs-select" data-url="{{ url('timetable-select') }}"
+            class="p-2 block w-full border border-gray-200 bg-neutral-700 outline-none focus:ring-0 focus:border-black
+          ">
+            <option value="NULL">Select Our Studio</option>
+            <option value="1">Circuit Studio</option>
+            <option value="2">Valor Area</option>
+            <option value="3">Soul Studio</option>
+            <option value="4">UAX Studio</option>
+            <option value="5">Studio Online</option>
+          </select>
+        </label>
       </div>
 
       

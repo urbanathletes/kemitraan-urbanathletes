@@ -132,10 +132,10 @@
               py-3 px-4 border-b-[1px] border-gray-600 hover:text-yellow-primary
               xl:px-4 lg:py-2 lg:px-2 lg:border-y-0 lg:border-t-0 lg:hover:border-b-2 lg:hover:border-white
             " id="menu" data-menu="{{$menu ?? ''}}"><a href="{{ url('/store') }}"><span>STORE</span></a></li>
-            <li class="
+            {{-- <li class="
               py-3 px-4 border-b-[1px] border-gray-600 hover:text-yellow-primary
               xl:px-4 lg:py-2 lg:px-2 lg:border-y-0 lg:border-t-0 lg:hover:border-b-2 lg:hover:border-white
-            " id="menu" data-menu="{{$menu ?? ''}}"><a href="{{ url('/login') }}"><span>LOGIN</span></a></li>
+            " id="menu" data-menu="{{$menu ?? ''}}"><a href="{{ url('/login') }}"><span>LOGIN</span></a></li> --}}
           
             {{-- <li class="
               border-b-[1px] border-gray-600 hover:text-yellow-primary

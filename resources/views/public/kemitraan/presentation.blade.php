@@ -109,14 +109,14 @@
       </div>
       <div class="my-6 lg:my-0">
         <h3 class="font-FuturaBold text-xl border-l-8 border-yellow-primary px-4">PREVIEW</h3>
-        <div class="hidden" data-preview="ua" id="preview">
+        <div class="" data-preview="ua" id="preview">
           <div class="max-w-2xl bg-blue-300 mx-auto my-4">
-            <iframe src="https://drive.google.com/file/d/1Mlyqpl7y_JKxI1JQEFSHZGgSEP9fh9wv/preview" width="100%" height="540" allow="autoplay"></iframe>
+            <iframe src="https://drive.google.com/file/d/1Mlyqpl7y_JKxI1JQEFSHZGgSEP9fh9wv/preview" width="100%" height="430" allow="autoplay"></iframe>
           </div>
         </div>
         <div class="hidden" data-preview="fw" id="preview">
           <div class="max-w-2xl bg-blue-300 mx-auto my-4">
-            <iframe src="https://drive.google.com/file/d/1RlsRsmaMo0YEmFHyL0BRdojGTlRKpiFw/preview" width="100%" height="540" allow="autoplay"></iframe>
+            <iframe src="https://drive.google.com/file/d/1RlsRsmaMo0YEmFHyL0BRdojGTlRKpiFw/preview" width="100%" height="430" allow="autoplay"></iframe>
           </div>
         </div>
       </div>

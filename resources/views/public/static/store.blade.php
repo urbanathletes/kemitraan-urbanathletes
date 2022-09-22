@@ -111,11 +111,11 @@
             <div class="text-xs">Rp</div>
             <div><p class="text-6xl">1</p></div>
             <div class="mt-2">
-              <p>.633.900</p>
-              <p class="text-yellow-primary">3 MONTHS</p>
+              <p class="text-xl">.633.900</p>
+              <p class="text-yellow-primary text-xl">3 MONTHS</p>
             </div>
           </div>
-          <div class="my-4 py-4 text-xs">
+          <div class="my-4 py-4">
             <P class="border-b border-neutral-700 py-1 mt-2">Single Club Membership</P>
             <p class="border-b border-neutral-700 py-1 mt-2">2 Fit-Test sessions</p>
             <P class="border-b border-neutral-700 py-1 mt-2">1 sessi Valor Class</P>
@@ -134,11 +134,11 @@
             <div class="text-xs">Rp</div>
             <div><p class="text-6xl">2</p></div>
             <div class="mt-2">
-              <p>.978.000</p>
-              <p class="text-yellow-primary">6 MONTHS</p>
+              <p class="text-xl">.978.000</p>
+              <p class="text-yellow-primary text-xl">6 MONTHS</p>
             </div>
           </div>
-          <div class="my-4 py-4 text-xs">
+          <div class="my-4 py-4">
             <P class="border-b border-neutral-700 py-1 mt-2">Single Club Membership</P>
             <p class="border-b border-neutral-700 py-1 mt-2">2 Fit-Test sessions</p>
             <P class="border-b border-neutral-700 py-1 mt-2">1 sessi Valor Class</P>
@@ -157,11 +157,11 @@
             <div class="text-xs">Rp</div>
             <div><p class="text-6xl">5</p></div>
             <div class="mt-2">
-              <p>.064.000</p>
-              <p class="text-yellow-primary">12 MONTHS</p>
+              <p class="text-xl">.064.000</p>
+              <p class="text-yellow-primary text-xl">12 MONTHS</p>
             </div>
           </div>
-          <div class="my-4 py-4 text-xs">
+          <div class="my-4 py-4">
             <P class="border-b border-neutral-700 py-1 mt-2">Single Club Membership</P>
             <p class="border-b border-neutral-700 py-1 mt-2">2 Fit-Test sessions</p>
             <P class="border-b border-neutral-700 py-1 mt-2">1 sessi Valor Class</P>
@@ -201,11 +201,11 @@
             <div class="text-xs">Rp</div>
             <div><p class="text-6xl">2</p></div>
             <div class="mt-2">
-              <p>.832.300</p>
-              <p class="text-yellow-primary">3 MONTHS</p>
+              <p class="text-xl">.832.300</p>
+              <p class="text-yellow-primary text-xl">3 MONTHS</p>
             </div>
           </div>
-          <div class="my-4 py-4 text-xs">
+          <div class="my-4 py-4">
             <P class="border-b border-yellow-primary py-1 mt-2">Single Club Kids Membership</P>
             <p class="border-b border-yellow-primary py-1 mt-2">Get Gym Bag</p>
             <P class="border-b border-yellow-primary py-1 mt-2">Free Access All Class</P>
@@ -222,11 +222,11 @@
             <div class="text-xs">Rp</div>
             <div><p class="text-6xl">5</p></div>
             <div class="mt-2">
-              <p>.677.200</p>
-              <p class="text-yellow-primary">6 MONTHS</p>
+              <p class="text-xl">.677.200</p>
+              <p class="text-yellow-primary text-xl">6 MONTHS</p>
             </div>
           </div>
-          <div class="my-4 py-4 text-xs">
+          <div class="my-4 py-4">
             <P class="border-b border-yellow-primary py-1 mt-2">Single Club Kids Membership</P>
             <p class="border-b border-yellow-primary py-1 mt-2">Get Gym Bag</p>
             <P class="border-b border-yellow-primary py-1 mt-2">Free Access All Class</P>
@@ -243,11 +243,11 @@
             <div class="text-xs">Rp</div>
             <div><p class="text-6xl">9</p></div>
             <div class="mt-2">
-              <p>.868.800</p>
-              <p class="text-yellow-primary">12 MONTHS</p>
+              <p class="text-xl">.868.800</p>
+              <p class="text-yellow-primary text-xl">12 MONTHS</p>
             </div>
           </div>
-          <div class="my-4 py-4 text-xs">
+          <div class="my-4 py-4">
             <P class="border-b border-yellow-primary py-1 mt-2">Single Club Kids Membership</P>
             <p class="border-b border-yellow-primary py-1 mt-2">Get Gym Bag</p>
             <P class="border-b border-yellow-primary py-1 mt-2">Free Access All Class</P>
@@ -280,37 +280,37 @@
     <div class="container grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 font-FuturaBold text-xl text-center">
       <div class="relative group overflow-hidden">
         <img class="object-cover object-center h-full w-full aspect-auto group-hover:scale-110 transition-all duration-300" src="{{ url('image/web/Online_Class/Strech_Felxibility.jpg') }}" alt="Online Class Urban Athletes">
-        <div class="absolute top-0 bottom-0 left-0 right-0 px-4 flex justify-center items-center group-hover:text-black transition-all duration-300">
+        <div class="absolute top-0 bottom-0 left-0 right-0 px-4 flex justify-center items-center opacity-0 group-hover:opacity-100 group-hover:text-white group-hover:bg-black/80 transition-all duration-300">
           <p>STRETCH & FLEXIBILITY</p>
         </div>
       </div>
       <div class="relative group overflow-hidden">
         <img class="object-cover object-center h-full w-full aspect-auto group-hover:scale-110 transition-all duration-300" src="{{ url('image/web/Online_Class/HathaYoga.jpg') }}" alt="Online Class Urban Athletes">
-        <div class="absolute top-0 bottom-0 left-0 right-0 px-4 flex justify-center items-center group-hover:text-black transition-all duration-300">
+        <div class="absolute top-0 bottom-0 left-0 right-0 px-4 flex justify-center items-center opacity-0 group-hover:opacity-100 group-hover:text-white group-hover:bg-black/80 transition-all duration-300">
           <p>HATHA YOGA</p>
         </div>
       </div>
       <div class="relative group overflow-hidden">
         <img class="object-cover object-center h-full w-full aspect-auto group-hover:scale-110 transition-all duration-300" src="{{ url('image/web/Online_Class/YogaWheel.jpg') }}" alt="Online Class Urban Athletes">
-        <div class="absolute top-0 bottom-0 left-0 right-0 px-4 flex justify-center items-center group-hover:text-black transition-all duration-300">
+        <div class="absolute top-0 bottom-0 left-0 right-0 px-4 flex justify-center items-center opacity-0 group-hover:opacity-100 group-hover:text-white group-hover:bg-black/80 transition-all duration-300">
           <p>YOGA WHELL</p>
         </div>
       </div>
       <div class="relative group overflow-hidden">
         <img class="object-cover object-center h-full w-full aspect-auto group-hover:scale-110 transition-all duration-300" src="{{ url('image/web/Online_Class/YinyasaYoga.jpg') }}" alt="Online Class Urban Athletes">
-        <div class="absolute top-0 bottom-0 left-0 right-0 px-4 flex justify-center items-center group-hover:text-black transition-all duration-300">
+        <div class="absolute top-0 bottom-0 left-0 right-0 px-4 flex justify-center items-center opacity-0 group-hover:opacity-100 group-hover:text-white group-hover:bg-black/80 transition-all duration-300">
           <p>YINYASA YOGA</p>
         </div>
       </div>
       <div class="relative group overflow-hidden">
         <img class="object-cover object-center h-full w-full aspect-auto group-hover:scale-110 transition-all duration-300" src="{{ url('image/web/Online_Class/MobilityFlow.jpg') }}" alt="Online Class Urban Athletes">
-        <div class="absolute top-0 bottom-0 left-0 right-0 px-4 flex justify-center items-center group-hover:text-black transition-all duration-300">
+        <div class="absolute top-0 bottom-0 left-0 right-0 px-4 flex justify-center items-center opacity-0 group-hover:opacity-100 group-hover:text-white group-hover:bg-black/80 transition-all duration-300">
           <p>MOBILITY FLOW</p>
         </div>
       </div>
       <div class="relative group overflow-hidden">
         <img class="object-cover object-center h-full w-full aspect-auto group-hover:scale-110 transition-all duration-300" src="{{ url('image/web/Online_Class/TrigerPointTheraphy.jpg') }}" alt="Online Class Urban Athletes">
-        <div class="absolute top-0 bottom-0 left-0 right-0 px-4 flex justify-center items-center group-hover:text-black transition-all duration-300">
+        <div class="absolute top-0 bottom-0 left-0 right-0 px-4 flex justify-center items-center opacity-0 group-hover:opacity-100 group-hover:text-white group-hover:bg-black/80 transition-all duration-300">
           <p>TRIGGER POINT THERAPHY</p>
         </div>
       </div>
