@@ -22,7 +22,11 @@
           @foreach ($classes as $class)
               @if ($class['classes_days_id'] == 1 && $class['studio_id'] != 3)
                 <div class="py-2 bg-white m-1">
-                  <p class="bg-yellow-primary mx-1 rounded-sm">{{ $class['classes_time']['time_start'] . ' - ' . $class['classes_time']['time_end'] }} WIB</p>
+                  @if(empty($class['classes_time']))
+                    @dump($times)
+                  @else
+                    <p class="bg-yellow-primary mx-1 rounded-sm">{{ substr($class['classes_time']['time_start'], 0, -3) . ' - ' . substr($class['classes_time']['time_end'], 0, -3) }} WIB</p>
+                  @endif
                   <img class="h-20 p-2 mx-auto" src="{{ $class['class']['thumbnail'] }}" alt="Class">
                   <p>{{ $class['coach']['name'] }} | {{ $class['studio']['name'] }}</p>
                   <p>{{ $class['branch']['name'] }}</p>
@@ -34,7 +38,11 @@
           @foreach ($classes as $class)
               @if ($class['classes_days_id'] == 2 && $class['studio_id'] != 3)
                 <div class="py-2 bg-white m-1">
-                  <p class="bg-yellow-primary mx-1 rounded-sm">{{ $class['classes_time']['time_start'] . ' - ' . $class['classes_time']['time_end'] }} WIB</p>
+                  @if(empty($class['classes_time']))
+                    @dump($times)
+                  @else
+                    <p class="bg-yellow-primary mx-1 rounded-sm">{{ substr($class['classes_time']['time_start'], 0, -3) . ' - ' . substr($class['classes_time']['time_end'], 0, -3) }} WIB</p>
+                  @endif
                   <img class="h-20 p-2 mx-auto" src="{{ $class['class']['thumbnail'] }}" alt="Class">
                   <p>{{ $class['coach']['name'] }} | {{ $class['studio']['name'] }}</p>
                   <p>{{ $class['branch']['name'] }}</p>
@@ -46,7 +54,11 @@
           @foreach ($classes as $class)
               @if ($class['classes_days_id'] == 3 && $class['studio_id'] != 3)
                 <div class="py-2 bg-white m-1">
-                  <p class="bg-yellow-primary mx-1 rounded-sm">{{ $class['classes_time']['time_start'] . ' - ' . $class['classes_time']['time_end'] }} WIB</p>
+                  @if(empty($class['classes_time']))
+                    @dump($times)
+                  @else
+                    <p class="bg-yellow-primary mx-1 rounded-sm">{{ substr($class['classes_time']['time_start'], 0, -3) . ' - ' . substr($class['classes_time']['time_end'], 0, -3) }} WIB</p>
+                  @endif
                   <img class="h-20 p-2 mx-auto" src="{{ $class['class']['thumbnail'] }}" alt="Class">
                   <p>{{ $class['coach']['name'] }} | {{ $class['studio']['name'] }}</p>
                   <p>{{ $class['branch']['name'] }}</p>
@@ -58,7 +70,11 @@
           @foreach ($classes as $class)
               @if ($class['classes_days_id'] == 4 && $class['studio_id'] != 3)
                 <div class="py-2 bg-white m-1">
-                  <p class="bg-yellow-primary mx-1 rounded-sm">{{ $class['classes_time']['time_start'] . ' - ' . $class['classes_time']['time_end'] }} WIB</p>
+                  @if(empty($class['classes_time']))
+                    @dump($times)
+                  @else
+                    <p class="bg-yellow-primary mx-1 rounded-sm">{{ substr($class['classes_time']['time_start'], 0, -3) . ' - ' . substr($class['classes_time']['time_end'], 0, -3) }} WIB</p>
+                  @endif
                   <img class="h-20 p-2 mx-auto" src="{{ $class['class']['thumbnail'] }}" alt="Class">
                   <p>{{ $class['coach']['name'] }} | {{ $class['studio']['name'] }}</p>
                   <p>{{ $class['branch']['name'] }}</p>
@@ -70,7 +86,11 @@
           @foreach ($classes as $class)
               @if ($class['classes_days_id'] == 5 && $class['studio_id'] != 3)
                 <div class="py-2 bg-white m-1">
-                  <p class="bg-yellow-primary mx-1 rounded-sm">{{ $class['classes_time']['time_start'] . ' - ' . $class['classes_time']['time_end'] }} WIB</p>
+                  @if(empty($class['classes_time']))
+                    @dump($times)
+                  @else
+                    <p class="bg-yellow-primary mx-1 rounded-sm">{{ substr($class['classes_time']['time_start'], 0, -3) . ' - ' . substr($class['classes_time']['time_end'], 0, -3) }} WIB</p>
+                  @endif
                   <img class="h-20 p-2 mx-auto" src="{{ $class['class']['thumbnail'] }}" alt="Class">
                   <p>{{ $class['coach']['name'] }} | {{ $class['studio']['name'] }}</p>
                   <p>{{ $class['branch']['name'] }}</p>
@@ -82,7 +102,11 @@
           @foreach ($classes as $class)
               @if ($class['classes_days_id'] == 6 && $class['studio_id'] != 3)
                 <div class="py-2 bg-white m-1">
-                  <p class="bg-yellow-primary mx-1 rounded-sm">{{ $class['classes_time']['time_start'] . ' - ' . $class['classes_time']['time_end'] }} WIB</p>
+                  @if(empty($class['classes_time']))
+                    @dump($times)
+                  @else
+                    <p class="bg-yellow-primary mx-1 rounded-sm">{{ substr($class['classes_time']['time_start'], 0, -3) . ' - ' . substr($class['classes_time']['time_end'], 0, -3) }} WIB</p>
+                  @endif
                   <img class="h-20 p-2 mx-auto" src="{{ $class['class']['thumbnail'] }}" alt="Class">
                   <p>{{ $class['coach']['name'] }} | {{ $class['studio']['name'] }}</p>
                   <p>{{ $class['branch']['name'] }}</p>
@@ -94,7 +118,11 @@
           @foreach ($classes as $class)
               @if ($class['classes_days_id'] == 7 && $class['studio_id'] != 3)
                 <div class="py-2 bg-white m-1">
-                  <p class="bg-yellow-primary mx-1 rounded-sm">{{ $class['classes_time']['time_start'] . ' - ' . $class['classes_time']['time_end'] }} WIB</p>
+                  @if(empty($class['classes_time']))
+                    @dump($times)
+                  @else
+                    <p class="bg-yellow-primary mx-1 rounded-sm">{{ substr($class['classes_time']['time_start'], 0, -3) . ' - ' . substr($class['classes_time']['time_end'], 0, -3) }} WIB</p>
+                  @endif
                   <img class="h-20 p-2 mx-auto" src="{{ $class['class']['thumbnail'] }}" alt="Class">
                   <p>{{ $class['coach']['name'] }} | {{ $class['studio']['name'] }}</p>
                   <p>{{ $class['branch']['name'] }}</p>

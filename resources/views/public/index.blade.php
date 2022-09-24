@@ -372,7 +372,7 @@
 
     <h1>ini halaman web</h1>
   </div> --}}
-  @push('script')
-    
+  @push('style')
+    <meta name="facebook-domain-verification" content="a0dt3ukj4j8vy6cec4h2x5r4s83mg7" />
   @endpush
 </x-main_web_loading>

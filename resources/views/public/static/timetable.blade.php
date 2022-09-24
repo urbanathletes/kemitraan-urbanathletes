@@ -25,10 +25,10 @@
             <option value="Gresek">Gresik</option>
           </select>
         </label> --}}
-        <label class="block mx-4 py-2 md:w-96 md:mr-auto">
+        <label class="block mx-4 py-2 md:w-96 md:mx-auto">
           <select name="clubs-select" id="clubs-select" data-url="{{ url('timetable-select') }}"
             class="p-2 block w-full border border-gray-200 bg-neutral-700 outline-none focus:ring-0 focus:border-black
-          ">
+          " onchange="selectClub(this)">
             <option value="NULL">Select Our Club</option>
             @foreach ($clubs as $club)
             @if($club['id'] != 1 && $club['id'] != 6)
@@ -37,16 +37,16 @@
             @endforeach
           </select>
         </label>
-        <label class="block mx-4 py-2 md:w-96 md:mr-auto">
-          <select name="clubs-select" id="clubs-select" data-url="{{ url('timetable-select') }}"
+        <label class="block mx-4 py-2 md:w-96 md:mx-auto">
+          <select name="studio-select" id="studio-select" data-url="{{ url('timetable-select') }}"
             class="p-2 block w-full border border-gray-200 bg-neutral-700 outline-none focus:ring-0 focus:border-black
-          ">
-            <option value="NULL">Select Our Studio</option>
+          " onchange="selectStudio(this)">
+            {{-- <option value="NULL">Select Our Studio</option>
             <option value="1">Circuit Studio</option>
             <option value="2">Valor Area</option>
             <option value="3">Soul Studio</option>
             <option value="4">UAX Studio</option>
-            <option value="5">Studio Online</option>
+            <option value="5">Studio Online</option> --}}
           </select>
         </label>
       </div>
