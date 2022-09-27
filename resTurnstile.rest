@@ -1,0 +1,7 @@
+POST http://127.0.0.1:8000/api/v1/turnstile
+Content-Type: application/json
+
+{
+  "rfid": "1234567881",
+  "branch_id": 4
+}

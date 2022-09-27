@@ -118,7 +118,10 @@ class TurnstileController extends Controller
         $apiModel = new ApiModel();
         
         // ketika di database local tidak tersipan validasi date now
+        $apiDk = false;
         $cekMemberApi = $apiModel->cekMember($request);
+        if($cekMemberApi) $apiDk = true;
+        
         $hasilCek = false;
         $open = false;
         $saveData = 'Local';
@@ -143,7 +146,9 @@ class TurnstileController extends Controller
             }
         } 
         // if ($cekMemberLocal && date('Y-m-d', strtotime($cekMemberLocal->updated_at)) != date('Y-m-d', strtotime(now())) && $cekMemberApi['member']['membership_status_id'] != $cekMemberLocal->membership_status_id) {
-        if ($cekMemberLocal && $cekMemberApi['member']['membership_status_id'] != $cekMemberLocal->membership_status_id) {
+        // dump($cekMemberLocal->membership_status_id);
+        // dd($cekMemberApi['member']['membership_status_id']);
+        if ($cekMemberApi && $cekMemberLocal && $cekMemberApi['member']['membership_status_id'] != $cekMemberLocal->membership_status_id) {
             // dump(date('Y-m-d', strtotime(now())));
             // dd(date('Y-m-d', strtotime($cekMemberLocal->updated_at)));
             DataMember::where('rfid_card_code', $request->rfid)
@@ -162,7 +167,11 @@ class TurnstileController extends Controller
         }
 
         if ($cekMemberLocal && $cekMemberLocal->membership_status_id == 1) {
-            if ($cekMemberApi['member']['membership']['membership_club_type_id'] == 1 || $cekMemberApi['member']['membership']['branch_id'] == $request->branch_id) {
+            if ($apiDk) {
+                if ($cekMemberApi['member']['membership']['membership_club_type_id'] == 1 || $cekMemberApi['member']['membership']['branch_id'] == $request->branch_id) {
+                    $hasilCek = true;
+                }
+            } else {
                 $hasilCek = true;
             }
         }
@@ -223,12 +232,19 @@ class TurnstileController extends Controller
 
         // dd("keluar if". $cekMemberLocal);
 
-        $resTurntile = [
-            // 'hasil' => $hasilCek,
-            // 'saveData' => $saveData,
-            // 'data' => $cekDataMember,
-            'open' => $open
-        ];
+        if (!$apiDk) {
+            $resTurntile = [
+                'ApiDk' => $apiDk,
+                'open' => $open
+            ];
+        } else {
+            $resTurntile = [
+                // 'hasil' => $hasilCek,
+                // 'saveData' => $saveData,
+                // 'data' => $cekDataMember,
+                'open' => $open
+            ];
+        }
 
         return response()->json($resTurntile, Response::HTTP_OK);
     }
