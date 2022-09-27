@@ -209,8 +209,22 @@
   </div>
 
   <div class="flex justify-center overflow-hidden">
-    <div class="flex justify-center min-w-max md:w-full">
-      <img class="object-cover object-center mx-auto w-[768px] md:w-screen" src="{{ url('image/web/home/mobile-apps-urban-athletes.jpg') }}" alt="Mobile Apps Urban Athletes">
+    <div class="flex justify-center min-w-max md:w-full relative">
+      <img class="object-cover object-right mx-auto w-[768px] md:w-screen" src="{{ url('image/web/home/Poster-Mobile-Apps.jpg') }}" alt="Mobile Apps Urban Athletes">
+      <div class="absolute bottom-0 right-0 w-1/2 h-1/4">
+        <div class="flex justify-center items-center mb-10 mr-10">
+          <div>
+            <a href="https://apps.apple.com/id/app/urban-athletes/id1557162190" target="_blank">
+              <img class="h-10 md:h-10 lg:h-12" src="{{ url('image/button-app-store.png') }}" alt="Urban Athletes App Store">
+            </a>
+          </div>
+          <div>
+            <a href="https://play.google.com/store/apps/details?id=id.co.urbanathletes" target="_blank">
+              <img class="h-10 md:h-10 lg:h-12" src="{{ url('image/button-google-play.png') }}" alt="Urban Athletes google play">
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 

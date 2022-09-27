@@ -15,5 +15,5 @@ Route::prefix('franchise')->group(function() {
   Route::get('/fitness-works', function () { return view("public/kemitraan/fitness-works-img");});
   Route::post('' , [InvestmentController::class, 'home']);
 });
-Route::post('ua' , [InvestmentController::class, 'ua']);
-Route::post('fw' , [InvestmentController::class, 'fw']);
+// Route::post('ua' , [InvestmentController::class, 'ua']);
+// Route::post('fw' , [InvestmentController::class, 'fw']);

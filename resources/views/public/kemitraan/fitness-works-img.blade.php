@@ -7,7 +7,7 @@
       </video>
     </div>
     <div class="grid content-center px-4 py-4 z-10 font-Futura tracking-widest">
-      <form action="{{ url('ua') }}" method="post">
+      <form action="{{ url('franchise') }}" method="post">
         @csrf
         <div class="flex justify-between">
           <h2 class="mx-2 text-3xl font-FuturaBold">INVESTMENT TODAY.</h2>
@@ -15,8 +15,6 @@
             <p>SELECT INVESTMENT</p>
             <select id="kode_inves" name="kode_inves" class="text-black ml-6 form-select inline max-w-max text-right outline-0 outline-none appearance-none w-full px-3 bg-clip-padding bg-no-repeatrounded transition ease-in-out m-0
               focus:outline-none" aria-label="Default select example" required>
-                <option value="">Select</option>
-                <option value="1">Urban Athletes</option>
                 <option selected value="2">Fitness Works</option>
             </select>
           </label>
