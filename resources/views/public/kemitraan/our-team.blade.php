@@ -84,9 +84,9 @@
   </div>
   <div class="bg-black bg-gradient-to-tr from-neutral-600">
     <div class="px-6 md:px-24 md:pt-12">
-      <div class="md:mx-8">
+      <div class="md:mx-8 pt-4">
         <h2 class="font-FuturaBold text-2xl px-6 mb-4 bg-yellow-primary inline">OUR TEAM</h2>
-        <p class="text-white">Bersama tim yang profesional dan memiliki inovasi dalam bidang fitness, kami yakin bahwa bisnis ini akan menjadi lebih baik bersama tim yang berkompeten. Mari berkenalan dengan mereka!</p>
+        <p class="text-white tracking-wider">Bersama tim yang profesional dan memiliki inovasi dalam bidang fitness, kami yakin bahwa bisnis ini akan menjadi lebih baik bersama tim yang berkompeten. Mari berkenalan dengan mereka!</p>
       </div>
     </div>
     <div class="container grid grid-cols-1 gap-12 py-16 sm:grid-cols-2 lg:grid-cols-4 md:py-12">

@@ -16,10 +16,12 @@
       <h2 class="text-2xl">SERIOUSLY FUN FITNESS</h2>
       <p>WE ARE #BUILDINGABETTERGENERATION</p>
     </div>
-    <p class="text-lg">
-      People today have more ways to break a sweat than ever before. With so many choices out there, <br>
-      what makes URBAN ATHLETES special?
-    </p>
+    <div class="px-6">
+      <p class="text-lg">
+        People today have more ways to break a sweat than ever before. With so many choices out there, <br>
+        what makes URBAN ATHLETES special?
+      </p>
+    </div>
 
     <div class="py-4 lg:flex lg:justify-center lg:items-center">
       <div class="grid grid-cols-2 gap-4 lg:mx-0 py-6 lg:max-w-xl relative">

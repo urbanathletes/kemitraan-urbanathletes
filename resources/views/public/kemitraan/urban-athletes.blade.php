@@ -17,17 +17,15 @@
         <div class="absolute top-0 right-0 left-0 bottom-0 bg-gradient-to-t md:bg-gradient-to-l from-black"></div>
       </div>
       <div class="grid content-center bg-black text-white px-4 py-4 z-10 font-Futura">
-        <form action="{{ url('ua') }}" method="post">
+        <form action="{{ url('franchise') }}" method="post">
           @csrf
           <div class="flex justify-between">
             <h2 class="mx-2 text-3xl font-FuturaBold">INVESTMENT TODAY.</h2>
             <label for="year" class="border border-black py-2 px-4 font-FuturaBold hidden">
               <p>SELECT INVESTMENT</p>
               <select id="kode_inves" name="kode_inves" class="text-black ml-6 form-select inline max-w-max text-right outline-0 outline-none appearance-none w-full px-3 bg-clip-padding bg-no-repeatrounded transition ease-in-out m-0
-                focus:outline-none" aria-label="Default select example" required>
-                  <option value="">Select</option>
+                focus:outline-none" aria-label="Default select example">
                   <option selected value="1">Urban Athletes</option>
-                  <option value="2">Fitness Works</option>
               </select>
             </label>
           </div>

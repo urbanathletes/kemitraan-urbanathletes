@@ -11,9 +11,16 @@
       </video>
     </div>
     <div class="grid content-center px-4 py-4 z-10 font-Futura tracking-widest">
-      <h2 class="mx-2 mb-4 text-3xl font-FuturaBold tracking-normal">INVESTMENT TODAY.</h2>
-      <form action="">
+      <form action="{{ url('franchise') }}" method="post">
         @csrf
+        <h2 class="mx-2 mb-4 text-3xl font-FuturaBold tracking-normal">INVESTMENT TODAY.</h2>
+        <label for="year" class="border border-black py-2 px-4 font-FuturaBold hidden">
+          <p>SELECT INVESTMENT</p>
+          <select id="kode_inves" name="kode_inves" class="text-black ml-6 form-select inline max-w-max text-right outline-0 outline-none appearance-none w-full px-3 bg-clip-padding bg-no-repeatrounded transition ease-in-out m-0
+            focus:outline-none" aria-label="Default select example">
+              <option selected value="2">Fitness Works</option>
+          </select>
+        </label>
         <div class="flex">
           <label class="block mx-2 my-2 border-b w-full">
             <span class="">FIRST NAME</span>

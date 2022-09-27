@@ -2,15 +2,19 @@
   @push('script')
     @if (session('success'))
     <script>
+      let success = document.querySelector('#alert');
       Swal.fire(
         'Thank you',
-        'Data sent successfully',
+        success.getAttribute("data-pesan"),
         'success'
       )
     </script>
     @endif
   @endpush
   <div>
+    @if (session('success'))
+      <div class="hidden" id="alert" data-pesan="{{session('success')}}"></div>
+    @endif
     <div class="flex flex-col md:grid md:grid-cols-2 min-h-max">
       <div class="flex justify-center md:justify-end md:max-w-[100%] relative h-72 md:h-[470px]">
         <img class="object-cover object-center h-full w-full" src="{{ url('image/franchise/home_franchise_benner.jpg') }}" alt="Franchise Urban Athletes">

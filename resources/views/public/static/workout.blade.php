@@ -1,5 +1,5 @@
 <x-main_web menu='WORKOUTS'>
-  <div class="flex justify-center max-h-[80vh] relative">
+  <div class="flex justify-center max-h-[30vh] lg:max-h-[70vh] relative">
     <img class="object-cover object-center mx-auto" src="{{ url('image/web/home/Exclusive_Bodycombat.jpg') }}" alt="Body Combat Urban Athletes">
     <div class="absolute top-0 left-0">
       <img class="w-56" src="{{ url('image/web/logo/LesMillsUK.png') }}" alt="LesMillsUK">
