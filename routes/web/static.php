@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ScheduleClassController;
+use App\Http\Controllers\WebController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/index', function () { return view("index");});
@@ -8,7 +9,8 @@ Route::get('/index', function () { return view("index");});
 // Route::prefix('workout')->group(function(){
 // });
 Route::get('workout', function () { return view("public/static/workout");});
-Route::get('trainer', function () { return view("public/static/trainer");});
+// Route::get('trainer', function () { return view("public/static/trainer");});
+Route::get('trainer', [WebController::class, 'trainer']);
 // Route::get('timetable', function () { return view("public/static/timetable");});
 Route::get('timetable', [ScheduleClassController::class, 'timetable']);
 Route::get('timetable-select', [ScheduleClassController::class, 'timetableSelect']);
