@@ -147,7 +147,6 @@ class TurnstileController extends Controller
         } 
         // if ($cekMemberLocal && date('Y-m-d', strtotime($cekMemberLocal->updated_at)) != date('Y-m-d', strtotime(now())) && $cekMemberApi['member']['membership_status_id'] != $cekMemberLocal->membership_status_id) {
         // dump($cekMemberLocal->membership_status_id);
-        // dd($cekMemberApi['member']['membership_status_id']);
         if ($cekMemberApi && $cekMemberLocal && $cekMemberApi['member']['membership_status_id'] != $cekMemberLocal->membership_status_id) {
             // dump(date('Y-m-d', strtotime(now())));
             // dd(date('Y-m-d', strtotime($cekMemberLocal->updated_at)));
