@@ -12,8 +12,14 @@ class ApiWebModel extends Model
 
     public function getTrainer()
     {
-        // $pt = Http::get('https://apiweb.urbanathletes.co.id/personal_training');
-        $pt = Http::get('http://localhost:5050/personal_training');
+        $pt = Http::get('https://apiweb.urbanathletes.co.id/personal_training');
+        // $pt = Http::get('http://localhost:5050/personal_training');
+        return $pt->json();
+    }
+
+    public function getFotoKelas()
+    {
+        $pt = Http::get('https://apiweb.urbanathletes.co.id/foto_kelas');
         return $pt->json();
     }
 }

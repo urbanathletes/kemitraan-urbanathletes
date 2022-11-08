@@ -38,42 +38,14 @@
     </div>
     
     <div class="py-8 flex flex-wrap justify-around text-center font-PoppinsSemiBold text-yellow-primary">
-      <diV class="w-64 h-96 my-4 overflow-hidden group">
-        <img class="group-hover:scale-110 object-cover object-center h-full w-full mx-auto transition-all duration-300" src="{{ url('image/web/trainer/Rivo.jpg') }}" alt="Trainer Urban Athletes">
-      </diV>
-      <diV class="w-64 h-96 my-4 overflow-hidden group">
+      @foreach ($data as $row)
+        <diV class="w-64 h-96 my-4 overflow-hidden group">
+          <img class="group-hover:scale-110 object-cover object-center h-full w-full mx-auto transition-all duration-300" src="{{ $row['url'] }}" alt="Trainer Urban Athletes">
+        </diV>
+      @endforeach
+      {{-- <diV class="w-64 h-96 my-4 overflow-hidden group">
         <img class="group-hover:scale-110 object-cover object-center h-full w-full mx-auto transition-all duration-300" src="{{ url('image/web/trainer/Najib.jpg') }}" alt="Trainer Urban Athletes">
-      </diV>
-      <diV class="w-64 h-96 my-4 overflow-hidden group">
-        <img class="group-hover:scale-110 object-cover object-center h-full w-full mx-auto transition-all duration-300" src="{{ url('image/web/trainer/Candra.jpg') }}" alt="Trainer Urban Athletes">
-      </diV>
-      <diV class="w-64 h-96 my-4 overflow-hidden group">
-        <img class="group-hover:scale-110 object-cover object-center h-full w-full mx-auto transition-all duration-300" src="{{ url('image/web/trainer/Erwin.jpg') }}" alt="Trainer Urban Athletes">
-      </diV>
-      <diV class="w-64 h-96 my-4 overflow-hidden group">
-        <img class="group-hover:scale-110 object-cover object-center h-full w-full mx-auto transition-all duration-300" src="{{ url('image/web/trainer/Adi.jpg') }}" alt="Trainer Urban Athletes">
-      </diV>
-      <diV class="w-64 h-96 my-4 overflow-hidden group">
-        <img class="group-hover:scale-110 object-cover object-center h-full w-full mx-auto transition-all duration-300" src="{{ url('image/web/trainer/Amirza.jpg') }}" alt="Trainer Urban Athletes">
-      </diV>
-      <diV class="w-64 h-96 my-4 overflow-hidden group">
-        <img class="group-hover:scale-110 object-cover object-center h-full w-full mx-auto transition-all duration-300" src="{{ url('image/web/trainer/Taufiq.jpg') }}" alt="Trainer Urban Athletes">
-      </diV>
-      <diV class="w-64 h-96 my-4 overflow-hidden group">
-        <img class="group-hover:scale-110 object-cover object-center h-full w-full mx-auto transition-all duration-300" src="{{ url('image/web/trainer/Muslim.jpg') }}" alt="Trainer Urban Athletes">
-      </diV>
-      <diV class="w-64 h-96 my-4 overflow-hidden group">
-        <img class="group-hover:scale-110 object-cover object-center h-full w-full mx-auto transition-all duration-300" src="{{ url('image/web/trainer/Ircham.jpg') }}" alt="Trainer Urban Athletes">
-      </diV>
-      <diV class="w-64 h-96 my-4 overflow-hidden group">
-        <img class="group-hover:scale-110 object-cover object-center h-full w-full mx-auto transition-all duration-300" src="{{ url('image/web/trainer/Dhohir.jpg') }}" alt="Trainer Urban Athletes">
-      </diV>
-      <diV class="w-64 h-96 my-4 overflow-hidden group">
-        <img class="group-hover:scale-110 object-cover object-center h-full w-full mx-auto transition-all duration-300" src="{{ url('image/web/trainer/Ariya.jpg') }}" alt="Trainer Urban Athletes">
-      </diV>
-      <diV class="w-64 h-96 my-4 overflow-hidden group">
-        <img class="group-hover:scale-110 object-cover object-center h-full w-full mx-auto transition-all duration-300" src="{{ url('image/web/trainer/Adining.jpg') }}" alt="Trainer Urban Athletes">
-      </diV>
+      </diV> --}}
       {{-- <button class="w-64 h-96 my-4 overflow-hidden relative group" id="card">
         <span id="img-ori">
           <img class="group-hover:scale-110 object-cover object-center h-full w-full mx-auto transition-all duration-300" src="{{ url('image/web/trainer/trainer_1.jpg') }}" alt="Trainer Urban Athletes">
