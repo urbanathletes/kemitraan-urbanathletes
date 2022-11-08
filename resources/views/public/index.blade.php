@@ -80,127 +80,22 @@
           </div>
           <div class="pb-8 pt-24 flex flex-nowrap space-x-6">
 
-            <div class="cursor-pointer min-w-max group">
-              <div class="w-72 h-72 flex justify-center overflow-hidden">
-                <img class="object-cover object-center mx-auto group-hover:scale-110 transition-all duration-300" src="{{ url('image/web/home/1BodyPump.jpg') }}" alt="Exclusive Urban Athletes">
+            @foreach($fotoKelas as $key => $row)
+              <div class="cursor-pointer min-w-max group @if($key  % 2 !== 0) flex flex-col-reverse @endif">
+                <div class="w-72 h-72 flex justify-center overflow-hidden">
+                  <img class="object-cover object-center mx-auto group-hover:scale-110 transition-all duration-300" src="{{ $row['url'] }}" alt="Exclusive Urban Athletes">
+                </div>
+                <div class="font-FuturaBold p-2 text-2xl
+                  group-hover:bg-yellow-primary group-hover:text-black transition-all duration-300
+                ">
+                  <span class="text-5xl">
+                    @if ($key < 9) {{"0".$key+1}} @else {{$key+1}} @endif
+                  </span>
+                  <p>{{$row['name']}}</p>
+                </div>
               </div>
-              <div class="font-FuturaBold p-2 text-2xl
-                group-hover:bg-yellow-primary group-hover:text-black transition-all duration-300
-              ">
-                <span class="text-5xl">01</span>
-                <p>BODY COMBAT</p>
-              </div>
-            </div>
-            <div class="cursor-pointer min-w-max group">
-              <div class="font-FuturaBold p-2 text-2xl
-                group-hover:bg-yellow-primary group-hover:text-black transition-all duration-300
-              ">
-                <span class="text-5xl">02</span>
-                <p>MUAY THAI</p>
-              </div>
-              <div class="w-72 h-72 flex justify-center overflow-hidden">
-                <img class="object-cover object-center mx-auto group-hover:scale-110 transition-all duration-300" src="{{ url('image/web/home/2MuayThai.jpg') }}" alt="Exclusive Urban Athletes">
-              </div>
-            </div>
-            <div class="cursor-pointer min-w-max group">
-              <div class="w-72 h-72 flex justify-center overflow-hidden">
-                <img class="w-full object-cover object-center mx-auto group-hover:scale-110 transition-all duration-300" src="{{ url('image/web/home/3Trx.jpg') }}" alt="Exclusive Urban Athletes">
-              </div>
-              <div class="font-FuturaBold p-2 text-2xl
-                group-hover:bg-yellow-primary group-hover:text-black transition-all duration-300
-              ">
-                <span class="text-5xl">03</span>
-                <p>TRX CLASESS</p>
-              </div>
-            </div>
-            <div class="cursor-pointer min-w-max group">
-              <div class="font-FuturaBold p-2 text-2xl
-                group-hover:bg-yellow-primary group-hover:text-black transition-all duration-300
-              ">
-                <span class="text-5xl">04</span>
-                <p>YOGA & PILATES</p>
-              </div>
-              <div class="w-72 h-72 flex justify-center overflow-hidden">
-                <img class="w-full object-cover object-center mx-auto group-hover:scale-110 transition-all duration-300" src="{{ url('image/web/home/4Flexibility.jpg') }}" alt="Exclusive Urban Athletes">
-              </div>
-            </div>
-            <div class="cursor-pointer min-w-max group">
-              <div class="w-72 h-72 flex justify-center overflow-hidden">
-                <img class="w-full object-cover object-center mx-auto group-hover:scale-110 transition-all duration-300" src="{{ url('image/web/fotokelas/Fly_High_Yoga.jpg') }}" alt="Exclusive Urban Athletes">
-              </div>
-              <div class="font-FuturaBold p-2 text-2xl
-                group-hover:bg-yellow-primary group-hover:text-black transition-all duration-300
-              ">
-                <span class="text-5xl">05</span>
-                <p class="uppercase">fly high yoga</p>
-              </div>
-            </div>
-            <div class="cursor-pointer min-w-max group">
-              <div class="font-FuturaBold p-2 text-2xl
-                group-hover:bg-yellow-primary group-hover:text-black transition-all duration-300
-              ">
-                <span class="text-5xl">06</span>
-                <p>FALCON</p>
-              </div>
-              <div class="w-72 h-72 flex justify-center overflow-hidden">
-                <img class="w-full object-cover object-center mx-auto group-hover:scale-110 transition-all duration-300" src="{{ url('image/web/home/6Falcon.jpg') }}" alt="Exclusive Urban Athletes">
-              </div>
-            </div>
-            <div class="cursor-pointer min-w-max group">
-              <div class="w-72 h-72 flex justify-center overflow-hidden">
-                <img class="w-full object-cover object-bottom mx-auto group-hover:scale-110 transition-all duration-300" src="{{ url('image/web/home/7BodyCombat.jpg') }}" alt="Exclusive Urban Athletes">
-              </div>
-              <div class="font-FuturaBold p-2 text-2xl
-                group-hover:bg-yellow-primary group-hover:text-black transition-all duration-300
-              ">
-                <span class="text-5xl">07</span>
-                <p class="uppercase">Body Combat</p>
-              </div>
-            </div>
-            <div class="cursor-pointer min-w-max group">
-              <div class="font-FuturaBold p-2 text-2xl
-                group-hover:bg-yellow-primary group-hover:text-black transition-all duration-300
-              ">
-                <span class="text-5xl">08</span>
-                <p>CIRCUIT</p>
-              </div>
-              <div class="w-72 h-72 flex justify-center overflow-hidden">
-                <img class="w-full object-cover object-center mx-auto group-hover:scale-110 transition-all duration-300" src="{{ url('image/web/home/8Circuit.jpg') }}" alt="Exclusive Urban Athletes">
-              </div>
-            </div>
-            <div class="cursor-pointer min-w-max group">
-              <div class="w-72 h-72 flex justify-center overflow-hidden">
-                <img class="w-full object-cover object-bottom mx-auto group-hover:scale-110 transition-all duration-300" src="{{ url('image/web/home/11Zumba.jpg') }}" alt="Exclusive Urban Athletes">
-              </div>
-              <div class="font-FuturaBold p-2 text-2xl
-                group-hover:bg-yellow-primary group-hover:text-black transition-all duration-300
-              ">
-                <span class="text-5xl">09</span>
-                <p class="uppercase">ZUMBA</p>
-              </div>
-            </div>
-            <div class="cursor-pointer min-w-max group">
-              <div class="font-FuturaBold p-2 text-2xl
-                group-hover:bg-yellow-primary group-hover:text-black transition-all duration-300
-              ">
-                <span class="text-5xl">10</span>
-                <p>VALOR</p>
-              </div>
-              <div class="w-72 h-72 flex justify-center overflow-hidden">
-                <img class="w-full object-cover object-center mx-auto group-hover:scale-110 transition-all duration-300" src="{{ url('image/web/home/10VALOR.JPG') }}" alt="Exclusive Urban Athletes">
-              </div>
-            </div>
-            <div class="cursor-pointer min-w-max group">
-              <div class="w-72 h-72 flex justify-center overflow-hidden">
-                <img class="w-full object-cover object-bottom mx-auto group-hover:scale-110 transition-all duration-300" src="{{ url('image/web/home/9KidsGym.jpg') }}" alt="Exclusive Urban Athletes">
-              </div>
-              <div class="font-FuturaBold p-2 text-2xl
-                group-hover:bg-yellow-primary group-hover:text-black transition-all duration-300
-              ">
-                <span class="text-5xl">11</span>
-                <p class="uppercase">Kids Gym</p>
-              </div>
-            </div>
+            @endforeach
+            
             <div class="px-4 md:px-8"></div>
           </div>
         </div>
