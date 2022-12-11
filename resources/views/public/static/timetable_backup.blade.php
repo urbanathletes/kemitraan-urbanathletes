@@ -65,14 +65,14 @@
               </tr>
               <tr>
                 <td>
-                  <div class="py-2 bg-white m-1">
+                  <div class="py-2 bg-gradient-to-t from-neutral-700 m-1">
                     <p class="bg-yellow-primary mx-1 rounded-sm">08.10 - 09.00 WIB</p>
                   <img class="h-20 p-2 mx-auto" src="{{ url('image/web/logo_kelas/BODYPUMPColour.png') }}" alt="Class">
                     <p>David | UAX Studio</p>
                   </div>
                 </td>
                 <td>
-                  <div class="py-2 bg-white m-1">
+                  <div class="py-2 bg-white bg-gradient-to-t from-neutral-700 m-1">
                     <p class="bg-yellow-primary mx-1 rounded-sm">09.10 - 10.00 WIB</p>
                     <img class="h-20 p-2 mx-auto" src="{{ url('image/web/logo_kelas/BODYCOMBATColour.png') }}" alt="Class">
                     <p>Yudha | UAX Studio</p>
