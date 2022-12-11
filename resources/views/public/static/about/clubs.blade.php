@@ -8,7 +8,7 @@
       <div class="lg:text-xl font-black space-x-4 my-4">
         <button id="btnMenu-img" data-id="1" class="hover:text-yellow-primary">Merr</button>
         <button id="btnMenu-img" data-id="2" class="hover:text-yellow-primary">Tidar</button>
-        <button id="btnMenu-img" data-id="3" class="hover:text-yellow-primary">Marvell</button>
+        {{-- <button id="btnMenu-img" data-id="3" class="hover:text-yellow-primary">Marvell</button> --}}
         <button id="btnMenu-img" data-id="4" class="hover:text-yellow-primary">Lenmarc</button>
       </div>
     </div>
@@ -91,7 +91,9 @@
         </div> --}}
       </div>
     </div>
-    <div id='group-image' data-id="3">
+
+    {{-- Marvell --}}
+    {{-- <div id='group-image' data-id="3">
       <div class="grid grid-cols-2 md:grid-cols-4 my-8">
         <div class="col-span-2 max-h-60 m-1 overflow-hidden">
           <button onclick="imageView(this)" class="h-full">
@@ -129,7 +131,8 @@
           </button>
         </div>
       </div>
-    </div>
+    </div> --}}
+
     <div id='group-image' data-id="4">
       <div class="grid grid-cols-2 md:grid-cols-4 my-8">
         <div class="col-span-2 max-h-60 m-1 overflow-hidden">

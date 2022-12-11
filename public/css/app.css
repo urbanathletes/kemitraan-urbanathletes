@@ -1488,6 +1488,9 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(48 162 186 / var(--tw-bg-opacity));
 }
+.bg-black\/50 {
+  background-color: rgb(0 0 0 / 0.5);
+}
 .bg-neutral-700 {
   --tw-bg-opacity: 1;
   background-color: rgb(64 64 64 / var(--tw-bg-opacity));
@@ -1597,6 +1600,9 @@ video {
 }
 .bg-\[url\(\'\/image\/our-team\/bg-our-team\.jpg\'\)\] {
   background-image: url('/image/our-team/bg-our-team.jpg');
+}
+.bg-\[url\(\'\/image\/web\/Header_Timetable\.jpg\'\)\] {
+  background-image: url('/image/web/Header_Timetable.jpg');
 }
 .bg-\[url\(\'\/image\/web\/news\/BGNews\.jpg\'\)\] {
   background-image: url('/image/web/news/BGNews.jpg');
@@ -1992,6 +1998,9 @@ video {
 .font-light {
   font-weight: 300;
 }
+.font-normal {
+  font-weight: 400;
+}
 .uppercase {
   text-transform: uppercase;
 }
@@ -2165,6 +2174,11 @@ video {
   --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
+.shadow-md {
+  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
 .shadow-facebook {
   --tw-shadow-color: #1877F2;
   --tw-shadow: var(--tw-shadow-colored);
@@ -2179,6 +2193,10 @@ video {
 }
 .shadow-black {
   --tw-shadow-color: #000;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+.shadow-green-ua {
+  --tw-shadow-color: #75923d;
   --tw-shadow: var(--tw-shadow-colored);
 }
 .outline-none {
@@ -2982,12 +3000,12 @@ video {
     width: 7rem;
   }
 
-  .md\:w-72 {
-    width: 18rem;
-  }
-
   .md\:w-96 {
     width: 24rem;
+  }
+
+  .md\:w-72 {
+    width: 18rem;
   }
 
   .md\:w-\[55\%\] {

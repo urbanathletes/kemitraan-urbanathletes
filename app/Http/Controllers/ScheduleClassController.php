@@ -26,6 +26,7 @@ class ScheduleClassController extends Controller
         } else {
             return view("public/static/timetable-select", ['classes' => $classes, 'times' => $times]);
         }
+        // return view("public/static/timetable_backup");
         
     }
 }
