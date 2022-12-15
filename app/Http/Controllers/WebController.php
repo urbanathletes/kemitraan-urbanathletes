@@ -10,22 +10,27 @@ class WebController extends Controller
     public function index()
     {
         $apiWebModel = new ApiWebModel();
-        $data = $apiWebModel->getFotoKelas();
-        // $dataPush = [];
-        // for ($i=0; $i < 10; $i++) { 
-        //     foreach ($data as $row ) {
-        //         array_push($dataPush, $row);
-        //     }
-        // }
-        return view("public/index", ['fotoKelas' => array_reverse($data)]);
+        $error = false;
+        $data = [];
+        try {
+            $data = $apiWebModel->getFotoKelas();
+        } catch (\Throwable $th) {
+            $error = 'Error API WEB foto_kelas';
+        }
+        return view("public/index", ['fotoKelas' => array_reverse($data), 'error' => $error]);
     }
 
     public function Trainer()
     {
         $apiWebModel = new ApiWebModel();
-        $data = $apiWebModel->getTrainer();
-        // dd(array_reverse($data));
+        $error = false;
+        $data = [];
+        try {
+            $data = $apiWebModel->getTrainer();
+        } catch (\Throwable $th) {
+            $error = 'Error API WEB personal_training';
+        }
         
-        return view("public/static/trainer", ['data' => array_reverse($data)]);
+        return view("public/static/trainer", ['data' => array_reverse($data), 'error' => $error]);
     }
 }

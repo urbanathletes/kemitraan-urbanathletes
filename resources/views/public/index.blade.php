@@ -1,9 +1,20 @@
 <x-main_web_loading>
-  {{-- <div class="relative" id="loading-target">
-    <div class="fixed top-0 bottom-0 left-0 right-0 min-h-screen min-w-full flex justify-center items-center bg-black bg-opacity-80 z-10">
-      <img src="{{ url('image/web/LoadingWeb.gif') }}" alt="Loading Urban Athletes">
-    </div>
-  </div> --}}
+  @push('script')
+    @if ($error)
+    <script>
+      const error = document.querySelector('#error');
+      console.log(error.getAttribute("data-pesan"));
+      // Swal.fire(
+      //   'Thank you',
+      //   success.getAttribute("data-pesan"),
+      //   'success'
+      // )
+    </script>
+    @endif
+  @endpush
+  @if ($error)
+    <div class="hidden" id="error" data-pesan="{{$error}}"></div>
+  @endif
   <div class="relative">
     {{-- <video autoplay loop src="{{ url('video/Fithub-Vid-Banner-dex-small.mp4') }}"></video> --}}
     <div class="flex justify-center lg:max-h-screen overflow-hidden">
@@ -70,38 +81,40 @@
     </div>
   </div>
 
-  <div class="relative">
-    <div class="bg-[url('/image/web/home/Background_Kelas.jpg')] bg-cover bg-center py-8 overflow-hidden overflow-x-auto no-scrollbar">
-      <div class="container font-Futura text-yellow-primary text-3xl">
-        <div class="md:px-8">
-          <div class="font-FuturaBold absolute">
-            <h2>EXCLUSIVE WORKOUT</h2>
-            <h2>URBAN ATHLETES</h2>
-          </div>
-          <div class="pb-8 pt-24 flex flex-nowrap space-x-6">
+  @if(count($fotoKelas))
+    <div class="relative">
+      <div class="bg-[url('/image/web/home/Background_Kelas.jpg')] bg-cover bg-center py-8 overflow-hidden overflow-x-auto no-scrollbar">
+        <div class="container font-Futura text-yellow-primary text-3xl">
+          <div class="md:px-8">
+            <div class="font-FuturaBold absolute">
+              <h2>EXCLUSIVE WORKOUT</h2>
+              <h2>URBAN ATHLETES</h2>
+            </div>
+            <div class="pb-8 pt-24 flex flex-nowrap space-x-6">
 
-            @foreach($fotoKelas as $key => $row)
-              <div class="cursor-pointer min-w-max group @if($key  % 2 !== 0) flex flex-col-reverse @endif">
-                <div class="w-72 h-72 flex justify-center overflow-hidden">
-                  <img class="w-full object-cover object-center mx-auto group-hover:scale-110 transition-all duration-300" src="{{ $row['url'] }}" alt="Exclusive Urban Athletes">
+              @foreach($fotoKelas as $key => $row)
+                <div class="cursor-pointer min-w-max group @if($key % 2 !== 0) flex flex-col-reverse @endif">
+                  <div class="w-72 h-72 flex justify-center overflow-hidden">
+                    <img class="w-full object-cover object-center mx-auto group-hover:scale-110 transition-all duration-300" src="{{ $row['url'] }}" alt="Exclusive Urban Athletes">
+                  </div>
+                  <div class="font-FuturaBold p-2 text-2xl
+                    group-hover:bg-yellow-primary group-hover:text-black transition-all duration-300
+                  ">
+                    <span class="text-5xl">
+                      @if ($key < 9) {{"0".$key+1}} @else {{$key+1}} @endif
+                    </span>
+                    <p>{{$row['name']}}</p>
+                  </div>
                 </div>
-                <div class="font-FuturaBold p-2 text-2xl
-                  group-hover:bg-yellow-primary group-hover:text-black transition-all duration-300
-                ">
-                  <span class="text-5xl">
-                    @if ($key < 9) {{"0".$key+1}} @else {{$key+1}} @endif
-                  </span>
-                  <p>{{$row['name']}}</p>
-                </div>
-              </div>
-            @endforeach
-            
-            <div class="px-4 md:px-8"></div>
+              @endforeach
+              
+              <div class="px-4 md:px-8"></div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
+  @endif
 
   <div class="flex justify-center overflow-hidden">
     <div class="flex justify-center min-w-max md:w-full relative">

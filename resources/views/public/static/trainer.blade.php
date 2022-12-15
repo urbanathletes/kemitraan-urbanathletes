@@ -1,4 +1,20 @@
 <x-main_web menu='TRAINER'>
+  @push('script')
+    @if ($error)
+    <script>
+      const error = document.querySelector('#error');
+      console.log(error.getAttribute("data-pesan"));
+      // Swal.fire(
+      //   'Thank you',
+      //   success.getAttribute("data-pesan"),
+      //   'success'
+      // )
+    </script>
+    @endif
+  @endpush
+  @if ($error)
+    <div class="hidden" id="error" data-pesan="{{$error}}"></div>
+  @endif
   <div class="flex justify-center max-h-[30vh] lg:max-h-[40vh] relative">
     <img class="object-cover object-top w-full mx-auto lg:-mt-36" src="{{ url('image/web/bg_page/BGHeaderTrainer.jpg') }}" alt="Trainer Us Urban Athletes">
     <div class="absolute top-0 bottom-0 left-0 right-0 flex flex-col justify-center items-center text-white bg-gradient-to-t from-black">
