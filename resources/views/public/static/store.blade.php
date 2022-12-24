@@ -299,7 +299,7 @@
       <div class="relative group overflow-hidden">
         <img class="object-cover object-center h-full w-full aspect-auto group-hover:scale-110 transition-all duration-300" src="{{ url('image/web/Online_Class/YinyasaYoga.jpg') }}" alt="Online Class Urban Athletes">
         <div class="absolute top-0 bottom-0 left-0 right-0 px-4 flex justify-center items-center opacity-0 group-hover:opacity-100 group-hover:text-white group-hover:bg-black/80 transition-all duration-300">
-          <p>YINYASA YOGA</p>
+          <p>VINYASA YOGA</p>
         </div>
       </div>
       <div class="relative group overflow-hidden">

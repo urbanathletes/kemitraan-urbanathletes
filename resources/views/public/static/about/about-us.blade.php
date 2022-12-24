@@ -28,8 +28,8 @@
       >
         <div class="pl-4 pr-56 sm:pr-64 h-full flex justify-center items-center">
           <div class="">
-            <h2 class="text-2xl font-FuturaBold mb-4">ABOUT US</h2>
-            <p class="text-sm">Urban Athletes adalah tempat bagi mereka yang berinspirasi untuk hidup sehat dengan metode yang tepat dan fun. Kita percaya olahraga bukan hanya sekedar gaya hidup. Tapi adalah sarana untuk menjadi pribadi yang lebih baik. Membawa Dampak dan membangun manusia menjadi versi terbaiknya.</p>
+            <h2 class="text-2xl font-FuturaBold text-yellow-primary mb-4">ABOUT US</h2>
+            <p class="text-sm">Urban Athletes is a place for those who are inspired to live a healthy life in the right and fun way. We believe sport is not just a lifestyle. But is a means to becoming a better person. Bringing Impact and building humans to be the best version.</p>
           </div>
         </div>
       </div>
@@ -39,8 +39,8 @@
         md:flex justify-center items-center w-[100%] md:w-[55%] overflow-hidden z-20" style="clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);"
       >
         <div class="pl-20 pr-36">
-          <h2 class="text-xl font-FuturaBold mb-4">ABOUT US</h2>
-          <p class="text-sm">Urban Athletes adalah tempat bagi mereka yang berinspirasi untuk hidup sehat dengan metode yang tepat dan fun. Kita percaya olahraga bukan hanya sekedar gaya hidup. Tapi adalah sarana untuk menjadi pribadi yang lebih baik. Membawa Dampak dan membangun manusia menjadi versi terbaiknya.</p>
+          <h2 class="text-xl font-FuturaBold text-yellow-primary mb-4">ABOUT US</h2>
+          <p class="text-sm">Urban Athletes is a place for those who are inspired to live a healthy life in the right and fun way. We believe sport is not just a lifestyle. But is a means to becoming a better person. Bringing Impact and building humans to be the best version.a.</p>
         </div>
       </div>
       <div class="md:w-[60%] md:h-80">
@@ -145,7 +145,7 @@
         <div class="absolute top-0 bottom-0 left-0 right-0 px-4 bg-black opacity-0 group-hover:bg-opacity-50 group-hover:opacity-100 flex justify-center items-center transition-all duration-300">
           <div>
             <h2 class="text-xl font-FuturaBold pb-4 text-center">TRX</h2>
-            <p>TRX (Tataol body Resistance Excercise) provides an incredible boost to your metabolism from workout and helps you to lower your total body-fat percentage using a Equipment called TRX Strap.</p>
+            <p>TRX (Tataol body Resistance Excercise) provides incredible boost to your metabolism from workout and helps you to lower your total body-fat percentage using a Equipment called TRX Strap.</p>
           </div>
         </div>
       </div>

@@ -69,10 +69,10 @@
     <div class="container my-4 lg:mx-0 text-yellow-primary lg:max-w-xl z-10">
       <h2 class="text-4xl font-FuturaBold">ABOUT US</h2>
       <p class="text-white font-extralight mt-2 mb-4">
-        Urban Athletes adalah tempat bagi mereka yang berinspirasi untuk hidup sehat dengan metode yang tepat dan fun. Kita percaya olahraga bukan hanya sekedar gaya hidup. Tapi adalah sarana untuk menjadi pribadi yang lebih baik. Membawa Dampak dan membangun manusia menjadi versi terbaiknya.
+        Urban Athletes is a place for those who are inspired to live a healthy life in the right and fun way. We believe sport is not just a lifestyle. But is a means to becoming a better person. Bringing Impact and building humans to be the best version.
       </p>
       <div class="py-2">
-        <a class="py-2 px-4 font-PoppinsSemiBold border border-yellow-primary hover:bg-yellow-primary hover:text-black transition-all duration-300" href="{{ url('about/about-us') }}">CARI TAHU LEBIH LANJUT</a>
+        <a class="py-2 px-4 font-PoppinsSemiBold border border-yellow-primary hover:bg-yellow-primary hover:text-black transition-all duration-300 upercase" href="{{ url('about/about-us') }}">MORE INFO</a>
       </div>
     </div>
     <div class="grid grid-cols-2 gap-4 container lg:mx-0 py-6 lg:max-w-xl z-10">
@@ -262,7 +262,7 @@
       </div>
       <div class="col-span-2 px-4 py-4 flex items-center z-10">
         <div class="flex flex-col space-y-4">
-          <h2 class="text-white font-FuturaBold">JOIN URBAN ATHLETES ACADEMY,<br> DAPATAKAN BANYAK KEMUDAHAN DAN BENEFIT SEGERA!!</h2>
+          <h2 class="text-white font-FuturaBold">JOIN URBAN ATHLETES ACADEMY, <br>GET LOTS OF CONVENIENCE AND BENEFITS IMMEDIATELY!!</h2>
           <span class="my-2">
             {{-- <a class="bg-yellow-500 py-1 px-4 font-PoppinsSemiBold drop-shadow-md shadow-black" href="https://api.whatsapp.com/send?phone=628179188880&text=*3%20DAY%20TRIAL*%0AHi!%0AThank%20you%20for%20your%20interest%20in%20Urban%20Athletes%0APlease%20leave%20your%20contact%20details%20below%20and%20we%20will%20be%20in%20touch%20shortly%3A%0A%0A%E2%96%ABFull%20Name%3A%0A%E2%96%ABE-mail%3A%0A%E2%96%ABLocation%20of%203%20Day%20Trial%3A%20(Gunawangsa%20Merr%2F%20Marvell%20City%2F%20Gunawangsa%20Tidar%2FLenmarc)">GET FREE TRIAL</a> --}}
           </span>

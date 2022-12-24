@@ -15,6 +15,10 @@
   src: url('/fonts/AmpleSoft.OTF');
 }
 @font-face {
+  font-family: AmpleSoftBold;
+  src: url('/fonts/AmpleSoft-Bold.OTF');
+}
+@font-face {
   font-family: PoppinsSemiBold;
   src: url('/fonts/Poppins-SemiBold.otf');
 }

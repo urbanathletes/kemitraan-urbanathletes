@@ -26,6 +26,7 @@ module.exports = {
     fontFamily: {
       'PoppinsSemiBold': ['PoppinsSemiBold', 'Futura', 'sans-serif'],
       'AmpleSoft': ['AmpleSoft', 'sans-serif'],
+      'AmpleSoftBold': ['AmpleSoftBold', 'sans-serif'],
       'Futura': ['Futura', 'AmpleSoft', 'sans-serif'],
       'FuturaBold': ['FuturaBold', 'AmpleSoft', 'sans-serif'],
       'RobotoMono': ['RobotoMono', 'sans-serif'],
