@@ -24,6 +24,8 @@ Route::prefix('news')->group(function () {
   Route::get('news4', function () { return view("public/static/news/news4");});
   Route::get('news5', function () { return view("public/static/news/news5");});
   Route::get('news6', function () { return view("public/static/news/news6");});
+  Route::get('news7', function () { return view("public/static/news/news7");});
+  Route::get('news8', function () { return view("public/static/news/news8");});
 });
 Route::prefix('about')->group(function(){
   Route::get('/about-us', function () { return view("public/static/about/about-us");});
