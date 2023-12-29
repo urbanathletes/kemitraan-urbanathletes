@@ -357,7 +357,7 @@
             </div>
             <p class="uppercase text-sm">Gym Bag KIDS THEME</p>
             <div class="my-2 border-t border-neutral-400 py-2">
-              <p>RP. 250.000</p>
+              <p>RP. 150.000</p>
             </div>
           </div>
         </div>
@@ -373,7 +373,7 @@
             </div>
             <p class="uppercase text-sm">Gym Bag Valor</p>
             <div class="my-2 border-t border-neutral-400 py-2">
-              <p>RP. 250.000</p>
+              <p>RP. 150.000</p>
             </div>
           </div>
         </div>
@@ -389,7 +389,7 @@
             </div>
             <p class="uppercase text-sm">Gym Bag Falcon</p>
             <div class="my-2 border-t border-neutral-400 py-2">
-              <p>RP. 250.000</p>
+              <p>RP. 150.000</p>
             </div>
           </div>
         </div>
@@ -405,7 +405,7 @@
             </div>
             <p class="uppercase text-sm">Gym Bag Thematic</p>
             <div class="my-2 border-t border-neutral-400 py-2">
-              <p>RP. 250.000</p>
+              <p>RP. 150.000</p>
             </div>
           </div>
         </div>
@@ -421,7 +421,7 @@
             </div>
             <p class="uppercase text-sm">Gym Bag KIDS THEME</p>
             <div class="my-2 border-t border-neutral-400 py-2">
-              <p>RP. 250.000</p>
+              <p>RP. 150.000</p>
             </div>
           </div>
         </div>
@@ -437,7 +437,7 @@
             </div>
             <p class="uppercase text-sm">Gym Bag Valor</p>
             <div class="my-2 border-t border-neutral-400 py-2">
-              <p>RP. 250.000</p>
+              <p>RP. 150.000</p>
             </div>
           </div>
         </div>
@@ -453,7 +453,7 @@
             </div>
             <p class="uppercase text-sm">Gym Bag Falcon</p>
             <div class="my-2 border-t border-neutral-400 py-2">
-              <p>RP. 250.000</p>
+              <p>RP. 150.000</p>
             </div>
           </div>
         </div>
@@ -469,7 +469,7 @@
             </div>
             <p class="uppercase text-sm">Gym Bag Thematic</p>
             <div class="my-2 border-t border-neutral-400 py-2">
-              <p>RP. 250.000</p>
+              <p>RP. 150.000</p>
             </div>
           </div>
         </div>
@@ -500,7 +500,7 @@
             </div>
             <p class="uppercase text-sm">T-Shirt Valor Edition</p>
             <div class="my-2 border-t border-neutral-400 py-2">
-              <p>RP. 250.000</p>
+              <p>RP. 175.000</p>
             </div>
           </div>
         </div>
@@ -516,7 +516,7 @@
             </div>
             <p class="uppercase text-sm">T-Shirt Falcon Edition</p>
             <div class="my-2 border-t border-neutral-400 py-2">
-              <p>RP. 250.000</p>
+              <p>RP. 175.000</p>
             </div>
           </div>
         </div>
@@ -532,7 +532,7 @@
             </div>
             <p class="uppercase text-sm">T-Shirt Falcon Edition</p>
             <div class="my-2 border-t border-neutral-400 py-2">
-              <p>RP. 250.000</p>
+              <p>RP. 175.000</p>
             </div>
           </div>
         </div>
@@ -564,7 +564,7 @@
             </div>
             <p class="uppercase text-sm">T-Shirt Valor Edition</p>
             <div class="my-2 border-t border-neutral-400 py-2">
-              <p>RP. 250.000</p>
+              <p>RP. 175.000</p>
             </div>
           </div>
         </div>
@@ -580,7 +580,7 @@
             </div>
             <p class="uppercase text-sm">T-Shirt Valor Edition</p>
             <div class="my-2 border-t border-neutral-400 py-2">
-              <p>RP. 250.000</p>
+              <p>RP. 175.000</p>
             </div>
           </div>
         </div>
@@ -596,7 +596,7 @@
             </div>
             <p class="uppercase text-sm">T-Shirt Valor Edition</p>
             <div class="my-2 border-t border-neutral-400 py-2">
-              <p>RP. 250.000</p>
+              <p>RP. 175.000</p>
             </div>
           </div>
         </div>
@@ -612,7 +612,7 @@
             </div>
             <p class="uppercase text-sm">T-Shirt Valor Edition</p>
             <div class="my-2 border-t border-neutral-400 py-2">
-              <p>RP. 250.000</p>
+              <p>RP. 175.000</p>
             </div>
           </div>
         </div>
@@ -641,9 +641,9 @@
               <i class="fa-solid fa-star"></i>
               <i class="fa-regular fa-star"></i>
             </div>
-            <p class="uppercase text-sm">Gloves</p>
+            <p class="uppercase text-sm">Boxing Gloves Yellow</p>
             <div class="my-2 border-t border-neutral-400 py-2">
-              <p>RP. 250.000</p>
+              <p>RP. 500.000</p>
             </div>
           </div>
         </div>
@@ -657,9 +657,9 @@
               <i class="fa-solid fa-star"></i>
               <i class="fa-regular fa-star"></i>
             </div>
-            <p class="uppercase text-sm">Gloves Gold</p>
+            <p class="uppercase text-sm">Boxing Gloves Gold</p>
             <div class="my-2 border-t border-neutral-400 py-2">
-              <p>RP. 250.000</p>
+              <p>RP. 600.000</p>
             </div>
           </div>
         </div>
@@ -673,9 +673,9 @@
               <i class="fa-solid fa-star"></i>
               <i class="fa-regular fa-star"></i>
             </div>
-            <p class="uppercase text-sm">Matras</p>
+            <p class="uppercase text-sm">Matras Yoga EVA SUEDE</p>
             <div class="my-2 border-t border-neutral-400 py-2">
-              <p>RP. 250.000</p>
+              <p>RP. 700.000</p>
             </div>
           </div>
         </div>
@@ -691,7 +691,7 @@
             </div>
             <p class="uppercase text-sm">Matras Yoga Rubber PU</p>
             <div class="my-2 border-t border-neutral-400 py-2">
-              <p>RP. 250.000</p>
+              <p>RP. 1.350.000</p>
             </div>
           </div>
         </div>
@@ -723,7 +723,7 @@
             </div>
             <p class="uppercase text-sm">Gloves Gold</p>
             <div class="my-2 border-t border-neutral-400 py-2">
-              <p>RP. 250.000</p>
+              <p>RP. 600.000</p>
             </div>
           </div>
         </div>
@@ -737,9 +737,9 @@
               <i class="fa-solid fa-star"></i>
               <i class="fa-regular fa-star"></i>
             </div>
-            <p class="uppercase text-sm">Matras</p>
+            <p class="uppercase text-sm">Matras Yoga EVA SUEDE</p>
             <div class="my-2 border-t border-neutral-400 py-2">
-              <p>RP. 250.000</p>
+              <p>RP. 700.000</p>
             </div>
           </div>
         </div>
@@ -752,10 +752,10 @@
               <i class="fa-solid fa-star"></i>
               <i class="fa-solid fa-star"></i>
               <i class="fa-regular fa-star"></i>
-            </div>
+            </div>  
             <p class="uppercase text-sm">Matras Yoga Rubber PU</p>
             <div class="my-2 border-t border-neutral-400 py-2">
-              <p>RP. 250.000</p>
+              <p>RP. 1.350.000</p>
             </div>
           </div>
         </div>
